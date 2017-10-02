@@ -2,76 +2,72 @@
   {
     "count": 1,
     "color": "default",
-    "title": "Kobold Inventor",
+    "title": "Korred",
     "icon": "imp-laugh",
     "contents": [
-      "subtitle | Small Humanoid (Kobold), Lawful Evil",
+      "subtitle | Small Fey, Chaotic Neutral",
       "rule",
-      "property | Armor class | 15 (leather armor, shield)",
-      "property | Hit points | 44 (8d6+16)",
-      "property | Speed | 20ft",
+      "property | Armor class | 17 (natural armor)",
+      "property | Hit points | 102 (12d6+60)",
+      "property | Speed | 30ft, <b>Burrow</b> 30ft",
       "rule",
-      "dndstats | 12 | 15 | 14 | 8 | 9 | 10",
+      "dndstats | 23 | 14 | 20 | 10 | 15 | 9",
       "rule",
-      "property | Skills | Perception +1",
-      "property | Senses | Darkvision 60ft, Passive Perception 11",
-      "property | Language | Common, Draconic",
-      "property | Challenge | 1 (200 xp)",
+      "property | Damage Resistances | Physical from non-magical weapons",
+      "property | Skills | Athletics +9, Perception +5, Stealth +5",
+      "property | Senses | Darkvision 120ft, Tremorsense 120ft, Passive Perc. 15",
+      "property | Language | Dwarvish, Gnomish, Sylvan, Terran, Undercommon",
+      "property | Challenge | 7 (2900 xp)",
       "rule",
-     "description |Dragon's Resistance| The kobold has resistance to a type of damage based on the color of dragon that invested it with power (choose or roll a d10): 1-2, acid (black); 3-4, cold (white); 5-6, fire (red); 7-8, lightning (blue); 9-10, poison (green).",
-      "description|Heart of the Dragon| If the kobold is frightened or paralyzed by an effect that allows a saving throw, it can repeat the save at the start of its turn to end the effect on itself and all kobolds within 30 feet of it. Any kobold that benefits from this trait (including the dragonshield) has advantage on its next attack roll.",
-      "description|Pack Tactics| The kobold has advantage on an attack roll against a creature if at least one of the kobold’s allies is within 5 feet of the creature and the ally isn’t incapacitated."
+      "description| Command Hair| The korred has at least one 50-foot-long rope woven out of its hair. As a bonus action, the korred commands one such rope within 30 feet of it to move up to 20 feet and entangle a Large or smaller creature that the korred can see. The target must succeed on a DC 13 Dexterity saving throw or become grappled by the rope (escape DC 13). Until this grapple ends. the target is restrained. The korred can use a bonus action to release the target, which is also freed if the korred dies or becomes incapacitated.<br />A rope of korred hair has AC 20 and 20 hit points. It regains 1 hit point at the start of each of the korred’s turns while it has at least 1 hit point and the korred is alive. If the rope drops to 0 hit points, it is destroyed."
     ],
     "tags": [
       "creature",
-      "Humanoid",
-      "subrace: Kobold",
-      "Structure: Lawful",
-      "Alignment: Evil",
+      "Fey",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
       "Legendary: No",
       "Book: Volos_Guide_122"
     ],
-    "background_image": "http://www.enworld.org/forum/attachment.php?attachmentid=83954&d=1494122498"
+    "background_image": "https://newpathfinderraces.files.wordpress.com/2014/11/korred.png?w=350&h=453"
   },
   {
     "count": 1,
     "color": "default",
-    "title": "Kobold Dragonshield Continued: Abilities",
+    "title": "Korred Continued: Actions",
     "icon": "imp-laugh",
     "contents": [
-      "description|Sunlight Sensitivity| While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.",
-     "fill | 1",
-     "section | Actions",
-      "description| Multiattack| The kobold makes two melee attacks.",
-      "description|Spear| Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 it, one target. Hit: 4 (ld6+l) piercing damage, or 5 (ld8+l) piercing damage if used with two hands to make a melee attack."
-    ],
-    "tags": [
-      "creature",
-      "Humanoid",
-      "subrace: Kobold",
-      "Structure: Lawful",
-      "Alignment: Evil",
-      "Legendary: No",
-      "Book: Volos_Guide_122"
-    ],
-    "background_image": "http://www.enworld.org/forum/attachment.php?attachmentid=83954&d=1494122498"
-  },
-  {
-    "count": 1,
-    "color": "default",
-    "title": "Ki-rin Continued: Actions",
-    "icon": "imp-laugh",
-    "contents": [
-     "section | Actions",
-      "description| Multiattack| The ki-rin makes three attacks: two with its hooves and one with its horn.",
-      "description|Hoof| Melee Weapon Attack: +9 to hit, reach 15 ft, one target. Hit: 10 (2d4+5) bludgeoning damage.",
-      "description|Horn| Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14 (2d8+5) piercing damage.",
+      "description|Innate Spellcasting| The korred's innate spellcasting ability is Wisdom (save DC 13). It can innately cast the following spells, requiring no components:",
+      "description|At will:| commune with nature, meld into stone, stone shape",
+      "description|1/day each:| conjure elemental (as 6th-level spell; galeb duhr, gargoyle, earth elemental, or xorn only), Otto’s irresistible dance",
+      "description|Stone Camouflage| The korred has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.",
+      "description|Stone's Strength| While on the ground, the korred deals 2 extra dice of damage with any weapon attack (included in its attacks).",
       "fill | 1",
-     "section | Legendary Actions",
-      "description|Legendary Actions (3/Turn)| The ki-rin can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The ki-rin regains spent legendary actions at the start of its turn.",
-      "description|Detect| The ki-rin makes a Wisdom (Perception) check or a Wisdom (Insight) check.",
-      "description|Smite| The ki-rin makes a hoof attack or casts sacred flame.",
-      "description|Move| The ki-rin moves up to its half its speed without provoking opportunity attacks."
+     "section | Actions",
+      "description|Multiattack| The korred makes two attacks with its greatclub or hurls two rocks.",
+      "description|Greatclub| Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10 (1d8+6) bludgeoning damage, or 19 (3d8+6) bludgeoning damage if the korred is on the ground.",
+      "description|Rock| Ranged Weapon Attack: +9 to hit, range 60/120 ft., one target. Hit: 15 (2d8+6) bludgeoning damage, or 24 (4d8+6) bludgeoning damage if the korred is on the ground."
+    ],
+    "tags": [
+      "creature",
+      "Fey",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://newpathfinderraces.files.wordpress.com/2014/11/korred.png?w=350&h=453"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Kobold Inventor Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "bullet|7. Skunk in a Cage| The kobold releases a skunk into an unoccupied space within 5 feet of it. The skunk has a walking speed of 20 feet, AC 10, 1 hit point, and no effective attacks. It rolls initiative and, on its turn, uses its action to spray musk at a random creature within 5 feet of it. The target must make a DC 9 Constitution saving throw. On a failed save, the target retches and can’t take actions for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that doesn’t need to breathe or is immune to poison automatically succeeds on the saving throw. Once the skunk has sprayed its musk, it can’t do so again until it finishes a short or long rest.",
+      "bullet|8. Wasp Nest in a Bag| The kobold throws a small bag into a 5-foot-square space within 20 feet of it. A swarm of insects (wasps) with 11 hit points emerges from the bag and rolls initiative. At the end of each of the swarm's turns, there’s a 50 percent chance that the swarm disperses."
     ],
     "tags": [
       "creature",
@@ -23636,5 +23632,205 @@
       "Book: Volos_Guide_122"
     ],
     "background_image": "http://www.enworld.org/forum/attachment.php?attachmentid=83954&d=1494122498"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Kobold Inventor",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Small Humanoid (Kobold), Lawful Evil",
+      "rule",
+      "property | Armor class | 12",
+      "property | Hit points | 13 (3d6+3)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 7 | 15 | 12 | 8 | 7 | 8",
+      "rule",
+      "property | Skills | Perception +0",
+      "property | Senses | Darkvision 60ft, Passive Perception 10",
+      "property | Language | Common, Draconic",
+      "property | Challenge | 1/4 (50 xp)",
+     "section | Actions",
+      "description| Dagger| Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+2) piercing.",
+      "description|Sling| Ranged: +4, 30/120ft. Hit: 4 (1d4+2) bludgeoning.",
+      "description|Weapon Invention| The kobold uses one of the following options (roll a d8 or choose one); the kobold can use each one no more than once per day:",
+      "bullet|1. Acid| The kobold hurls a flask of acid. Ranged Weapon Attack: +4 to hit, range 5/20 ft., one target. Hit: 7 (2d6) acid damage.",
+      "bullet|2. Alchemist’s fire| The kobold throws a flask of alchemist's fire. Ranged Weapon Attack: +4 to hit, range 5/20 ft., one target. Hit: 2 (1d4) fire damage at the start of each of the target’s turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Kobold",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://pro.bols.netdna-cdn.com/wp-content/uploads/2016/12/Unknown-1.jpeg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Kobold Inventor Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "bullet|3. Basket of Centipedes| The kobold throws a small basket into a S-foot-square space within 20 feet of it. A swarm of insects (centipedes) with 11 hit points emerges from the basket and rolls initiative. At the end of each of the swarm’s turns, there's a 50 percent chance that the swarm disperses.",
+      "bullet|4. Green Slime Pot| The kobold throws a clay pot full of green slime at the target, and it breaks open on impact. Ranged Weapon Attack: +4 to hit, range 5/20 ft., one target. Hit: The target is covered in a patch of green slime (see chapter 5 of the Dungeon Master’s Guide). Miss: A patch of green slime covers a randomly determined S-foot-square section of wall or floor within 5 feet of the target.",
+      "bullet|5. Rot Grub Pot| The kobold throws a clay pot into a 5-foot-square space within 20 feet of it, and it breaks open on impact. A swarm of rot grubs (see appendix A) emerges from the shattered pot and remains a hazard in that square.",
+      "bullet|6. Scorpion on a Stick| The kobold makes a melee attack with a scorpion tied to the end of a 5-foot-long pole. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage, and the target must make a DC 9 Constitution saving throw, taking 4 (1d8) poison damage on a failed save, or half as much damage on a successful one."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Kobold",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://pro.bols.netdna-cdn.com/wp-content/uploads/2016/12/Unknown-1.jpeg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Kobold Inventor Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "bullet|7. Skunk in a Cage| The kobold releases a skunk into an unoccupied space within 5 feet of it. The skunk has a walking speed of 20 feet, AC 10, 1 hit point, and no effective attacks. It rolls initiative and, on its turn, uses its action to spray musk at a random creature within 5 feet of it. The target must make a DC 9 Constitution saving throw. On a failed save, the target retches and can’t take actions for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that doesn’t need to breathe or is immune to poison automatically succeeds on the saving throw. Once the skunk has sprayed its musk, it can’t do so again until it finishes a short or long rest.",
+      "bullet|8. Wasp Nest in a Bag| The kobold throws a small bag into a 5-foot-square space within 20 feet of it. A swarm of insects (wasps) with 11 hit points emerges from the bag and rolls initiative. At the end of each of the swarm's turns, there’s a 50 percent chance that the swarm disperses."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Kobold",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://pro.bols.netdna-cdn.com/wp-content/uploads/2016/12/Unknown-1.jpeg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Kobold Scaled Sorcerer",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Small Humanoid (Kobold), Lawful Evil",
+      "rule",
+      "property | Armor class | 15 (natural armor)",
+      "property | Hit points | 27 (5d6+10)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 7 | 15 | 14 | 10 | 9 | 14",
+      "rule",
+      "property | Skills | Arcana +2, Medicine +1",
+      "property | Senses | Darkvision 60ft, Passive Perception 9",
+      "property | Language | Common, Draconic",
+      "property | Challenge | 1 (200 xp)",
+      "rule",
+      "description| Spellcasting| The kobold is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following sorcerer spells prepared:",
+      "bullet|Cantrips (at will):| <i>fire bolt</i>, <i>mage hand</i>, <i>mending</i>, <i>poison spray</i>",
+      "bullet|1st level (4 slots):| <i>charm person</i>, <i>chromatic orb</i>, <i>expeditious retreat</i>",
+      "bullet|2nd level (2 slots):| <i>scorching ray</i>"
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Kobold",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.pinimg.com/originals/d7/19/c7/d719c75d170d4f9c02876e8f192def9f.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Kobold Scaled Sorcerer Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|Sorcery Points| Sorcery Points. The kobold has 3 sorcery points. It can spend 1 or more sorcery points as a bonus action to gain one of the following benefits:",
+      "bullet|Heightened Spell:| When it casts a spell that forces a creature to a saving throw to resist the spell’s effects, the kobold can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw against the spell.",
+      "bullet|Subtle Spell:| When the kobold casts a spell, it can spend 1 sorcery point to cast the spell without any somatic or verbal components.",
+      "description|Pack Tactics| The kobold has advantage on an attack roll against a creature it at least one of the kobold's allies is within 5 feet of the creature and the ally isn’t incapacitated.",
+      "description|Sunlight Sensitivity| While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.",
+      "fill | 1",
+     "section | Actions",
+      "description|Dagger| Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 it, one target. Hit: 4 (1d4+2) piercing damage."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Kobold",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.pinimg.com/originals/d7/19/c7/d719c75d170d4f9c02876e8f192def9f.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Korred",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Small Fey, Chaotic Neutral",
+      "rule",
+      "property | Armor class | 17 (natural armor)",
+      "property | Hit points | 102 (12d6+60)",
+      "property | Speed | 30ft, <b>Burrow</b> 30ft",
+      "rule",
+      "dndstats | 23 | 14 | 20 | 10 | 15 | 9",
+      "rule",
+      "property | Damage Resistances | Physical from non-magical weapons",
+      "property | Skills | Athletics +9, Perception +5, Stealth +5",
+      "property | Senses | Darkvision 120ft, Tremorsense 120ft, Passive Perc. 15",
+      "property | Language | Dwarvish, Gnomish, Sylvan, Terran, Undercommon",
+      "property | Challenge | 7 (2900 xp)",
+      "rule",
+      "description| Command Hair| The korred has at least one 50-foot-long rope woven out of its hair. As a bonus action, the korred commands one such rope within 30 feet of it to move up to 20 feet and entangle a Large or smaller creature that the korred can see. The target must succeed on a DC 13 Dexterity saving throw or become grappled by the rope (escape DC 13). Until this grapple ends. the target is restrained. The korred can use a bonus action to release the target, which is also freed if the korred dies or becomes incapacitated.<br />A rope of korred hair has AC 20 and 20 hit points. It regains 1 hit point at the start of each of the korred’s turns while it has at least 1 hit point and the korred is alive. If the rope drops to 0 hit points, it is destroyed."
+    ],
+    "tags": [
+      "creature",
+      "Fey",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://newpathfinderraces.files.wordpress.com/2014/11/korred.png?w=350&h=453"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Korred Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|Innate Spellcasting| The korred's innate spellcasting ability is Wisdom (save DC 13). It can innately cast the following spells, requiring no components:",
+      "description|At will:| commune with nature, meld into stone, stone shape",
+      "description|1/day each:| conjure elemental (as 6th-level spell; galeb duhr, gargoyle, earth elemental, or xorn only), Otto’s irresistible dance",
+      "description|Stone Camouflage| The korred has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.",
+      "description|Stone's Strength| While on the ground, the korred deals 2 extra dice of damage with any weapon attack (included in its attacks).",
+      "fill | 1",
+     "section | Actions",
+      "description|Multiattack| The korred makes two attacks with its greatclub or hurls two rocks.",
+      "description|Greatclub| Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10 (1d8+6) bludgeoning damage, or 19 (3d8+6) bludgeoning damage if the korred is on the ground.",
+      "description|Rock| Ranged Weapon Attack: +9 to hit, range 60/120 ft., one target. Hit: 15 (2d8+6) bludgeoning damage, or 24 (4d8+6) bludgeoning damage if the korred is on the ground."
+    ],
+    "tags": [
+      "creature",
+      "Fey",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://newpathfinderraces.files.wordpress.com/2014/11/korred.png?w=350&h=453"
   }
 ]
