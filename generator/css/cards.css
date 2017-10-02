@@ -1,16 +1,12 @@
 .card {
     border: 2mm solid;
+    border-radius: 4px;
     box-sizing: border-box;
     position: relative;
     display: flex;
     flex-direction: column;
+    color: #333;
     font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
-    font-size: 8pt;
-    overflow: hidden;
-}
-
-.card.rounded-corners {
-    border-radius: 4px;
 }
 
 .card-content-container {
@@ -90,7 +86,7 @@
     top: -1mm;
     border: 1mm solid;
     border-radius: 1mm;
-    background-color: inherit;
+    background-color: #333;
     border-color: inherit;
 }
 
@@ -100,7 +96,7 @@
     font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
     font-variant: small-caps;
     font-weight: bold;
-    background-color: inherit;
+    background-color: #333;
     color: white;
 }
 .card-title-16 {
@@ -136,7 +132,6 @@
     margin-bottom: 0.0em;
     line-height: 18px;
     font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
-    font-size: 10pt;
     font-style: italic;
 }
 .card-picture {
@@ -144,26 +139,6 @@
     line-height: 18px;
     margin-bottom: 0.0em;
 }
-.card-inline-icon {
-    background-size: auto 80%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    position: relative;
-    border-radius: 2mm;
-}
-
-.card-inline-icon.align-left {
-    align-self: flex-start;
-}
-
-.card-inline-icon.align-right {
-    align-self: flex-end;
-}
-
-.card-inline-icon.align-center {
-    align-self: center;
-}
-
 .card-property-line {
     text-indent: -1em;
     margin-left: 1em;
@@ -181,7 +156,6 @@
 
 .card-section {
     border-bottom: 1px solid;
-    font-size: 10pt;
     font-variant: small-caps;
     font-weight: normal;
     letter-spacing: 1px;
@@ -259,4 +233,8 @@
     margin-bottom: 0;
     margin-top: 0;
     font-size: inherit;
+}
+
+i {
+    color: red;
 }
