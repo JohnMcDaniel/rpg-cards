@@ -36,11 +36,11 @@
     <div class="container-fluid">
         <!--<h1 class="page-header">RPG card generator</h1>-->
         <div class="row">
-            <div class="alert alert-warning alert-dismissible" role="alert">
+            <!--<div class="alert alert-warning alert-dismissible" role="alert">
                 <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                 <strong>Note</strong>
                 Click on "Open help" to display some information about how to use this generator and what to do if you have a feature request or found a bug.
-            </div>
+            </div>-->
         </div>
         <div class="row">
             <div class="col-md-12 col-lg-3">
@@ -90,8 +90,9 @@
                         <label for="page-size" class="col-sm-4 control-label">Page Size</label>
                         <div class="col-sm-8">
                             <select class="form-control" id="page-size" data-option="page_size">
-                                <option value="A4" selected>A4</option>
-                                <option value="Letter">US letter</option>
+                                <option value="A4" >A4</option>
+                                <option value="A4-landscape">A4 Landscape</option>
+                                <option value="Letter" selected>US letter</option>
                                 <option value="25x35">2.5&quot; x 3.5&quot;</option>
                             </select>
                         </div>
@@ -100,10 +101,12 @@
                         <label for="card-size" class="col-sm-4 control-label">Card Size</label>
                         <div class="col-sm-8">
                             <select class="form-control" id="card-size" data-option="card_size">
-                                <option value="225x35">2.25&quot; x 3.5&quot; (Bridge)</option>
-                                <option value="25x35" selected>2.5&quot; x 3.5&quot; (Poker)</option>
-                                <option value="35x50">3.5&quot; x 5.0&quot;</option>
+                                <option value="225x35" selected>2.25&quot; x 3.5&quot; (Bridge)</option>
+                                <option value="25x35" >2.5&quot; x 3.5&quot; (Poker)</option>
+                                <option value="35x50" >3.5&quot; x 5.0&quot;</option>
+                                <option value="50x75">5.0&quot; x 7.5&quot;</option>
                                 <option value="75x50">7.5&quot; x 5.0&quot;</option>
+                                <option value="75x105">7.5&quot; x 10.5&quot;</option>
                             </select>
                         </div>
                     </div>
@@ -127,16 +130,6 @@
                                 <option value="front_only">Front side only</option>
                                 <option value="side_by_side">Side by side</option>
                             </select>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="rounded-corners" class="col-sm-4 control-label">Corners</label>
-                        <div class="col-sm-8">
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox" checked id="rounded-corners" data-option="rounded_corners" value="1"> Rounded card corners
-                                </label>
-                            </div>
                         </div>
                     </div>
                     <div class="form-group">
@@ -204,12 +197,29 @@
                             </select>
                         </div>
                     </div>
+                     <div class="form-group">
+                        <label for="default-body-text-size" class="col-sm-2 control-label">Body Text</label>
+                        <div class="col-sm-10">
+                            <select class="form-control" id="default-body-text-size">
+                                <option value="11">11pt font</option>
+                                <option value="10">10pt font</option>
+                                <option value="9">9pt font</option>
+                                <option value="8" selected>8pt font</option>
+                                <option value="7.5">7.5pt font</option>
+                                <option value="7">7pt font</option>
+                                <option value="6.5">6.5pt font</option>
+                                <option value="6">6pt font</option>
+                                <option value="5">5pt font</option>
+                            </select>
+                        </div>
+                    </div>
+                    <h3>Apply defaults to all cards</h3>
                     <div class="form-group">
                         <div class="col-sm-6">
                             <button type="button" class="btn btn-primary btn-block" id="button-apply-color">Apply color</button>
                         </div>
                         <div class="col-sm-6">
-                            <button type="button" class="btn btn-primary btn-block" id="button-apply-font">Apply title font</button>
+                            <button type="button" class="btn btn-primary btn-block" id="button-apply-title-font">Apply title font</button>
                         </div>
                     </div>
                     <div class="form-group">
@@ -218,6 +228,11 @@
                         </div>
                         <div class="col-sm-6">
                             <button type="button" class="btn btn-primary btn-block" id="button-apply-icon-back">Apply back icon</button>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-6">
+                            <button type="button" class="btn btn-primary btn-block" id="button-apply-body-text-font">Apply body font</button>
                         </div>
                     </div>
                 </form>
@@ -267,6 +282,23 @@
                                 <option value="12">12pt font</option>
                                 <option value="11">11pt font</option>
                                 <option value="10">10pt font</option>
+                            </select>
+                        </div>
+                    </div>
+                     <div class="form-group">
+                        <label for="card-body-text-size" class="col-sm-2 control-label">Body Text</label>
+                        <div class="col-sm-10">
+                            <select class="form-control" id="card-body-text-size" data-property="body_text_size">
+                                <option value="" selected>default font</option>
+                                <option value="11">11pt font</option>
+                                <option value="10">10pt font</option>
+                                <option value="9">9pt font</option>
+                                <option value="8">8pt font</option>
+                                <option value="7.5">7.5pt font</option>
+                                <option value="7">7pt font</option>
+                                <option value="6.5">6.5pt font</option>
+                                <option value="6">6pt font</option>
+                                <option value="5">5pt font</option>
                             </select>
                         </div>
                     </div>
@@ -376,7 +408,7 @@
                         <li>Some RPG systems are protected by copyright. Even if some spell/item data is freely available, it does not mean you may redistribute cards containing such data.</li>
                         <li>If you find a bug or have a feature request, post them at the <a href="https://github.com/crobi/rpg-cards/issues">Github project site</a>.</li>
                         <li>
-                            The user interface consists of three columns: 
+                            The user interface consists of three columns:
                             <img alt="help" src="img/help/help.png" style="max-width:95%; display:block; padding: 5px; margin: 10px 0 10px 0; border: 1px solid #ebebeb; box-shadow: 0 0 5px #ebebeb;"/>
                             The left column contains the menu and global settings.
                             In the middle menu, you can select and edit individual cards.

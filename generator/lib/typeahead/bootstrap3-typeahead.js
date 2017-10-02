@@ -385,7 +385,7 @@
   var old = $.fn.typeahead;
 
   $.fn.typeahead = function (option) {
-	var arg = arguments;
+    var arg = arguments;
     return this.each(function () {
       var $this = $(this)
         , data = $this.data('typeahead')

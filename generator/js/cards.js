@@ -8,15 +8,15 @@ function card_default_options() {
         default_color: "black",
         default_icon: "ace",
         default_title_size: "13",
+        default_body_text_size: "8",
         page_size: "A4",
         page_rows: 3,
         page_columns: 3,
         card_arrangement: "doublesided",
         card_size: "25x35",
         card_count: null,
-        icon_inline: true,
-        rounded_corners: true
-    };
+        icon_inline: true
+    }
 }
 
 function card_default_data() {
@@ -25,7 +25,7 @@ function card_default_data() {
         title: "New card",
         contents: [],
         tags: []
-    };
+    }
 }
 
 function card_init(card) {
@@ -43,7 +43,7 @@ function card_has_tag(card, tag) {
 function card_add_tag(card, tag) {
     tag = tag.trim().toLowerCase();
     var index = card.tags.indexOf(tag);
-    if (index === -1) {
+    if (index == -1) {
         card.tags.push(tag);
     }
 }
@@ -51,7 +51,7 @@ function card_add_tag(card, tag) {
 function card_remove_tag(card, tag) {
     tag = tag.trim().toLowerCase();
     card.tags = card.tags.filter(function (t) {
-        return tag !== t;
+        return tag != t;
     });
 }
 
@@ -73,6 +73,18 @@ function card_data_icon_front(card_data, options) {
 
 function card_data_icon_back(card_data, options) {
     return card_data.icon_back || card_data.icon || options.default_icon || "ace";
+}
+
+function card_data_body_text_font(card_data, options) {
+    return card_data.body_text_size || options.default_body_text_size || "8";
+}
+
+function card_data_subtitle_text_font(card_data, options) {
+    return (parseFloat(card_data_body_text_font(card_data, options)) + 2).toString();
+}
+
+function card_data_section_text_font(card_data, options) {
+    return (parseFloat(card_data_body_text_font(card_data, options)) + 2).toString();
 }
 
 function card_data_split_params(value) {
@@ -105,16 +117,9 @@ function card_element_icon(card_data, options) {
 }
 
 function card_element_subtitle(params, card_data, options) {
+    var subtitle_text_font = card_data_subtitle_text_font(card_data, options);
     var subtitle = params[0] || "";
-    return '<div class="card-element card-subtitle">' + subtitle + '</div>';
-}
-
-function card_element_inline_icon(params, card_data, options) {
-    var icon = params[0] || "";
-    var size = params[1] || "40";
-    var align = params[2] || "center";
-    var color = card_data_color_front(card_data, options);
-    return '<div class="card-element card-inline-icon align-' + align + ' icon-' + icon + '" style ="height:' + size + 'px;min-height:' + size + 'px;width: ' + size + 'px;background-color: ' + color + '"></div>';
+    return '<div class="card-element card-subtitle" style="font-size:' + subtitle_text_font +'pt">' + subtitle + '</div>';
 }
 
 function card_element_picture(params, card_data, options) {
@@ -159,13 +164,13 @@ function card_element_property(params, card_data, options) {
     result += '<div class="card-element card-property-line">';
     result += '   <h4 class="card-property-name">' + params[0] + '</h4>';
     result += '   <p class="card-p card-property-text">' + params[1] + '</p>';
-	if (params[2])
-	{
-		result += '   <div style="float:right">';
-		result += '       <h4 class="card-property-name">' + params[2] + '</h4>';
-		result += '       <p class="card-p card-property-text">' + params[3] + '</p>';
-		result += '   </div>';
-	}
+    if (params[2])
+    {
+        result += '   <div style="float:right">';
+        result += '       <h4 class="card-property-name">' + params[2] + '</h4>';
+        result += '       <p class="card-p card-property-text">' + params[3] + '</p>';
+        result += '   </div>';
+    }
     result += '</div>';
     return result;
 }
@@ -176,6 +181,14 @@ function card_element_description(params, card_data, options) {
     result += '   <h4 class="card-description-name">' + params[0] + '</h4>';
     result += '   <p class="card-p card-description-text">' + params[1] + '</p>';
     result += '</div>';
+    return result;
+}
+
+function card_element_bullet(params, card_data, options) {
+    var result = "";
+    result += '<ul class="card-element card-bullet-line">';
+    result += '   <li class="card-bullet"> <b> ' + params[0] +'</b>' + ' ' + params[1] + '</li>';
+    result += '</ul>';
     return result;
 }
 
@@ -240,18 +253,12 @@ function card_element_dndstats(params, card_data, options) {
     return result;
 }
 
-function card_element_bullet(params, card_data, options) {
-    var result = "";
-    result += '<ul class="card-element card-bullet-line">';
-    result += '   <li class="card-bullet">' + params[0] + '</li>';
-    result += '</ul>';
-    return result;
-}
 
 function card_element_section(params, card_data, options) {
+    var section_text_font = card_data_section_text_font(card_data, options);
     var color = card_data_color_front(card_data, options);
     var section = params[0] || "";
-    return '<h3 class="card-section" style="color:' + color + '">' + section + '</h3>';
+    return '<h3 class="card-section" style="color:' + color + '; font-size:' + section_text_font +'pt"><b>' + section + '</b></h3>';
 }
 
 function card_element_fill(params, card_data, options) {
@@ -282,8 +289,7 @@ var card_element_generators = {
     fill: card_element_fill,
     section: card_element_section,
     disabled: card_element_empty,
-    picture: card_element_picture,
-    icon: card_element_inline_icon
+    picture: card_element_picture
 };
 
 // ============================================================================
@@ -317,7 +323,7 @@ function card_repeat(card, count) {
 }
 
 function card_generate_color_style(color, options) {
-    return 'style="color:' + color + '; border-color:' + color + '; background-color:' + color + '"';
+    return 'color:' + color + '; border-color:' + color + '; background-color:' + color;
 }
 
 function card_generate_color_gradient_style(color, options) {
@@ -327,9 +333,10 @@ function card_generate_color_gradient_style(color, options) {
 function card_generate_front(data, options) {
     var color = card_data_color_front(data, options);
     var style_color = card_generate_color_style(color, options);
+    var body_text_font = card_data_body_text_font(data, options);
 
     var result = "";
-    result += '<div class="card card-size-' + options.card_size + ' ' + (options.rounded_corners ? 'rounded-corners' : '') + '" ' + style_color + '>';
+    result += '<div class="card card-size-' + options.card_size + '" style="' + style_color + '; font-size:' + body_text_font +'pt">';
     result += card_element_icon(data, options);
     result += card_element_title(data, options);
     result += card_generate_contents(data.contents, data, options);
@@ -339,30 +346,29 @@ function card_generate_front(data, options) {
 }
 
 function card_generate_back(data, options) {
-    var color = card_data_color_back(data, options);
+    var color = card_data_color_back(data, options)
     var style_color = card_generate_color_style(color, options);
-	var url = data.background_image;
-	var background_style = "";
-	if (url)
-	{
-		background_style = 'style = "background-image: url(&quot;' + url + '&quot;); background-size: contain; background-position: center; background-repeat: no-repeat;"';
-	}
-	else 
-	{
-		background_style = card_generate_color_gradient_style(color, options);
+    var url = data.background_image;
+    var background_style = "";
+    if (url)
+    {
+        background_style = 'style = "background-image: url(&quot;' + url + '&quot;); background-size: contain; background-position: center; background-repeat: no-repeat;"'
     }
-	var icon = card_data_icon_back(data, options);
+    else
+    {
+        background_style = card_generate_color_gradient_style(color, options);
+    }
+    var icon = card_data_icon_back(data, options);
 
     var result = "";
-    console.log('options.rounded_corners', options.rounded_corners);
-    result += '<div class="card card-size-' + options.card_size + ' ' + (options.rounded_corners ? 'rounded-corners' : '') + '" ' + style_color + '>';
+    result += '<div class="card card-size-' + options.card_size + '" style="' + style_color + '">';
     result += '  <div class="card-back" ' + background_style + '>';
-	if (!url)
-	{
-		result += '    <div class="card-back-inner">';
-		result += '      <div class="card-back-icon icon-' + icon + '" ' + style_color + '></div>';
-		result += '    </div>';
-	}
+    if (!url)
+    {
+        result += '    <div class="card-back-inner">';
+        result += '      <div class="card-back-icon icon-' + icon + '" style="' + style_color + '"></div>';
+        result += '    </div>';
+    }
     result += '  </div>';
     result += '</div>';
 
@@ -373,7 +379,7 @@ function card_generate_empty(count, options) {
     var style_color = card_generate_color_style("white");
 
     var result = "";
-    result += '<div class="card card-size-' + options.card_size + '" ' + style_color + '>';
+    result += '<div class="card card-size-' + options.card_size + '" style="' + style_color + '">';
     result += '</div>';
 
     return card_repeat(result, count);
@@ -443,7 +449,7 @@ function card_pages_wrap(pages, options) {
     var result = "";
     for (var i = 0; i < pages.length; ++i) {
         var style = "";
-        if ((options.card_arrangement === "doublesided") &&  (i % 2 === 1)) {
+        if ((options.card_arrangement == "doublesided") &&  (i % 2 == 1)) {
             style += 'style="background-color:' + options.background_color + '"';
         } else {
             style += 'style="background-color:' + options.foreground_color + '"';
@@ -460,6 +466,7 @@ function card_pages_generate_style(options) {
     switch (options.page_size) {
         case "A3": size = "A3 portrait"; break;
         case "A4": size = "210mm 297mm"; break;
+        case "A4-landscape": size = "297mm 210mm"; break;
         case "A5": size = "A5 portrait"; break;
         case "Letter": size = "letter portrait"; break;
         case "25x35": size = "2.5in 3.5in"; break;
@@ -494,7 +501,7 @@ function card_pages_generate_html(card_data, options) {
     });
 
     var pages = [];
-    if (options.card_arrangement === "doublesided") {
+    if (options.card_arrangement == "doublesided") {
         // Add padding cards so that the last page is full of cards
         front_cards = card_pages_add_padding(front_cards, options);
         back_cards = card_pages_add_padding(back_cards, options);
@@ -510,10 +517,10 @@ function card_pages_generate_html(card_data, options) {
 
         // Interleave front and back pages so that we can print double-sided
         pages = card_pages_merge(front_pages, back_pages);
-    } else if (options.card_arrangement === "front_only") {
+    } else if (options.card_arrangement == "front_only") {
         var cards = card_pages_add_padding(front_cards, options);
         pages = card_pages_split(cards, rows, cols);
-    } else if (options.card_arrangement === "side_by_side") {
+    } else if (options.card_arrangement == "side_by_side") {
         var cards = card_pages_interleave_cards(front_cards, back_cards, options);
         cards = card_pages_add_padding(cards, options);
         pages = card_pages_split(cards, rows, cols);

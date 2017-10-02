@@ -295,4 +295,4 @@ var card_colors = {
     "LightYellow": "LightYellow",
     "Ivory": "Ivory",
     "White": "White",
-};
+}
