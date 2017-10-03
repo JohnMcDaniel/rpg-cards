@@ -2,108 +2,111 @@
   {
     "count": 1,
     "color": "default",
-    "title": "Korred",
+    "title": "Neogi Master",
     "icon": "imp-laugh",
     "contents": [
-      "subtitle | Small Fey, Chaotic Neutral",
+      "subtitle | Medium Aberration, Lawful Evil",
       "rule",
-      "property | Armor class | 17 (natural armor)",
-      "property | Hit points | 102 (12d6+60)",
-      "property | Speed | 30ft, <b>Burrow</b> 30ft",
+      "property | Armor class | 15 (natural armor)",
+      "property | Hit points | 71 (13d6+26)",
+      "property | Speed | 30ft, <b>Climb</b> 30ft",
       "rule",
-      "dndstats | 23 | 14 | 20 | 10 | 15 | 9",
+      "dndstats | 6 | 16 | 14 | 16 | 12 | 18",
       "rule",
-      "property | Damage Resistances | Physical from non-magical weapons",
-      "property | Skills | Athletics +9, Perception +5, Stealth +5",
-      "property | Senses | Darkvision 120ft, Tremorsense 120ft, Passive Perc. 15",
-      "property | Language | Dwarvish, Gnomish, Sylvan, Terran, Undercommon",
-      "property | Challenge | 7 (2900 xp)",
+      "property | Saving Throws | Wis +3",
+      "property | Skills | Arcana +5, Deception +6, Intimidation +6, Perception +3, Persuasion +6",
+      "property | Senses | Darkvision 120ft (<i>darkness</i>), Passive Perception 13",
+      "property | Language | Common, Deep Speech, Undercommon, Telepathy 30ft",
+      "property | Challenge | 4 (1100 xp)",
       "rule",
-      "description| Command Hair| The korred has at least one 50-foot-long rope woven out of its hair. As a bonus action, the korred commands one such rope within 30 feet of it to move up to 20 feet and entangle a Large or smaller creature that the korred can see. The target must succeed on a DC 13 Dexterity saving throw or become grappled by the rope (escape DC 13). Until this grapple ends. the target is restrained. The korred can use a bonus action to release the target, which is also freed if the korred dies or becomes incapacitated.<br />A rope of korred hair has AC 20 and 20 hit points. It regains 1 hit point at the start of each of the korred’s turns while it has at least 1 hit point and the korred is alive. If the rope drops to 0 hit points, it is destroyed."
-    ],
-    "tags": [
-      "creature",
-      "Fey",
-      "subrace:",
-      "Structure: Chaotic",
-      "Alignment: Neutral",
-      "Legendary: No",
-      "Book: Volos_Guide_122"
-    ],
-    "background_image": "https://newpathfinderraces.files.wordpress.com/2014/11/korred.png?w=350&h=453"
-  },
-  {
-    "count": 1,
-    "color": "default",
-    "title": "Korred Continued: Actions",
-    "icon": "imp-laugh",
-    "contents": [
-      "description|Innate Spellcasting| The korred's innate spellcasting ability is Wisdom (save DC 13). It can innately cast the following spells, requiring no components:",
-      "description|At will:| commune with nature, meld into stone, stone shape",
-      "description|1/day each:| conjure elemental (as 6th-level spell; galeb duhr, gargoyle, earth elemental, or xorn only), Otto’s irresistible dance",
-      "description|Stone Camouflage| The korred has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.",
-      "description|Stone's Strength| While on the ground, the korred deals 2 extra dice of damage with any weapon attack (included in its attacks).",
-      "fill | 1",
+      "description|Mental Fortitude| Advantage on saves against being charmed or frightened & magic can't put the neogi to sleep.",
+      "description|Spider Climb| Climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+    "fill | 1",
      "section | Actions",
-      "description|Multiattack| The korred makes two attacks with its greatclub or hurls two rocks.",
-      "description|Greatclub| Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10 (1d8+6) bludgeoning damage, or 19 (3d8+6) bludgeoning damage if the korred is on the ground.",
-      "description|Rock| Ranged Weapon Attack: +9 to hit, range 60/120 ft., one target. Hit: 15 (2d8+6) bludgeoning damage, or 24 (4d8+6) bludgeoning damage if the korred is on the ground."
+      "description|Mental Fortitude| The neogi has advantage on saving throws against being charmed or frightened, and magic can’t put the neogi to sleep.",
+      "description|Spellcasting| The neogi is a 7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. Knows following warlock spells:"
     ],
     "tags": [
       "creature",
-      "Fey",
-      "subrace:",
-      "Structure: Chaotic",
-      "Alignment: Neutral",
-      "Legendary: No",
-      "Book: Volos_Guide_122"
-    ],
-    "background_image": "https://newpathfinderraces.files.wordpress.com/2014/11/korred.png?w=350&h=453"
-  },
-  {
-    "count": 1,
-    "color": "default",
-    "title": "Kobold Inventor Continued: Actions",
-    "icon": "imp-laugh",
-    "contents": [
-      "bullet|7. Skunk in a Cage| The kobold releases a skunk into an unoccupied space within 5 feet of it. The skunk has a walking speed of 20 feet, AC 10, 1 hit point, and no effective attacks. It rolls initiative and, on its turn, uses its action to spray musk at a random creature within 5 feet of it. The target must make a DC 9 Constitution saving throw. On a failed save, the target retches and can’t take actions for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that doesn’t need to breathe or is immune to poison automatically succeeds on the saving throw. Once the skunk has sprayed its musk, it can’t do so again until it finishes a short or long rest.",
-      "bullet|8. Wasp Nest in a Bag| The kobold throws a small bag into a 5-foot-square space within 20 feet of it. A swarm of insects (wasps) with 11 hit points emerges from the bag and rolls initiative. At the end of each of the swarm's turns, there’s a 50 percent chance that the swarm disperses."
-    ],
-    "tags": [
-      "creature",
-      "Celestial",
+      "Aberration",
       "subrace:",
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
       "Book: Volos_Guide_122"
     ],
-    "background_image": "http://vignette1.wikia.nocookie.net/forgottenrealms/images/1/1e/Ki-rin-5e.jpg/revision/latest?cb=20161207200555"
+    "background_image": "https://i.pinimg.com/originals/92/1d/a1/921da184067507fa22a5382f24150157.jpg"
   },
   {
     "count": 1,
     "color": "default",
-    "title": "Vampire Spellcaster Continued: Legendary",
+    "title": "Neogi Master Continued: Actions",
     "icon": "imp-laugh",
     "contents": [
-      "description |Charm| One humanoid visible in 30ft. If the target can see the vampire, target makes DC 17 Wisdom save against this magic or be charmed by the vampire. The charmed target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bit attack. Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect.",
-      "description |Children of the Night (1/Day)|Magically calls 2d4 swarms of bats/rats, provided sun isn't up. While outdoors, vampire can call 3d6 wolves instead. Arrive in 1d4 rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action.",
+      "description|Cantrips (at will):| eldritch blast (range 300 ft., +4 bonus to each damage roll), guidance, mage hand, minor illusion, prestidigitation, vicious mockery",
+      "description|1st—4th level (2 4th-level slots):| Arms of Hadar, counterspell, dimension door, fear, hold person, hunger of Hadar, invisibility, unseen servant",
+      "description|Spider Climb| Climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
       "fill | 1",
-     "section | Legendary Actions",
-      "text |Takes 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The vampire regains spent legendary actions at the start of its turn.",
-      "description |Move| Moves its speed suppresses opportunity attacks.",
-      "description |Unarmed Strike| The vampire makes one unarmed strike. Bite (Costs 2 Actions). The vampire makes one bite attack."
+     "section | Actions",
+      "description|Multiattack| Two attacks: one Bite and one Claws.",
+      "description|Bite| Melee Weapon Attack: +5 to hit, reach 5 it, one target. Hit: 6 (1d6+3) piercing plus 14 (4d6) poison, and target makes DC12 Constitution save or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+      "description|Claws| Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4+3) slashing damage.",
+      "description|Enslave (Recharges after a Short or Long Rest)| Targets one creature visible in 30ft. The target must succeed on a DC 14 Wisdom saving throw or be magically charmed by the neogi for 1 day, or until the neogi dies or is more than 1 mile from the target. The charmed target obeys the neogi's commands and can't take reactions, and the neogi and the target can communicate telepathically with each other at a distance of up to 1 mile. Whenever the charmed target takes damage, it can repeat the saving throw, ends on a success."
     ],
     "tags": [
       "creature",
-      "Undead",
+      "Aberration",
+      "subrace:",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.pinimg.com/originals/92/1d/a1/921da184067507fa22a5382f24150157.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Morkoth Continued: Reactions",
+    "icon": "imp-laugh",
+    "contents": [
+     "section | Reactions",
+      "description|Spell Reflection| If the morkoth makes a successful saving throw against a spell, or a spell attack misses it, the morkoth can choose another creature (including the spellcaster) it can see within 120 feet of it. The spell targets the chosen creature instead of the morkoth. If the spell forced a saving throw, the chosen creature makes its own save. If the spell was an attack, the attack roll is rerolled against the chosen creature."
+    ],
+    "tags": [
+      "creature",
+      "Aberration",
+      "subrace:",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/a/a7/Mindwitness-5e.jpg/revision/latest?cb=20161122191239"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Elder Brain Continued: Legendary",
+    "icon": "imp-laugh",
+    "contents": [
+     "section | Legendary Actions",
+      "description|Legendary Actions (3/Turn)| The elder brain can take 3 legendary actions, choosing from the options below. It can take only one legendary action at a time and only at the end of another creature’s turn. The elder brain regains spent legendary actions at the start of its turn.",
+      "description|Tentacle| The elder brain makes a tentacle attack.",
+      "description|Break Concentration| The elder brain targets a creature within 120 feet of it with which it has a psychic link. The elder brain breaks the creature’s concentration on a spell it has cast. The creature also takes 1d4 psychic damage per level of the spell.",
+      "description|Psychic Pulse| The elder brain targets a creature within 120 feet of it with which it has a psychic link. Enemies of the elder brain within 10 feet of that creature take 10 (3d6) psychic damage.",
+      "description|Sever Psychic Link| The elder brain targets a creature within 120 feet of it with which it has a psychic link. The elder brain ends the link, causing the creature to have disadvantage on all ability checks, attack rolls, and saving throws until the end of the creature’s next turn."
+    ],
+    "tags": [
+      "creature",
+      "Aberration",
       "subrace:",
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: Yes",
-      "Book: Monster_Manual_298"
+      "Book: Volos_Guide_122"
     ],
-    "background_image": "https://i.pinimg.com/736x/fc/59/28/fc592890c7a97933f2840ca8efad6b64--warhammer-dark-elves-warhammer-fantasy.jpg"
+    "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/b/b8/Elder_brain-5e.jpg/revision/latest?cb=20161126005903"
   },
   {
     "count": 1,
@@ -23832,5 +23835,778 @@
       "Book: Volos_Guide_122"
     ],
     "background_image": "https://newpathfinderraces.files.wordpress.com/2014/11/korred.png?w=350&h=453"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Leucrotta",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Large Monstrosity, Chaotic Evil",
+      "rule",
+      "property | Armor class | 14 (natural armor)",
+      "property | Hit points | 67 (9d10+18)",
+      "property | Speed | 50ft",
+      "rule",
+      "dndstats | 18 | 14 | 15 | 9 | 12 | 6",
+      "rule",
+      "property | Skills | Deception +2, Perception +3",
+      "property | Senses | Darkvision 60ft, Passive Perception 13",
+      "property | Language | Abyssal, Gnoll",
+      "property | Challenge | 3 (700 xp)",
+      "rule",
+      "description|Keen Smell| Advantage on Perception checks based on smell.",
+      "description|Kicking Retreat| Using hooves, Disengage as bonus action.",
+      "description|Mimicry| Mimics animal sounds and voices. DC14 Insight to tell the difference to tell they are imitations",
+      "description|Rampage| Reducing target to 0HP by melee on its turn, bonus action to move half its speed and make hooves attack.",
+      "fill | 1",
+     "section | Actions",
+      "description|Multiattack| The leucrotta makes two attacks: one with its bite and one with its hooves.",
+      "description|Bite| Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) piercing. If the leucrotta scores a critical hit, it rolls the damage dice three times, instead of twice.",
+      "description|Hooves| Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) bludgeoning damage."
+    ],
+    "tags": [
+      "creature",
+      "Monstrosity",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://vignette2.wikia.nocookie.net/forgottenrealms/images/3/39/Leucrotta_-_Wayne_England.jpg/revision/latest?cb=20070224035330"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Meenlock",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Small Fey, Neutral Evil",
+      "rule",
+      "property | Armor class | 15 (natural armor)",
+      "property | Hit points | 31 (7d6+7)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 18 | 14 | 15 | 9 | 12 | 6",
+      "rule",
+      "property | Skills | Perception +4, Stealth +6, Survival +2",
+      "property | Condition Immunities | Frightened",
+      "property | Senses | Darkvision 120ft, Passive Perception 14",
+      "property | Language | Telepathy 120ft",
+      "property | Challenge | 2 (450 xp)",
+      "rule",
+      "description|Fear Aura| Beast/humanoid starting in 10ft makes DC11 Wisdom save. Failure: frightened till creature’s next turn.",
+      "description|Light Sensitivity| In bright light, disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.",
+      "description|Shadow Teleport (Recharge 5-6)| Bonus action, teleports to an unoccupied space in 30ft, provided that both the space it’s teleporting from and its destination are in dim light or darkness. The destination need not be within line of sight.",
+      "fill | 1",
+     "section | Actions",
+      "description|Claws| Melee: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4+2) slashing Target makes DC11 Constitution save or be paralyzed for 1 minute. Repeats save at the end of each of its turns, ending the effect on itself on a success."
+    ],
+    "tags": [
+      "creature",
+      "Fey",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/2/2a/Meenlock-5e.jpg/revision/latest?cb=20161227023837"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Alhoon",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Undead, Any Evil Alignment",
+      "rule",
+      "property | Armor class | 15 (natural armor)",
+      "property | Hit points | 120 (16d8+48)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 11 | 12 | 16 | 19 | 17 | 17",
+      "rule",
+      "property | Saving Throws | Con +7, Int +8, Wis +7, Cha +7",
+      "property | Skills | Arcana +8, Deception +7, History +8, Insight +7, Perception +7, Stealth +5",
+      "property | Damage Resistances | Cold, Lightning, Necrotic",
+      "property | Damage Immunities: | Poison; Physical from non-magical",
+      "property | Condition Immunities | Charmed, Exhaustion, Frightened, Paralyzed, Poisoned",
+      "property | Senses | Truesight 120ft, Passive Perception 17",
+      "property | Language | Deep Speech, Undercommon, Telepathy 120ft",
+      "property | Challenge | 10 (5900 xp)",
+      "rule",
+      "description|Magic Resistance| The alhoon has advantage on saving throws against spells and other magical effects.",
+      "description|Innate Spellcasting (Psionics)| The alhoon’s innate spellcasting ability is Intelligence (spell save DC 16). It can innately cast the following spells, requiring no components:",
+      "bullet|At will:| <i>detect thoughts</i>, <i>levitate</i>",
+      "bullet|1/day each:| <i>dominate monster</i>, <i>lane shift</i> (self only)"
+    ],
+    "tags": [
+      "creature",
+      "Undead",
+      "subrace:",
+      "Structure: Any",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://vignette1.wikia.nocookie.net/forgottenrealms/images/d/d7/Alhoon-5e.png/revision/latest?cb=20161116214448"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Alhoon Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|Spellcasting| The alhoon is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The alhoon has the following wizard spells prepared:",
+      "bullet|Cantrips (at will):| chill touch, dancing lights, mage hand, prestidigitation, shocking grasp",
+      "bullet|1st level (4 slots):| <i>detect magic</i>, <i>disguise self</i>, <i>magic missile</i>, <i>shield</i>",
+      "bullet|2nd level (3 slots):| <i>invisibility</i>, <i>mirror image</i>, <i>scorching ray</i>",
+      "bullet|3rd level (3 slots):| <i>counterspell</i>, <i>fly</i>, <i>lightning bolt</i>",
+      "bullet|4th level (3 slots):| <i>confusion</i>, <i>Evard’s black tentacles</i>, <i>phantasmal killer</i>",
+      "bullet|5th level (2 slots):| <i>modify memory</i>, <i>wall of force</i>",
+      "bullet|6th level (1 slot):| <i>disintegrate</i>, <i>globe of invulnerability</i>",
+      "description|Turn Resistance| The alhoon has advantage on saving throws against any effect that turns undead.",
+      "fill | 1",
+     "section | Actions",
+      "description|Chilling Grasp| Melee Spell Attack: +8 to hit, reach 5 ft., one target. Hit: 10 (3d6) cold damage.",
+      "description|Mind Blast (Recharge 5-6)| The alhoon magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 16 Intelligence saving throw or take 22 (4d8+4) psychic damage and be stunned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    ],
+    "tags": [
+      "creature",
+      "Undead",
+      "subrace:",
+      "Structure: Any",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://vignette1.wikia.nocookie.net/forgottenrealms/images/d/d7/Alhoon-5e.png/revision/latest?cb=20161116214448"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Illithilich",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Undead, Any Evil Alignment",
+      "rule",
+      "property | Armor class | 17 (natural armor)",
+      "property | Hit points | 135 (18d8+54)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 11 | 16 | 16 | 20 | 14 | 16",
+      "rule",
+      "property | Saving Throws | Con +10, Int +12, Wis +9",
+      "property | Skills | Arcana +18, History +12, Insight +9, Perception +9",
+      "property | Damage Resistances | Cold, Lightning, Necrotic",
+      "property | Damage Immunities: | Poison; Physical from non-magical",
+      "property | Condition Immunities | Charmed, Exhaustion, Frightened, Paralyzed, Poisoned",
+      "property | Senses | Truesight 120ft, Passive Perception 19",
+      "property | Language | Deep Speech, Undercommon, Telepathy 120ft",
+      "property | Challenge | 22 (41000 xp)",
+      "rule",
+      "description|Legendary Resistance (3/Day)| If the illithilich fails a saving throw, it can choose to succeed instead.",
+      "description|Rejuvenation| If it has a phylactery, a destroyed illithilich gains a new body in 1d10 days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery."
+    ],
+    "tags": [
+      "creature",
+      "Undead",
+      "subrace:",
+      "Structure: Any",
+      "Alignment: Evil",
+      "Legendary: Yes",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/3/34/Mind_flayer.jpg/revision/latest/scale-to-width-down/346?cb=20060823145007"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Illithilich Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|Spellcasting| The illithilich is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The lich has the following wizard spells prepared: ",
+      "bullet|Cantrips (at will):| <i>mage hand</i>, <i>prestidigitation</i>, <i>ray of frost</i>",
+      "bullet|1st level (4 slots):| <i>detect magic</i>, <i>magic missile</i>, <i>shield</i>, <i>thunderwave</i>",
+      "bullet|2nd level (3 slots):| <i>detect thoughts</i>, <i>invisibility</i>, <i>Melf's acid arrow</i>, <i>mirror image</i>",
+      "bullet|3rd level (3 slots):| <i>animate dead</i>, <i>counterspell</i>, <i>dispel magic</i>, <i>fireball</i>",
+      "bullet|4th level (3 slots):| <i>blight</i>, <i>dimension door</i>",
+      "bullet|5th level (3 slots):| <i>cloudkill</i>, <i>scrying</i>",
+      "bullet|6th level (1 slot):| <i>disintegrate</i>, <i>globe of invulnerability</i>",
+      "bullet|7th level (1 slot):| <i>finger of death</i>, <i>plane shift</i>",
+      "bullet|8th level (1 slot):| <i>dominate monster</i>, <i>power word stun</i>",
+      "bullet|9th level (1 slot):| <i>power word kill</i>",
+      "description|Turn Resistance| The illithilich has advantage on saving throws against any effect that turns undead.",
+      "description|Magic Resistance| The illithilich has advantage on saving throws against spells and other magical effects.",
+      "description|Innate Spellcasting (Psionics)| The illithilich’s innate spellcasting ability is Intelligence (spell save DC 20). It can innately cast the following spells, requiring no components.",
+      "bullet|At will:| <i>detect thoughts</i>, <i>levitate</i>",
+      "bullet|1/day each:| <i>dominate monster</i>, <i>plane shift</i> (self only)"
+    ],
+    "tags": [
+      "creature",
+      "Undead",
+      "subrace:",
+      "Structure: Any",
+      "Alignment: Evil",
+      "Legendary: Yes",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/3/34/Mind_flayer.jpg/revision/latest/scale-to-width-down/346?cb=20060823145007"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Illithilich Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+     "section | Actions",
+      "description|Paralyzing Touch| Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit: 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+      "description|Tentacles| Melee Weapon Attack: +12 to hit, reach 5 ft., one creature. Hit: 21 (3d10+5) psychic damage. If the target is Large or smaller, it is grappled (escape DC 15) and must succeed on a DC 20 Intelligence saving throw or be stunned until this grapple ends.",
+      "description|Extract Brain| Melee Weapon Attack: +12 to hit, reach 5 ft., one incapacitated humanoid grappled by the lich. Hit: 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the lich kills the target by extracting and devouring its brain.",
+      "description|Mind Blast (Recharge 5-6)| The illithilich magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 18 Intelligence saving throw or take 27 (5d8+5) psychic damage and be stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    ],
+    "tags": [
+      "creature",
+      "Undead",
+      "subrace:",
+      "Structure: Any",
+      "Alignment: Evil",
+      "Legendary: Yes",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/3/34/Mind_flayer.jpg/revision/latest/scale-to-width-down/346?cb=20060823145007"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Illithilich Continued: Legendary",
+    "icon": "imp-laugh",
+    "contents": [
+     "section | Legendary Actions",
+      "description|Legendary Actions (3/Turn)| The illithilich can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The illithilich regains spent legendary actions at the start of its turn.",
+      "description|Tentacles| The illithilich makes one attack with its tentacles. ",
+      "description|Extract Brain (Costs 2 Actions)| The illithilich uses Extract Brain.",
+      "description|Mind Blast (Costs 3 Actions)| The illithilich recharges its Mind Blast and uses it.",
+      "description|Cast Spell (Costs 1-3 Actions)| The illithilich uses a spell slot to cast a 1st-, 2nd-, or 3rd-level spell that it has prepared. Doing so costs 1 legendary action per level of the spell."
+    ],
+    "tags": [
+      "creature",
+      "Undead",
+      "subrace:",
+      "Structure: Any",
+      "Alignment: Evil",
+      "Legendary: Yes",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/3/34/Mind_flayer.jpg/revision/latest/scale-to-width-down/346?cb=20060823145007"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Elder Brain",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Large Aberration, Lawful Evil",
+      "rule",
+      "property | Armor class | 10",
+      "property | Hit points | 210 (20d10+100)",
+      "property | Speed | 5ft, <b>Swim</b> 10ft",
+      "rule",
+      "dndstats | 15 | 10 | 20 | 21 | 19 | 24",
+      "rule",
+      "property | Saving Throws | Int +10, Wis +9, Cha +12",
+      "property | Skills | Arcana +10, Deception +12, Insight +14, Intimidation +12, Persuasion +12",
+      "property | Senses | Blindsight 120ft, Passive Perception 14",
+      "property | Language | Understands Common, Deep Speech, and Undercommon but can't speak, Telepathy 5 miles",
+      "property | Challenge | 14 (11500 xp)",
+      "rule",
+      "description|Creature Sense| The elder brain is aware of the presence of creatures within 5 miles of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature. as well as each one's intelligence score, but can’t sense anything else about it. A creature protected by a mind blank spell. a nondetection spell, or similar magic can’t be perceived in this manner. ",
+      "description|Innate Spellcasting (Psionics)| The elder brain’s innate spellcasting ability is Intelligence (spell save DC 18). It can innately cast the following spells, requiring no components:",
+      "bullet|At will:| <i>detect thoughts</i>, <i>levitate</i>",
+      "bullet|1/day each:| <i>dominate monster</i>, <i>plane shift</i> (self only)"
+    ],
+    "tags": [
+      "creature",
+      "Aberration",
+      "subrace:",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: Yes",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/b/b8/Elder_brain-5e.jpg/revision/latest?cb=20161126005903"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Elder Brain Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|Legendary Resistance (3/Day)| If the elder brain fails a saving throw, it can choose to succeed instead.",
+      "description|Magic Resistance| The elder brain has advantage on saving throws against spells and other magical effects.",
+      "description|Telepathic Hub| The elder brain can use its telepathy to initiate and maintain telepathic conversations with up to ten creatures at a time. The elder brain can let those creatures telepathically hear each other while connected in this way.",
+      "description|Tentacle| Melee Weapon Attack: +7 to hit, reach 30 ft., one target. Hit: 20 (4d8+2) bludgeoning damage. If the target is a Huge or smaller creature, it is grappled (escape DC 15) and takes 9 (1d8+5) psychic damage at the start of each of its turns until the grapple ends. The elder brain can have up to four targets grappled at a time.",
+      "fill | 1",
+     "section | Actions",
+      "description|Mind Blast (Recharge 5-6)| The elder brain magically emits psychic energy. Creatures of the elder brain's choice within 60 feet of it must succeed on a DC 18 Intelligence saving throw or take 32 (5d10+5) psychic damage and be stunned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    ],
+    "tags": [
+      "creature",
+      "Aberration",
+      "subrace:",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: Yes",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/b/b8/Elder_brain-5e.jpg/revision/latest?cb=20161126005903"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Elder Brain Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|Psychic Link| The elder brain targets one incapacitated creature it can perceive with its Creature Sense trait and establishes a psychic link with that creature. Until the psychic link ends, the elder brain can perceive everything the target senses. The target becomes aware that something is linked to its mind once it is no longer incapacitated, and the elder brain can terminate the link at any time (no action required). The target can use an action on its turn to attempt to break the psychic link, doing so with a successful DC 18 Charisma saving throw. On a successful save, the target takes 10 (3d6) psychic damage. The psychic link also ends if the target and the elder brain are more than 5 miles apart, with no consequences to the target. The elder brain can form psychic links with up to ten creatures at a time.",
+      "description|Sense Thoughts| The elder brain targets a creature with which it has a psychic link. The elder brain gains insight into the target’s reasoning, its emotional state, and thoughts that loom large in its mind (including things the target worries about, loves, or hates). The elder brain can also make a Charisma (Deception) check with advantage to deceive the target's mind into thinking it believes one idea or feels a particular emotion. The target contests this attempt with a Wisdom (Insight) check. If the elder brain succeeds, the mind believes the deception for 1 hour or until evidence of the lie is presented to the target."
+    ],
+    "tags": [
+      "creature",
+      "Aberration",
+      "subrace:",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: Yes",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/b/b8/Elder_brain-5e.jpg/revision/latest?cb=20161126005903"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Elder Brain Continued: Legendary",
+    "icon": "imp-laugh",
+    "contents": [
+     "section | Legendary Actions",
+      "description|Legendary Actions (3/Turn)| The elder brain can take 3 legendary actions, choosing from the options below. It can take only one legendary action at a time and only at the end of another creature’s turn. The elder brain regains spent legendary actions at the start of its turn.",
+      "description|Tentacle| The elder brain makes a tentacle attack.",
+      "description|Break Concentration| The elder brain targets a creature within 120 feet of it with which it has a psychic link. The elder brain breaks the creature’s concentration on a spell it has cast. The creature also takes 1d4 psychic damage per level of the spell.",
+      "description|Psychic Pulse| The elder brain targets a creature within 120 feet of it with which it has a psychic link. Enemies of the elder brain within 10 feet of that creature take 10 (3d6) psychic damage.",
+      "description|Sever Psychic Link| The elder brain targets a creature within 120 feet of it with which it has a psychic link. The elder brain ends the link, causing the creature to have disadvantage on all ability checks, attack rolls, and saving throws until the end of the creature’s next turn."
+    ],
+    "tags": [
+      "creature",
+      "Aberration",
+      "subrace:",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: Yes",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/b/b8/Elder_brain-5e.jpg/revision/latest?cb=20161126005903"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Ulitharid",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Large Aberration, Lawful Evil",
+      "rule",
+      "property | Armor class | 15 (breastplate)",
+      "property | Hit points | 127 (17d10+14)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 15 | 12 | 15 | 21 | 19 | 21",
+      "rule",
+      "property | Saving Throws | Int +9, Wis +8, Cha +9",
+      "property | Skills | Arcana +9, Insight +8, Perception +8, Stealth +5",
+      "property | Senses | Darkvision 120ft, Passive Perception 18",
+      "property | Language | Deep Speech, Undercommon, Telepathy 2 miles",
+      "property | Challenge | 9 (5000 xp)",
+      "rule",
+      "description|Creature Sense| The ulitharid is aware of the presence of creatures within 2 miles of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each creature’s intelligence score, but can't sense anything else about it. A creature protected by a mind blank spell, a nondetection spell, or similar magic can’t be perceived in this manner.",
+      "description|Magic Resistance| The ulitharid has advantage on saving throws against spells and other magical effects."
+    ],
+    "tags": [
+      "creature",
+      "Aberration",
+      "subrace:",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: Yes",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://vignette1.wikia.nocookie.net/forgottenrealms/images/b/bd/Ulitharid-5e.jpg/revision/latest?cb=20161207163206"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Ulitharid Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|Psionic Hub| If an elder brain establishes a psychic link with the ulitharid, the elder brain can form a psychic link with any other creature the ulitharid can detect using its Creature Sense. Any such link ends if the creature falls outside the telepathy ranges of both the ulitharid and the elder brain. The ulitharid can maintain its psychic link with the elder brain regardless of the distance between them, so long as they are both on the same plane of existence. lithe ulitharid is more than 5 miles away from the elder brain, it can end the psychic link at any time (no action required).",
+      "description|Innate Spellcasting (Psionics)| The ulitharid’s innate spellcasting ability is Intelligence (spell save DC 17). It can innately cast the following spells, requiring no components:",
+      "bullet|At will:| detect thoughts, levitate",
+      "bullet|1/day each:| confusion, dominate monster, eyebite, feeblemind, mass suggestion, plane shift (self only), project image, scrying, telekinesis"
+    ],
+    "tags": [
+      "creature",
+      "Aberration",
+      "subrace:",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: Yes",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://vignette1.wikia.nocookie.net/forgottenrealms/images/b/bd/Ulitharid-5e.jpg/revision/latest?cb=20161207163206"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Ulitharid Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+     "section | Actions",
+      "description|Tentacles| Melee Weapon Attack: +9 to hit, reach 10 ft., one creature. Hit: 27 (4d10+5) psychic damage. If the target is Large or smaller, it is grappled (escape DC 14) and must succeed on a DC 17 Intelligence saving throw or be stunned until this grapple ends.",
+      "description|Extract Brain| Melee Weapon Attack: +9 to hit, reach 5 ft., one incapacitated humanoid grappled by the ulitharid. Hit: 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the ulitharid kills the target by extracting and devouring its brain.",
+      "description|Mind Blast (Recharge 5-6)| The ulitharid magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 17 Intelligence saving throw or take 31 (4d12+5) psychic damage and be stunned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    ],
+    "tags": [
+      "creature",
+      "Aberration",
+      "subrace:",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: Yes",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://vignette1.wikia.nocookie.net/forgottenrealms/images/b/bd/Ulitharid-5e.jpg/revision/latest?cb=20161207163206"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Mindwitness",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Large Aberration, Lawful Evil",
+      "rule",
+      "property | Armor class | 15 (natural armor)",
+      "property | Hit points | 75 (10d10+20)",
+      "property | Speed | 0ft, <b>Fly</b> 20ft",
+      "rule",
+      "dndstats | 10 | 14 | 14 | 15 | 15 | 10",
+      "rule",
+      "property | Saving Throws | Int +5, Wis +5",
+      "property | Skills | Perception +8",
+      "property | Condition Immunities | Prone",
+      "property | Senses | Darkvision 120ft, Passive Perception 18",
+      "property | Language | Deep Speech, Undercommon, Telepathy 600ft",
+      "property | Challenge | 9 (5000 xp)",
+      "rule",
+      "description|Telepathic Hub| When the mindwitness receives a telepathic message, it can telepathically share that message with up to seven other creatures within 600 feet of it that it can see.",
+      "fill | 1",
+     "section | Actions",
+      "description|Multiattack| The mindwitness makes two attacks: one with its tentacles and one with its bite.",
+      "description|Bite| Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 16 (4d6+2) piercing damage.",
+      "description|Tentacles| Melee Weapon Attack: +5 to hit, reach 5 it, one creature. Hit: 20 (4d8+2) psychic. if the target is Large or smaller, it is grappled (escape DC 13) and makes DC 13 Intelligence save or be stunned until this grapple ends."
+    ],
+    "tags": [
+      "creature",
+      "Aberration",
+      "subrace:",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/a/a7/Mindwitness-5e.jpg/revision/latest?cb=20161122191239"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Mindwitness Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|Eye Rays| The mindwitness shoots three of the following magical eye rays at random (reroll duplicates), choosing one to three targets it can see within 120 feet of it:",
+      "description|1. Aversion Ray:| The targeted creature must make a DC 13 Charisma saving throw. On a failed save, the target has disadvantage on attack rolls for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+      "description|2. Fear Ray:| The targeted creature must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+      "description|3. Psychic Ray:| The target must succeed on a DC 13 Intelligence saving throw or take 27 (6d8) psychic damage.",
+      "description|4. Slowing Ray:| The targeted creature must make a DC 13 Dexterity saving throw. On a failed save, the target’s speed is halved for 1 minute. In addition, the creature can’t take reactions, and it can take either an action or a bonus action on its turn but not both. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    ],
+    "tags": [
+      "creature",
+      "Aberration",
+      "subrace:",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/a/a7/Mindwitness-5e.jpg/revision/latest?cb=20161122191239"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Mindwitness Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|5. Stunning Ray:| The targeted creature must succeed on a DC 13 Constitution saving throw or be stunned for 1 minute. The target can repeat the saving throw at the start of each of its turns, ending the effect on itself on a success.",
+      "description|6. Telekinetic Ray:| If the target is a creature, it must make a DC 13 Strength saving throw. On a failed save, the mindwitness moves it up to 30 feet in any direction, and it is restrained by the ray’s telekinetic grip until the start of the mindwitness’s next turn or until the mindwitness is incapacitated. <br />If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is telekinetically moved up to 30 feet in any direction. The mindwitness can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container."
+    ],
+    "tags": [
+      "creature",
+      "Aberration",
+      "subrace:",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/a/a7/Mindwitness-5e.jpg/revision/latest?cb=20161122191239"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Morkoth",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Aberration, Chaotic Evil",
+      "rule",
+      "property | Armor class | 17 (natural armor)",
+      "property | Hit points | 130 (20d8+40)",
+      "property | Speed | 25ft, <b>Swim</b> 50ft",
+      "rule",
+      "dndstats | 14 | 14 | 14 | 20 | 15 | 13",
+      "rule",
+      "property | Saving Throws | Dex +6, Int +9, Wis +6",
+      "property | Skills | Arcana +9, History +9, Perception +10, Stealth +6",
+      "property | Damage Resistances | Physical from non-magical weapons",
+      "property | Senses | Blindsight 30ft, Darkvision 120ft, Passive Perc. 20",
+      "property | Language | Telepathy 120ft",
+      "property | Challenge | 11 (7200 xp)",
+      "rule",
+      "description|Amphibious| The morkoth can breathe air and water.",
+      "description|Spellcasting| 11th-level spellcaster. Its spellcasting ability is Intelligence (save DC 17, +9 to hit with spell attacks). The morkoth has the following wizard spells prepared:",
+      "bullet|Cantrips (at will):| <i>acid splash</i>, <i>mage hand</i>, <i>mending</i>, <i>ray of frost</i>, <i>shocking grasp</i>",
+      "bullet|1st level (4 slots):| <i>detect magic</i>, <i>identify</i>, <i>shield</i>, <i>witch bolt</i>",
+      "bullet|2nd level (3 slots):| <i>darkness</i>, <i>detect thoughts</i>, <i>shatter</i>",
+      "bullet|3rd level (3 slots):| <i>dispel magic</i>, <i>lightning bolt</i>, <i>sending</i>",
+      "bullet|4th level (3 slots):| <i>dimension door</i>, <i>Evard’s black tentacles</i>",
+      "bullet|5th level (3 slots):| <i>geas</i>, <i>scrying</i>",
+      "bullet|6th level (1 slot):| <i>chain lightning</i>"
+    ],
+    "tags": [
+      "creature",
+      "Aberration",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://vignette3.wikia.nocookie.net/forgottenrealms/images/c/cc/Morkoth-5e.png/revision/latest?cb=20161216211526"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Morkoth Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+     "section | Actions",
+      "description|Multiattack| The morkoth makes three attacks: two with its bite and one with its tentacles or three with its bite.",
+      "description|Bite| Melee Weapon Attack: +6 to hit, reach 5 ft. one target. Hit: 9 (2d6+2) slashing damage.",
+      "description|Tentacles| Melee Weapon Attack: +6 to hit, reach 15 ft., one target. Hit: 15 (3d8+2) bludgeoning damage, and the target is grappled (escape DC 14) if it is a Large or smaller creature. Until this grapple ends. the target is restrained and takes 15 (3d8+2) bludgeoning damage at the start of each of the morkoth's turns. and the morkoth can't use its tentacles on another target.",
+      "description|Hypnosis| The morkoth projects a 30-foot cone of magical energy. Each creature in that area must make a DC 17 Wisdom saving throw. On a failed save, the creature is charmed by the morkoth for 1 minute. While charmed in this way, the target tries to get as close to the morkoth as possible, using its actions to Dash until it is within 5 feet of the morkoth. A charmed target can repeat the saving throw at the end of each of its turns and whenever it takes damage, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature has advantage on saving throws against the morkoth's Hypnosis for 24 hours."
+    ],
+    "tags": [
+      "creature",
+      "Aberration",
+      "subrace:",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://vignette3.wikia.nocookie.net/forgottenrealms/images/c/cc/Morkoth-5e.png/revision/latest?cb=20161216211526"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Morkoth Continued: Reactions",
+    "icon": "imp-laugh",
+    "contents": [
+     "section | Reactions",
+      "description|Spell Reflection| If the morkoth makes a successful saving throw against a spell, or a spell attack misses it, the morkoth can choose another creature (including the spellcaster) it can see within 120 feet of it. The spell targets the chosen creature instead of the morkoth. If the spell forced a saving throw, the chosen creature makes its own save. If the spell was an attack, the attack roll is rerolled against the chosen creature."
+    ],
+    "tags": [
+      "creature",
+      "Aberration",
+      "subrace:",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://vignette3.wikia.nocookie.net/forgottenrealms/images/c/cc/Morkoth-5e.png/revision/latest?cb=20161216211526"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Neogi Hatchling",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Tiny Aberration, Lawful Evil",
+      "rule",
+      "property | Armor class | 11",
+      "property | Hit points | 7 (3d4)",
+      "property | Speed | 20ft, <b>Climb</b> 20ft",
+      "rule",
+      "dndstats | 3 | 13 | 10 | 6 | 10 | 9",
+      "rule",
+      "property | Senses | Darkvision 60ft, Passive Perception 10",
+      "property | Language | -",
+      "property | Challenge | 1/8 (25 xp)",
+      "rule",
+      "description|Mental Fortitude| The hatchling has advantage on saving throws against being charmed or frightened, and magic can’t put the hatchling to sleep.",
+      "description|Spider Climb| The hatchling can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+    "fill | 1",
+     "section | Actions",
+      "description|Bite| Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4+1) piercing damage plus 7 (2d6) poison damage, and the target must succeed on a DC 10 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    ],
+    "tags": [
+      "creature",
+      "Aberration",
+      "subrace:",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.pinimg.com/236x/34/a5/31/34a53185fab3b7d99e57a7b24eef4d0b--game-ideas-gaming.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Neogi",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Small Aberration, Lawful Evil",
+      "rule",
+      "property | Armor class | 15 (natural armor)",
+      "property | Hit points | 33 (6d6+12)",
+      "property | Speed | 30ft, <b>Climb</b> 30ft",
+      "rule",
+      "dndstats | 6 | 16 | 14 | 13 | 12 | 15",
+      "rule",
+      "property | Skills | Intimidation +4, Perception +3",
+      "property | Senses | Darkvision 60ft, Passive Perception 13",
+      "property | Language | Common, Deep Speech, Undercommon",
+      "property | Challenge | 3 (700 xp)",
+      "rule",
+      "description|Mental Fortitude| The neogi has advantage on saving throws against being charmed or frightened. and magic can't put the neogi to sleep.",
+      "description|Spider Climb| The neogi can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+    "fill | 1",
+     "section | Actions",
+      "description|Multiattack| The neogi makes two attacks: one with its bite and one with its claws."
+    ],
+    "tags": [
+      "creature",
+      "Aberration",
+      "subrace:",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.pinimg.com/236x/df/1f/32/df1f328affbe08360d842f57fa206065--fantasy-monster-fantasy-characters.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Neogi Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|Bite| Melee Weapon Attack: +5 to hit, reach 5 it, one target. Hit: 6 (1d6+3) piercing damage plus 14 (4d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+      "description|Claws| Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4+3) slashing damage.",
+      "description|Enslave (Recharges after a Short or Long Rest)| The neogi targets one creature it can see within 30 feet of it. The target must succeed on a DC 14 Wisdom saving throw or be magically charmed by the neogi for 1 day, or until the neogi dies or is more than 1 mile from the target. The charmed target obeys the neogi's commands and can't take reactions, and the neogi and the target can communicate telepathically with each other at a distance of up to 1 mile. Whenever the charmed target takes damage, it can repeat the saving throw, ending the effect on itself on a success."
+    ],
+    "tags": [
+      "creature",
+      "Aberration",
+      "subrace:",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.pinimg.com/236x/df/1f/32/df1f328affbe08360d842f57fa206065--fantasy-monster-fantasy-characters.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Neogi Master",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Aberration, Lawful Evil",
+      "rule",
+      "property | Armor class | 15 (natural armor)",
+      "property | Hit points | 71 (13d6+26)",
+      "property | Speed | 30ft, <b>Climb</b> 30ft",
+      "rule",
+      "dndstats | 6 | 16 | 14 | 16 | 12 | 18",
+      "rule",
+      "property | Saving Throws | Wis +3",
+      "property | Skills | Arcana +5, Deception +6, Intimidation +6, Perception +3, Persuasion +6",
+      "property | Senses | Darkvision 120ft (<i>darkness</i>), Passive Perception 13",
+      "property | Language | Common, Deep Speech, Undercommon, Telepathy 30ft",
+      "property | Challenge | 4 (1100 xp)",
+      "rule",
+      "description|Mental Fortitude| Advantage on saves against being charmed or frightened & magic can't put the neogi to sleep.",
+      "description|Spider Climb| Climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+    "fill | 1",
+     "section | Actions",
+      "description|Mental Fortitude| The neogi has advantage on saving throws against being charmed or frightened, and magic can’t put the neogi to sleep.",
+      "description|Spellcasting| The neogi is a 7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. Knows following warlock spells:"
+    ],
+    "tags": [
+      "creature",
+      "Aberration",
+      "subrace:",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.pinimg.com/originals/92/1d/a1/921da184067507fa22a5382f24150157.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Neogi Master Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|Cantrips (at will):| eldritch blast (range 300 ft., +4 bonus to each damage roll), guidance, mage hand, minor illusion, prestidigitation, vicious mockery",
+      "description|1st—4th level (2 4th-level slots):| Arms of Hadar, counterspell, dimension door, fear, hold person, hunger of Hadar, invisibility, unseen servant",
+      "description|Spider Climb| Climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+      "fill | 1",
+     "section | Actions",
+      "description|Multiattack| Two attacks: one Bite and one Claws.",
+      "description|Bite| Melee Weapon Attack: +5 to hit, reach 5 it, one target. Hit: 6 (1d6+3) piercing plus 14 (4d6) poison, and target makes DC12 Constitution save or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+      "description|Claws| Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4+3) slashing damage.",
+      "description|Enslave (Recharges after a Short or Long Rest)| Targets one creature visible in 30ft. The target must succeed on a DC 14 Wisdom saving throw or be magically charmed by the neogi for 1 day, or until the neogi dies or is more than 1 mile from the target. The charmed target obeys the neogi's commands and can't take reactions, and the neogi and the target can communicate telepathically with each other at a distance of up to 1 mile. Whenever the charmed target takes damage, it can repeat the saving throw, ends on a success."
+    ],
+    "tags": [
+      "creature",
+      "Aberration",
+      "subrace:",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.pinimg.com/originals/92/1d/a1/921da184067507fa22a5382f24150157.jpg"
   }
 ]
