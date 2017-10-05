@@ -2,139 +2,108 @@
   {
     "count": 1,
     "color": "default",
-    "title": "Brontosaurus",
+    "title": "Abominable Beauty",
     "icon": "imp-laugh",
     "contents": [
-      "subtitle | Gargantuan Beast, Unaligned",
+      "subtitle | Medium Fey, Neutral Evil",
       "rule",
-      "property | Armor class | 15 (natural armor)",
-      "property | Hit points | 121 (9d20+27)",
+      "property | Armor class | 18 (natural armor)",
+      "property | Hit points | 187 (22d8 + 88)",
       "property | Speed | 30ft",
       "rule",
-      "dndstats | 21 | 9 | 17 | 2 | 10 | 7",
+      "dndstats | 17 | 18 | 18 | 17 | 16 | 26",
       "rule",
-      "property | Saving Throws | Con +6",
-      "property | Senses | Passive Perception 10",
-      "property | Language | -",
-      "property | Challenge | 5 (1800 XP)",
+      "property | Saving Throws | Deception +12, Perception +7, Performance +12, Persuasion +12",
+      "property | Skill | History +12, Perception +10",
+      "property | Damage Immunities | Fire",
+      "property | Senses | Darkvision 60ft, Passive Perception 8",
+      "property | Language | Common, Draconic, Elven, Sylvan",
+      "property | Challenge | 11 (7200 XP)",
       "rule",
-      "fill | 1",
+     "description |Burning Touch| The abominable beauty's slam attacks do 28 (8d6) fire damage. A creature who touches her also takes 28 (8d6) fire damage.",
+     "fill | 1",
      "section | Actions",
-     "description |Stomp| Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit: 27 (5d8+5) bludgeoning damage, and the target must succed on a DC 14 Strength saving throw or be knocked prone.",
-     "description |Tail| Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit: 32 (6d8+5) bludgeoning damage."
+     "description |Multiattack| Abominable beauty makes two slam attacks.",
+     "description |Slam| +8 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) damage plus 28 (8d6) fire damage."
     ],
     "tags": [
       "creature",
-      "Beast",
-      "subrace: Dinosaur",
-      "Structure: Unaligned",
-      "Alignment: Unaligned",
-      "Legendary: No",
-      "Book: Volos_Guide_139"
-    ],
-    "background_image": "https://i.pinimg.com/originals/78/89/38/788938feae5eee5a4e33696808a148e3.jpg"
-  },
-  {
-    "count": 1,
-    "color": "default",
-    "title": "Death Kiss",
-    "icon": "imp-laugh",
-    "contents": [
-      "subtitle | Large Aberration, Neutral Evil",
-      "rule",
-      "property | Armor class | 16 (natural armor)",
-      "property | Hit points | 161 (17d10+68)",
-      "property | Speed | 0ft, <b>Fly</b> 30ft (hover)",
-      "rule",
-      "dndstats | 18 | 14 | 18 | 10 | 12 | 10",
-      "rule",
-      "property | Saving Throws | Con +8, Wis +5",
-      "property | Skills | Perception +5",
-      "property | Damage Immunities | Lightning",
-      "property | Condition Immunities | Prone",
-      "property | Senses | Darkvision 120ft, Passive Perception 15",
-      "property | Language | Deep Speech, Undercommon",
-      "property | Challenge | 10 (5900 xp)",
-      "rule",
-      "description|Lightning Blood| A creature within 5 feet of the death kiss takes 5 (1d10) lightning damage whenever it hits the death kiss with a melee attack that deals piercing or slashing damage.",
-      "fill | 1",
-     "section | Actions",
-      "description|Multiattack| The death kiss makes three tentacle attacks. Up to three of these attacks can be replaced by Blood Drain, one replacement per tentacle grappling a creature"
-    ],
-    "tags": [
-      "creature",
-      "Humanoid",
+      "Fey",
       "subrace:",
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Tome_Beast_11"
     ],
-    "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/0/01/Deathkiss-5e.png/revision/latest?cb=20161201165316"
+    "background_image": "https://i.imgur.com/VzGZauY.png"
   },
   {
     "count": 1,
     "color": "default",
-    "title": "Death Kiss Continued: Legendary",
+    "title": "Abominable Beauty Continued: Actions",
     "icon": "imp-laugh",
     "contents": [
-      "description|Tentacle| Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit: 14 (3d6+4) piercing damage, and the target is grappled (escape DC 14) if it is a Huge or smaller creature. Until this grapple ends, the target is restrained, and the death kiss can't use the same tentacle on another target. The death kiss has ten tentacles.",
-      "description|Blood Drain| One creature grappled by a tentacle of the death kiss must make a DC 16 Constitution saving throw. On a failed save, the target takes 22 (4d10) lightning damage, and the death kiss regains half as many hit points."
+     "description |Blinding Gaze (Recharge 5-6)| A creature within 30 feet of the abominable beauty who is targeted by this attack and who meets the abominable beauty's gaze must succeed on a DC 17 Charisma saving throw or be blinded. If the saving throw succeeds, the target creature is permanently immune to this abominable beauty's Blinding Gaze.",
+     "description |Deafening Voice (Recharge 5-6)| An abominable beauty's voice is lovely, but any creature within 90 feet and able to hear her when she makes her Deafening Voice attack must succeed on a DC 16 Constitution saving throw or be permanently deafened."
     ],
     "tags": [
       "creature",
-      "Aberration",
+      "Fey",
       "subrace:",
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Tome_Beast_11"
     ],
-    "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/0/01/Deathkiss-5e.png/revision/latest?cb=20161201165316"
+    "background_image": "https://i.imgur.com/VzGZauY.png"
   },
   {
     "count": 1,
     "color": "default",
-    "title": "Yuan-ti Nightmare Speaker Continued: Actions",
+    "title": "Nihilith Zombie Continued: Reactions",
     "icon": "imp-laugh",
     "contents": [
-      "description|Scimitar (Yuan-ti Form Only)| Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) slashing damage.",
-      "description|Invoke Nightmare (Recharges after a Short or Long Rest)| The yuan-ti taps into the nightmares of a creature it can see within 60 feet of it and creates an illusory, immobile manifestation of the creature’s deepest fears, visible only to that creature. The target must make a DC 13 Intelligence saving throw. On a failed save, the target takes 11 (2d10) psychic damage and is frightened of the manifestation, believing it to be real. The yuan-ti must concentrate to maintain the illusion (as if concentrating on a spell), which lasts for up to 1 minute and can’t be harmed. The target can repeat the saving throw at the end of each of its turns, ending the illusion on a success, or taking 11 (2d10) psychic damage on a failure."
+     "description |Sacrifice Life| A nihilethic zombie can sacrifice itself to heal a nihileth within 30 feet of it. All of its remaining hit points transfer to the nihileth in the form of healing. The nihilethic zombie is reduced to 0 hit points and it doesn't make an Undead Fortitude saving throw. A nihileth cannot be healed above its maximum hit points in this manner.",
+     "fill | 1",
+     "section | Reactions",
+     "description |Void Body| The nihilethic zombie can reduce the damage it takes from a single source by 1d12 points. This reduction cannot be applied to radiant damage."
     ],
     "tags": [
       "creature",
-      "Monstrosity",
-      "subrace: Yuan-Ti",
+      "Undead",
+      "subrace:",
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Tome_Beast_9"
     ],
-    "background_image": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/834/1000/1000/636332227078313653.jpeg"
+    "background_image": "https://i.imgur.com/Gqhnr0q.png"
   },
   {
     "count": 1,
     "color": "default",
-    "title": "Elder Brain Continued: Legendary",
+    "title": "Nihilith Aboleth Continued: Legendary",
     "icon": "imp-laugh",
     "contents": [
+      "description | Tail | Melee: +9 to hit, reach 10ft. one target. Hit: 15(3d6+5) bludgeoning damage.",
+      "description | Enslave (3/Day) | The Aboleth targets one creature it can see within 30 feet of it. the target mu st succeed on a DC 14 Wisdom saving throw or be magically charmed by the Aboleth until the Aboleth dies or until it is on a different plane of existence from the target. <br />The charmed target is under the Aboleth's control and can't take reactions, and the abol eth andthe target can communicate telepathically with each other over any distance. Whenever the charmed target takes damage, the ta rget can repeat the saving throw. On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mil e away from the Aboleth.",
+     "fill | 1",
      "section | Legendary Actions",
-      "description|Legendary Actions (3/Turn)| The elder brain can take 3 legendary actions, choosing from the options below. It can take only one legendary action at a time and only at the end of another creature’s turn. The elder brain regains spent legendary actions at the start of its turn.",
-      "description|Tentacle| The elder brain makes a tentacle attack.",
-      "description|Break Concentration| The elder brain targets a creature within 120 feet of it with which it has a psychic link. The elder brain breaks the creature’s concentration on a spell it has cast. The creature also takes 1d4 psychic damage per level of the spell.",
-      "description|Psychic Pulse| The elder brain targets a creature within 120 feet of it with which it has a psychic link. Enemies of the elder brain within 10 feet of that creature take 10 (3d6) psychic damage.",
-      "description|Sever Psychic Link| The elder brain targets a creature within 120 feet of it with which it has a psychic link. The elder brain ends the link, causing the creature to have disadvantage on all ability checks, attack rolls, and saving throws until the end of the creature’s next turn."
+     "text |A nihileth may take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The nihileth regains spent legendary actions at the start of its turn.",
+     "description | Detect|The Aboleth makes a Wisdom (Perception) check.",
+     "description | Tail Swipe| The Aboleth makes one tail attack.",
+     "description | Psychic Drain (Costs 2 Actions)| One creature charmed by the Aboleth takes 10 (3d6) psychic damage, and the Aboleth regains hit points equal to the damage the creature takes. "
     ],
     "tags": [
       "creature",
-      "Aberration",
+      "Undead",
       "subrace:",
-      "Structure: Lawful",
+      "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: Yes",
-      "Book: Volos_Guide_122"
+      "Book: Tome_Beast_9"
     ],
-    "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/b/b8/Elder_brain-5e.jpg/revision/latest?cb=20161126005903"
+    "background_image": "https://i.imgur.com/yrrq9ZV.png"
   },
   {
     "count": 1,
@@ -216,7 +185,7 @@
       "description | Multiattack | The Aboleth makes <b>three tentacle</b> attacks.",
       "description | Tentacle | Melee: +9 to hit, reach 10ft, one target. Hit: 12(2d6+) Bludgeoning. If the target is a creature, it must succeed on a DC 14 Constitution saving throw can be removed by any magic that cures disease. After 1 minute, the diseased creature's skin becomes translucent and slimy, the creature can't regain hit points unless it is underwater, and the disease can be removed only by heal or another disease-curing spell of 6th level or higher. When the creature is outside a body of water, it takes 6 (1d12) acid damage every 10 minutes unless moisture is applied to the skin before 10 minutes have passed.",
       "description | Tail | Melee: +9 to hit, reach 10ft. one target. Hit: 15(3d6+5) bludgeoning damage.",
-      "description | Enslave (3/Day) | The Aboleth targets one creature it can see within 30 feet of it. the target mu st succeed on a DC 14 Wisdom saving throw or be magically charmed by the Aboleth until the Aboleth dies or until it is on a different plane of existence from the target. <br />The charmed target is under the Aboleth's control and can't take reactions, and the abol eth andthe target can communicate telepathically with each other over any distance. Whenever the charmed target takes damage, the ta rget can repeat the saving throw. On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mil e away from the Aboleth."
+      "description | Enslave (3/Day) | The Aboleth targets one creature it can see within 30 feet of it. the target must succeed on a DC 14 Wisdom saving throw or be magically charmed by the Aboleth until the Aboleth dies or until it is on a different plane of existence from the target. <br />The charmed target is under the Aboleth's control and can't take reactions, and the abol eth andthe target can communicate telepathically with each other over any distance. Whenever the charmed target takes damage, the ta rget can repeat the saving throw. On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mil e away from the Aboleth."
     ],
     "tags": [
       "creature",
@@ -27847,5 +27816,253 @@
       "Book: Volos_Guide_220"
     ],
     "background_image": "https://www.dandwiki.com/w/images/a/ad/Cyrus.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Nihilith Aboleth",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Large Undead, Chaotic Evil",
+      "rule",
+      "property | Armor class | 17 (natural armor)",
+      "property | Hit points | 135 (18d10 + 36)",
+      "property | Speed | 10ft, <b>Swim</b> 40ft, <b>Fly</b> 40ft (ethereal only)",
+      "rule",
+      "dndstats | 21 | 9 | 15 | 18 | 15 | 18",
+      "rule",
+      "property | Saving Throws | Con +6, Int +8, Wis +6",
+      "property | Skill | History +12, Perception +10",
+      "property | Damage Resistances | Acid, Fire, Lightning, Thunder (ethereal form); Physical from non-magical weapons",
+      "property | Damage Immunities | Cold, Necrotic, Poison; Physical from non-magical weapons (ethereal form)",
+      "property | Condition Immunities | Charmed, Exhaustion, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained",
+      "property | Senses | Darkvision 120ft, Passive Perception 20",
+      "property | Language | Void Speech, Telepathy 120ft",
+      "property | Challenge | 12 (8400 XP)",
+      "rule",
+     "description |Aboleth Traits| Unless noted otherwise or where contradicted below, a nihileth has the same traits as a living aboleth. This includes legendary actions and lair actions. ",
+     "description |Undead Nature| Does not require air, food, drink, or sleep. ",
+     "description |Undead Fortitude| If non-radiant damage reduces a nihileth to 0 hit points, it makes a Constitution saving throw with a DC of 5+ the damage taken. If it succeeds, the nihileth drops to 1 hit point instead."
+    ],
+    "tags": [
+      "creature",
+      "Undead",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: Yes",
+      "Book: Tome_Beast_9"
+    ],
+    "background_image": "https://i.imgur.com/yrrq9ZV.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Nihilith Aboleth Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+     "description |Dual State| A nihileth exists upon the Material Plane in one of two forms and can switch between them at will. In its material form, it has resistance to damage from nonmagical weapons. In its ethereal form, it is immune to damage from nonmagical weapons. The creature’s ethereal form appears as a dark purple outline of its material form, with a blackish-purple haze within. A nihileth in ethereal form can move through air as though it were water, with a fly speed of 40 feet. ",
+     "description |Void Aura| A nihileth doesn’t secrete the mucous cloud of an aboleth. Instead, the undead nihileth is surrounded by a chilling cloud. A living creature that starts its turn within 5 feet of a nihileth must make a successful DC 14 Constitution saving throw or be slowed until the start of its next turn. In addition, any creature that has been diseased by a nihileth or a nihilethic zombie takes 7 (2d6) cold damage every time it starts its turn within the aura.",
+     "description |Infecting Telepathy| If a creature communicates telepathically with the nihileth, or uses a psychic attack against it, the nihileth can spread its disease to the creature. The creature must succeed on a DC 14 Wisdom save or become infected with the same disease caused by the nihileth’s tentacle attack. This ability replaces an aboleth’s Probing Telepathy ability."
+    ],
+    "tags": [
+      "creature",
+      "Undead",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: Yes",
+      "Book: Tome_Beast_9"
+    ],
+    "background_image": "https://i.imgur.com/yrrq9ZV.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Nihilith Aboleth Continued: Action",
+    "icon": "imp-laugh",
+    "contents": [
+     "section | Actions",
+     "description |Multiattack| The nihileth makes three tentacle attacks or three withering touches, depending on what form it is in.",
+     "description |Tentacle (Material Form Only)| Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage. If the target creature is hit, it must make a successful DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute; during that time, it can be removed by lesser restoration or comparable magic. After 1 minute, the diseased creature’s skin becomes translucent and slimy. The creature cannot regain hit points unless it is entirely underwater, and the disease can only be removed by heal or comparable magic. Unless the creature is fully submerged or frequently doused with water, it takes 6 (1d12) acid damage every 10 minutes. If a creature dies while diseased, it rises in 1d6 rounds as a nihilethic zombie. This zombie is permanently dominated by the nihileth. ",
+     "description |Withering Touch (Ethereal Form Only)| Melee Weapon Attack: +8 to hit, reach 10 ft., one creature. Hit: 14 (3d6+4) necrotic damage.",
+     "description |Form Swap| As a bonus action, the nihileth can alter between its material and ethereal forms at will.",
+     "description |Void Body| As a reaction, the nihileth can reduce the damage it takes from a single source to 0. Divine damage can only be reduced by half."
+    ],
+    "tags": [
+      "creature",
+      "Undead",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: Yes",
+      "Book: Tome_Beast_9"
+    ],
+    "background_image": "https://i.imgur.com/yrrq9ZV.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Nihilith Aboleth Continued: Legendary",
+    "icon": "imp-laugh",
+    "contents": [
+      "description | Tail | Melee: +9 to hit, reach 10ft. one target. Hit: 15(3d6+5) bludgeoning damage.",
+      "description | Enslave (3/Day) | The Aboleth targets one creature it can see within 30 feet of it. the target mu st succeed on a DC 14 Wisdom saving throw or be magically charmed by the Aboleth until the Aboleth dies or until it is on a different plane of existence from the target. <br />The charmed target is under the Aboleth's control and can't take reactions, and the abol eth andthe target can communicate telepathically with each other over any distance. Whenever the charmed target takes damage, the ta rget can repeat the saving throw. On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mil e away from the Aboleth.",
+     "fill | 1",
+     "section | Legendary Actions",
+     "text |A nihileth may take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The nihileth regains spent legendary actions at the start of its turn.",
+     "description | Detect|The Aboleth makes a Wisdom (Perception) check.",
+     "description | Tail Swipe| The Aboleth makes one tail attack.",
+     "description | Psychic Drain (Costs 2 Actions)| One creature charmed by the Aboleth takes 10 (3d6) psychic damage, and the Aboleth regains hit points equal to the damage the creature takes. "
+    ],
+    "tags": [
+      "creature",
+      "Undead",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: Yes",
+      "Book: Tome_Beast_9"
+    ],
+    "background_image": "https://i.imgur.com/yrrq9ZV.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Nihilethic Zombie",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Undead, Neutral Evil",
+      "rule",
+      "property | Armor class | 9 (natural armor)",
+      "property | Hit points | 22 (3d8 + 9)",
+      "property | Speed | 20ft, <b>Swim</b> 30ft",
+      "rule",
+      "dndstats | 13 | 6 | 16 | 3 | 6 | 5",
+      "rule",
+      "property | Saving Throws | Wis +0",
+      "property | Skill | History +12, Perception +10",
+      "property | Damage Resistances | Physical from non-magical weapons",
+      "property | Damage Immunities | Cold, Necrotic, Poison; Physical from non-magical weapons (ethereal form)",
+      "property | Condition Immunities | Poisoned",
+      "property | Senses | Darkvision 60ft, Passive Perception 8",
+      "property | Language | Understand Void Speech and the languages it knew in life but can't speak",
+      "property | Challenge | 1 (200 XP)",
+      "rule",
+     "description |Undead Fortitude| If damage reduces the nihileth to 0 hit points, it must make a Constitution save with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. Success: drops to 1 hit point instead.",
+     "description |Dual State| Like its nihileth creator, a nihilethic zombie can assume either a material or ethereal form. When in its material form, it has resistance to nonmagical weapons. In its ethereal form, it is immune to nonmagical weapons. Its ethereal form appears as a dark purple outline of its material form, with a blackish-purple haze within."
+    ],
+    "tags": [
+      "creature",
+      "Undead",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_9"
+    ],
+    "background_image": "https://i.imgur.com/Gqhnr0q.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Nihilith Zombie Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+     "section | Actions",
+     "description |Slam (Material Form Only)| Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage and the target must make a successful DC 13 Constitution saving throw or become diseased. The disease has little effect for 1 minute; during that time, it can be removed by bless, lesser restoration, or comparable magic. After 1 minute, the diseased creature's skin becomes translucent and slimy. The creature cannot regain hit points unless it is at least partially underwater, and the disease can only be removed by heal or comparable magic. Unless the creature is either fully submerged or frequently doused with water, it takes 6 (1d12) acid damage every 10 minutes. If a creature dies while diseased, it rises in 2d6 rounds as a nihilethic zombie. This zombie is permanently dominated by the nihileth that commands the attacking zombie.",
+     "description |Withering Touch (Ethereal Form)| Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) necrotic damage.",
+     "description |Form Swap| As a bonus action, the nihilethic zombie can alter between its material and ethereal forms at will."
+    ],
+    "tags": [
+      "creature",
+      "Undead",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_9"
+    ],
+    "background_image": "https://i.imgur.com/Gqhnr0q.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Nihilith Zombie Continued: Reactions",
+    "icon": "imp-laugh",
+    "contents": [
+     "description |Sacrifice Life| A nihilethic zombie can sacrifice itself to heal a nihileth within 30 feet of it. All of its remaining hit points transfer to the nihileth in the form of healing. The nihilethic zombie is reduced to 0 hit points and it doesn't make an Undead Fortitude saving throw. A nihileth cannot be healed above its maximum hit points in this manner.",
+     "fill | 1",
+     "section | Reactions",
+     "description |Void Body| The nihilethic zombie can reduce the damage it takes from a single source by 1d12 points. This reduction cannot be applied to radiant damage."
+    ],
+    "tags": [
+      "creature",
+      "Undead",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_9"
+    ],
+    "background_image": "https://i.imgur.com/Gqhnr0q.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Abominable Beauty",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Fey, Neutral Evil",
+      "rule",
+      "property | Armor class | 18 (natural armor)",
+      "property | Hit points | 187 (22d8 + 88)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 17 | 18 | 18 | 17 | 16 | 26",
+      "rule",
+      "property | Saving Throws | Deception +12, Perception +7, Performance +12, Persuasion +12",
+      "property | Skill | History +12, Perception +10",
+      "property | Damage Immunities | Fire",
+      "property | Senses | Darkvision 60ft, Passive Perception 8",
+      "property | Language | Common, Draconic, Elven, Sylvan",
+      "property | Challenge | 11 (7200 XP)",
+      "rule",
+     "description |Burning Touch| The abominable beauty's slam attacks do 28 (8d6) fire damage. A creature who touches her also takes 28 (8d6) fire damage.",
+     "fill | 1",
+     "section | Actions",
+     "description |Multiattack| Abominable beauty makes two slam attacks.",
+     "description |Slam| +8 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) damage plus 28 (8d6) fire damage."
+    ],
+    "tags": [
+      "creature",
+      "Fey",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_11"
+    ],
+    "background_image": "https://i.imgur.com/VzGZauY.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Abominable Beauty Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+     "description |Blinding Gaze (Recharge 5-6)| A creature within 30 feet of the abominable beauty who is targeted by this attack and who meets the abominable beauty's gaze must succeed on a DC 17 Charisma saving throw or be blinded. If the saving throw succeeds, the target creature is permanently immune to this abominable beauty's Blinding Gaze.",
+     "description |Deafening Voice (Recharge 5-6)| An abominable beauty's voice is lovely, but any creature within 90 feet and able to hear her when she makes her Deafening Voice attack must succeed on a DC 16 Constitution saving throw or be permanently deafened."
+    ],
+    "tags": [
+      "creature",
+      "Fey",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_11"
+    ],
+    "background_image": "https://i.imgur.com/VzGZauY.png"
   }
 ]
