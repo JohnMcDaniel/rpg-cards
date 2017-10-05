@@ -2,63 +2,95 @@
   {
     "count": 1,
     "color": "default",
-    "title": "Warlock of the Fiend",
+    "title": "Brontosaurus",
     "icon": "imp-laugh",
     "contents": [
-      "subtitle | Medium Humanoid (Any), Any Alignment",
+      "subtitle | Gargantuan Beast, Unaligned",
       "rule",
-      "property | Armor class | 12 (15 with mage armor)",
-      "property | Hit points | 78 (12d8+24)",
+      "property | Armor class | 15 (natural armor)",
+      "property | Hit points | 121 (9d20+27)",
       "property | Speed | 30ft",
       "rule",
-      "dndstats | 10 | 14 | 15 | 12 | 12 | 18",
+      "dndstats | 21 | 9 | 17 | 2 | 10 | 7",
       "rule",
-      "property | Saving Throws | Wis +4, Cha +7",
-      "property | Skills | Arcana +4, Deception +7, Persuasion +7, Religion +4",
-      "property | Damage Resistances | Physical from non-magical weapons",
-      "property | Senses | Darkvision 60ft, Passive Perception 11",
-      "property | Language | Any two languages (usually Abyssal or Infernal)",
-      "property | Challenge | 7 (2900 xp)",
+      "property | Saving Throws | Con +6",
+      "property | Senses | Passive Perception 10",
+      "property | Language | -",
+      "property | Challenge | 5 (1800 XP)",
       "rule",
-      "description|Innate Spellcasting| The warlock’s innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:",
-      "description|At will:| <i>alter self</i>, <i>false life</i>, <i>levitate</i> (self only), <i>mage armor</i> (self only), <i>silent image</i>",
-      "description|1/day each:| <i>feeblemind</i>, <i>finger of death</i>, <i>plane shift</i>"
+      "fill | 1",
+     "section | Actions",
+     "description |Stomp| Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit: 27 (5d8+5) bludgeoning damage, and the target must succed on a DC 14 Strength saving throw or be knocked prone.",
+     "description |Tail| Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit: 32 (6d8+5) bludgeoning damage."
     ],
     "tags": [
       "creature",
-      "Humanoid",
-      "subrace: Any",
-      "Structure: Any",
-      "Alignment: Any",
+      "Beast",
+      "subrace: Dinosaur",
+      "Structure: Unaligned",
+      "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_139"
     ],
-    "background_image": "https://vignette4.wikia.nocookie.net/forgottenrealms/images/3/3e/Warlock_PHB5e.png/revision/latest?cb=20140912010808"
+    "background_image": "https://i.pinimg.com/originals/78/89/38/788938feae5eee5a4e33696808a148e3.jpg"
   },
   {
     "count": 1,
     "color": "default",
-    "title": "Warlock of the Fiend Continued: Abilities",
+    "title": "Death Kiss",
     "icon": "imp-laugh",
     "contents": [
-      "description|Spellcasting| The warlock is a l7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
-      "description|Cantrips (at will):| <i>eldritch blast</i>, <i>fire bolt</i>, <i>friends</i>, <i>mage hand</i>, <i>minor illusion</i>, <i>prestidigitation</i>, <i>shocking grasp</i>",
-      "description|1st-5th level (4 5th-level slots):| <i>banishment</i>, <i>burning hands</i>, <i>flame strike</i>, <i>hellish rebuke</i>, <i>magic circle</i>, <i>scorching ray</i>, <i>scrying</i>, <i>stinking cloud</i>, <i>suggestion</i>, <i>wall of fire</i>",
-      "description|Dark One's Own Luck (Recharges after a Short or Long Rest)| When the warlock makes an ability check or saving throw, it can add a d10 to the roll. It can do this after the roll is made but before any of the roll’s effects occur.",
+      "subtitle | Large Aberration, Neutral Evil",
+      "rule",
+      "property | Armor class | 16 (natural armor)",
+      "property | Hit points | 161 (17d10+68)",
+      "property | Speed | 0ft, <b>Fly</b> 30ft (hover)",
+      "rule",
+      "dndstats | 18 | 14 | 18 | 10 | 12 | 10",
+      "rule",
+      "property | Saving Throws | Con +8, Wis +5",
+      "property | Skills | Perception +5",
+      "property | Damage Immunities | Lightning",
+      "property | Condition Immunities | Prone",
+      "property | Senses | Darkvision 120ft, Passive Perception 15",
+      "property | Language | Deep Speech, Undercommon",
+      "property | Challenge | 10 (5900 xp)",
+      "rule",
+      "description|Lightning Blood| A creature within 5 feet of the death kiss takes 5 (1d10) lightning damage whenever it hits the death kiss with a melee attack that deals piercing or slashing damage.",
       "fill | 1",
      "section | Actions",
-      "description|Mace| Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage plus 10 (3d6) fire damage."
+      "description|Multiattack| The death kiss makes three tentacle attacks. Up to three of these attacks can be replaced by Blood Drain, one replacement per tentacle grappling a creature"
     ],
     "tags": [
       "creature",
       "Humanoid",
-      "subrace: Any",
-      "Structure: Any",
-      "Alignment: Any",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
       "Legendary: No",
       "Book: Volos_Guide_122"
     ],
-    "background_image": "https://vignette4.wikia.nocookie.net/forgottenrealms/images/3/3e/Warlock_PHB5e.png/revision/latest?cb=20140912010808"
+    "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/0/01/Deathkiss-5e.png/revision/latest?cb=20161201165316"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Death Kiss Continued: Legendary",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|Tentacle| Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit: 14 (3d6+4) piercing damage, and the target is grappled (escape DC 14) if it is a Huge or smaller creature. Until this grapple ends, the target is restrained, and the death kiss can't use the same tentacle on another target. The death kiss has ten tentacles.",
+      "description|Blood Drain| One creature grappled by a tentacle of the death kiss must make a DC 16 Constitution saving throw. On a failed save, the target takes 22 (4d10) lightning damage, and the death kiss regains half as many hit points."
+    ],
+    "tags": [
+      "creature",
+      "Aberration",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/0/01/Deathkiss-5e.png/revision/latest?cb=20161201165316"
   },
   {
     "count": 1,
@@ -20916,7 +20948,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_123"
     ],
     "background_image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/f/f6/Barghest-5e.jpg/revision/latest?cb=20161216220156"
   },
@@ -20943,9 +20975,67 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_123"
     ],
     "background_image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/f/f6/Barghest-5e.jpg/revision/latest?cb=20161216220156"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Death Kiss",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Large Aberration, Neutral Evil",
+      "rule",
+      "property | Armor class | 16 (natural armor)",
+      "property | Hit points | 161 (17d10+68)",
+      "property | Speed | 0ft, <b>Fly</b> 30ft (hover)",
+      "rule",
+      "dndstats | 18 | 14 | 18 | 10 | 12 | 10",
+      "rule",
+      "property | Saving Throws | Con +8, Wis +5",
+      "property | Skills | Perception +5",
+      "property | Damage Immunities | Lightning",
+      "property | Condition Immunities | Prone",
+      "property | Senses | Darkvision 120ft, Passive Perception 15",
+      "property | Language | Deep Speech, Undercommon",
+      "property | Challenge | 10 (5900 xp)",
+      "rule",
+      "description|Lightning Blood| A creature within 5 feet of the death kiss takes 5 (1d10) lightning damage whenever it hits the death kiss with a melee attack that deals piercing or slashing damage.",
+      "fill | 1",
+     "section | Actions",
+      "description|Multiattack| The death kiss makes three tentacle attacks. Up to three of these attacks can be replaced by Blood Drain, one replacement per tentacle grappling a creature"
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_124"
+    ],
+    "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/0/01/Deathkiss-5e.png/revision/latest?cb=20161201165316"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Death Kiss Continued: Legendary",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|Tentacle| Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit: 14 (3d6+4) piercing damage, and the target is grappled (escape DC 14) if it is a Huge or smaller creature. Until this grapple ends, the target is restrained, and the death kiss can't use the same tentacle on another target. The death kiss has ten tentacles.",
+      "description|Blood Drain| One creature grappled by a tentacle of the death kiss must make a DC 16 Constitution saving throw. On a failed save, the target takes 22 (4d10) lightning damage, and the death kiss regains half as many hit points."
+    ],
+    "tags": [
+      "creature",
+      "Aberration",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_124"
+    ],
+    "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/0/01/Deathkiss-5e.png/revision/latest?cb=20161201165316"
   },
   {
     "count": 1,
@@ -20978,7 +21068,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_125"
     ],
     "background_image": "https://vignette2.wikia.nocookie.net/forgottenrealms/images/e/e6/Gauth-5e.png/revision/latest?cb=20161117183122"
   },
@@ -21005,7 +21095,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_125"
     ],
     "background_image": "https://vignette2.wikia.nocookie.net/forgottenrealms/images/e/e6/Gauth-5e.png/revision/latest?cb=20161117183122"
   },
@@ -21018,7 +21108,7 @@
       "subtitle | Tiny Aberration, Neutral Evil",
       "rule",
       "property | Armor class | 13",
-      "property | Hit points | 13 (3d4+6)",
+      "property | Hit points | 13 (3d4 + 6)",
       "property | Speed | 0ft, <b>Fly</b> 30ft (hover)",
       "rule",
       "dndstats | 3 | 17 | 14 | 3 | 10 | 7",
@@ -21040,7 +21130,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_126"
     ],
     "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/5/58/Gazer-5e.jpg/revision/latest?cb=20161208165845"
   },
@@ -21065,7 +21155,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_126"
     ],
     "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/5/58/Gazer-5e.jpg/revision/latest?cb=20161208165845"
   },
@@ -21078,7 +21168,7 @@
       "subtitle | Medium Undead, Chaotic Evil",
       "rule",
       "property | Armor class | 15 (natural armor)",
-      "property | Hit points | 58 (9d8+18)",
+      "property | Hit points | 58 (9d8 + 18)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 15 | 16 | 15 | 7 | 12 | 12",
@@ -21100,7 +21190,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_127"
     ],
     "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/e/e6/Bodak-5e.jpg/revision/latest?cb=20161213152432"
   },
@@ -21124,7 +21214,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_127"
     ],
     "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/e/e6/Bodak-5e.jpg/revision/latest?cb=20161213152432"
   },
@@ -21137,7 +21227,7 @@
       "subtitle | Small Fey, Chaotic Neutral",
       "rule",
       "property | Armor class | 14",
-      "property | Hit points | 18 (4d6+4)",
+      "property | Hit points | 18 (4d6 + 4)",
       "property | Speed | 30ft, <b>Climb</b> 30ft",
       "rule",
       "dndstats | 8 | 18 | 13 | 6 | 12 | 7",
@@ -21157,7 +21247,7 @@
       "Structure: Chaotic",
       "Alignment: Neutral",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_128"
     ],
     "background_image": "https://vignette3.wikia.nocookie.net/forgottenrealms/images/0/08/Boggle-5e.jpg/revision/latest?cb=20161214201237"
   },
@@ -21181,7 +21271,7 @@
       "Structure: Chaotic",
       "Alignment: Neutral",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_128"
     ],
     "background_image": "https://vignette3.wikia.nocookie.net/forgottenrealms/images/0/08/Boggle-5e.jpg/revision/latest?cb=20161214201237"
   },
@@ -21217,7 +21307,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_129"
     ],
     "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/2/2a/Catoblepas-5e.png/revision/latest?cb=20161130223345"
   },
@@ -21230,7 +21320,7 @@
       "subtitle | Medium Monstrosity, Unaligned",
       "rule",
       "property | Armor class | 16 (natural armor)",
-      "property | Hit points | 58 (9d8+18)",
+      "property | Hit points | 58 (9d8 + 18)",
       "property | Speed | 20ft, <b>Climb</b> 20ft",
       "rule",
       "dndstats | 16 | 13 | 14 | 3 | 10 | 3",
@@ -21252,7 +21342,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_130"
     ],
     "background_image": "http://www.enworld.org/forum/attachment.php?attachmentid=74397&d=1455323399"
   },
@@ -21274,7 +21364,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_130"
     ],
     "background_image": "http://www.enworld.org/forum/attachment.php?attachmentid=74397&d=1455323399"
   },
@@ -21287,7 +21377,7 @@
       "subtitle | Small Monstrosity, Chaotic Evil",
       "rule",
       "property | Armor class | 14 (hide armor)",
-      "property | Hit points | 18 (4d6+4)",
+      "property | Hit points | 18 (4d6 + 4)",
       "property | Speed | 30ft, <b>Climb</b> 30ft",
       "rule",
       "dndstats | 10 | 14 | 12 | 10 | 10 | 7",
@@ -21313,7 +21403,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_131"
     ],
     "background_image": "https://vignette4.wikia.nocookie.net/forgottenrealms/images/7/77/Chitine-5e.jpg/revision/latest?cb=20161128230059"
   },
@@ -21326,7 +21416,7 @@
       "subtitle | Medium Monstrosity, Chaotic Evil",
       "rule",
       "property | Armor class | 15 (studded leather armor)",
-      "property | Hit points | 15 (12d8+12)",
+      "property | Hit points | 15 (12d8 + 12)",
       "property | Speed | 30ft, <b>Climb</b> 30ft",
       "rule",
       "dndstats | 12 | 16 | 12 | 11 | 14 | 10",
@@ -21350,7 +21440,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_132"
     ],
     "background_image": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/600/1000/1000/636329515610051032.jpeg"
   },
@@ -21375,7 +21465,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_132"
     ],
     "background_image": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/600/1000/1000/636329515610051032.jpeg"
   },
@@ -21410,7 +21500,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_133"
     ],
     "background_image": "https://vignette3.wikia.nocookie.net/forgottenrealms/images/0/07/Cranium_rats-5e.jpg/revision/latest?cb=20161222161243"
   },
@@ -21446,7 +21536,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_133"
     ],
     "background_image": "http://bexshea.com/wp-content/uploads/2016/11/tumblr_inline_mgn9fzdxcz1r0zz7o.jpg"
   },
@@ -21469,7 +21559,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_133"
     ],
     "background_image": "http://bexshea.com/wp-content/uploads/2016/11/tumblr_inline_mgn9fzdxcz1r0zz7o.jpg"
   },
@@ -21482,7 +21572,7 @@
       "subtitle | Small Fey, Chaotic Neutral",
       "rule",
       "property | Armor class | 14 (leather armor)",
-      "property | Hit points | 13 (3d6+3)",
+      "property | Hit points | 13 (3d6 + 3)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 9 | 16 | 12 | 10 | 12 | 10",
@@ -21495,7 +21585,7 @@
       "description |Death Flash| On death, nonmagical light 10ft radius as its body and possessions, other than metal or magic objects, burn to ash. Any creature in that area and able to see the bright light must succeed on a DC 10 Constitution saving throw or be blinded until the end of the creature’s next turn.",
       "description |Light Sensitivity| While in bright light, the darkling has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.",
      "section | Actions",
-      "description |Dagger| Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4+3) piercing damage. If the darkling has advantage on the attack roll, the attack deals an extra 7 (2d6) piercing damage."
+      "description |Dagger| Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage. If the darkling has advantage on the attack roll, the attack deals an extra 7 (2d6) piercing damage."
     ],
     "tags": [
       "creature",
@@ -21504,7 +21594,7 @@
       "Structure: Chaotic",
       "Alignment: Neutral",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_134"
     ],
     "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/d/d6/Darklings-5e.jpg/revision/latest?cb=20161220040509"
   },
@@ -21517,7 +21607,7 @@
       "subtitle | Medium Fey, Chaotic Neutral",
       "rule",
       "property | Armor class | 15 (studded leather armor)",
-      "property | Hit points | 27 (5d8+5)",
+      "property | Hit points | 27 (5d8 + 5)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 13 | 17 | 12 | 10 | 14 | 13",
@@ -21541,7 +21631,7 @@
       "Structure: Chaotic",
       "Alignment: Neutral",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_134"
     ],
     "background_image": "https://img.fireden.net/tg/image/1494/61/1494612361889.png"
   },
@@ -21554,7 +21644,7 @@
       "subtitle | Medium Monstrosity, Neutral Evil",
       "rule",
       "property | Armor class | 11",
-      "property | Hit points | 67 (9d8+27)",
+      "property | Hit points | 67 (9d8 + 27)",
       "property | Speed | 30ft, (20ft & <b>Swim</b> 40ft, in hybrid)",
       "rule",
       "dndstats | 18 | 13 | 16 | 10 | 12 | 14",
@@ -21576,7 +21666,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_135"
     ],
     "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/3/32/Deep_scion-5e.jpg/revision/latest?cb=20170206193814"
   },
@@ -21600,7 +21690,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_135"
     ],
     "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/3/32/Deep_scion-5e.jpg/revision/latest?cb=20170206193814"
   },
@@ -21637,7 +21727,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_136"
     ],
     "background_image": "https://vignette4.wikia.nocookie.net/forgottenrealms/images/1/1c/Babau.jpg/revision/latest?cb=20110622004519"
   },
@@ -21660,7 +21750,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_136"
     ],
     "background_image": "https://vignette4.wikia.nocookie.net/forgottenrealms/images/1/1c/Babau.jpg/revision/latest?cb=20110622004519"
   },
@@ -21673,7 +21763,7 @@
       "subtitle | Medium Fiend (Demon), Chaotic Evil",
       "rule",
       "property | Armor class | 13 (natural armor)",
-      "property | Hit points | 33 (6d8+6)",
+      "property | Hit points | 33 (6d8 + 6)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 14 | 8 | 13 | 5 | 8 | 5",
@@ -21698,7 +21788,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_137"
     ],
     "background_image": "https://vignette2.wikia.nocookie.net/forgottenrealms/images/a/a4/Maw_demon-5e.jpg/revision/latest?cb=20161226044255"
   },
@@ -21711,7 +21801,7 @@
       "subtitle | Large Fiend (Demon), Chaotic Evil",
       "rule",
       "property | Armor class | 14 (natural armor)",
-      "property | Hit points | 110 (13d10+39)",
+      "property | Hit points | 110 (13d10 + 39)",
       "property | Speed | 40ft",
       "rule",
       "dndstats | 18 | 13 | 17 | 7 | 14 | 9",
@@ -21738,7 +21828,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_137"
     ],
     "background_image": "http://www.enworld.org/forum/attachment.php?attachmentid=79217&d=1482008645"
   },
@@ -21751,7 +21841,7 @@
       "subtitle | Large Fiend, Chaotic Evil",
       "rule",
       "property | Armor class | 16 (natural armor)",
-      "property | Hit points | 178 (17d10+85)",
+      "property | Hit points | 178 (17d10 + 85)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 20 | 12 | 20 | 13 | 10 | 16",
@@ -21775,7 +21865,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_138"
     ],
     "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/a/a3/Devourer-5e.png/revision/latest?cb=20161201170706"
   },
@@ -21795,7 +21885,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_138"
     ],
     "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/a/a3/Devourer-5e.png/revision/latest?cb=20161201170706"
   },
@@ -21808,7 +21898,7 @@
       "subtitle | Medium Beast, Unaligned",
       "rule",
       "property | Armor class | 12 (natural armor)",
-      "property | Hit points | 19 (3d8+6)",
+      "property | Hit points | 19 (3d8 + 6)",
       "property | Speed | 30ft, <b>Swim</b> 20ft",
       "rule",
       "dndstats | 14 | 10 | 15 | 2 | 10 | 5",
@@ -21829,9 +21919,44 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_139"
     ],
     "background_image": "https://dungeonhacking.files.wordpress.com/2015/07/pcdimetrodonpromo.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Brontosaurus",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Gargantuan Beast, Unaligned",
+      "rule",
+      "property | Armor class | 15 (natural armor)",
+      "property | Hit points | 121 (9d20+27)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 21 | 9 | 17 | 2 | 10 | 7",
+      "rule",
+      "property | Saving Throws | Con +6",
+      "property | Senses | Passive Perception 10",
+      "property | Language | -",
+      "property | Challenge | 5 (1800 XP)",
+      "rule",
+      "fill | 1",
+     "section | Actions",
+     "description |Stomp| Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit: 27 (5d8+5) bludgeoning damage, and the target must succed on a DC 14 Strength saving throw or be knocked prone.",
+     "description |Tail| Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit: 32 (6d8+5) bludgeoning damage."
+    ],
+    "tags": [
+      "creature",
+      "Beast",
+      "subrace: Dinosaur",
+      "Structure: Unaligned",
+      "Alignment: Unaligned",
+      "Legendary: No",
+      "Book: Volos_Guide_139"
+    ],
+    "background_image": "https://i.pinimg.com/originals/78/89/38/788938feae5eee5a4e33696808a148e3.jpg"
   },
   {
     "count": 1,
@@ -21842,7 +21967,7 @@
       "subtitle | Medium Beast, Unaligned",
       "rule",
       "property | Armor class | 13 (natural armor)",
-      "property | Hit points | 26 (4d8+8)",
+      "property | Hit points | 26 (4d8 + 8)",
       "property | Speed | 40ft",
       "rule",
       "dndstats | 21 | 9 | 17 | 2 | 10 | 7",
@@ -21866,7 +21991,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_139"
     ],
     "background_image": "https://dungeonhacking.files.wordpress.com/2015/07/deinonychus_antirrhopus.gif"
   },
@@ -21879,7 +22004,7 @@
       "subtitle | Large Beast, Unaligned",
       "rule",
       "property | Armor class | 11 (natural armor)",
-      "property | Hit points | 19 (3d10+3)",
+      "property | Hit points | 19 (3d10 + 3)",
       "property | Speed | 40ft",
       "rule",
       "dndstats | 15 | 10 | 13 | 2 | 10 | 5",
@@ -21900,7 +22025,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_140"
     ],
     "background_image": "http://img2.wikia.nocookie.net/__cb20130701230203/dinosaurs/images/c/ca/Hadrosaurus-1.jpg"
   },
@@ -21913,7 +22038,7 @@
       "subtitle | Huge Beast, Unaligned",
       "rule",
       "property | Armor class | 13 (natural armor)",
-      "property | Hit points | 30 (4d12+4)",
+      "property | Hit points | 30 (4d12 + 4)",
       "property | Speed | 10ft, <b>Fly</b> 80ft",
       "rule",
       "dndstats | 15 | 13 | 13 | 2 | 10 | 5",
@@ -21936,7 +22061,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_140"
     ],
     "background_image": "http://pre09.deviantart.net/8029/th/pre/i/2016/270/b/d/rjpalmer_quetzalcoatlus_002_by_arvalis_d9yqo97_by_arvalis-daj1ork.jpg"
   },
@@ -21949,7 +22074,7 @@
       "subtitle | Huge Beast, Unaligned",
       "rule",
       "property | Armor class | 13 (natural armor)",
-      "property | Hit points | 76 (8d12+24)",
+      "property | Hit points | 76 (8d12 + 24)",
       "property | Speed | 40ft",
       "rule",
       "dndstats | 20 | 9 | 17 | 2 | 11 | 5",
@@ -21969,7 +22094,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_140"
     ],
     "background_image": "https://thethesiswhisperer.files.wordpress.com/2010/11/stegosaurus.jpg"
   },
@@ -21982,7 +22107,7 @@
       "subtitle | Tiny Beast, Unaligned",
       "rule",
       "property | Armor class | 13 (natural armor)",
-      "property | Hit points | 10 (3d4+3)",
+      "property | Hit points | 10 (3d4 + 3)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 6 | 14 | 13 | 4 | 12 | 6",
@@ -22006,7 +22131,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_140"
     ],
     "background_image": "http://1.bp.blogspot.com/-B5cSC5p8GZI/V9XvEx_2ivI/AAAAAAAAKPw/01ITyVhYekQVpfuwa55Mn5Eh-k5DGqkrQCK4B/s1600/phpThumb.php.jpeg"
   },
@@ -22019,7 +22144,7 @@
       "subtitle | Large Fiend (Demon), Chaotic Evil",
       "rule",
       "property | Armor class | 15 (natural armor)",
-      "property | Hit points | 123 (13d10+52)",
+      "property | Hit points | 123 (13d10 + 52)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 20 | 15 | 18 | 13 | 11 | 11",
@@ -22049,7 +22174,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_141"
     ],
     "background_image": "https://pbs.twimg.com/media/C4mZkMaUMAEJ8Yw.jpg"
   },
@@ -22062,7 +22187,7 @@
       "subtitle | Medium Humanoid (Firenewt), Chaotic Evil",
       "rule",
       "property | Armor class | 16 (chain shirt, shield)",
-      "property | Hit points | 22 (4d8+4)",
+      "property | Hit points | 22 (4d8 + 4)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 10 | 13 | 12 | 7 | 11 | 8",
@@ -22086,7 +22211,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_142"
     ],
     "background_image": "https://vignette3.wikia.nocookie.net/forgottenrealms/images/b/ba/Firenewt-5e.jpg/revision/latest?cb=20170206190516"
   },
@@ -22099,7 +22224,7 @@
       "subtitle | Large Monstrosity, Neutral Evil",
       "rule",
       "property | Armor class | 14 (natural armor)",
-      "property | Hit points | 22 (3d10+6)",
+      "property | Hit points | 22 (3d10 + 6)",
       "property | Speed | 50ft",
       "rule",
       "dndstats | 18 | 13 | 14 | 4 | 12 | 6",
@@ -22122,7 +22247,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_143"
     ],
     "background_image": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/631/1000/1000/636329668947747269.jpeg"
   },
@@ -22135,7 +22260,7 @@
       "subtitle | Medium Humanoid (Firenewt), Neutral Evil",
       "rule",
       "property | Armor class | 10 (13 with mage armor)",
-      "property | Hit points | 33 (6d8+6)",
+      "property | Hit points | 33 (6d8 + 6)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 18 | 13 | 14 | 4 | 12 | 6",
@@ -22162,7 +22287,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_143"
     ],
     "background_image": "http://spriggans-den.com/wp-content/uploads/2015/04/mm_xill.jpg"
   },
@@ -22175,7 +22300,7 @@
       "subtitle | Large Elemental, Unaligned",
       "rule",
       "property | Armor class | 16 (natural armor)",
-      "property | Hit points | 52 (5d10+25)",
+      "property | Hit points | 52 (5d10 + 25)",
       "property | Speed | 10ft",
       "rule",
       "dndstats | 17 | 5 | 20 | 3 | 10 | 5",
@@ -22198,7 +22323,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_144"
     ],
     "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/e/e6/Flail_snail-5e.jpg/revision/latest?cb=20161219001928"
   },
@@ -22223,7 +22348,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_144"
     ],
     "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/e/e6/Flail_snail-5e.jpg/revision/latest?cb=20161219001928"
   },
@@ -22236,7 +22361,7 @@
       "subtitle | Huge Monstrosity, Unaligned",
       "rule",
       "property | Armor class | 14 (natural armor)",
-      "property | Hit points | 184 (16d12+80)",
+      "property | Hit points | 184 (16d12 + 80)",
       "property | Speed | 50ft, <b>Swim</b> 30ft",
       "rule",
       "dndstats | 23 | 13 | 20 | 2 | 12 | 5",
@@ -22261,7 +22386,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_145"
     ],
     "background_image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/c/c0/Froghemoth-5e.jpg/revision/latest/scale-to-width-down/548?cb=20161123022432"
   },
@@ -22282,7 +22407,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_145"
     ],
     "background_image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/c/c0/Froghemoth-5e.jpg/revision/latest/scale-to-width-down/548?cb=20161123022432"
   },
@@ -22295,7 +22420,7 @@
       "subtitle | Huge Giant (Cloud Giant), Chaotic Neutral",
       "rule",
       "property | Armor class | 15 (natural armor)",
-      "property | Hit points | 262 (21d12+128)",
+      "property | Hit points | 262 (21d12 + 128)",
       "property | Speed | 40ft",
       "rule",
       "dndstats | 26 | 12 | 22 | 15 | 16 | 17",
@@ -22323,7 +22448,7 @@
       "Structure: Chaotic",
       "Alignment: Neutral",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_146"
     ],
     "background_image": "https://i.imgur.com/eMyXfKL.png"
   },
@@ -22348,7 +22473,7 @@
       "Structure: Chaotic",
       "Alignment: Neutral",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_146"
     ],
     "background_image": "https://i.imgur.com/eMyXfKL.png"
   },
@@ -22361,7 +22486,7 @@
       "subtitle | Huge Giant (Fire Giant), Lawful Evil",
       "rule",
       "property | Armor class | 21 (plate, shields)",
-      "property | Hit points | 187 (15d12+90)",
+      "property | Hit points | 187 (15d12 + 90)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 27 | 9 | 23 | 8 | 10 | 11",
@@ -22386,7 +22511,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_147"
     ],
     "background_image": "http://www.enworld.org/forum/attachment.php?attachmentid=77472&d=1476440542&stc=1"
   },
@@ -22406,7 +22531,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_147"
     ],
     "background_image": "http://www.enworld.org/forum/attachment.php?attachmentid=77472&d=1476440542&stc=1"
   },
@@ -22419,7 +22544,7 @@
       "subtitle | Huge Giant (Frost Giant), Chaotic Evil",
       "rule",
       "property | Armor class | 15 (patchwork armor)",
-      "property | Hit points | 189 (14d12+98)",
+      "property | Hit points | 189 (14d12 + 98)",
       "property | Speed | 40ft",
       "rule",
       "dndstats | 25 | 9 | 24 | 9 | 10 | 12",
@@ -22441,7 +22566,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_148"
     ],
     "background_image": "https://3.bp.blogspot.com/-j-TJ9xSvhdw/WZTevnVWT_I/AAAAAAAANCg/rhNGMXF-1wgo6v3O7oRIkQik2R0-4F1ewCLcBGAs/s1600/dca60everlasting.jpg"
   },
@@ -22468,7 +22593,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_148"
     ],
     "background_image": "https://3.bp.blogspot.com/-j-TJ9xSvhdw/WZTevnVWT_I/AAAAAAAANCg/rhNGMXF-1wgo6v3O7oRIkQik2R0-4F1ewCLcBGAs/s1600/dca60everlasting.jpg"
   },
@@ -22481,7 +22606,7 @@
       "subtitle | Huge Giant (Hill Giant), Chaotic Evil",
       "rule",
       "property | Armor class | 14 (natural armor)",
-      "property | Hit points | 105 (10d12+40)",
+      "property | Hit points | 105 (10d12 + 40)",
       "property | Speed | 50ft",
       "rule",
       "dndstats | 21 | 10 | 18 | 5 | 7 | 5",
@@ -22503,7 +22628,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_149"
     ],
     "background_image": "http://static1.squarespace.com/static/55f77915e4b0fb0e9ba5f7d8/5608a21ee4b06004c11dee5b/58f4f493579fb307326a36bc/1493911222338/mouth+of+grolantor.jpg?format=1000w"
   },
@@ -22527,7 +22652,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_149"
     ],
     "background_image": "http://static1.squarespace.com/static/55f77915e4b0fb0e9ba5f7d8/5608a21ee4b06004c11dee5b/58f4f493579fb307326a36bc/1493911222338/mouth+of+grolantor.jpg?format=1000w"
   },
@@ -22540,7 +22665,7 @@
       "subtitle | Huge Giant (Stone Giant), Chaotic Neutral",
       "rule",
       "property | Armor class | 18 (natural armor)",
-      "property | Hit points | 161 (14d12+70)",
+      "property | Hit points | 161 (14d12 + 70)",
       "property | Speed | 40ft",
       "rule",
       "dndstats | 23 | 14 | 21 | 10 | 8 | 12",
@@ -22561,7 +22686,7 @@
       "Structure: Chaotic",
       "Alignment: Neutral",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_150"
     ],
     "background_image": "http://s3.amazonaws.com/gw_rssimagefull/102750929-5.jpg"
   },
@@ -22584,7 +22709,7 @@
       "Structure: Chaotic",
       "Alignment: Neutral",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_150"
     ],
     "background_image": "http://s3.amazonaws.com/gw_rssimagefull/102750929-5.jpg"
   },
@@ -22597,7 +22722,7 @@
       "subtitle | Huge Giant (Storm Giant), Chaotic Good",
       "rule",
       "property | Armor class | 12",
-      "property | Hit points | 230 (20d12+100)",
+      "property | Hit points | 230 (20d12 + 100)",
       "property | Speed | 50ft, <b>Fly</b> 50ft (hover), <b>Swim</b> 50ft.",
       "rule",
       "dndstats | 29 | 14 | 20 | 17 | 30 | 19",
@@ -22624,7 +22749,7 @@
       "Structure: Chaotic",
       "Alignment: Neutral",
       "Legendary: Yes",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_151"
     ],
     "background_image": "https://i.imgur.com/cNwUr7u.png"
   },
@@ -22647,7 +22772,7 @@
       "Structure: Chaotic",
       "Alignment: Neutral",
       "Legendary: Yes",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_151"
     ],
     "background_image": "https://i.imgur.com/cNwUr7u.png"
   },
@@ -22660,7 +22785,7 @@
       "subtitle | Large Monstrosity, Unaligned",
       "rule",
       "property | Armor class | 13",
-      "property | Hit points | 59 (7d10+21)",
+      "property | Hit points | 59 (7d10 + 21)",
       "property | Speed | 40ft, <b>Climb</b> 40ft",
       "rule",
       "dndstats | 18 | 16 | 16 | 5 | 12 | 7",
@@ -22684,7 +22809,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_152"
     ],
     "background_image": "https://i.pinimg.com/236x/03/16/64/031664ec6fd89e4ecf7cb8e25aa1b592--warriors-monsters.jpg"
   },
@@ -22697,7 +22822,7 @@
       "subtitle | Medium Humanoid (Gnoll), Chaotic Evil",
       "rule",
       "property | Armor class | 16 (chain mail)",
-      "property | Hit points | 127 (15d8+60)",
+      "property | Hit points | 127 (15d8 + 60)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 20 | 10 | 19 | 11 | 13 | 12",
@@ -22721,7 +22846,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_153"
     ],
     "background_image": "https://vignette4.wikia.nocookie.net/forgottenrealms/images/3/35/Flind-5e.jpg/revision/latest?cb=20161227025753"
   },
@@ -22742,7 +22867,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_153"
     ],
     "background_image": "https://vignette4.wikia.nocookie.net/forgottenrealms/images/3/35/Flind-5e.jpg/revision/latest?cb=20161227025753"
   },
@@ -22755,7 +22880,7 @@
       "subtitle | Medium Humanoid (Gnoll), Chaotic Evil",
       "rule",
       "property | Armor class | 14 (studded leather armor)",
-      "property | Hit points | 22 (4d8+4)",
+      "property | Hit points | 22 (4d8 + 4)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 12 | 14 | 12 | 8 | 10 | 8",
@@ -22780,7 +22905,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_154"
     ],
     "background_image": "https://i.imgur.com/X6T037N.png"
   },
@@ -22793,7 +22918,7 @@
       "subtitle | Medium Humanoid (Gnoll), Chaotic Evil",
       "rule",
       "property | Armor class | 14 (studded leather armor)",
-      "property | Hit points | 22 (4d8+4)",
+      "property | Hit points | 22 (4d8 + 4)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 12 | 14 | 12 | 8 | 10 | 8",
@@ -22818,7 +22943,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_154"
     ],
     "background_image": "https://i.warosu.org/data/tg/img/0371/78/1420576587832.jpg"
   },
@@ -22831,7 +22956,7 @@
       "subtitle | Medium Undead (Gnoll), Chaotic Evil",
       "rule",
       "property | Armor class | 12 (natural armor)",
-      "property | Hit points | 11 (2d8+2)",
+      "property | Hit points | 11 (2d8 + 2)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 14 | 8 | 12 | 5 | 5 | 5",
@@ -22858,7 +22983,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_155"
     ],
     "background_image": "http://www.critical-hits.com/wp-content/uploads/2009/12/witherling_mm2-199x300.jpg"
   },
@@ -22871,7 +22996,7 @@
       "subtitle | Small Humanoid (Grung), Lawful Evil",
       "rule",
       "property | Armor class | 12",
-      "property | Hit points | 11 (2d6+4)",
+      "property | Hit points | 11 (2d6 + 4)",
       "property | Speed | 25ft, <b>Climb</b> 25ft",
       "rule",
       "dndstats | 7 | 14 | 15 | 10 | 11 | 10",
@@ -22895,7 +23020,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_156"
     ],
     "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/1/1f/Grungs-5e.jpg/revision/latest?cb=20161219204006"
   },
@@ -22920,7 +23045,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_156"
     ],
     "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/1/1f/Grungs-5e.jpg/revision/latest?cb=20161219204006"
   },
@@ -22933,7 +23058,7 @@
       "subtitle | Small Humanoid (Grung), Lawful Evil",
       "rule",
       "property | Armor class | 13",
-      "property | Hit points | 49 (9d6+18)",
+      "property | Hit points | 49 (9d6 + 18)",
       "property | Speed | 25ft, <b>Climb</b> 25ft",
       "rule",
       "dndstats | 7 | 16 | 15 | 10 | 11 | 12",
@@ -22957,7 +23082,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_156"
     ],
     "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/1/1f/Grungs-5e.jpg/revision/latest?cb=20161219204006"
   },
@@ -22983,7 +23108,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_156"
     ],
     "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/1/1f/Grungs-5e.jpg/revision/latest?cb=20161219204006"
   },
@@ -22996,7 +23121,7 @@
       "subtitle | Small Humanoid (Grung), Lawful Evil",
       "rule",
       "property | Armor class | 13 (16 with barkskin)",
-      "property | Hit points | 27 (5d6+10)",
+      "property | Hit points | 27 (5d6 + 10)",
       "property | Speed | 25ft, <b>Climb</b> 25ft",
       "rule",
       "dndstats | 7 | 16 | 15 | 10 | 15 | 11",
@@ -23023,7 +23148,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_156"
     ],
     "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/1/1f/Grungs-5e.jpg/revision/latest?cb=20161219204006"
   },
@@ -23048,7 +23173,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_156"
     ],
     "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/1/1f/Grungs-5e.jpg/revision/latest?cb=20161219204006"
   },
@@ -23061,7 +23186,7 @@
       "subtitle | Medium Dragon, Unaligned",
       "rule",
       "property | Armor class | 14 (natural armor)",
-      "property | Hit points | 52 (7d8+21)",
+      "property | Hit points | 52 (7d8 + 21)",
       "property | Speed | 30ft, <b>Swim</b> 30ft",
       "rule",
       "dndstats | 16 | 11 | 16 | 4 | 10 | 7",
@@ -23086,7 +23211,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_158"
     ],
     "background_image": "http://www.knightwolfcomics.com/RPG%20Stuff/Orchenia/Drake.jpg"
   },
@@ -23099,7 +23224,7 @@
       "subtitle | Medium Dragon, Unaligned",
       "rule",
       "property | Armor class | 14 (natural armor)",
-      "property | Hit points | 52 (7d8+21)",
+      "property | Hit points | 52 (7d8 + 21)",
       "property | Speed | 30ft, <b>Burrow</b> 20ft",
       "rule",
       "dndstats | 16 | 11 | 16 | 4 | 10 | 7",
@@ -23123,7 +23248,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_158"
     ],
     "background_image": "https://i.pinimg.com/564x/97/49/1f/97491ff5e40e917792c8b68aea3c4ff0.jpg"
   },
@@ -23136,7 +23261,7 @@
       "subtitle | Medium Dragon, Unaligned",
       "rule",
       "property | Armor class | 14 (natural armor)",
-      "property | Hit points | 52 (7d8+21)",
+      "property | Hit points | 52 (7d8 + 21)",
       "property | Speed | 30ft, <b>Swim</b> 30ft",
       "rule",
       "dndstats | 16 | 11 | 16 | 4 | 10 | 7",
@@ -23161,7 +23286,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_158"
     ],
     "background_image": "https://thelostlighthouse.files.wordpress.com/2015/05/ambush-drake.png"
   },
@@ -23174,7 +23299,7 @@
       "subtitle | Medium Dragon, Unaligned",
       "rule",
       "property | Armor class | 14 (natural armor)",
-      "property | Hit points | 52 (7d8+21)",
+      "property | Hit points | 52 (7d8 + 21)",
       "property | Speed | 30ft, <b>Climb</b> 30ft",
       "rule",
       "dndstats | 16 | 11 | 16 | 4 | 10 | 7",
@@ -23198,7 +23323,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_158"
     ],
     "background_image": "https://img.fireden.net/tg/image/1483/22/1483224747305.jpg"
   },
@@ -23211,7 +23336,7 @@
       "subtitle | Medium Dragon, Unaligned",
       "rule",
       "property | Armor class | 14 (natural armor)",
-      "property | Hit points | 52 (7d8+21)",
+      "property | Hit points | 52 (7d8 + 21)",
       "property | Speed | 30ft, <b>Burrow</b> 20ft, <b>Climb</b> 30ft",
       "rule",
       "dndstats | 16 | 11 | 16 | 4 | 10 | 7",
@@ -23248,7 +23373,7 @@
       "subtitle | Large Fey, Chaotic Evil",
       "rule",
       "property | Armor class | 17 (natural armor)",
-      "property | Hit points | 75 (10d10+20)",
+      "property | Hit points | 75 (10d10 + 20)",
       "property | Speed | 40ft",
       "rule",
       "dndstats | 21 | 12 | 14 | 13 | 14 | 15",
@@ -23271,7 +23396,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_159"
     ],
     "background_image": "https://vignette2.wikia.nocookie.net/forgottenrealms/images/3/31/Annis-5e.jpg/revision/latest?cb=20161203152059"
   },
@@ -23294,7 +23419,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_159"
     ],
     "background_image": "https://vignette2.wikia.nocookie.net/forgottenrealms/images/3/31/Annis-5e.jpg/revision/latest?cb=20161203152059"
   },
@@ -23307,7 +23432,7 @@
       "subtitle | Medium Fey, Chaotic Evil",
       "rule",
       "property | Armor class | 17 (natural armor)",
-      "property | Hit points | 91 (14d8+28)",
+      "property | Hit points | 91 (14d8 + 28)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 13 | 16 | 14 | 12 | 13 | 16",
@@ -23329,7 +23454,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_160"
     ],
     "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/0/0f/Bheur_hag-5e.jpg/revision/latest?cb=20161216221523"
   },
@@ -23355,7 +23480,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_160"
     ],
     "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/0/0f/Bheur_hag-5e.jpg/revision/latest?cb=20161216221523"
   },
@@ -23368,7 +23493,7 @@
       "subtitle | Medium Humanoid (Goblinoid), Lawful Evil",
       "rule",
       "property | Armor class | 13 (studded leather armor)",
-      "property | Hit points | 45 (7d8+14)",
+      "property | Hit points | 45 (7d8 + 14)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 13 | 12 | 14 | 16 | 13 | 11",
@@ -23388,7 +23513,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_161"
     ],
     "background_image": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/701/1000/1000/636330487451395203.jpeg"
   },
@@ -23415,7 +23540,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_161"
     ],
     "background_image": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/701/1000/1000/636330487451395203.jpeg"
   },
@@ -23428,7 +23553,7 @@
       "subtitle | Medium Humanoid (Goblinoid), Lawful Evil",
       "rule",
       "property | Armor class | 15",
-      "property | Hit points | 32 (5d8+10)",
+      "property | Hit points | 32 (5d8 + 10)",
       "property | Speed | 40ft",
       "rule",
       "dndstats | 14 | 16 | 15 | 14 | 15 | 11",
@@ -23451,7 +23576,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_162"
     ],
     "background_image": "http://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/14676668_622405177931108_6183726421941157888_n.jpg?ig_cache_key=MTM3NDgzOTMzMzQwODcxMDkxNQ%3D%3D.2"
   },
@@ -23474,7 +23599,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_162"
     ],
     "background_image": "http://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/14676668_622405177931108_6183726421941157888_n.jpg?ig_cache_key=MTM3NDgzOTMzMzQwODcxMDkxNQ%3D%3D.2"
   },
@@ -23487,7 +23612,7 @@
       "subtitle | Huge Celestial, Lawful Good",
       "rule",
       "property | Armor class | 20 (natural armor)",
-      "property | Hit points | 152 (16d12+48)",
+      "property | Hit points | 152 (16d12 + 48)",
       "property | Speed | 60ft, <b>Fly</b> 120ft (hover)",
       "rule",
       "dndstats | 21 | 16 | 16 | 19 | 20 | 20",
@@ -23514,7 +23639,7 @@
       "Structure: Lawful",
       "Alignment: Good",
       "Legendary: Yes",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_163"
     ],
     "background_image": "http://vignette1.wikia.nocookie.net/forgottenrealms/images/1/1e/Ki-rin-5e.jpg/revision/latest?cb=20161207200555"
   },
@@ -23543,7 +23668,7 @@
       "Structure: Lawful",
       "Alignment: Good",
       "Legendary: Yes",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_163"
     ],
     "background_image": "http://vignette1.wikia.nocookie.net/forgottenrealms/images/1/1e/Ki-rin-5e.jpg/revision/latest?cb=20161207200555"
   },
@@ -23571,7 +23696,7 @@
       "Structure: Lawful",
       "Alignment: Good",
       "Legendary: Yes",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_163"
     ],
     "background_image": "http://vignette1.wikia.nocookie.net/forgottenrealms/images/1/1e/Ki-rin-5e.jpg/revision/latest?cb=20161207200555"
   },
@@ -23584,7 +23709,7 @@
       "subtitle | Small Humanoid (Kobold), Lawful Evil",
       "rule",
       "property | Armor class | 15 (leather armor, shield)",
-      "property | Hit points | 44 (8d6+16)",
+      "property | Hit points | 44 (8d6 + 16)",
       "property | Speed | 20ft",
       "rule",
       "dndstats | 12 | 15 | 14 | 8 | 9 | 10",
@@ -23605,7 +23730,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_165"
     ],
     "background_image": "http://www.enworld.org/forum/attachment.php?attachmentid=83954&d=1494122498"
   },
@@ -23628,7 +23753,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_165"
     ],
     "background_image": "http://www.enworld.org/forum/attachment.php?attachmentid=83954&d=1494122498"
   },
@@ -23641,7 +23766,7 @@
       "subtitle | Small Humanoid (Kobold), Lawful Evil",
       "rule",
       "property | Armor class | 12",
-      "property | Hit points | 13 (3d6+3)",
+      "property | Hit points | 13 (3d6 + 3)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 7 | 15 | 12 | 8 | 7 | 8",
@@ -23664,7 +23789,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_166"
     ],
     "background_image": "http://pro.bols.netdna-cdn.com/wp-content/uploads/2016/12/Unknown-1.jpeg"
   },
@@ -23686,7 +23811,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_166"
     ],
     "background_image": "http://pro.bols.netdna-cdn.com/wp-content/uploads/2016/12/Unknown-1.jpeg"
   },
@@ -23706,7 +23831,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_166"
     ],
     "background_image": "http://pro.bols.netdna-cdn.com/wp-content/uploads/2016/12/Unknown-1.jpeg"
   },
@@ -23719,7 +23844,7 @@
       "subtitle | Small Humanoid (Kobold), Lawful Evil",
       "rule",
       "property | Armor class | 15 (natural armor)",
-      "property | Hit points | 27 (5d6+10)",
+      "property | Hit points | 27 (5d6 + 10)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 7 | 15 | 14 | 10 | 9 | 14",
@@ -23741,7 +23866,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_167"
     ],
     "background_image": "https://i.pinimg.com/originals/d7/19/c7/d719c75d170d4f9c02876e8f192def9f.jpg"
   },
@@ -23767,7 +23892,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_167"
     ],
     "background_image": "https://i.pinimg.com/originals/d7/19/c7/d719c75d170d4f9c02876e8f192def9f.jpg"
   },
@@ -23780,7 +23905,7 @@
       "subtitle | Small Fey, Chaotic Neutral",
       "rule",
       "property | Armor class | 17 (natural armor)",
-      "property | Hit points | 102 (12d6+60)",
+      "property | Hit points | 102 (12d6 + 60)",
       "property | Speed | 30ft, <b>Burrow</b> 30ft",
       "rule",
       "dndstats | 23 | 14 | 20 | 10 | 15 | 9",
@@ -23800,7 +23925,7 @@
       "Structure: Chaotic",
       "Alignment: Neutral",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_168"
     ],
     "background_image": "https://newpathfinderraces.files.wordpress.com/2014/11/korred.png?w=350&h=453"
   },
@@ -23828,7 +23953,7 @@
       "Structure: Chaotic",
       "Alignment: Neutral",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_168"
     ],
     "background_image": "https://newpathfinderraces.files.wordpress.com/2014/11/korred.png?w=350&h=453"
   },
@@ -23841,7 +23966,7 @@
       "subtitle | Large Monstrosity, Chaotic Evil",
       "rule",
       "property | Armor class | 14 (natural armor)",
-      "property | Hit points | 67 (9d10+18)",
+      "property | Hit points | 67 (9d10 + 18)",
       "property | Speed | 50ft",
       "rule",
       "dndstats | 18 | 14 | 15 | 9 | 12 | 6",
@@ -23868,7 +23993,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_169"
     ],
     "background_image": "https://vignette2.wikia.nocookie.net/forgottenrealms/images/3/39/Leucrotta_-_Wayne_England.jpg/revision/latest?cb=20070224035330"
   },
@@ -23881,7 +24006,7 @@
       "subtitle | Small Fey, Neutral Evil",
       "rule",
       "property | Armor class | 15 (natural armor)",
-      "property | Hit points | 31 (7d6+7)",
+      "property | Hit points | 31 (7d6 + 7)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 18 | 14 | 15 | 9 | 12 | 6",
@@ -23906,7 +24031,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_170"
     ],
     "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/2/2a/Meenlock-5e.jpg/revision/latest?cb=20161227023837"
   },
@@ -23919,7 +24044,7 @@
       "subtitle | Medium Undead, Any Evil Alignment",
       "rule",
       "property | Armor class | 15 (natural armor)",
-      "property | Hit points | 120 (16d8+48)",
+      "property | Hit points | 120 (16d8 + 48)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 11 | 12 | 16 | 19 | 17 | 17",
@@ -23945,7 +24070,7 @@
       "Structure: Any",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_172"
     ],
     "background_image": "http://vignette1.wikia.nocookie.net/forgottenrealms/images/d/d7/Alhoon-5e.png/revision/latest?cb=20161116214448"
   },
@@ -23976,7 +24101,7 @@
       "Structure: Any",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_172"
     ],
     "background_image": "http://vignette1.wikia.nocookie.net/forgottenrealms/images/d/d7/Alhoon-5e.png/revision/latest?cb=20161116214448"
   },
@@ -23989,7 +24114,7 @@
       "subtitle | Medium Undead, Any Evil Alignment",
       "rule",
       "property | Armor class | 17 (natural armor)",
-      "property | Hit points | 135 (18d8+54)",
+      "property | Hit points | 135 (18d8 + 54)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 11 | 16 | 16 | 20 | 14 | 16",
@@ -24013,7 +24138,7 @@
       "Structure: Any",
       "Alignment: Evil",
       "Legendary: Yes",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_172"
     ],
     "background_image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/3/34/Mind_flayer.jpg/revision/latest/scale-to-width-down/346?cb=20060823145007"
   },
@@ -24047,7 +24172,7 @@
       "Structure: Any",
       "Alignment: Evil",
       "Legendary: Yes",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_172"
     ],
     "background_image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/3/34/Mind_flayer.jpg/revision/latest/scale-to-width-down/346?cb=20060823145007"
   },
@@ -24070,7 +24195,7 @@
       "Structure: Any",
       "Alignment: Evil",
       "Legendary: Yes",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_172"
     ],
     "background_image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/3/34/Mind_flayer.jpg/revision/latest/scale-to-width-down/346?cb=20060823145007"
   },
@@ -24094,7 +24219,7 @@
       "Structure: Any",
       "Alignment: Evil",
       "Legendary: Yes",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_172"
     ],
     "background_image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/3/34/Mind_flayer.jpg/revision/latest/scale-to-width-down/346?cb=20060823145007"
   },
@@ -24107,7 +24232,7 @@
       "subtitle | Large Aberration, Lawful Evil",
       "rule",
       "property | Armor class | 10",
-      "property | Hit points | 210 (20d10+100)",
+      "property | Hit points | 210 (20d10 + 100)",
       "property | Speed | 5ft, <b>Swim</b> 10ft",
       "rule",
       "dndstats | 15 | 10 | 20 | 21 | 19 | 24",
@@ -24130,7 +24255,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: Yes",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_174"
     ],
     "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/b/b8/Elder_brain-5e.jpg/revision/latest?cb=20161126005903"
   },
@@ -24155,7 +24280,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: Yes",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_174"
     ],
     "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/b/b8/Elder_brain-5e.jpg/revision/latest?cb=20161126005903"
   },
@@ -24175,7 +24300,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: Yes",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_174"
     ],
     "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/b/b8/Elder_brain-5e.jpg/revision/latest?cb=20161126005903"
   },
@@ -24199,7 +24324,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: Yes",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_174"
     ],
     "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/b/b8/Elder_brain-5e.jpg/revision/latest?cb=20161126005903"
   },
@@ -24212,7 +24337,7 @@
       "subtitle | Large Aberration, Lawful Evil",
       "rule",
       "property | Armor class | 15 (breastplate)",
-      "property | Hit points | 127 (17d10+14)",
+      "property | Hit points | 127 (17d10 + 14)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 15 | 12 | 15 | 21 | 19 | 21",
@@ -24233,7 +24358,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: Yes",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_175"
     ],
     "background_image": "http://vignette1.wikia.nocookie.net/forgottenrealms/images/b/bd/Ulitharid-5e.jpg/revision/latest?cb=20161207163206"
   },
@@ -24255,7 +24380,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: Yes",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_175"
     ],
     "background_image": "http://vignette1.wikia.nocookie.net/forgottenrealms/images/b/bd/Ulitharid-5e.jpg/revision/latest?cb=20161207163206"
   },
@@ -24277,7 +24402,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: Yes",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_175"
     ],
     "background_image": "http://vignette1.wikia.nocookie.net/forgottenrealms/images/b/bd/Ulitharid-5e.jpg/revision/latest?cb=20161207163206"
   },
@@ -24290,7 +24415,7 @@
       "subtitle | Large Aberration, Lawful Evil",
       "rule",
       "property | Armor class | 15 (natural armor)",
-      "property | Hit points | 75 (10d10+20)",
+      "property | Hit points | 75 (10d10 + 20)",
       "property | Speed | 0ft, <b>Fly</b> 20ft",
       "rule",
       "dndstats | 10 | 14 | 14 | 15 | 15 | 10",
@@ -24316,7 +24441,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_176"
     ],
     "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/a/a7/Mindwitness-5e.jpg/revision/latest?cb=20161122191239"
   },
@@ -24339,7 +24464,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_176"
     ],
     "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/a/a7/Mindwitness-5e.jpg/revision/latest?cb=20161122191239"
   },
@@ -24359,7 +24484,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_176"
     ],
     "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/a/a7/Mindwitness-5e.jpg/revision/latest?cb=20161122191239"
   },
@@ -24372,7 +24497,7 @@
       "subtitle | Medium Aberration, Chaotic Evil",
       "rule",
       "property | Armor class | 17 (natural armor)",
-      "property | Hit points | 130 (20d8+40)",
+      "property | Hit points | 130 (20d8 + 40)",
       "property | Speed | 25ft, <b>Swim</b> 50ft",
       "rule",
       "dndstats | 14 | 14 | 14 | 20 | 15 | 13",
@@ -24401,7 +24526,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_178"
     ],
     "background_image": "https://vignette3.wikia.nocookie.net/forgottenrealms/images/c/cc/Morkoth-5e.png/revision/latest?cb=20161216211526"
   },
@@ -24424,7 +24549,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_178"
     ],
     "background_image": "https://vignette3.wikia.nocookie.net/forgottenrealms/images/c/cc/Morkoth-5e.png/revision/latest?cb=20161216211526"
   },
@@ -24444,7 +24569,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_178"
     ],
     "background_image": "https://vignette3.wikia.nocookie.net/forgottenrealms/images/c/cc/Morkoth-5e.png/revision/latest?cb=20161216211526"
   },
@@ -24479,7 +24604,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_179"
     ],
     "background_image": "https://i.pinimg.com/236x/34/a5/31/34a53185fab3b7d99e57a7b24eef4d0b--game-ideas-gaming.jpg"
   },
@@ -24492,7 +24617,7 @@
       "subtitle | Small Aberration, Lawful Evil",
       "rule",
       "property | Armor class | 15 (natural armor)",
-      "property | Hit points | 33 (6d6+12)",
+      "property | Hit points | 33 (6d6 + 12)",
       "property | Speed | 30ft, <b>Climb</b> 30ft",
       "rule",
       "dndstats | 6 | 16 | 14 | 13 | 12 | 15",
@@ -24515,7 +24640,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_180"
     ],
     "background_image": "https://i.pinimg.com/236x/df/1f/32/df1f328affbe08360d842f57fa206065--fantasy-monster-fantasy-characters.jpg"
   },
@@ -24536,7 +24661,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_180"
     ],
     "background_image": "https://i.pinimg.com/236x/df/1f/32/df1f328affbe08360d842f57fa206065--fantasy-monster-fantasy-characters.jpg"
   },
@@ -24549,7 +24674,7 @@
       "subtitle | Medium Aberration, Lawful Evil",
       "rule",
       "property | Armor class | 15 (natural armor)",
-      "property | Hit points | 71 (13d6+26)",
+      "property | Hit points | 71 (13d6 + 26)",
       "property | Speed | 30ft, <b>Climb</b> 30ft",
       "rule",
       "dndstats | 6 | 16 | 14 | 16 | 12 | 18",
@@ -24574,7 +24699,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_180"
     ],
     "background_image": "https://i.pinimg.com/originals/92/1d/a1/921da184067507fa22a5382f24150157.jpg"
   },
@@ -24601,7 +24726,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_180"
     ],
     "background_image": "https://i.pinimg.com/originals/92/1d/a1/921da184067507fa22a5382f24150157.jpg"
   },
@@ -24614,7 +24739,7 @@
       "subtitle | Gargantuan Aberration, Chaotic Evil",
       "rule",
       "property | Armor class | 16 (natural armor)",
-      "property | Hit points | 325 (21d20+105)",
+      "property | Hit points | 325 (21d20 + 105)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 27 | 7 | 21 | 3 | 16 | 12",
@@ -24637,7 +24762,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_181"
     ],
     "background_image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/7/7a/250px-Neothelid.jpg/revision/latest?cb=20100409220937"
   },
@@ -24658,7 +24783,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_181"
     ],
     "background_image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/7/7a/250px-Neothelid.jpg/revision/latest?cb=20100409220937"
   },
@@ -24694,7 +24819,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_182"
     ],
     "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/4/4b/Nilobg-5e.jpg/revision/latest?cb=20161216215439"
   },
@@ -24718,7 +24843,7 @@
       "Structure: Lawful",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_182"
     ],
     "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/4/4b/Nilobg-5e.jpg/revision/latest?cb=20161216215439"
   },
@@ -24731,7 +24856,7 @@
       "subtitle | Medium Humanoid (Orc), Chaotic Evil",
       "rule",
       "property | Armor class | 18 (chain mail, shield)",
-      "property | Hit points | 60 (8d8+24)",
+      "property | Hit points | 60 (8d8 + 24)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 17 | 11 | 17 | 10 | 12 | 14",
@@ -24757,7 +24882,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_183"
     ],
     "background_image": "https://3.bp.blogspot.com/-k5qbSmbUBKs/WA5qEOPcJSI/AAAAAAAAJog/ka4d1AGcDF8mbQSEf37SDpzrF-h0I1EfwCLcB/s320/318grazzer.jpg"
   },
@@ -24770,7 +24895,7 @@
       "subtitle | Medium Humanoid (Orc), Chaotic Evil",
       "rule",
       "property | Armor class | 14 (hide armor)",
-      "property | Hit points | 45 (6d8+18)",
+      "property | Hit points | 45 (6d8 + 18)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 14 | 15 | 16 | 10 | 15 | 11",
@@ -24798,7 +24923,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_183"
     ],
     "background_image": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/766/1000/1000/636331414502688028.jpeg"
   },
@@ -24811,7 +24936,7 @@
       "subtitle | Medium Humanoid (Orc), Chaotic Evil",
       "rule",
       "property | Armor class | 12 (hide armor)",
-      "property | Hit points | 30 (4d8+12)",
+      "property | Hit points | 30 (4d8 + 12)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 12 | 11 | 16 | 11 | 14 | 9",
@@ -24837,7 +24962,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_184"
     ],
     "background_image": "https://i.imgur.com/pKki5hH.png"
   },
@@ -24850,7 +24975,7 @@
       "subtitle | Medium Humanoid (Orc), Chaotic Evil",
       "rule",
       "property | Armor class | 9",
-      "property | Hit points | 30 (4d8+12)",
+      "property | Hit points | 30 (4d8 + 12)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 15 | 8 | 16 | 7 | 11 | 7",
@@ -24874,7 +24999,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_184"
     ],
     "background_image": "https://i.pinimg.com/236x/23/2f/2d/232f2d1a512b732e6bfd646ebf97f73a--creature-fantasy-fantasy-monster.jpg"
   },
@@ -24887,7 +25012,7 @@
       "subtitle | Medium Humanoid (Orc), Chaotic Evil",
       "rule",
       "property | Armor class | 15 (studded leather armor)",
-      "property | Hit points | 52 (8d8+16)",
+      "property | Hit points | 52 (8d8 + 16)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 11 | 16 | 15 | 9 | 11 | 9",
@@ -24915,7 +25040,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_185"
     ],
     "background_image": "https://holiviantales.files.wordpress.com/2016/05/shargaas1.png?w=167&h=225"
   },
@@ -24956,7 +25081,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_186"
     ],
     "background_image": "https://1d4chan.org/images/thumb/8/81/Tanarukk.jpg/300px-Tanarukk.jpg"
   },
@@ -25044,7 +25169,7 @@
       "subtitle | Medium Humanoid, Neutral Evil",
       "rule",
       "property | Armor class | 11 (natural armor)",
-      "property | Hit points | 32 (5d8+10)",
+      "property | Hit points | 32 (5d8 + 10)",
       "property | Speed | 20ft, <b>Swim</b> 30ft",
       "rule",
       "dndstats | 15 | 8 | 15 | 6 | 10 | 8",
@@ -25067,7 +25192,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_189"
     ],
     "background_image": "http://vignette4.wikia.nocookie.net/forgottenrealms/images/4/4e/Sea_spawn-5e.jpg/revision/latest?cb=20161227033326"
   },
@@ -25088,7 +25213,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_189"
     ],
     "background_image": "http://vignette4.wikia.nocookie.net/forgottenrealms/images/4/4e/Sea_spawn-5e.jpg/revision/latest?cb=20161227033326"
   },
@@ -25101,7 +25226,7 @@
       "subtitle | Medium Monstrosity, Neutral Evil",
       "rule",
       "property | Armor class | 11 (natural armor)",
-      "property | Hit points | 32 (5d8+10)",
+      "property | Hit points | 32 (5d8 + 10)",
       "property | Speed | 20ft, <b>Swim</b> 30ft",
       "rule",
       "dndstats | 15 | 8 | 15 | 5 | 10 | 8",
@@ -25127,7 +25252,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_190"
     ],
     "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/4/4e/Shadow_Mastiff.png/revision/latest?cb=20161220045311"
   },
@@ -25140,7 +25265,7 @@
       "subtitle | Medium Monstrosity, Neutral Evil",
       "rule",
       "property | Armor class | 11 (natural armor)",
-      "property | Hit points | 32 (8d8+10)",
+      "property | Hit points | 32 (8d8 + 10)",
       "property | Speed | 20ft, <b>Swim</b> 30ft",
       "rule",
       "dndstats | 15 | 8 | 15 | 6 | 10 | 8",
@@ -25163,7 +25288,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_190"
     ],
     "background_image": "https://vignette.wikia.nocookie.net/dungeonsdragons/images/0/06/Shadow20Mastiff.jpg~original.jpg/revision/latest/scale-to-width-down/141?cb=20150704040731"
   },
@@ -25185,7 +25310,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_190"
     ],
     "background_image": "https://vignette.wikia.nocookie.net/dungeonsdragons/images/0/06/Shadow20Mastiff.jpg~original.jpg/revision/latest/scale-to-width-down/141?cb=20150704040731"
   },
@@ -25198,7 +25323,7 @@
       "subtitle | Medium Ooze, Chaotic Evil",
       "rule",
       "property | Armor class | 11 (natural armor)",
-      "property | Hit points | 32 (5d8+10)",
+      "property | Hit points | 32 (5d8 + 10)",
       "property | Speed | 30ft, <b>Climb</b> 30ft, <b>Swim</b> 30ft",
       "rule",
       "dndstats | 16 | 19 | 15 | 10 | 14 | 11",
@@ -25222,7 +25347,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_191"
     ],
     "background_image": "https://1.bp.blogspot.com/-0PGBTJzkW_s/WBVP8f6dxHI/AAAAAAAAJq4/i_fRqgEYAQAJ_gPxXd2zK1EVeDcCS4zQQCLcB/s320/dp10slitheringtracker.jpg"
   },
@@ -25248,7 +25373,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_191"
     ],
     "background_image": "https://1.bp.blogspot.com/-0PGBTJzkW_s/WBVP8f6dxHI/AAAAAAAAJq4/i_fRqgEYAQAJ_gPxXd2zK1EVeDcCS4zQQCLcB/s320/dp10slitheringtracker.jpg"
   },
@@ -25261,7 +25386,7 @@
       "subtitle | Medium Undead, Chaotic Evil",
       "rule",
       "property | Armor class | 10",
-      "property | Hit points | 76 (9d8+36)",
+      "property | Hit points | 76 (9d8 + 36)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 16 | 11 | 18 | 5 | 7 | 3",
@@ -25283,7 +25408,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_192"
     ],
     "background_image": "https://i.imgur.com/HRNH2Ww.png"
   },
@@ -25305,7 +25430,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_192"
     ],
     "background_image": "https://i.imgur.com/HRNH2Ww.png"
   },
@@ -25318,7 +25443,7 @@
       "subtitle | Large Monstrosity, Neutral Evil",
       "rule",
       "property | Armor class | 15 (natural armor)",
-      "property | Hit points | 85 (10d10+30)",
+      "property | Hit points | 85 (10d10 + 30)",
       "property | Speed | 40ft",
       "rule",
       "dndstats | 16 | 13 | 16 | 8 | 12 | 8",
@@ -25342,7 +25467,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_193"
     ],
     "background_image": "https://nerdhogg.files.wordpress.com/2017/01/img_3603.jpg?w=736"
   },
@@ -25355,7 +25480,7 @@
       "subtitle | Large Monstrosity, Unaligned",
       "rule",
       "property | Armor class | 13 (natural armor)",
-      "property | Hit points | 85 (10d10+30)",
+      "property | Hit points | 85 (10d10 + 30)",
       "property | Speed | 10ft, <b>Climb</b> 10ft",
       "rule",
       "dndstats | 17 | 10 | 17 | 2 | 13 | 4",
@@ -25378,7 +25503,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_194"
     ],
     "background_image": "http://bogleech.com/dnd/trapper2.jpg"
   },
@@ -25391,7 +25516,7 @@
       "subtitle | Tiny Fiend, Chaotic Evil",
       "rule",
       "property | Armor class | 12",
-      "property | Hit points | 13 (3d4+6)",
+      "property | Hit points | 13 (3d4 + 6)",
       "property | Speed | 5ft, <b>Fly</b> 40ft",
       "rule",
       "dndstats | 6 | 14 | 14 | 4 | 7 | 2",
@@ -25414,7 +25539,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_195"
     ],
     "background_image": "http://vignette1.wikia.nocookie.net/forgottenrealms/images/1/13/Vargouille.jpg/revision/latest?cb=20160604005148"
   },
@@ -25434,7 +25559,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_195"
     ],
     "background_image": "http://vignette1.wikia.nocookie.net/forgottenrealms/images/1/13/Vargouille.jpg/revision/latest?cb=20160604005148"
   },
@@ -25447,7 +25572,7 @@
       "subtitle | Small Plant, Neutral",
       "rule",
       "property | Armor class | 13 (natural armor)",
-      "property | Hit points | 9 (2d6+2)",
+      "property | Hit points | 9 (2d6 + 2)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 7 | 14 | 13 | 6 | 11 | 7",
@@ -25472,7 +25597,7 @@
       "Structure: Neutral",
       "Alignment: Neutral",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_196"
     ],
     "background_image": "https://itsmygamemyrules.files.wordpress.com/2015/02/screen-shot-2015-03-02-at-16-01-41.png"
   },
@@ -25485,7 +25610,7 @@
       "subtitle | Small Plant, Neutral",
       "rule",
       "property | Armor class | 14 (natural armor)",
-      "property | Hit points | 33 (6d6+12)",
+      "property | Hit points | 33 (6d6 + 12)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 14 | 14 | 14 | 7 | 12 | 9",
@@ -25507,7 +25632,7 @@
       "Structure: Neutral",
       "Alignment: Neutral",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_196"
     ],
     "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/0/07/Vegepygmy-5e.jpg/revision/latest?cb=20161219155015"
   },
@@ -25530,7 +25655,7 @@
       "Structure: Neutral",
       "Alignment: Neutral",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_196"
     ],
     "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/0/07/Vegepygmy-5e.jpg/revision/latest?cb=20161219155015"
   },
@@ -25543,7 +25668,7 @@
       "subtitle | Medium Plant, Neutral",
       "rule",
       "property | Armor class | 14 (natural armor)",
-      "property | Hit points | 27 (5d8+5)",
+      "property | Hit points | 27 (5d8 + 5)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 13 | 12 | 13 | 2 | 10 | 6",
@@ -25568,7 +25693,7 @@
       "Structure: Neutral",
       "Alignment: Neutral",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_196"
     ],
     "background_image": "https://itsmygamemyrules.files.wordpress.com/2015/02/screen-shot-2015-03-02-at-16-01-53.png"
   },
@@ -25581,7 +25706,7 @@
       "subtitle | Medium Plant, Lawful Neutral",
       "rule",
       "property | Armor class | 18 (natural armor, shield)",
-      "property | Hit points | 75 (10d8+30)",
+      "property | Hit points | 75 (10d8 + 30)",
       "property | Speed | 30ft, <b>Climb</b> 30ft",
       "rule",
       "dndstats | 18 | 12 | 16 | 10 | 13 | 8",
@@ -25605,7 +25730,7 @@
       "Structure: Lawful",
       "Alignment: Neutral",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_197"
     ],
     "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/d/d9/Wood_woad-5e.jpg/revision/latest?cb=20161219023015"
   },
@@ -25628,7 +25753,7 @@
       "Structure: Lawful",
       "Alignment: Neutral",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_197"
     ],
     "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/d/d9/Wood_woad-5e.jpg/revision/latest?cb=20161219023015"
   },
@@ -25666,7 +25791,7 @@
       "Structure: Chaotic",
       "Alignment: Neutral",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_200"
     ],
     "background_image": "https://vignette1.wikia.nocookie.net/forgottenrealms/images/b/bf/Xvart-5e.jpg/revision/latest/scale-to-width-down/350?cb=20170211192331"
   },
@@ -25704,7 +25829,7 @@
       "Structure: Chaotic",
       "Alignment: Neutral",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_200"
     ],
     "background_image": "https://vignette1.wikia.nocookie.net/forgottenrealms/images/b/bf/Xvart-5e.jpg/revision/latest/scale-to-width-down/350?cb=20170211192331"
   },
@@ -25717,7 +25842,7 @@
       "subtitle | Small Humanoid (Xvart), Chaotic Evil",
       "rule",
       "property | Armor class | 12 (15 with mage armor)",
-      "property | Hit points | 22 (5d6+5)",
+      "property | Hit points | 22 (5d6 + 5)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 8 | 14 | 12 | 8 | 11 | 12",
@@ -25740,14 +25865,14 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_200"
     ],
     "background_image": "http://vignette1.wikia.nocookie.net/forgottenrealms/images/0/0c/Xvart_4e_.png/revision/latest?cb=20151015014252"
   },
   {
     "count": 1,
     "color": "default",
-    "title": "Wood Woad Continued: Actions",
+    "title": "Xvart Warlock of Raxivort Continued: Actions",
     "icon": "imp-laugh",
     "contents": [
       "description|Low Cunning| The xvart can take the Disengage action as a bonus action on each of its turns.",
@@ -25764,7 +25889,7 @@
       "Structure: Chaotic",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_200"
     ],
     "background_image": "http://vignette1.wikia.nocookie.net/forgottenrealms/images/0/0c/Xvart_4e_.png/revision/latest?cb=20151015014252"
   },
@@ -25777,7 +25902,7 @@
       "subtitle | Large Fey, Neutral Evil",
       "rule",
       "property | Armor class | 14 (natural armor)",
-      "property | Hit points | 51 (6d10+18)",
+      "property | Hit points | 51 (6d10 + 18)",
       "property | Speed | 40ft, <b>Fly</b> 40ft, (hover)",
       "rule",
       "dndstats | 18 | 17 | 16 | 5 | 12 | 7",
@@ -25798,7 +25923,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_201"
     ],
     "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/f/f8/Yeth_hound-5e.jpg/revision/latest?cb=20170205183956"
   },
@@ -25821,7 +25946,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_201"
     ],
     "background_image": "http://vignette2.wikia.nocookie.net/forgottenrealms/images/f/f8/Yeth_hound-5e.jpg/revision/latest?cb=20170205183956"
   },
@@ -25834,7 +25959,7 @@
       "subtitle | Huge Monstrosity (Yuan-Ti), Neutral Evil",
       "rule",
       "property | Armor class | 16 (natural armor)",
-      "property | Hit points | 189 (18d12+72)",
+      "property | Hit points | 189 (18d12 + 72)",
       "property | Speed | 40ft, <b>Climb</b> 30ft, <b>Swimb</b> 30ft",
       "rule",
       "dndstats | 23 | 13 | 19 | 19 | 17 | 20",
@@ -25860,7 +25985,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_202"
     ],
     "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/4/48/Yuan-ti_anathema-5e.jpg/revision/latest?cb=20161223041952"
   },
@@ -25882,7 +26007,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_202"
     ],
     "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/4/48/Yuan-ti_anathema-5e.jpg/revision/latest?cb=20161223041952"
   },
@@ -25905,7 +26030,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_202"
     ],
     "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/4/48/Yuan-ti_anathema-5e.jpg/revision/latest?cb=20161223041952"
   },
@@ -25918,7 +26043,7 @@
       "subtitle | Huge Humanoid (Yuan-Ti), Neutral Evil",
       "rule",
       "property | Armor class | 14 (natural armor)",
-      "property | Hit points | 45 (7d8+14)",
+      "property | Hit points | 45 (7d8 + 14)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 15 | 14 | 14 | 6 | 11 | 4",
@@ -25947,7 +26072,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_203"
     ],
     "background_image": "https://i.imgur.com/nmdSX0K.jpg"
   },
@@ -25960,7 +26085,7 @@
       "subtitle | Medium Monstrosity (Yuan-Ti), Neutral Evil",
       "rule",
       "property | Armor class | 14 (natural armor)",
-      "property | Hit points | 71 (13d8+13)",
+      "property | Hit points | 71 (13d8 + 13)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 16 | 14 | 13 | 14 | 12 | 16",
@@ -25985,7 +26110,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_204"
     ],
     "background_image": "https://i.pinimg.com/originals/1b/0e/a7/1b0ea7d80d34650ef2a7f987928535d8.jpg"
   },
@@ -26014,7 +26139,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_204"
     ],
     "background_image": "https://i.pinimg.com/originals/1b/0e/a7/1b0ea7d80d34650ef2a7f987928535d8.jpg"
   },
@@ -26027,7 +26152,7 @@
       "subtitle | Medium Monstrosity (Yuan-Ti), Neutral Evil",
       "rule",
       "property | Armor class | 14 (natural armor)",
-      "property | Hit points | 71 (13d8+13)",
+      "property | Hit points | 71 (13d8 + 13)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 16 | 14 | 13 | 14 | 12 | 16",
@@ -26053,7 +26178,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_205"
     ],
     "background_image": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/834/1000/1000/636332227078313653.jpeg"
   },
@@ -26079,7 +26204,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_205"
     ],
     "background_image": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/834/1000/1000/636332227078313653.jpeg"
   },
@@ -26099,7 +26224,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_205"
     ],
     "background_image": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/834/1000/1000/636332227078313653.jpeg"
   },
@@ -26112,7 +26237,7 @@
       "subtitle | Medium Monstrosity (Yuan-Ti), Neutral Evil",
       "rule",
       "property | Armor class | 14 (natural armor)",
-      "property | Hit points | 88 (16d8+16)",
+      "property | Hit points | 88 (16d8 + 16)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 16 | 14 | 13 | 14 | 12 | 16",
@@ -26138,7 +26263,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_206"
     ],
     "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/4/49/Yuan-ti_pit_master-5e.jpg/revision/latest?cb=20161222191337"
   },
@@ -26165,7 +26290,7 @@
       "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_206"
     ],
     "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/4/49/Yuan-ti_pit_master-5e.jpg/revision/latest?cb=20161222191337"
   },
@@ -26178,7 +26303,7 @@
       "subtitle | Large Beast, Unaligned",
       "rule",
       "property | Armor class | 11 (natural armor)",
-      "property | Hit points | 38 (4d10+16)",
+      "property | Hit points | 38 (4d10 + 16)",
       "property | Speed | 50ft",
       "rule",
       "dndstats | 20 | 10 | 19 | 2 | 12 | 5",
@@ -26199,7 +26324,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_207"
     ],
     "background_image": "https://i.pinimg.com/236x/3e/37/9c/3e379c49e802e99f466b62dddede063d--aurochs-prehistoric-animals.jpg"
   },
@@ -26212,7 +26337,7 @@
       "subtitle | Large Beast, Unaligned",
       "rule",
       "property | Armor class | 10",
-      "property | Hit points | 15 (2d10+4)",
+      "property | Hit points | 15 (2d10 + 4)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 18 | 10 | 14 | 2 | 10 | 4",
@@ -26233,7 +26358,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_207"
     ],
     "background_image": "https://i.pinimg.com/236x/3e/37/9c/3e379c49e802e99f466b62dddede063d--aurochs-prehistoric-animals.jpg"
   },
@@ -26246,7 +26371,7 @@
       "subtitle | Large Beast, Unaligned",
       "rule",
       "property | Armor class | 10",
-      "property | Hit points | 15 (2d10+4)",
+      "property | Hit points | 15 (2d10 + 4)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 18 | 10 | 14 | 2 | 10 | 4",
@@ -26268,7 +26393,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_208"
     ],
     "background_image": "http://www.picturedic.com/wp-content/uploads/2016/06/ox.jpg"
   },
@@ -26281,7 +26406,7 @@
       "subtitle | Large Beast, Unaligned",
       "rule",
       "property | Armor class | 10",
-      "property | Hit points | 15 (2d10+4)",
+      "property | Hit points | 15 (2d10 + 4)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 18 | 10 | 14 | 2 | 10 | 4",
@@ -26302,7 +26427,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_208"
     ],
     "background_image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Musk_Ox_(PSF).png"
   },
@@ -26315,7 +26440,7 @@
       "subtitle | Medium Beast, Unaligned",
       "rule",
       "property | Armor class | 10",
-      "property | Hit points | 13 (2d8+4)",
+      "property | Hit points | 13 (2d8 + 4)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 18 | 10 | 14 | 2 | 10 | 4",
@@ -26337,7 +26462,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_208"
     ],
     "background_image": "https://i.pinimg.com/736x/48/45/3f/48453f1633ce0b1a0f9d4a48f7a2a48c--body-paint-ox.jpg"
   },
@@ -26350,7 +26475,7 @@
       "subtitle | Large Beast, Unaligned",
       "rule",
       "property | Armor class | 10",
-      "property | Hit points | 15 (2d10+4)",
+      "property | Hit points | 15 (2d10 + 4)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 18 | 10 | 14 | 2 | 10 | 4",
@@ -26373,7 +26498,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_208"
     ],
     "background_image": "http://cdn.themis-media.com/media/global/images/library/deriv/720/720492.jpg"
   },
@@ -26386,7 +26511,7 @@
       "subtitle | Medium Beast, Unaligned",
       "rule",
       "property | Armor class | 12 (natural armor)",
-      "property | Hit points | 11 (2d8+2)",
+      "property | Hit points | 11 (2d8 + 2)",
       "property | Speed | 0ft, <b>Swim</b> 60ft",
       "rule",
       "dndstats | 14 | 13 | 13 | 6 | 12 | 7",
@@ -26409,7 +26534,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_208"
     ],
     "background_image": "http://www.yedraw.com/sea-animals/dolphin.jpg"
   },
@@ -26445,7 +26570,7 @@
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_208"
     ],
     "background_image": "https://i.pinimg.com/originals/25/5e/59/255e59b27a3668f8510027a519fdba3c.jpg"
   },
@@ -26458,7 +26583,7 @@
       "subtitle | Medium Humanoid (Any), Any Alignment",
       "rule",
       "property | Armor class | 12 (15 with mage armor)",
-      "property | Hit points | 84 (13d8+26)",
+      "property | Hit points | 84 (13d8 + 26)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 9 | 14 | 14 | 18 | 12 | 11",
@@ -26487,7 +26612,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_209"
     ],
     "background_image": "https://i.warosu.org/data/tg/img/0323/54/1401049667959.jpg"
   },
@@ -26509,7 +26634,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_209"
     ],
     "background_image": "https://i.warosu.org/data/tg/img/0323/54/1401049667959.jpg"
   },
@@ -26546,7 +26671,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_209"
     ],
     "background_image": "https://img.fireden.net/tg/image/1454/26/1454269908741.jpg"
   },
@@ -26559,7 +26684,7 @@
       "subtitle | Medium Humanoid (Any), Any Alignment",
       "rule",
       "property | Armor class | 16 (hide armor, shield)",
-      "property | Hit points | 132 (24d8+24)",
+      "property | Hit points | 132 (24d8 + 24)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 10 | 14 | 12 | 12 | 20 | 11",
@@ -26585,7 +26710,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_210"
     ],
     "background_image": "https://i.pinimg.com/236x/27/96/cd/2796cd6a0513bb819b2ae1167725b226--character-concept-character-ideas.jpg"
   },
@@ -26612,7 +26737,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_210"
     ],
     "background_image": "https://i.warosu.org/data/tg/img/0323/54/1401049667959.jpg"
   },
@@ -26625,7 +26750,7 @@
       "subtitle | Medium Humanoid (Any), Any Alignment",
       "rule",
       "property | Armor class | 16 (studded leather armor)",
-      "property | Hit points | 75 (10d8+30)",
+      "property | Hit points | 75 (10d8 + 30)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 11 | 18 | 16 | 11 | 13 | 10",
@@ -26649,7 +26774,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_210"
     ],
     "background_image": "https://68.media.tumblr.com/c78f639fdb7baefcc2839dc5835bfd55/tumblr_inline_nj9yh15aIm1qc8995.jpg"
   },
@@ -26662,7 +26787,7 @@
       "subtitle | Medium Humanoid (Any), Any Alignment",
       "rule",
       "property | Armor class | 15 (chain shirt)",
-      "property | Hit points | 44 (8d8+8)",
+      "property | Hit points | 44 (8d8 + 8)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 11 | 14 | 12 | 10 | 13 | 14",
@@ -26686,7 +26811,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_211"
     ],
     "background_image": "http://www.tribality.com/wp-content/uploads/2015/02/index-225x300.jpg"
   },
@@ -26709,7 +26834,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_211"
     ],
     "background_image": "http://www.tribality.com/wp-content/uploads/2015/02/index-225x300.jpg"
   },
@@ -26722,7 +26847,7 @@
       "subtitle | Medium Humanoid (Any), Any non-good Alignment",
       "rule",
       "property | Armor class | 18 (plate)",
-      "property | Hit points | 153 (18d8+72)",
+      "property | Hit points | 153 (18d8 + 72)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 18 | 11 | 18 | 11 | 14 | 15",
@@ -26746,7 +26871,7 @@
       "Structure: Any",
       "Alignment: non-good",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_211"
     ],
     "background_image": "https://i.warosu.org/data/tg/img/0370/25/1419834706685.jpg"
   },
@@ -26769,7 +26894,7 @@
       "Structure: Any",
       "Alignment: non-good",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_211"
     ],
     "background_image": "https://i.warosu.org/data/tg/img/0370/25/1419834706685.jpg"
   },
@@ -26782,7 +26907,7 @@
       "subtitle | Medium Humanoid (Any), Any Alignment",
       "rule",
       "property | Armor class | 18 (plate)",
-      "property | Hit points | 143 (22d8+44)",
+      "property | Hit points | 143 (22d8 + 44)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 20 | 15 | 14 | 10 | 14 | 12",
@@ -26808,7 +26933,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_212"
     ],
     "background_image": "https://i.imgur.com/qTPWFyK.png"
   },
@@ -26848,7 +26973,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_212"
     ],
     "background_image": "https://i.pinimg.com/originals/4c/df/4e/4cdf4e03df96be43fe57932e3769b742.jpg"
   },
@@ -26870,7 +26995,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_212"
     ],
     "background_image": "https://i.pinimg.com/originals/4c/df/4e/4cdf4e03df96be43fe57932e3769b742.jpg"
   },
@@ -26913,7 +27038,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_213"
     ],
     "background_image": "http://dungeonsmaster.com/wp-content/uploads/2011/03/diviner-01.jpg"
   },
@@ -26935,7 +27060,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_213"
     ],
     "background_image": "http://dungeonsmaster.com/wp-content/uploads/2011/03/diviner-01.jpg"
   },
@@ -26975,7 +27100,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_213"
     ],
     "background_image": "https://i2.wp.com/www.robsworld.org/mutteran_lg.png"
   },
@@ -26998,7 +27123,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_213"
     ],
     "background_image": "https://i2.wp.com/www.robsworld.org/mutteran_lg.png"
   },
@@ -27011,7 +27136,7 @@
       "subtitle | Medium Humanoid (Any), Any Alignment",
       "rule",
       "property | Armor class | 12 (15 with mage armor)",
-      "property | Hit points | 66 (12d8+12)",
+      "property | Hit points | 66 (12d8 + 12)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 9 | 14 | 12 | 17 | 12 | 11",
@@ -27039,7 +27164,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_214"
     ],
     "background_image": "https://i.pinimg.com/originals/c5/fc/8d/c5fc8d23694621fa1d7342095fa2d7a5.jpg"
   },
@@ -27061,7 +27186,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_214"
     ],
     "background_image": "https://i.pinimg.com/originals/c5/fc/8d/c5fc8d23694621fa1d7342095fa2d7a5.jpg"
   },
@@ -27074,7 +27199,7 @@
       "subtitle | Medium Humanoid (Any), Any Alignment",
       "rule",
       "property | Armor class | 12 (15 with mage armor)",
-      "property | Hit points | 38 (7d8+7)",
+      "property | Hit points | 38 (7d8 + 7)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 9 | 14 | 13 | 16 | 11 | 12",
@@ -27100,7 +27225,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_214"
     ],
     "background_image": "https://vignette.wikia.nocookie.net/dungeonsdragons/images/6/6a/Nebbin_casting.jpg/revision/latest/scale-to-width-down/185?cb=20141224052349"
   },
@@ -27122,7 +27247,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_214"
     ],
     "background_image": "https://vignette.wikia.nocookie.net/dungeonsdragons/images/6/6a/Nebbin_casting.jpg/revision/latest/scale-to-width-down/185?cb=20141224052349"
   },
@@ -27135,7 +27260,7 @@
       "subtitle | Medium Humanoid (Any), Any Evil Alignment",
       "rule",
       "property | Armor class | 10",
-      "property | Hit points | 75 (10d8+30)",
+      "property | Hit points | 75 (10d8 + 30)",
       "property | Speed | 30ft, <b>Swim</b> 30ft",
       "rule",
       "dndstats | 12 | 10 | 16 | 10 | 15 | 14",
@@ -27160,7 +27285,7 @@
       "Structure: Any",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_215"
     ],
     "background_image": "https://i.imgur.com/sTjicaN.png"
   },
@@ -27181,7 +27306,7 @@
       "Structure: Any",
       "Alignment: Evil",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_215"
     ],
     "background_image": "https://i.imgur.com/sTjicaN.png"
   },
@@ -27194,7 +27319,7 @@
       "subtitle | Medium Humanoid (Any), Any Alignment",
       "rule",
       "property | Armor class | 16",
-      "property | Hit points | 60 (11d8+11)",
+      "property | Hit points | 60 (11d8 + 11)",
       "property | Speed | 40ft",
       "rule",
       "dndstats | 11 | 17 | 13 | 11 | 16 | 10",
@@ -27219,7 +27344,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_216"
     ],
     "background_image": "https://i.warosu.org/data/tg/img/0404/22/1433614624594.jpg"
   },
@@ -27241,7 +27366,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_216"
     ],
     "background_image": "https://i.warosu.org/data/tg/img/0404/22/1433614624594.jpg"
   },
@@ -27254,7 +27379,7 @@
       "subtitle | Medium Humanoid (Any), Any Alignment",
       "rule",
       "property | Armor class | 16 (studded leather armor)",
-      "property | Hit points | 83 (13d8+26)",
+      "property | Hit points | 83 (13d8 + 26)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 11 | 18 | 14 | 11 | 11 | 12",
@@ -27276,7 +27401,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_216"
     ],
     "background_image": "https://i2.wp.com/thelongshotist.com/wp-content/uploads/2017/01/rogue_phb5e.jpg?resize=585%2C724&ssl=1"
   },
@@ -27301,7 +27426,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_216"
     ],
     "background_image": "https://i2.wp.com/thelongshotist.com/wp-content/uploads/2017/01/rogue_phb5e.jpg?resize=585%2C724&ssl=1"
   },
@@ -27314,7 +27439,7 @@
       "subtitle | Medium Humanoid (Any), Any Alignment",
       "rule",
       "property | Armor class | 12 (15 with mage armor)",
-      "property | Hit points | 66 (12d8+12)",
+      "property | Hit points | 66 (12d8 + 12)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 9 | 14 | 12 | 17 | 12 | 11",
@@ -27343,7 +27468,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_217"
     ],
     "background_image": "http://dungeonsmaster.com/wp-content/uploads/2009/09/Necromancer11.jpg"
   },
@@ -27365,7 +27490,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_217"
     ],
     "background_image": "http://dungeonsmaster.com/wp-content/uploads/2009/09/Necromancer11.jpg"
   },
@@ -27378,7 +27503,7 @@
       "subtitle | Medium Humanoid (Any), Any non-lawful Alignment",
       "rule",
       "property | Armor class | 17 (leather armor)",
-      "property | Hit points | 66 (12d8+12)",
+      "property | Hit points | 66 (12d8 + 12)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 12 | 18 | 12 | 14 | 11 | 15",
@@ -27403,7 +27528,7 @@
       "Structure: non-lawful",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_217"
     ],
     "background_image": "http://static.tvtropes.org/pmwiki/pub/images/cayden_cailean.jpg"
   },
@@ -27443,7 +27568,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_218"
     ],
     "background_image": "https://i.imgur.com/6WiADfJ.jpg"
   },
@@ -27470,7 +27595,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_218"
     ],
     "background_image": "https://i.imgur.com/6WiADfJ.jpg"
   },
@@ -27483,7 +27608,7 @@
       "subtitle | Medium Humanoid (Any), Any Alignment",
       "rule",
       "property | Armor class | 18 (plate)",
-      "property | Hit points | 117 (18d8+36)",
+      "property | Hit points | 117 (18d8 + 36)",
       "property | Speed | 30ft",
       "rule",
       "dndstats | 16 | 10 | 14 | 11 | 17 | 13",
@@ -27509,7 +27634,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_218"
     ],
     "background_image": "https://i.warosu.org/data/tg/img/0381/83/1424400940816.jpg"
   },
@@ -27533,7 +27658,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_218"
     ],
     "background_image": "https://i.warosu.org/data/tg/img/0381/83/1424400940816.jpg"
   },
@@ -27569,7 +27694,7 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_219"
     ],
     "background_image": "https://brynvalk.files.wordpress.com/2015/10/leaf_shield_by_anthonyfoti-d3azqpv.png?w=341&h=683"
   },
@@ -27595,8 +27720,132 @@
       "Structure: Any",
       "Alignment: Any",
       "Legendary: No",
-      "Book: Volos_Guide_122"
+      "Book: Volos_Guide_219"
     ],
     "background_image": "https://brynvalk.files.wordpress.com/2015/10/leaf_shield_by_anthonyfoti-d3azqpv.png?w=341&h=683"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Warlock of the Great Old One",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Humanoid (Any), Any Alignment",
+      "rule",
+      "property | Armor class | 12 (15 with mage armor)",
+      "property | Hit points | 91 (14d8 + 28)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 9 | 14 | 15 | 12 | 12 | 18",
+      "rule",
+      "property | Saving Throws | Wis +4, Cha +7",
+      "property | Skills | Arcana +4, History +4",
+      "property | Damage Resistances | Psychic",
+      "property | Senses | Darkvision 60ft, Passive Perception 11",
+      "property | Language | Any two languages, Telepathy 30ft",
+      "property | Challenge | 6 (2300 xp)",
+      "rule",
+      "description|Innate Spellcasting| The warlock’s innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:",
+      "bullet|At will:| <i>detect magic</i>, <i>jump</i>, <i>levitate</i>, <i>mage armor</i> (self only), <i>speak with dead</i>",
+      "bullet|1/day each:| <i>arcane gate</i>, <i>true seeing</i>"
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_220"
+    ],
+    "background_image": "https://i1.wp.com/www.mmoden.com/wp-content/uploads/runes-of-magic-warlock.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Warlock of the Great Old One Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|Spellcasting| The warlock is a 14th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
+      "bullet|Cantrips (at will):| <i>chill touch</i>, <i>eldritch blast</i>, <i>guidance</i>, <i>mage hand</i>, <i>minor illusion</i>, <i>prestidigitation</i>, <i>shocking grasp</i>",
+      "bullet|1st-5th level (3 5th-level slots):| <i>armor of Agathys</i>, <i>arms of Hadar</i>, <i>crown of madness</i>, <i>clairvoyance</i>, <i>contact other plane</i>, <i>detect thoughts</i>, <i>dimension door</i>, <i>dissonant whispers</i>, <i>dominate beast</i>, <i>telekinesis</i>, <i>vampiric touch</i>",
+      "description|Whispering Aura| At the start of each of the warlock’s turns, each creature of its choice within 5 feet of it must succeed on a DC 15 Wisdom saving throw or take 10 (3d6) psychic damage, provided that the warlock isn’t incapacitated.",
+      "fill | 1",
+     "section | Actions",
+      "description|Dagger| Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_220"
+    ],
+    "background_image": "https://i1.wp.com/www.mmoden.com/wp-content/uploads/runes-of-magic-warlock.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Warlord",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Humanoid (Any), Any Alignment",
+      "rule",
+      "property | Armor class | 18 (plate)",
+      "property | Hit points | 229 (27d8 + 108)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 20 | 16 | 18 | 12 | 12 | 18",
+      "rule",
+      "property | Saving Throws | Str +9, Dex +7, Con +8",
+      "property | Skills | Athletics +9, Intimidation +8, Perception +5, Persuasion +8",
+      "property | Damage Resistances | Psychic",
+      "property | Senses | Passive Perception 15",
+      "property | Language | Any two languages",
+      "property | Challenge | 12 (4800 xp)",
+      "rule",
+      "description|Indomitable (3/Day)| The warlord can reroll a saving throw it fails. It must use the new roll.",
+      "description|Survivor| The warlord regains 10 hit points at the start of its turn if it has at least 1 hit point but fewer hit points than half its hit point maximum.",
+      "fill | 1",
+     "section | Actions",
+      "description|Multiattack| The warlord makes two weapon attacks.",
+      "description|Greatsword| Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6+5) slashing damage.",
+      "description|Shortbow| Ranged Weapon Attack: +7 to hit, range 80/320 it, one target. Hit: 6 (1d6+3) piercing damage."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_220"
+    ],
+    "background_image": "https://www.dandwiki.com/w/images/a/ad/Cyrus.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Warlord: Legendary",
+    "icon": "imp-laugh",
+    "contents": [
+     "section | Legendary Actions",
+      "description|Legendary Actions (3/Turn)| The warlord can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The warlord regains spent legendary actions at the start of its turn.",
+      "description|Weapon Attack| The warlord makes a weapon attack. ",
+      "description|Command Ally| The warlord targets one ally it can see within 30 feet of it. if the target can see and hear the warlord, the target can make one weapon attack as a reaction and gains advantage on the attack roll.",
+      "description|Frighten Foe (Costs 2 Actions)| The warlord targets one enemy it can see within 30 feet of it. If the target can see and hear it, the target must succeed on a DC 16 Wisdom saving throw or be frightened until the end of warlord’s next turn."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_220"
+    ],
+    "background_image": "https://www.dandwiki.com/w/images/a/ad/Cyrus.jpg"
   }
 ]
