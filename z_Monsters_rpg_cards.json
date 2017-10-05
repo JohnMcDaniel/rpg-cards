@@ -2,65 +2,63 @@
   {
     "count": 1,
     "color": "default",
-    "title": "Swarm of Rot Grubs",
+    "title": "Warlock of the Fiend",
     "icon": "imp-laugh",
     "contents": [
-      "subtitle | Medium swarm of Tiny Beasts, Unaligned",
+      "subtitle | Medium Humanoid (Any), Any Alignment",
       "rule",
-      "property | Armor class | 8",
-      "property | Hit points | 22 (5d8)",
-      "property | Speed | 5ft, <b>Climb</b> 5ft",
+      "property | Armor class | 12 (15 with mage armor)",
+      "property | Hit points | 78 (12d8+24)",
+      "property | Speed | 30ft",
       "rule",
-      "dndstats | 2 | 7 | 10 | 1 | 2 | 1",
+      "dndstats | 10 | 14 | 15 | 12 | 12 | 18",
       "rule",
-      "property | Damage Resistances | Piercing, Slashing",
-      "property | Condition Immunities | Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained",
-      "property | Senses | Blindsight 10ft, Passive Perception 6",
-      "property | Language | -",
-      "property | Challenge | 1/2 (100 xp)",
+      "property | Saving Throws | Wis +4, Cha +7",
+      "property | Skills | Arcana +4, Deception +7, Persuasion +7, Religion +4",
+      "property | Damage Resistances | Physical from non-magical weapons",
+      "property | Senses | Darkvision 60ft, Passive Perception 11",
+      "property | Language | Any two languages (usually Abyssal or Infernal)",
+      "property | Challenge | 7 (2900 xp)",
       "rule",
-      "description|Swarm| Can share a creature’s space, & move through openings size of Tiny maggot. The swarm can’t regain hit points or gain temporary hit points.",
-      "fill | 1",
-     "section | Actions",
-      "description|Bites| Melee Weapon Attack: +0 to hit, reach 0 ft., one creature in the swarm’s space. Hit: The target is infested by 1d4 rot grubs. At the start of each of the target’s turns, the target takes 1d6 piercing damage per rot grub infesting it. Applying fire to the bite wound before the end of the target's next turn deals 1 fire damage to the target and kills these rot grubs. After this time, these rot grubs are too far under the skin to be burned. Infested target going to 0HP are killed. Curing disease effects will kill rot grubs"
+      "description|Innate Spellcasting| The warlock’s innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:",
+      "description|At will:| <i>alter self</i>, <i>false life</i>, <i>levitate</i> (self only), <i>mage armor</i> (self only), <i>silent image</i>",
+      "description|1/day each:| <i>feeblemind</i>, <i>finger of death</i>, <i>plane shift</i>"
     ],
     "tags": [
       "creature",
-      "Beast",
-      "subrace: ",
-      "Structure: Unaligned",
-      "Alignment: Unaligned",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
       "Legendary: No",
       "Book: Volos_Guide_122"
     ],
-    "background_image": "https://i.pinimg.com/originals/25/5e/59/255e59b27a3668f8510027a519fdba3c.jpg"
+    "background_image": "https://vignette4.wikia.nocookie.net/forgottenrealms/images/3/3e/Warlock_PHB5e.png/revision/latest?cb=20140912010808"
   },
   {
     "count": 1,
     "color": "default",
-    "title": "Yuan-ti Pit Master Continued: Abilities",
+    "title": "Warlock of the Fiend Continued: Abilities",
     "icon": "imp-laugh",
     "contents": [
-      "description|Poison’s Disciple (2/Day)| The first time the yuan-ti hits with a melee attack on its turn, it can deal an extra 16 (3d10) poison damage to the target.",
-      "description|Spellcasting (Yuan-ti Farm Only)| The yuan-ti is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
-      "bullet|Cantrips (at will):| <i>eldritch blast</i> (range 300 ft., +3 bonus to each damage roll), <i>friends</i>, <i>guidance</i>, <i>mage hand</i>, <i>message</i>, <i>poison spray</i>",
-      "bullet|1st-3rd level (2 3rd-level slots):| <i>command</i>, <i>counterspell</i>, <i>hellish rebuke</i>, <i>invisibility</i>, <i>misty step</i>, <i>unseen servant</i>, <i>vampiric touch</i>",
+      "description|Spellcasting| The warlock is a l7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
+      "description|Cantrips (at will):| <i>eldritch blast</i>, <i>fire bolt</i>, <i>friends</i>, <i>mage hand</i>, <i>minor illusion</i>, <i>prestidigitation</i>, <i>shocking grasp</i>",
+      "description|1st-5th level (4 5th-level slots):| <i>banishment</i>, <i>burning hands</i>, <i>flame strike</i>, <i>hellish rebuke</i>, <i>magic circle</i>, <i>scorching ray</i>, <i>scrying</i>, <i>stinking cloud</i>, <i>suggestion</i>, <i>wall of fire</i>",
+      "description|Dark One's Own Luck (Recharges after a Short or Long Rest)| When the warlock makes an ability check or saving throw, it can add a d10 to the roll. It can do this after the roll is made but before any of the roll’s effects occur.",
       "fill | 1",
      "section | Actions",
-      "description|Multiattack (Yuan-ti Form Only)| The yuan-ti makes two bite attacks using its snake arms.",
-      "description|Bite| Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) piercing damage plus 7 (2d6) poison damage.",
-      "description|Merrshaulk's Slumber (1/Day)| The yuan-ti targets up to five creatures that it can see within 60 feet of it. Each target must succeed on a DC 13 Constitution saving throw or fall into a magical sleep and be unconscious for 10 minutes. A sleeping target awakens if it takes damage or if someone uses an action to shake or slap it awake. This magical sleep has no effect on a creature immune to being charmed."
+      "description|Mace| Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage plus 10 (3d6) fire damage."
     ],
     "tags": [
       "creature",
-      "Monstrosity",
-      "subrace: Yuan-Ti",
-      "Structure: Neutral",
-      "Alignment: Evil",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
       "Legendary: No",
       "Book: Volos_Guide_122"
     ],
-    "background_image": "http://vignette3.wikia.nocookie.net/forgottenrealms/images/4/49/Yuan-ti_pit_master-5e.jpg/revision/latest?cb=20161222191337"
+    "background_image": "https://vignette4.wikia.nocookie.net/forgottenrealms/images/3/3e/Warlock_PHB5e.png/revision/latest?cb=20140912010808"
   },
   {
     "count": 1,
@@ -16926,7 +16924,7 @@
       "Legendary: No",
       "Book: Monster_Manual_320"
     ],
-    "background_image": "https://i.pinimg.com/236x/cf/31/46/cf3146189707f89f6200e7c08612b1a1--drawing-step-cat-drawing.jpg"
+    "background_image": "https://previews.123rf.com/images/ariydesign/ariydesign1604/ariydesign160400082/55614364-Watercolor-colseup-portrait-of-ojos-azules-breed-cat-with-blue-eyes-isolated-on-white-background-Han-Stock-Photo.jpg"
   },
   {
     "count": 1,
@@ -17238,7 +17236,7 @@
       "Legendary: No",
       "Book: Monster_Manual_322"
     ],
-    "background_image": "http://1.bp.blogspot.com/-YlvD3LUTO3g/TvKhF8KZzkI/AAAAAAAAAIQ/LFpZc_MDdfQ/s1600/whiteElephant.jpg"
+    "background_image": "http://freepngimages.com/wp-content/uploads/2015/10/elephant-front-transparent-image.png"
   },
   {
     "count": 1,
@@ -17340,7 +17338,7 @@
       "Legendary: No",
       "Book: Monster_Manual_322"
     ],
-    "background_image": "https://i.pinimg.com/236x/5e/f0/26/5ef0260382554656a0c7dd933cbb512b--frog-art-tree-frogs.jpg"
+    "background_image": "https://i.pinimg.com/736x/51/89/a9/5189a918a461ea978edf7790a1f2ba6c--frosch-tattoo-frog-painting.jpg"
   },
   {
     "count": 1,
@@ -18743,7 +18741,7 @@
       "Legendary: No",
       "Book: Monster_Manual_333"
     ],
-    "background_image": "https://cdn.pixabay.com/photo/2012/10/10/04/39/donkey-60509_960_720.jpg"
+    "background_image": "https://i.pinimg.com/736x/a5/39/52/a539526dd1963fc470dfab47c558c7f7--donkey-painting-oboe.jpg"
   },
   {
     "count": 1,
@@ -26450,5 +26448,1155 @@
       "Book: Volos_Guide_122"
     ],
     "background_image": "https://i.pinimg.com/originals/25/5e/59/255e59b27a3668f8510027a519fdba3c.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Abjurer",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Humanoid (Any), Any Alignment",
+      "rule",
+      "property | Armor class | 12 (15 with mage armor)",
+      "property | Hit points | 84 (13d8+26)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 9 | 14 | 14 | 18 | 12 | 11",
+      "rule",
+      "property | Saving Throws | Int +8, Wis +5",
+      "property | Skills | Arcana +8, History +8",
+      "property | Senses | Passive Perception 11",
+      "property | Language | Any four languages",
+      "property | Challenge | 9 (5000 xp)",
+      "rule",
+      "description|Spellcasting| The abjurer is a 13th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The abjurer has the following wizard spells prepared:",
+      "bullet|Cantrips (at will):| <i>blade ward</i>, <i>dancing lights</i>, <i>mending, message</i>, <i>ray of frost</i>",
+      "bullet|1st level {4 slots):| <i>alarm*</i>, <i>mage armor</i>, <i>magic missile</i>, <i>shield</i>*",
+      "bullet|2nd level (3 slots):| <i>arcane lock</i>*, <i>invisibility</i>",
+      "bullet|3rd level (3 slots):| <i>counterspell</i>*, <i>dispel magic</i>*, <i>fireball</i>",
+      "bullet|4th level (3 slots):| <i>banishment</i>*, <i>stoneskin</i>*",
+      "bullet|5th level (2 slots):| <i>cone of cold</i>, <i>wall of force</i>",
+      "bullet|6th level (1 slot):| <i>flesh to stone</i>, <i>globe of invulnerability</i>*",
+      "bullet|7th level (1 slot):| <i>symbol* teleport</i>",
+      "text|*Abjuration spell of 1st level or higher"
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.warosu.org/data/tg/img/0323/54/1401049667959.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Abjurer Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|Arcane Ward| The abjurer has a magical ward that has 30 hit points. Whenever the abjurer takes damage, the ward takes the damage instead. If the ward is reduced to 0 hit points, the abjurer takes any remaining damage. When the abjurer casts an . abjuration spell of 1st level or higher, the ward regains a number of hit points equal to twice the level of the spell.",
+      "fill | 1",
+     "section | Actions",
+      "description|Quarterstaff| Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d6-l) bludgeoning damage, or 3 (1d8-l) bludgeoning damage if used with two hands."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.warosu.org/data/tg/img/0323/54/1401049667959.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Apprentice Wizard",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Humanoid (Any), Any Alignment",
+      "rule",
+      "property | Armor class | 10",
+      "property | Hit points | 9 (2d8)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 10 | 10 | 10 | 14 | 10 | 11",
+      "rule",
+      "property | Skills | Arcana +4, History +4",
+      "property | Senses | Passive Perception 10",
+      "property | Language | Any one languages (usually Common)",
+      "property | Challenge | 1/4 (50 xp)",
+      "rule",
+      "description|Spellcasting| The apprentice is a 1st-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It has the following wizard spells prepared:",
+      "description|Cantrips (at will):| fire bolt, mending, prestidigitation",
+      "description|1st level (2 slots):| burning hands, disguise self, shield",
+      "fill | 1",
+     "section | Actions",
+      "description|Dagger| Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft, one target. Hit: 2 (1d4) piercing damage."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://img.fireden.net/tg/image/1454/26/1454269908741.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Archdruid",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Humanoid (Any), Any Alignment",
+      "rule",
+      "property | Armor class | 16 (hide armor, shield)",
+      "property | Hit points | 132 (24d8+24)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 10 | 14 | 12 | 12 | 20 | 11",
+      "rule",
+      "property | Saving Throws | Int +5, Wis +9",
+      "property | Skills | Medicine +9, Nature +5, Perception +9",
+      "property | Senses | Passive Perception 19",
+      "property | Language | Druidic plus any two languages",
+      "property | Challenge | 12 (8400 xp)",
+      "rule",
+      "description|Spellcasting| The archdruid is an 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). It has the following druid spells prepared:",
+      "bullet|Cantrips (at will):| <i>druidcraft</i>, <i>mending</i>, <i>poison spray</i>, <i>produce flame</i>",
+      "bullet|1st level (4 slots):| <i>cure wounds</i>, <i>entangle</i>, <i>faerie fire</i>, <i>speak with animals</i>",
+      "bullet|2nd level (3 slots):| <i>animal messenger</i>, <i>beast sense</i>, <i>hold person</i>",
+      "bullet|3rd level (3 slots):| <i>conjure animals</i>, <i>meld into stone</i>, <i>water breathing</i>",
+      "bullet|4th level (3 slots):| <i>dominate beast</i>, <i>locate creature</i>, <i>stoneskin</i>, <i>wall of fire</i>",
+      "bullet|5th level (3 slots):| <i>commune with nature</i>, <i>mass cure wounds</i>, <i>tree stride</i>"
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.pinimg.com/236x/27/96/cd/2796cd6a0513bb819b2ae1167725b226--character-concept-character-ideas.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Archdruid Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|Spellcasting| The archdruid is an 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). It has the following druid spells prepared:",
+      "bullet|6th level (1 slot):| <i>heal</i>, <i>heroes’ feast</i>, <i>sunbeam</i>",
+      "bullet|7th level (1 slot):| <i>fire storm</i>",
+      "bullet|8th level (1 slot):| <i>animal shapes</i>",
+      "bullet|9th level (1 slot):| <i>foresight</i>",
+      "fill | 1",
+     "section | Actions",
+      "description|Scimitar| Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage.",
+      "description|Change Shape (2/Day)| The archdruid magically polymorphs into a beast or elemental with a challenge rating of 6 or less, and can remain in this form for up to 9 hours. The archdruid can choose whether its equipment falls to the ground, melds with its new form, or is worn by the new form. The archdruid reverts to its true form if it dies or falls unconscious. The archdruid can revert to its true form using a bonus action on its turn. <br />While in a new form, the archdruid retains its game statistics and ability to speak, but its AC, movement modes, Strength, and Dexterity are replaced by those of the new form, and it gains any special senses, proficiencies, traits, actions, and reactions (except class features, legendary actions, and lair actions) that the new form has but that it lacks. It can cast its spells with verbal or somatic components in its new form. <br />The new form’s attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.warosu.org/data/tg/img/0323/54/1401049667959.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Archer",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Humanoid (Any), Any Alignment",
+      "rule",
+      "property | Armor class | 16 (studded leather armor)",
+      "property | Hit points | 75 (10d8+30)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 11 | 18 | 16 | 11 | 13 | 10",
+      "rule",
+      "property | Skills | Acrobatics +6, Perception +5",
+      "property | Senses | Passive Perception 15",
+      "property | Language | Any one language (usually Common)",
+      "property | Challenge | 3 (700 xp)",
+      "rule",
+      "description|Archer's Eye| As a bonus action, the archer can add 1d10 to its next attack or damage roll with a longbow or shortbow.",
+      "fill | 1",
+     "section | Actions",
+      "description|Multiattack| The archer makes two attacks with its longbow.",
+      "description|Shortsword| Melee Weapon Attack: +6 to hit, reach 5 ft. one target. Hit: 7 (1d6+4) piercing damage.",
+      "description|Longbow| Ranged Weapon Attack: +6 to hit, range 150/600 ft, one target. Hit: 8 (1d8+4) piercing damage."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://68.media.tumblr.com/c78f639fdb7baefcc2839dc5835bfd55/tumblr_inline_nj9yh15aIm1qc8995.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Bard",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Humanoid (Any), Any Alignment",
+      "rule",
+      "property | Armor class | 15 (chain shirt)",
+      "property | Hit points | 44 (8d8+8)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 11 | 14 | 12 | 10 | 13 | 14",
+      "rule",
+      "property | Saving Throws | Dex +4, Wis +3",
+      "property | Skills | Acrobatics +4, Perception +5, Performance +6",
+      "property | Senses | Passive Perception 15",
+      "property | Language | Any two language",
+      "property | Challenge | 2 (450 xp)",
+      "rule",
+      "description|Spellcasting| The bard is a 4th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following bard spells prepared:",
+      "bullet|Cantrips (at will):| friends, mage hand, vicious mockery",
+      "bullet|1st level (4 slots):| charm person, healing word, heroism, sleep, thunderwave",
+      "bullet|2nd level (3 slots):| invisibility, shatter",
+      "description|Song of Rest| The bard can perform a song while taking a short rest. Any ally who hears the song regains an extra ld6 hit points if it spends any Hit Dice to regain hit points at the end of that rest. The bard can confer this benefit on itself as well."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://www.tribality.com/wp-content/uploads/2015/02/index-225x300.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Bard Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|Taunt (2/day)| The bard can use a bonus action on its turn to target one creature within 30 feet of it. If the target can hear the bard, the target must succeed on a DC 12 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of the bard's next turn.",
+      "fill | 1",
+     "section | Actions",
+      "description|Shortsword| Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage.",
+      "description|Shortbow| Ranged Weapon Attack: +4 to hit, range 80/320 ft., one: target. Hit: 5 (1d6+2) piercing damage."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://www.tribality.com/wp-content/uploads/2015/02/index-225x300.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Blackguard",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Humanoid (Any), Any non-good Alignment",
+      "rule",
+      "property | Armor class | 18 (plate)",
+      "property | Hit points | 153 (18d8+72)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 18 | 11 | 18 | 11 | 14 | 15",
+      "rule",
+      "property | Saving Throws | Wis +5, Cha +5",
+      "property | Skills | Athletics +7, Deception +5, Intimidation +5",
+      "property | Senses | Passive Perception 12",
+      "property | Language | Any one language (usually Common)",
+      "property | Challenge | 8 (3900 xp)",
+      "rule",
+      "description|Spellcasting| The blackguard is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 33, +5 to hit with spell attacks). It has the following paladin spells prepared:",
+      "bullet|1st level (4 slots):| <i>command</i>, <i>protection from evil and good</i>, <i>thunderous smite</i>",
+      "bullet|2nd level (3 slots):| <i>branding smite</i>, <i>find steed</i>",
+      "bullet|3rd level (2 slots):| <i>blinding smite</i>, <i>dispel magic</i>",
+      "fill | 1"
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: non-good",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.warosu.org/data/tg/img/0370/25/1419834706685.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Blackguard Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+     "section | Actions",
+      "description|Multiattack| The blackguard makes three attacks with its glaive or its shortbow.",
+      "description|Glaive| Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 9 (1d10+4) slashing damage.",
+      "description|Shortbow| Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit: 5 (1d6+2) piercing damage.",
+      "description|Dreadful Aspect (Recharges after a Short or Long Rest)| The blackguard exudes magical menace. Each enemy within 30 feet of the blackguard must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. If a frightened target ends its turn more than 30 feet away from the blackguard, the tar get can repeat the saving throw, ending the effect on itself on a success."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: non-good",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.warosu.org/data/tg/img/0370/25/1419834706685.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Champion",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Humanoid (Any), Any Alignment",
+      "rule",
+      "property | Armor class | 18 (plate)",
+      "property | Hit points | 143 (22d8+44)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 20 | 15 | 14 | 10 | 14 | 12",
+      "rule",
+      "property | Saving Throws | Str +9, Con +6",
+      "property | Skills | Athletics +9, Intimidation +5, Perception +6",
+      "property | Senses | Passive Perception 16",
+      "property | Language | Any one language (usually Common)",
+      "property | Challenge | 9 (5000 xp)",
+      "rule",
+      "description|Indomitable (2/Day)| Rerolls a failed saving throw.",
+      "description|Second Wind (Recharges after a Short or Long Rest)| As a bonus action, the champion can regain 20 hit points.",
+      "fill | 1",
+     "section | Actions",
+      "description|Multiattack| Three attacks w/ greatsword or light crossbow.",
+      "description|Greatsword| Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6+5) slashing, plus 7 (2d6) slashing if champion has more than half of its total HP remaining.",
+      "description|Light Crossbow| Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit: 6 (1d8+2) piercing damage, plus 7 (2d6) piercing damage if the champion has more than half of its total hit points remaining."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.imgur.com/qTPWFyK.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Conjurer",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Humanoid (Any), Any Alignment",
+      "rule",
+      "property | Armor class | 12 (15 with mage armor)",
+      "property | Hit points | 40 (9d8)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 9 | 14 | 11 | 17 | 12 | 11",
+      "rule",
+      "property | Saving Throws | Int +6, Wis +4",
+      "property | Skills | Arcana +6, History +6",
+      "property | Senses | Passive Perception 11",
+      "property | Language | Any four language",
+      "property | Challenge | 6 (2300 xp)",
+      "rule",
+      "description|Spellcasting| The conjurer is a 9th-level spellcaster. Its spellcasting ability is intelligence (spell save DC 14, +6 to hit with spell attacks). The conjurer has the following wizard spells prepared:",
+      "bullet|Cantrips (at will):| <i>acid splash</i>, <i>mage hand</i>, <i>poison spray</i>, <i>prestidigitation</i>",
+      "bullet|1st level (4 slots):| <i>mage armor</i>, <i>magic missile</i>, <i>unseen servant</i>*",
+      "bullet|2nd level (3 slots):| <i>cloud of daggers</i>*, <i>misty step</i>*, <i>web</i>*",
+      "bullet|3rd level (3 slots):| <i>fireball</i>, <i>stinking cloud</i>*",
+      "bullet|4th level (3 slots):| <i>Evard’s black tentacles</i>*, <i>stoneskin</i>",
+      "bullet|5th level (2 slots):| <i>cloudkill</i>*, <i>conjure elemental</i>*",
+      "text|*Conjuration spell of 1st level or higher"
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.pinimg.com/originals/4c/df/4e/4cdf4e03df96be43fe57932e3769b742.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Conjurer Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|Benign Transportation (Recharges after the Conjurer Casts a Conjuration Spell of 1st Level or Higher)| As a bonus action, the conjurer teleports up to 30 feet to an unoccupied space that it can see. If it instead chooses a space within range that is occupied by a willing Small or Medium creature, they both teleport, swapping places.",
+      "fill | 1",
+     "section | Actions",
+      "description|Dagger| Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.pinimg.com/originals/4c/df/4e/4cdf4e03df96be43fe57932e3769b742.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Diviner",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Humanoid (Any), Any Alignment",
+      "rule",
+      "property | Armor class | 12 (15 with mage armor)",
+      "property | Hit points | 67 (15d8)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 9 | 14 | 11 | 18 | 12 | 11",
+      "rule",
+      "property | Saving Throws | Int +7, Wis +4",
+      "property | Skills | Arcana +7, History +7",
+      "property | Senses | Passive Perception 11",
+      "property | Language | Any four language",
+      "property | Challenge | 8 (3900 xp)",
+      "rule",
+      "description|Spellcasting| 15th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The diviner has the following wizard spells prepared:",
+      "bullet|Cantrips (at will):| <i>fire bolt</i>, <i>light</i>, <i>mage hand</i>, <i>message</i>, <i>true strike</i>",
+      "bullet|1st level (4 slots):| <i>detect magic</i>*, <i>feather fall</i>, <i>mage armor</i>",
+      "bullet|2nd level (3 slots):| <i>detect thoughts</i>*, <i>locate object</i>*, s<i>corching ray</i>",
+      "bullet|3rd level (3 slots):| <i>clairvoyance</i>*, <i>fly</i>, <i>fireball</i>",
+      "bullet|4th level (3 slots):| <i>arcane eye</i>*, <i>ice storm</i>, <i>stoneskin</i>",
+      "bullet|5th level (2 slots):| <i>Rary’s telepathic bond</i>*, <i>seeming</i>*",
+      "bullet|6th level (1 slot):| <i>mass suggestion</i>, <i>true seeing</i>*",
+      "bullet|7th level (1 slot):| <i>delayed blast fireball</i>, <i>teleport</i>",
+      "bullet|8th level (1 slot):| <i>maze</i>* ",
+      "text|Divination spell of 1st level or higher"
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://dungeonsmaster.com/wp-content/uploads/2011/03/diviner-01.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Diviner Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|Portent (Recharges after the Diviner Casts a Divination Spell of 1st Level or Higher)| When the diviner or a creature it can see makes an attack roll, a saving throw, or an ability check, the diviner can roll a d20 and choose to use this roll in place of the attack roll, saving throw, or ability check.",
+      "fill | 1",
+     "section | Actions",
+      "description|Quarterstaff| Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://dungeonsmaster.com/wp-content/uploads/2011/03/diviner-01.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Enchanter",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Humanoid (Any), Any Alignment",
+      "rule",
+      "property | Armor class | 12 (15 with mage armor)",
+      "property | Hit points | 40 (9d8)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 9 | 14 | 11 | 17 | 12 | 11",
+      "rule",
+      "property | Saving Throws | Int +6, Wis +4",
+      "property | Skills | Arcana +6, History +6",
+      "property | Senses | Passive Perception 11",
+      "property | Language | Any four language",
+      "property | Challenge | 5 (1800 xp)",
+      "rule",
+      "description|Spellcasting| The enchanter is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The enchanter has the following wizard spells prepared:",
+      "bullet|Cantrips (at will):| <i>friends</i>, <i>mage hand</i>, <i>mending, message</i>",
+      "bullet|1st level (4 slots):| <i>charm person</i>*, <i>mage armor</i>, <i>magic missile</i>",
+      "bullet|2nd level (3 slots):| <i>hold person</i>*, <i>invisibility</i>, <i>suggestion</i>*",
+      "bullet|3rd level (3 slots):| <i>fireball, haste</i>, <i>tongues</i>",
+      "bullet|4th level (3 slots):| <i>dominate beast</i>*, <i>stoneskin</i>",
+      "bullet|5th level (2 slots):| <i>hold monster</i>*",
+      "text|*Enchantment spell of 1st level or higher"
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i2.wp.com/www.robsworld.org/mutteran_lg.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Enchanter Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+     "section | Actions",
+      "description|Quarterstaff| Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands.",
+      "fill | 1",
+     "section | Reactions",
+      "description|Instinctive Charm (Recharges after the Enchanter Casts an Enchantment Spell of 1st level or Higher)| The enchanter tries to magically divert an attack made against it, provided that the attacker is within 30 feet of it and visible to it. The enchanter must decide to do so before the attack hits or misses. <br />The attacker must make a DC 14 Wisdom saving throw. On a failed save, the attacker targets the creature closest to it, other than the enchanter or itself. If multiple creatures are closest, the attacker chooses which one to target."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i2.wp.com/www.robsworld.org/mutteran_lg.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Evoker",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Humanoid (Any), Any Alignment",
+      "rule",
+      "property | Armor class | 12 (15 with mage armor)",
+      "property | Hit points | 66 (12d8+12)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 9 | 14 | 12 | 17 | 12 | 11",
+      "rule",
+      "property | Saving Throws | Int +7, Wis +5",
+      "property | Skills | Arcana +7, History +7",
+      "property | Senses | Passive Perception 11",
+      "property | Language | Any four language",
+      "property | Challenge | 9 (5000 xp)",
+      "rule",
+      "description|Spellcasting| The evoker is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The evoker has the following wizard spells prepared:",
+      "bullet|Cantrips (at will):| <i>fire bolt</i>*, <i>light</i>*, <i>prestidigitation</i>, <i>ray of frost</i>*",
+      "bullet|1st level (4 slots):| <i>burning hands</i>*, <i>mage armor</i>, <i>magic missile</i>*",
+      "bullet|2nd level (3 slots):| <i>mirror image</i>, <i>misty step</i>, <i>shatter</i>*",
+      "bullet|3rd level (3 slots):| <i>counterspell</i>, <i>fireball</i>*, <i>lightning bolt</i>*",
+      "bullet|4th level (3 slots):| <i>ice storm</i>*, <i>stoneskin</i>",
+      "bullet|5th level (2 slots):| <i>Bigby’s hand</i>*, <i>cone of cold</i>*",
+      "bullet|6th level (1 slot):| <i>chain lightning</i>*, <i>wall of ice</i>*",
+      "text|*Evocation spell of 1st level or higher"
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.pinimg.com/originals/c5/fc/8d/c5fc8d23694621fa1d7342095fa2d7a5.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Evoker Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|Sculpt Spells| When the evoker casts an evocation spell that forces other creatures it can see to make a saving throw, it can choose a number of them equal to 1+the spell’s level. These creatures automatically succeed on their saving throws against the spell. If a successful save means a chosen creature would take half damage from the spell, it instead takes no damage from it.",
+      "fill | 1",
+     "section | Actions",
+      "description|Quarterstaff| Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.pinimg.com/originals/c5/fc/8d/c5fc8d23694621fa1d7342095fa2d7a5.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Illusionist",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Humanoid (Any), Any Alignment",
+      "rule",
+      "property | Armor class | 12 (15 with mage armor)",
+      "property | Hit points | 38 (7d8+7)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 9 | 14 | 13 | 16 | 11 | 12",
+      "rule",
+      "property | Saving Throws | Int +5, Wis +2",
+      "property | Skills | Arcana +5, History +5",
+      "property | Senses | Passive Perception 10",
+      "property | Language | Any four language",
+      "property | Challenge | 3 (700 xp)",
+      "rule",
+      "description|Spellcasting| The illusionist is a 7th-level spellcaster. its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). The illusionist has the following wizard spells prepared:",
+      "bullet|Cantrips (at will):| <i>dancing lights</i>, <i>mage hand</i>, <i>minor illusion</i>, <i>poison spray</i>",
+      "bullet|1st level (4 slots):| <i>color spray</i>*, <i>disguise self</i>*, <i>mage armor</i>, <i>magic missile</i>",
+      "bullet|2nd level (3 slots):| <i>invisibility</i>*, <i>mirror image</i>*, <i>phantasmal force</i>",
+      "bullet|3rd level (3 slots):| <i>major image</i>*, <i>phantom steed</i>*",
+      "bullet|4th level (1 slot):| <i>phantasmal killer</i>*",
+      "text|*Illusion spell of 1st level or higher"
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://vignette.wikia.nocookie.net/dungeonsdragons/images/6/6a/Nebbin_casting.jpg/revision/latest/scale-to-width-down/185?cb=20141224052349"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Illusionist Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|Displacement (Recharges after the Illusionist Casts an Illusion Spell of 1st Level or Higher)| As a bonus action, the illusionist projects an illusion that makes the illusionist appear to be standing in a place a few inches from its actual location, causing any creature to have disadvantage on attack rolls against the illusionist. The effect ends if the illusionist takes damage, it is incapacitated, or its speed becomes 0.",
+      "fill | 1",
+     "section | Actions",
+      "description|Quarterstaff| Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://vignette.wikia.nocookie.net/dungeonsdragons/images/6/6a/Nebbin_casting.jpg/revision/latest/scale-to-width-down/185?cb=20141224052349"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Kraken Priest",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Humanoid (Any), Any Evil Alignment",
+      "rule",
+      "property | Armor class | 10",
+      "property | Hit points | 75 (10d8+30)",
+      "property | Speed | 30ft, <b>Swim</b> 30ft",
+      "rule",
+      "dndstats | 12 | 10 | 16 | 10 | 15 | 14",
+      "rule",
+      "property | Skills | Perception +5",
+      "property | Damage Resistances | Physical from non-magical weapons",
+      "property | Senses | Passive Perception 15",
+      "property | Language | Any two language",
+      "property | Challenge | 5 (1800 xp)",
+      "rule",
+      "description|Amphibious| The priest can breathe air and water.",
+      "description|Innate Spellcasting| The priest’s spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+      "bullet|At will:| command, create or destroy water",
+      "bullet|3/day each:| control water, darkness, water breathing, water walk",
+      "bullet|1/day each:| call lightning, Evard’s black tentacles",
+      "fill | 1"
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.imgur.com/sTjicaN.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Kraken Priest Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+     "section | Actions",
+      "description|Thunderous Touch| Melee Spell Attack: +5 to hit, reach 5 ft., one creature. Hit: 27 (5d10) thunder damage.",
+      "description|Voice of the Kraken (Recharges after a Short or Long Rest)| A kraken speaks through the priest with a thunderous voice audible within 300 feet. Creatures of the priest’s choice that can hear the kraken's words (which are spoken in Abyssal, Infernal, or Primordial) must succeed on a DC 14 Charisma saving throw or be frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.imgur.com/sTjicaN.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Martial Arts Adept",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Humanoid (Any), Any Alignment",
+      "rule",
+      "property | Armor class | 16",
+      "property | Hit points | 60 (11d8+11)",
+      "property | Speed | 40ft",
+      "rule",
+      "dndstats | 11 | 17 | 13 | 11 | 16 | 10",
+      "rule",
+      "property | Skills | Acrobatics +5, Insight +5, Stealth +5",
+      "property | Senses | Passive Perception 13",
+      "property | Language | Any one language (usually Common)",
+      "property | Challenge | 3 (700 xp)",
+      "rule",
+      "description|Unarmored Defense| While the adept is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.",
+     "section | Actions",
+      "description|Multiattack| The adept makes three unarmed strikes or three dart attacks.",
+      "description|Unarmed Strike| Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) bludgeoning damage. If the target is a creature, the adept can choose one of the following additional effects:",
+      "bullet||Target must succeed on a DC 13 Strength saving throw or drop one item it is holding (adept’s choice).",
+      "bullet||Target must succeed on a DC 13 Dexterity saving throw or be knocked prone.",
+      "bullet||Target must succeed on a DC 13 Constitution save or be stunned until the end of the adept’s next turn."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.warosu.org/data/tg/img/0404/22/1433614624594.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Martial Arts Adept Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|Dart| Ranged Weapon Attack: +5 to hit, range 20/60 ft, one target. Hit: 5 (1d4+3) piercing damage.",
+      "fill | 1",
+     "section | Reactions",
+      "description|Deflect Missile| In response to being hit by a ranged weapon attack, the adept deflects the missile. The damage it takes from the attack is reduced by 1d10+3. If the damage is reduced to 0, the adept catches the missile if it’s small enough to hold in one hand and the adept has a hand free."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.warosu.org/data/tg/img/0404/22/1433614624594.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Master Thief",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Humanoid (Any), Any Alignment",
+      "rule",
+      "property | Armor class | 16 (studded leather armor)",
+      "property | Hit points | 83 (13d8+26)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 11 | 18 | 14 | 11 | 11 | 12",
+      "rule",
+      "property | Saving Throws | Dex +7, Int +3",
+      "property | Skills | Acrobatics +7, Athletics +3, Perception +3, Sleight of Hand +7, Stealth +7",
+      "property | Senses | Passive Perception 13",
+      "property | Language | Any one language (usually Common) plus thieves' cant",
+      "property | Challenge | 5 (1800 xp)",
+      "rule",
+      "description|Cunning Action| On each of its turns, the thief can use a bonus action to take the Dash, Disengage, or Hide action.",
+      "description|Evasion| If the thief is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the thief instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.",
+      "description|Sneak Attack (1/Turn)| The thief deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the thief that isn’t incapacitated and the thief doesn’t have disadvantage on the attack roll."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i2.wp.com/thelongshotist.com/wp-content/uploads/2017/01/rogue_phb5e.jpg?resize=585%2C724&ssl=1"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Master Thief Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+     "section | Actions",
+      "description|Multiattack| The thief makes three attacks with its shortsword.",
+      "description|Shortsword| Melee Weapon Attack: +7 to hit, reach 5ft., one target. Hit: 7 (1d6+4) piercing damage.",
+      "description|Light Crossbow| Ranged Weapon Attack: +7 to hit, range 80/320 ft., one target. Hit: 8 (1d8+4) piercing damage.",
+      "fill | 1",
+     "section | Reactions",
+      "description|Uncanny Dodge| The thief halves the damage that it takes from an attack that hits it. The thief must be able to see the attacker."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i2.wp.com/thelongshotist.com/wp-content/uploads/2017/01/rogue_phb5e.jpg?resize=585%2C724&ssl=1"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Necromancer",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Humanoid (Any), Any Alignment",
+      "rule",
+      "property | Armor class | 12 (15 with mage armor)",
+      "property | Hit points | 66 (12d8+12)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 9 | 14 | 12 | 17 | 12 | 11",
+      "rule",
+      "property | Saving Throws | Int +7, Wis +5",
+      "property | Skills | Arcana +7, History +7",
+      "property | Damage Resistances | Necrotic",
+      "property | Senses | Passive Perception 13",
+      "property | Language | Any four languages",
+      "property | Challenge | 9 (5000 xp)",
+      "rule",
+      "description|Spellcasting| 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The necromancer has the following wizard spells prepared:",
+      "bullet|Cantrips (at will):| <i>chill touch<i>, <i>dancing lights<i>, <i>mage hand<i>, <i>mending<i>",
+      "bullet|1st level (4 slots):| <i>false life</i>*, <i>mage armor</i>, <i>ray of sickness</i>*",
+      "bullet|2nd level (3 slots):| <i>blindness/deafness</i>*, <i>ray of enfeeblement</i>*, <i>web</i>",
+      "bullet|3rd level (3 slots):| <i>animate dead</i>*, <i>bestow curse</i>*, <i>vampiric touch</i>*",
+      "bullet|4th level (3 slots):| <i>blight</i>*, <i>dimension door</i>, <i>stoneskin</i>",
+      "bullet|5th level (2 slots):| <i>Bigby’s hand</i>, <i>cloudkill</i>",
+      "bullet|6th level (1 slot):| <i>circle of death</i>*",
+      "text|*Necromancy spell of 1st level or higher"
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://dungeonsmaster.com/wp-content/uploads/2009/09/Necromancer11.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Necromancer Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|Grim Harvest (1/Turn)| When necromancer kills a creature that is neither a construct nor undead with a spell of 1st level or higher, the necromancer regains hit points equal to twice the spell's level, or three times if it is a necromancy spell.",
+      "fill | 1",
+     "section | Actions",
+      "description|Withering Touch| Melee Spell Attack: +7 to hit, reach 5 ft., one creature. Hit: 5 (2d4) necrotic damage."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://dungeonsmaster.com/wp-content/uploads/2009/09/Necromancer11.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Swashbuckler",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Humanoid (Any), Any non-lawful Alignment",
+      "rule",
+      "property | Armor class | 17 (leather armor)",
+      "property | Hit points | 66 (12d8+12)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 12 | 18 | 12 | 14 | 11 | 15",
+      "rule",
+      "property | Skills | Acrobatics +8, Athletics +5, Persuasion +6",
+      "property | Senses | Passive Perception 10",
+      "property | Language | Any one language (usually Common)",
+      "property | Challenge | 3 (700 xp)",
+      "rule",
+      "description|Lightfooted| The swashbuckler can take the Dash or Disengage action as a bonus action on each of its turns.",
+      "description|Suave Defense| While the swashbuckler is wearing light or no armor and wielding no shield, its AC includes its Charisma modifier.",
+      "fill | 1",
+     "section | Actions",
+      "description|Multiattack| The swashbuckler makes three attacks: one with a dagger and two with its rapier.",
+      "description|Dagger| Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d4+4) piercing damage.",
+      "description|Rapier| Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) piercing damage."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: non-lawful",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "http://static.tvtropes.org/pmwiki/pub/images/cayden_cailean.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Transmuter",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Humanoid (Any), Any Alignment",
+      "rule",
+      "property | Armor class | 12 (15 with mage armor)",
+      "property | Hit points | 40 (9d8)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 9 | 14 | 11 | 17 | 12 | 11",
+      "rule",
+      "property | Saving Throws | Int +6, Wis +4",
+      "property | Skills | Arcana +6, History +6",
+      "property | Senses | Passive Perception 10",
+      "property | Language | Any four languages",
+      "property | Challenge | 5 (1800 xp)",
+      "rule",
+      "description|Spellcasting| The transmuter is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The transmuter has the following wizard spells prepared:",
+      "bullet|Cantrips (at will):| light, mending, prestidigitation, ray of frost ",
+      "bullet|1st level (4 slots):| chromatic orb, expeditious retreat*, mage armor",
+      "bullet|2nd level (3 slots):| alter self*, hold person, knock* ",
+      "bullet|3rd level (3 slots):| blink*, fireball, slow*",
+      "bullet|4th level (3 slots):| polymorph*, stoneskin ",
+      "bullet|5th level (1 slot):| telekinesis*",
+      "text|*Transmutation spell of 1st level or higher"
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.imgur.com/6WiADfJ.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Transmuter Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|Transmuter's Stone| The transmuter carries a magic stone it crafted that grants its bearer one of the following effects:",
+      "bullet||Darkvision out to a range of 60 feet",
+      "bullet||An extra 10 feet of speed while the bearer is unencumbered",
+      "bullet||Proficiency with Constitution saving throws",
+      "bullet||Resistance to acid, cold, fire, lightning, or thunder damage (transmuter’s choice whenever the transmuter chooses this benefit)",
+      "text|If the transmuter has the stone and casts a transmutation spell of 1st level or higher, it can change the effect of the stone.",
+      "fill | 1",
+     "section | Actions",
+      "description|Quarterstaff| Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.imgur.com/6WiADfJ.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "War Priest",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Humanoid (Any), Any Alignment",
+      "rule",
+      "property | Armor class | 18 (plate)",
+      "property | Hit points | 117 (18d8+36)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 16 | 10 | 14 | 11 | 17 | 13",
+      "rule",
+      "property | Saving Throws | Con +6, Wis +7",
+      "property | Skills | Intimidation +5, Religion +4",
+      "property | Senses | Passive Perception 13",
+      "property | Language | Any two languages",
+      "property | Challenge | 9 (5000 xp)",
+      "rule",
+      "description|Spellcasting| The priest is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). It has the following cleric spells prepared:",
+      "bullet|Cantrips (at will):| light, mending, sacred flame, spare the dying",
+      "bullet|1st level (4 slots):| divine favor, guiding bolt, healing word, shield of faith",
+      "bullet|2nd level (3 slots):| lesser restoration, magic weapon, prayer of healing, silence, spiritual weapon",
+      "bullet|3rd level (3 slots):| beacon of hope, crusader’s mantle, dispel magic, revivify, spirit guardians, water wall",
+      "bullet|4th level (3 slots):| banishment, freedom of movement, guardian of faith, stoneskin ",
+      "bullet|5th level (1 slot):| flame strike, mass cure wounds, hold monster"
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.warosu.org/data/tg/img/0381/83/1424400940816.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "War Priest Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+     "section | Actions",
+      "description|Multiattack| The priest makes two melee attacks.",
+      "description|Maul| Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (2d6 +3) bludgeoning damage.",
+      "fill | 1",
+     "section | Reactions",
+      "description|Guided Strike (Recharges after a Short or Long Rest)| The priest grants a +10 bonus to an attack roll made by itself or another creature within 30 feet of it. The priest can make this choice after the roll is made but before it hits or misses."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://i.warosu.org/data/tg/img/0381/83/1424400940816.jpg"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Warlock of the Archfey",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Humanoid (Any), Any Alignment",
+      "rule",
+      "property | Armor class | 11 (14 with mage armor)",
+      "property | Hit points | 49 (11d8)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 9 | 13 | 11 | 11 | 12 | 18",
+      "rule",
+      "property | Saving Throws | Wis +3, Cha +6",
+      "property | Skills | Arcana +2, Deception +6, Nature +2, Persuasion +6",
+      "property | Condition Immunities | Charmed",
+      "property | Senses | Passive Perception 11",
+      "property | Language | Any two languages (usually Sylvan)",
+      "property | Challenge | 4 (1100 xp)",
+      "rule",
+      "description|Innate Spellcasting| The warlock’s innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:",
+      "bullet|At will:| <i>disguise self</i>, <i>mage armor</i> (self only), <i>silent image</i>, <i>speak with animals</i>",
+      "bullet|1/day:| <i>conjure fey</i>"
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://brynvalk.files.wordpress.com/2015/10/leaf_shield_by_anthonyfoti-d3azqpv.png?w=341&h=683"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Warlock of the Archfey Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description|Spellcasting| The warlock is a 11th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
+      "bullet|Cantrips (at will):| <i>dancing lights</i>, <i>eldritch blast</i>, <i>friends</i>, <i>mage hand</i>, <i>minor illusion</i>, <i>prestidigitation</i>, <i>vicious mockery</i>",
+      "bullet|1st-5th level (3 5th-level slots):| <i>blink</i>, <i>charm person</i>, <i>dimension door</i>, <i>dominate beast</i>, <i>faerie fire</i>, <i>fear</i>, <i>hold monster</i>, <i>misty step</i>, <i>phantasmal force</i>, <i>seeming, sleep</i>",
+     "section | Actions",
+      "description|Dagger| Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage.",
+      "fill | 1",
+     "section | Reactions",
+      "description|Misty Escape (Recharges after a Short or Long Rest)| In response to taking damage, the warlock turns invisible and teleports up to 60 feet to an unoccupied space it can see. It remains invisible until the start of its next turn or until it attacks, makes a damage roll, or casts a spell."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "subrace: Any",
+      "Structure: Any",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Volos_Guide_122"
+    ],
+    "background_image": "https://brynvalk.files.wordpress.com/2015/10/leaf_shield_by_anthonyfoti-d3azqpv.png?w=341&h=683"
   }
 ]
