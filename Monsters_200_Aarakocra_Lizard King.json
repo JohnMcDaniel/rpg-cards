@@ -4866,14 +4866,12 @@
       "property | Language | Common, Draconic",
       "property | Challenge | 22 (41000 XP)",
       "rule",
-      "fill | 1",
       "description |Amphibious| The Dragon can breathe air and water.",
      "description |Legendary Resistance (3/day)| Can succeed failed saves",
+      "fill | 1",
      "section | Actions",
       "description |Multiattack| Can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.",
-      "description |Bite| Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) piercing damage.",
-      "description |Claw| Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 16 (2d6 + 9) slashing damage.",
-      "description |Tail| Melee Weapon Attack: +16 to hit, reach 20 ft., one target. Hit: 18 (2d8 + 9) bludgeoning damage."
+      "description |Bite| Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) piercing damage."
     ],
     "tags": [
       "creature",
@@ -4892,6 +4890,8 @@
     "title": "Ancient Bronze Dragon Continued: Actions",
     "icon": "imp-laugh",
     "contents": [
+      "description |Claw| Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 16 (2d6 + 9) slashing damage.",
+      "description |Tail| Melee Weapon Attack: +16 to hit, reach 20 ft., one target. Hit: 18 (2d8 + 9) bludgeoning damage.",
       "description |Frightful Presence| Each creature Dragon chooses in 120ft and aware of it must succeed on a DC 20 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's save is successful or the effect ends for it, the creature is immune to the Dragon's Frightful Presence for the next 24 hours.",
       "description |Breath Weapons (Recharge 5-6)| One breath weapons.",
       "description |Lightning Breath| The Dragon exhales lightning in a 120-foot line that is 10 feet wide. Each creature in that line must make a DC 23 Dexterity saving throw, taking 88 (16d10) lightning damage on a failed save, or half as much damage on a successful one.",
@@ -4956,7 +4956,7 @@
       "rule",
       "fill | 1",
       "description |Amphibious| The Dragon can breathe air and water.",
-      "description |Legendary Resistance (3/Day)| Can choose to succeed a failed saving throw.",
+     "description |Legendary Resistance (3/day)| Can succeed failed saves",
      "section | Actions",
       "description |Multiattack| Can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.",
       "description |Bite| Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) piercing damage.",
@@ -4983,8 +4983,7 @@
       "description |Frightful Presence| Each creature of the Dragon's choice in 120ft and aware of it must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If saving throw is successful or effect ends for it, the creature is immune to the Dragon's Frightful Presence for the next 24 hours.",
       "description |Breath Weapons (Recharge 5-6)| The Dragon uses one of the following breath weapons.",
       "description |Lightning Breath| Exhales lightning in a 90-foot line that is 5 feet wide. Each creature in that line must make a DC 19 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half damage on a successful one.",
-      "description |Repulsion Breath| The Dragon exhales repulsion energy in a 30-foot cone. Each creature in that area must succeed on a DC 19 Strength saving throw. On a failed save, the creature is pushed 60 feet away from the Dragon.",
-      "description |Change Shape| The Dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the Dragon's choice). In a new form, the Dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+      "description |Repulsion Breath| The Dragon exhales repulsion energy in a 30-foot cone. Each creature in that area must succeed on a DC 19 Strength saving throw. On a failed save, the creature is pushed 60 feet away from the Dragon."
     ],
     "tags": [
       "creature",
@@ -5003,6 +5002,8 @@
     "title": "Adult Bronze Dragon Continued: Legendary",
     "icon": "imp-laugh",
     "contents": [
+      "description |Change Shape| The Dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the Dragon's choice). In a new form, the Dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form.",
+      "fill | 1",
      "section | Legendary Actions",
       "text |The Dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The Dragon regains spent legendary actions at the start of its turn.",
       "description |Detect| The Dragon makes a Wisdom (Perception) check.",
@@ -5339,7 +5340,7 @@
       "description |Bite| Melee: +4, 5ft. Hit: 7 (1d10 + 2) piercing damage.",
       "description |Breath Weapons (Recharge 5-6)| Pick one breath weapons.",
       "description |Acid Breath| Exhales Acid in 20ft line 5ft wide. Everything in line makes DC11 Dexterity saving throw, taking 18 (4d8) acid damage on a failed save, or half damage on success",
-      "description |Slowing Breath| Exhales gas in a 15ft cone. Everything in area makes DC11 Constitution save. Failure: can't use reactions, speed is halved, and can't make more than one attack. Also, can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns,  ending the effect on itself with a successful save. "
+      "description |Slowing Breath| Exhales gas in a 15ft cone. Everything in area makes DC11 Constitution save. Failure: can't use reactions, speed is halved, and can't make more than one attack. Also, can use either an action or a bonus action on its turn, but not both. Lasts for 1min. Target makes save at end of each of its turns, ends on success"
     ],
     "tags": [
       "creature",
@@ -5858,7 +5859,7 @@
       "Legendary: No",
       "Book: Monster_Manual_118"
     ],
-    "background_image": "http://www.firemountaingames.com/images/argossarian_preview.jpg"
+    "background_image": "https://i.imgur.com/siazSCT.jpg"
   },
   {
     "count": 1,
@@ -5985,7 +5986,7 @@
       "bullet |At will:| <i>druidcraft</i>",
       "bullet |3/day each:| <i>entangle</i>, <i>goodberry</i>",
       "bullet |1/day each:| <i>barkskin</i>, <i>pass without trace</i>, <i>shillelagh</i>",
-      "description |Magic Resistance| The dryad has advantage on saving throws against spells and other magical effects.",
+      "description |Magic Resistance| Adv. against spells and magical effects.",
       "description |Speak with Beasts and Plants| The dryad can communicate with beasts and plants as if they shared a language.",
       "description |Tree Stride| Once a turn, can use 10ft of movement to step magically into one living tree within her reach and emerge from a second living tree within 60 feet of the first tree, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be Large or bigger."
     ],
@@ -6102,7 +6103,7 @@
       "section | Actions",
       "description |Multiattack| The elemental makes two slam attacks.",
       "description |Slam| Melee: +8, 5ft. Hit: 14 (2d8 + 5) bludgeoning damage.",
-      "description |Whirlwind (Recharge 4-6)| Creatures in same space DC13 Str save. Success: half damage and not moved/prone. Failure: 15 (3d8 + 2) bludgeoning and flung 20ft away from Elemental, in random direction and go prone. Hitting a solid object causes 3(1d6) bludgeoning, per 10ft thrown. Collision with creature, causes a DC13 Dex save or both take damage and go prone."
+      "description |Whirlwind (Recharge 4-6)| Creatures in same space DC13 Str save. Success: half damage and not moved/prone. Failure: 15 (3d8 + 2) BLDG and flung 20ft away from Elemental, in random direction and prone. Hitting a solid object causes 3(1d6) BLDG, per 10ft thrown. Collision with creature, causes a DC13 Dex save or both damaged and prone."
     ],
     "tags": [
       "creature",
@@ -6182,7 +6183,7 @@
       "fill | 1",
       "section | Actions",
       "description |Multiattack| The elemental makes two touch attacks.",
-      "description |Touch| Melee: +6, 5ft. Hit: 10 (2d6 + 3) Fire. If target is a creature or flammable, it ignites. Until a creature takes an action to douse the fire, target takes 5(1d10) Fire on its turn"
+      "description |Touch| Melee: +6, 5ft. Hit: 10 (2d6 + 3) Fire. Ignites flammable targets. Causes 5(1d10) Fire on its turn, until extinguished"
     ],
     "tags": [
       "creature",
@@ -6556,7 +6557,7 @@
       "property | Challenge | 2 (450 XP)",
       "rule",
       "description |Spider Climb| Climbs difficult surfaces, ignore ability check.",
-      "description |Web Sense| While touching web, Ettercap knows location of any other creature in contact with the same web.",
+      "description |Web Sense| Knows spot of targets while in contact with web",
       "description |Web Walker| Ignores movement restrictions by webbing.",
       "section | Actions",
       "description |Multiattack| Two attacks: one Bite and one with its claws.",
@@ -6969,7 +6970,7 @@
       "fill | 1",
       "section | Actions",
       "description |Slam| Melee: +8, 5ft. Hit: 12 (2d6 + 5) bludgeoning damage.",
-      "description |Animate Boulders (1/Day)| Magically animates up to two boulders it can see within 60ft. Has stats like those of a Galeb Duhr, except Int 1 and Cha 1, it can't be charmed or frightened, and it lacks this action option. A boulder remains animated as long as the galeb duhr maintains concentration, up to 1 minute (as if concentrating on a spell)."
+      "description |Animate Boulders (1/Day)| Magically animates two boulders visible in 60ft. Has stats like those of a Galeb Duhr, except Int 1 and Cha 1, can't be charmed/frightened, and it lacks this action option. Remains animated while concentration maintained, up to 1 minute (as if concentrating on a spell)."
     ],
     "tags": [
       "creature",
@@ -7268,7 +7269,7 @@
       "description |Incorporeal Movement| Can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.",
       "section | Actions",
       "description |Withering Touch| Melee: +5, 5ft. Hit: 17 (4d6 + 3) necrotic.",
-      "description |Etherealness| The Ghost enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane."
+      "description |Etherealness| Enters Ethereal Plane from Material Plane, or vice versa. Still visible from Material Plane in Border Ethereal, and vice versa, but no direct action between planes"
     ],
     "tags": [
       "creature",
@@ -7287,8 +7288,8 @@
     "title": "Ghost Continued: Actions",
     "icon": "imp-laugh",
     "contents": [
-      "description |Horrifying Visage| Each non-undead creature within 60 feet of the Ghost that can see it must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. If the save fails by 5 or more, the target also ages 1d4 x 10 years. A frightened target can repeat the saving throw at the end of each of its turns, ending the frightened condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this Ghost's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a greater restoration spell, but only within 24 hours of it occurring.",
-      "description |Possession (Recharge 6)| One humanoid in sight within 5ft of it must succeed on a DC 13 Charisma saving throw or be possessed by the Ghost; the Ghost then disappears, and the target is incapacitated and loses control of its body. The Ghost now controls the body but doesn't deprive the target of awareness. The Ghost can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being charmed and frightened. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies. The possession lasts until the body drops to 0 hit points, the Ghost ends it as a bonus action, or the Ghost is turned or forced out by an effect like the dispel evil and good spell. On end, the Ghost reappears in an unoccupied space within 5 feet of the body. The target is immune to this Ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends."
+      "description |Horrifying Visage| Each non-undead creature within 60 feet of the Ghost that can see it must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. If the save fails by 5 or more, the target also ages 1d4 x 10 years. A frightened target can repeat the saving throw at the end of each of its turns, ending the frightened condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this Ghost's Horrifying Visage for the next 24 hours. Aging effect can be reversed with a greater restoration spell, but only within 24 hours of it occurring.",
+      "description |Possession (Recharge 6)| One humanoid in sight within 5ft makes DC 13 Charisma save. Failure: possessed by Ghost; Ghost then disappears, and the target is incapacitated and loses control of its body. Ghost now controls the body but doesn't deprive the target of awareness. Ghost can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being charmed and frightened. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies. Possession lasts until the body drops to 0 hit points, the Ghost ends it as a bonus action, or the Ghost is turned or forced out by an effect like the dispel evil and good spell. On end, the Ghost reappears in an unoccupied space within 5 feet of the body. Target is immune to Possession for 24 hours after succeeding on the saving throw or after the possession ends."
     ],
     "tags": [
       "creature",
@@ -7326,7 +7327,7 @@
       "description |Turning Defiance| The Ghast and any ghouls in 30ft have advantage on saves against effects that turn undead.",
       "section | Actions",
       "description |Bite| Melee: +3, 5ft. Hit: 12 (2d8 + 3) piercing damage.",
-      "description |Claws| Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage. If the target is a creature other than an undead, it must succeed on a DC 10 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      "description |Claws| Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing. If target is a creature and not undead, makes DC 10 Constitution save or be paralyzed for 1 minute. The target can repeat save at the end of each of its turns, ending the effect on itself on a success."
     ],
     "tags": [
       "creature",
@@ -7397,7 +7398,7 @@
       "property | Challenge | 9 (5000 XP)",
       "rule",
       "description |Keen Smell| Advantage on Perception checks based on smell.",
-      "description |InnateSpellcasting| The Giant's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:",
+      "description |InnateSpellcasting| Spellcasting ability is Charisma. Casts the following spells, requiring no material components:",
       "bullet |At will:| <i>detect magic</i>, <i>fog cloud</i>, <i>light</i>",
       "bullet |3/day each:| <i>feather fall</i>, <i>fly</i>, <i>misty step</i>, <i>telekinesis</i>",
       "bullet |1/day each:| <i>control weather</i>, <i>gaseous form</i>",
@@ -7632,7 +7633,9 @@
       "property | Challenge | 2 (450 XP)",
       "rule",
       "description |Aberrant Ground| Ground in 10ft radius around the Mouther is doughlike difficult terrain. Creature that start its turn in area make a DC 10 Strength saving throw or have its<br />Speed reduced to 0 until the start of its next turn.",
-      "description |Gibbering| The Mouther babbles incoherently while it can see any creature and isn't incapacitated. Each creature that starts its turn within 20 feet of the Mouther and can hear the Gibbering must succeed on a DC 10 Wisdom saving throw. On a failure, the creature can't take reactions until the start of its next turn and rolls a d8 to determine what it does during its turn. On a 1 to 4, the creature does nothing. On a 5 or 6, the creature takes no action or bonus action and uses all its movement to move in a randomly determined direction. On a 7 or 8, the creature makes a melee attack against a randomly determined creature within its reach or does nothing if it can't make such an attack."
+      "description |Gibbering| Babbles incoherently at any creature and isn't incapacitated. Each creature that starts its turn in 20ft of Mouther and can hear Gibbering makes DC 10 Wisdom  save. Failure: can't use reactions until start of its next turn and rolls a d8.",
+      "bullet | |On a 1 to 4, the creature does nothing. ",
+      "bullet | |On a 5 or 6, the creature takes no action or bonus action and uses all its movement to move in a randomly determined direction. "
     ],
     "tags": [
       "creature",
@@ -7651,6 +7654,8 @@
     "title": "Gibbering Mouther Continued: Actions",
     "icon": "imp-laugh",
     "contents": [
+      "bullet | |On a 7 or 8, the creature makes a melee attack against a randomly determined creature within its reach or does nothing if it can't make such an attack.",
+      "fill | 1",
       "section | Actions",
       "description |Multiattack| The Gibbering Mouther makes one bite attack and, if it can, uses its Blinding Spittle.",
       "description |Bites| Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 17 (5d6) piercing damage. If the target is Medium or smaller, it must succeed on a DC 10 Strength saving throw or be knocked prone. If the target is killed by this damage, it is absorbed into the Mouther.",
@@ -7731,7 +7736,7 @@
       "fill | 1",
       "section | Actions",
       "description |Multiattack| Makes two silver greatsword attacks.",
-      "description |Silver Greatsword| Melee: +9, 5ft. Hit: 13 (2d6 + 6) slashing damage plus 10 (3d6) psychic damage. This is a magic weapon attack. On a critical hit against a target in an astra l body (as with the astral projection spell), the Githyanki can cut the silvery cord that tethers the target to its material body, instead of dealing damage. "
+      "description |Silver Greatsword| Melee: +9, 5ft. Hit: 13 (2d6 + 6) slashing plus 10 (3d6) psychic. Is a magic weapon attack. On critical hit against a target in an astral body (like <i>astral projection</i>), can cut the silvery cord that tethers the target to its material body, instead of dealing damage. "
     ],
     "tags": [
       "creature",
@@ -7884,7 +7889,7 @@
       "section | Actions",
       "description |Multiattack| The Gnoll makes two attacks, either with its glaive or its longbow, and uses its Incite Rampage if it can.",
       "description |Bite| Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage.",
-      "description |Glaive| Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8 (1d10 + 3) slashing damage.",
+      "description |Glaive| Melee: +5. 10ft. Single. Hit: 8(1d10 + 3) slashing",
       "description |Longbow| Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
       "description |Incite Rampage (Recharge 5-6)| One creature the Gnoll can see within 30 feet of it can use its reaction to make a melee attack if it can hear the Gnoll and has the Rampage trait."
     ],
@@ -7955,7 +7960,7 @@
       "property | Language | Gnomish, Terran, Undercommon",
       "property | Challenge | 1/2 (100 XP)",
       "rule",
-      "description |Stone Camouflage| The Gnome has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.",
+      "description |Stone Camouflage| Adv. on Stealth to hide in rocky terrain.",
       "description |Gnome Cunning| The Gnome has advantage on Intelligence, Wisdom, and Charisma saving throws against magic.",
       "description |Innate Spellcasting| The Gnome's innate spellcasting ability is Intelligence (spell save DC 11). It can innately cast the following spells, requiring no material components:",
       "bullet |At will:| <i>nondetection (self only)</i>",
@@ -8131,7 +8136,7 @@
       "property | Language | Languages of its creator but can't speak",
       "property | Challenge | 5 (1800 XP)",
       "rule",
-      "description | Berserk| At start of its turn with 40 hit points or fewer, roll a d6. On a 6, the Golem goes berserk. On each of its turns while berserk, the Golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the Golem attacks an object, with preference for an object smaller than itself. Once the Golem goes berserk, it continues to do so until it is destroyed or regains all its hit points. The Golem's creator, if within 60 feet of the berserk Golem, can try to calm it by speaking firmly and persuasively. Must be able to hear its creator, who uses action to make DC15 Persuasion check. If the check succeeds, the Golem ceases being berserk. Taking damage while still at 40 hit points or fewer, the Golem might go berserk again."
+      "description | Berserk| At start of its turn with 40 hit points or fewer, roll a d6. On a 6, the Golem goes berserk. While berserk, attacks nearest creature it can see. If no creature is near enough to move to and attack, Golem attacks an object, preference for an object smaller than itself. Continues berserking until it is destroyed or regains all its hit points. The Golem's creator, if within 60 feet of the berserk Golem, can try to calm it by speaking firmly and persuasively. Must be able to hear its creator, who uses action to make DC15 Persuasion check. If the check succeeds, the Golem ceases being berserk. Taking damage while still at 40 hit points or fewer, the Golem might go berserk again."
     ],
     "tags": [
       "creature",
@@ -8162,14 +8167,14 @@
     ],
     "tags": [
       "creature",
-      "Aberration",
+      "Construct",
       "subrace:",
       "Structure: Neutral",
       "Alignment: Neutral",
       "Legendary: No",
-      "Book: Monster_Manual_157"
+      "Book: Monster_Manual_169"
     ],
-    "background_image": "http://www.aidedd.org/dnd/images/golemClay.jpg"
+    "background_image": "http://www.aidedd.org/dnd/images/golemFlesh.jpg"
   },
   {
     "count": 1,
@@ -8307,7 +8312,7 @@
       "property | Language | -",
       "property | Challenge | 5 (1800 XP)",
       "rule",
-      "description | Trampling Charge| Must move 20ft straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 16 Strength saving throw or be knocked prone. If the target is prone, the Gorgon can make one attack with its hooves against it as a bonus action.",
+      "description | Trampling Charge| Must move 20ft straight and then hits it with a gore attack on the same turn. Target makes DC 16 Strength save or be knocked prone. If knocked prone, can make one use hooves against target as bonus action.",
       "section | Actions",
       "description |Gore| Melee: +8, 5ft. Hit: 18 (2d12 + 5) piercing damage.",
       "description |Hooves| Melee: +8, 5ft. Hit: 16 (2d10 + 5) bludgeoning.",
@@ -8957,7 +8962,7 @@
       "description |Multiattack| The Hobgoblin makes two greatsword attacks.",
       "description |Greatsword| Melee: +4, 5ft. Hit: 9 (2d6 + 2) piercing damage.",
       "description |Javelin| Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing.",
-      "description |Leadership (Recharges after a Short or Long Rest)| For 1 minute, the Hobgoblin can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the Hobgoblin. Can only have one Leadership die at a time. This effect ends if the Hobgoblin is incapacitated."
+      "description |Leadership (Recharges after any Rest)| For 1 minute, can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand Hobgoblin. Can only have one Leadership die at a time. This effect ends if the Hobgoblin is incapacitated."
     ],
     "tags": [
       "creature",
@@ -9588,9 +9593,9 @@
       "property | Challenge | 6 (2300 XP)",
       "rule",
       "description |Amphibious| The Kuo-Toa can breathe air and water.",
-      "description |Otherworldly Perception| Can sense presence of any creature in 30ft that is invisible or on Ethereal Plane. Pinpoints creature that is moving.",
+      "description |Otherworldly Perception| Senses presence of any creature in 30ft that is invisible or on Ethereal Plane. Pinpoints creature that is moving.",
       "description |Slippery| The Kuo-Toa has advantage on ability checks and saving throws made to escape a grapple.",
-      "description |Spellcasting| 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The Kuo-Toa has the following cleric spells prepared:",
+      "description |Spellcasting| 10th-level spellcaster. Uses Wisdom (save DC 14, +6 with spell attacks). Uses cleric spells prepared:",
       "bullet |Cantrips (at will):| <i>guidance</i>, <i>sacred flame</i>, <i>thaumaturgy</i>",
       "bullet |1st level (4 slots):| <i>detect magic</i>, <i>sanctuary</i>, <i>shield of faith</i>",
       "bullet |2nd level (3 slots):| <i>hold person</i>, <i>spiritual weapon</i>",
@@ -9655,10 +9660,11 @@
       "description |Amphibious| The Kuo-Toa can breathe air and water.",
       "description |Otherworldly Perception| Can sense presence of any creature in 30ft that is invisible or on Ethereal Plane. Pinpoints creature that is moving.",
       "description |Slippery| The Kuo-Toa has advantage on ability checks and saving throws made to escape a grapple.",
+      "fill | 1",
       "section | Actions",
       "description |Multiattack| Makes one bite attack and two unarmed strikes.",
-      "description |Bite| Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
-      "description |Unarmed Strike| Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage plus 3 (1d6) lightning damage, and the target can't take reactions until the end of the Kuo-Toa's next turn." 
+      "description |Bite| Melee: +6, 5ft. Single. Hit: 4 (1d4 + 2) piercing",
+      "description |Unarmed Strike| Melee: +6 to hit, 5ft. Single. Hit: 5 (1d6 + 2) bludgeoning plus 3 (1d6) lightning, and the target can't take reactions until the end of the Kuo-Toa's next turn." 
     ],
     "tags": [
       "creature",
