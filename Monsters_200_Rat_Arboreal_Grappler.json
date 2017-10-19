@@ -7635,13 +7635,13 @@
       "property | Language | Druidic plus any two languages",
       "property | Challenge | 12 (8400 xp)",
       "rule",
-      "description|Spellcasting| 18th-level spellcaster. Ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). It has the following druid spells prepared:",
+      "description|Spellcasting| 18th-level spellcaster. Ability is Wisdom (DC17, +9 to hit with spell attacks). Following druid spells prepared:",
       "bullet|Cantrips (at will):| <i>druidcraft</i>, <i>mending</i>, <i>poison spray</i>, <i>produce flame</i>",
-      "bullet|1st level (4 slots):| <i>cure wounds</i>, <i>entangle</i>, <i>faerie fire</i>, <i>speak with animals</i>",
-      "bullet|2nd level (3 slots):| <i>animal messenger</i>, <i>beast sense</i>, <i>hold person</i>",
-      "bullet|3rd level (3 slots):| <i>conjure animals</i>, <i>meld into stone</i>, <i>water breathing</i>",
-      "bullet|4th level (3 slots):| <i>dominate beast</i>, <i>locate creature</i>, <i>stoneskin</i>, <i>wall of fire</i>",
-      "bullet|5th level (3 slots):| <i>commune with nature</i>, <i>mass cure wounds</i>, <i>tree stride</i>"
+      "bullet|1st lvl (4):| <i>cure wounds</i>, <i>entangle</i>, <i>faerie fire</i>, <i>speak with animals</i>",
+      "bullet|2nd lvl (3):| <i>animal messenger</i>, <i>beast sense</i>, <i>hold person</i>",
+      "bullet|3rd lvl (3):| <i>conjure animals</i>, <i>meld into stone</i>, <i>water breathing</i>",
+      "bullet|4th lvl (3):| <i>dominate beast</i>, <i>locate creature</i>, <i>stoneskin</i>, <i>wall of fire</i>",
+      "bullet|5th lvl (3):| <i>commune with nature</i>, <i>mass cure wounds</i>, <i>tree stride</i>"
     ],
     "tags": [
       "creature",
@@ -7668,7 +7668,7 @@
       "fill | 1",
      "section | Actions",
       "description|Scimitar| Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage.",
-      "description|Change Shape (2/Day)| The archdruid magically polymorphs into a beast or elemental with a challenge rating of 6 or less, and can remain in this form for up to 9 hours. The archdruid can choose whether its equipment falls to the ground, melds with its new form, or is worn by the new form. The archdruid reverts to its true form if it dies or falls unconscious. The archdruid can revert to its true form using a bonus action on its turn. <br />While in a new form, the archdruid retains its game statistics and ability to speak, but its AC, movement modes, Strength, and Dexterity are replaced by those of the new form, and it gains any special senses, proficiencies, traits, actions, and reactions (except class features, legendary actions, and lair actions) that the new form has but that it lacks. It can cast its spells with verbal or somatic components in its new form. <br />The new form’s attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks."
+      "description|Change Shape (2/Day)| The archdruid magically polymorphs into a beast or elemental with a challenge rating of 6 or less, and can remain in this form for up to 9 hours. The archdruid can choose whether its equipment falls to the ground, melds with its new form, or is worn by the new form. The archdruid reverts to its true form if it dies or falls unconscious. Can revert to its true form using a bonus action on its turn. <br />While in a new form, the archdruid retains its game statistics and ability to speak, but its AC, movement modes, Strength, and Dexterity are replaced by those of the new form, and it gains any special senses, proficiencies, traits, actions, and reactions (except class features, legendary actions, and lair actions) that the new form has but that it lacks. It can cast its spells with verbal or somatic components in its new form. <br />Attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks."
     ],
     "tags": [
       "creature",
