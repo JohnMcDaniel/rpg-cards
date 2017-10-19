@@ -1,5 +1,4 @@
 [
-
   {
     "count": 1,
     "color": "default",
@@ -78,7 +77,7 @@
       "property | Language | Common (can't speak in Boar form)",
       "property | Challenge | 4 (1100 XP)",
       "rule",
-      "description |Shapechanger| Can use its action to polymorph into a boar-humanoid hybrid or into a boar, or back into its true form, which is humanoid. Statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.",
+      "description |Shapechanger| Uses action to polymorph into a boar-humanoid hybrid or into a boar, or back to humanoid. Statistics, except AC, are always the same. Gear it is wearing or carrying isn't transformed. Reverts to true form at death",
       "description |Charge (Boar or Hybrid Form Only)| If the Wereboar moves at least 15 feet straight toward a target and then hits it with its tusks on the same turn, the target takes an extra 7 (2d6) slashing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.",
       "description |Relentless (Recharges after a Short or Long Rest)| If the Wereboar takes 14 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.",
       "fill | 1"
@@ -189,13 +188,13 @@
       "rule",
       "property | Skills | Perception +5, Stealth +4",
       "property | Damage Immunities | Physical from non-magic, non-silvered",
-      "property | Senses | Darkvision 60ft (Tiger form only), Passive Perception 15",
+      "property | Senses | Darkvision 60ft (Tiger form only), Passive Perc. 15",
       "property | Language | Common (can't speak in Tiger form)",
       "property | Challenge | 4 (1100 XP)",
       "rule",
       "description |Shapechanger| The Weretiger can use its action to polymorph into a tiger-humanoid hybrid or into a tiger, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.",
       "description |Keen Hearing and Smell| The Weretiger has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
-      "description |Pounce (Tiger or Hybrid Form Only)| If the Weretiger moves at least 15 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the Weretiger can make one bite attack against it as a bonus action."
+      "description |Pounce (Tiger or Hybrid Form Only)| Moving at least 15 feet straight toward a creature and hits with a claw attack on same turn, target makes DC 14 Strength save or be knocked prone. If the target is prone, the Weretiger can make one bite attack against it as a bonus action."
     ],
     "tags": [
       "creature",
@@ -309,7 +308,7 @@
       "property | Language | Ignan",
       "property | Challenge | 1/2 (100 XP)",
       "rule",
-      "description |Death Burst| On death, it explodes. Each creature within 10 feet of it must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one. Flammable objects that aren't being worn or carried in that area are ignited.",
+      "description |Death Burst| Explodes on death. Everyone in 10ft makes DC 11 Dexterity save, taking 7(2d6) fire on failure, or half on save. Flammable objects that aren't being worn or carried in that area are ignited.",
       "description |Ignited Illumination| As a bonus action, can set itself ablaze or extinguish its flames. Ablaze: the Magmin sheds bright light in a 10ft radius and dim light for an additional 10ft.",
      "section |Actions", 
       "description |Touch| Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d6) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 3 (1d6) fire damage at the end of each of its turns."
@@ -381,7 +380,7 @@
       "property | Language | Common",
       "property | Challenge | 6 (2300 XP)",
       "rule",
-      "description |Petrifying Gaze| When creature sees Medusa's eyes, Medusa not incapacitated & target starts turn in 30ft of the Medusa, forces DC 14 Constitution save. Failure: by 5 or more, creature instantly petrified. Otherwise, creature that fails begins to turn to stone and is restrained. Restrained creature must repeat the save at the end of its next turn, becoming petrified on a failure or ending the effect on a success. Petrification lasts until creature is freed by the <i>greater restoration</i> spell or other magic. Unless surprised, creature can avert its eyes to avoid the saving throw at the start of its turn. If creature does so, it can't see the Medusa until the start of its next turn, when it can avert its eyes again. If the creature looks at the Medusa in the meantime, it must immediately make the save. When Medusa sees itself reflected on a polished surface in 30ft of it and in bright light, the Medusa must make the same saving throw"
+      "description |Petrifying Gaze| When creature sees Medusa's eyes, Medusa not incapacitated & target starts turn in 30ft of the Medusa, forces DC 14 Constitution save. Failure: by 5 or more, creature instantly petrified. Otherwise, creature that fails begins to turn to stone and is restrained. Restrained creatures repeat save at the end of its next turn. Success: ends restrained effect. Failure: petrified. Petrification lasts until creature is freed by the <i>greater restoration</i> spell or other magic. Unless surprised, creature can avert its eyes to avoid needing to save. If creature does so, it can't see the Medusa until the start of its next turn, when it can avert its eyes again. If the creature looks at the Medusa in the meantime, it must immediately make the save. When Medusa sees itself reflected on a polished surface in 30ft of it and in bright light, Medusa must make its own save"
     ],
     "tags": [
       "creature",
@@ -612,7 +611,7 @@
       "property | Challenge | 1/2 (100 XP)",
       "rule",
       "description |Death Burst| On death, explodes. Each Medium or smaller creature in 5ft makes DC 11 Dexterity save or be restrained until the end of the creature's next turn.",
-      "description |False Appearance| While the Mephit remains motionless, it is indistinguishable from an ordinary mound of mud.",
+      "description |False Appearance| If motionless, looks like mound of mud.",
      "section |Actions", 
       "description |Fists| Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) bludgeoning damage.",
       "description |Mud Breath (Recharge 6)| One creature within 5 feet of it. If the target is Medium or smaller, it must succeed on a DC 11 Dexterity saving throw or be restrained for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
@@ -650,9 +649,9 @@
       "property | Challenge | 1/4 (50 XP)",
       "rule",
       "description |Death Burst| On death, explodes in smoke fills a 5ft-radius sphere. The sphere is heavily obscured. Wind disperses the cloud, which otherwise lasts for 1 minute.", 
-      "description |Innate Spellcasting (1/Day)| The Mephit can innately cast <i>dancing lights</i>, requiring no material components. Its innate spellcasting ability is Charisma.",
+      "description |Innate Spellcasting (1/Day)| Innately casts <i>dancing lights</i>, requiring no material components. Ability is Charisma.",
      "section |Actions", 
-      "description |Claws| Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) slashing damage.", 
+      "description |Claws| Melee: +4, 5ft. Single. Hit: 4 (1d4 + 2) slashing.", 
       "description |Cinder Breath (Recharge 6)| The Mephit exhales a 15-foot cone of smoldering ash. Each creature in that area must succeed on a DC 10 Dexterity saving throw or be blinded until the end of the Mephit's next turn."
     ],
     "tags": [
@@ -690,7 +689,7 @@
       "description |Innate Spellcasting (1/Day)| The Mephit can innately cast <i>blur</i>, requiring no material components. Its innate spellcasting ability is Charisma.",
      "section |Actions", 
       "description |Claws| Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 2 (1d4) slashing damage plus 2 (1d4) fire.",
-      "description |Steam Breath (Recharge 6)| The Mephit exhales a 15-foot cone of scalding steam. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 4 (1d8) fire damage on a failed save, or half as much damage on a successful one."
+      "description |Steam Breath (Recharge 6)| Exhales a 15ft cone of steam. Everyone makes DC 10 Dexterity save, taking 4 (1d8) fire on a failed save, or half as much damage on a successful one."
     ],
     "tags": [
       "creature",
@@ -935,7 +934,7 @@
     "title": "Mind Flayer Arcanist Continued: Actions",
     "icon": "imp-laugh",
     "contents": [
-      "description | Spellcasting| The Mind Flayer is a 10th-level spellcaster. Its spellcasting ability is Intelligence (save DC 15, +7 to hit with spell attacks). The Mind Flayer has the following wizard spells prepared:",
+      "description | Spellcasting| 10th-level spellcaster. Its spellcasting ability is Intelligence (save DC 15, +7 to hit with spell attacks). The Mind Flayer has the following wizard spells prepared:",
       "bullet |Cantrips (at will):| <i>blade ward</i>, <i>dancing lights</i>, <i>mage hand</i>, <i>shocking grasp</i>",
       "bullet |1st level (4):| <i>detect magic</i>, <i>disguise self</i>, <i>shield</i>, <i>sleep</i>",
       "bullet |2nd level (3):| <i>blur</i>, <i>invisibility</i>, <i>ray of enfeeblement</i>",
@@ -945,7 +944,7 @@
      "section |Actions", 
       "description |Tentacles| Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 15 (2dl0 + 4) psychic damage. If the target is Medium or smaller, it is grappled (escape DC 15) and must succeed on a DC 15 Intelligence saving throw or be stunned until this grapple ends.", 
       "description |Extract Brain| Melee Weapon Attack: +7 to hit, reach 5 ft., one incapacitated humanoid grappled by the Mind Flayer. Hit: The target takes 55 (lOdlO) piercing damage. If this damage reduces the target to 0 hit points, the Mind Flayer kills the target by extracting and devouring its brain.", 
-      "description |Mind Blast (Recharge 5-6)| The Mind Flayer magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 15 Intelligence saving throw or take 22 (4d8 + 4) psychic damage and be stunned for 1 minute. A creature can repeat the saving throw at the end of each of its t_urns, ending the effect on itself on a success"
+      "description |Mind Blast (Recharge 5-6)| The Mind Flayer magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 15 Intelligence saving throw or take 22 (4d8 + 4) psychic damage and be stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success"
     ],
     "tags": [
       "creature",
@@ -1298,18 +1297,18 @@
     "title": "Mummy Lord Continued: Actions",
     "icon": "imp-laugh",
     "contents": [
-      "description |Spellcasting| The Mummy Lord is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). The Mummy Lord has the following cleric spells prepared:",
-      "bullet |Cantrips (at will):| sacred flame, thaumaturgy",
-      "bullet |1st level (4 slots):| command, guiding bolt, shield of faith",
-      "bullet |2nd level (3 slots):| hold person, silence, spiritual weapon",
-      "bullet |3rd level (3 slots):| animate dead, dispel magic",
-      "bullet |4th level (3 slots):| divination, guardian of faith",
-      "bullet |5th level (2 slots):| contagion, insect plague",
-      "bullet |6th level (1 slot):| harm",
+      "description |Spellcasting| 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). The Mummy Lord has the following cleric spells prepared:",
+      "bullet |Cantrips (at will):| <i>sacred flame</i>, <i>thaumaturgy</i>",
+      "bullet |1st level (4 slots):| <i>command</i>, <i>guiding bolt</i>, <i>shield of faith</i>",
+      "bullet |2nd level (3 slots):| <i>hold person</i>, <i>silence</i>, <i>spiritual weapon</i>",
+      "bullet |3rd level (3 slots):| <i>animate dead</i>, <i>dispel magic</i>",
+      "bullet |4th level (3 slots):| <i>divination</i>, <i>guardian of faith</i>",
+      "bullet |5th level (2 slots):| <i>contagion</i>, <i>insect plague</i>",
+      "bullet |6th level (1 slot):| <i>harm</i>",
       "fill | 1",
      "section | Actions",
       "description |Rotting Fist| Melee: +9, 5ft. Hit: 14(3d6 + 4) bludgeoning & 21(6d6) necrotic. Creatures make DC 16 Constitution save. Failure: cursed with mummy rot. Target can't regain HP, and its HP maximum decreases by 10(3d6) every 24 hours. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or other magic.",
-      "description |Dreadful Glare| The Mummy Lord targets one creature it can see within 60 feet of it. If the target can see the Mummy Lord, it must succeed on a DC 16 Wisdom saving throw against this magic or become frightened until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies and Mummy Lords for the next 24 hours."
+      "description |Dreadful Glare| Targets one creature it can see within 60 feet of it. If the target can see the Mummy Lord, it must succeed on a DC 16 Wisdom saving throw against this magic or become frightened until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies and Mummy Lords for the next 24 hours."
     ],
     "tags": [
       "creature",
@@ -1368,7 +1367,7 @@
       "description |Distress Spores| When the Myconid takes damage, all other Myconids within 240 feet of it can sense its pain. ",
       "description |Sun Sickness| While in sunlight, the Myconid has disadvantage on ability checks, attack rolls, and saving throws. The Myconid dies if it spends more than 1 hour in direct sunlight. ",
      "section | Actions",
-      "description |Fist| Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4- 1) bludgeoning damage plus 2 (1d4) poison damage.",
+      "description |Fist| Melee Weapon Attack: +1 to hit, reach 5 ft. Single. Hit: 1(1d4 - 1) bludgeoning plus 2 (1d4) poison",
       "description |Rapport Spores (3/Day)| A 10-foot radius of spores extends from the Myconid. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour. "
     ],
     "tags": [
@@ -1480,8 +1479,8 @@
       "fill | 1",
      "section | Actions",
       "description |Multiattack| The Myconid uses either its Hallucination Spores or its Pacifying Spores, then makes a fist attack.",
-      "description |Fist| Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8 (3d4 + 1) bludgeoning damage plus 7 (3d4) poison damage.",
-      "description | Animating Spores (3/Day)| The Myconid targets one corpse of a humanoid or a Large or smaller beast within 5 feet of it and releases spores at the corpse. In 24 hours, the corpse rises as a spore servant. The corpse stays animated for 1d4 + 1 weeks or until destroyed, and it can't be animated again in this way. "
+      "description |Fist| Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8 (3d4 + 1) bludgeoning plus 7 (3d4) poison.",
+      "description | Animating Spores (3/Day)| Targets one corpse of a humanoid or a Large or smaller beast within 5 feet of it and releases spores at the corpse. In 24 hours, the corpse rises as a spore servant. The corpse stays animated for 1d4 + 1 weeks or until destroyed, and it can't be animated again in this way. "
     ],
     "tags": [
       "creature",
@@ -1661,7 +1660,7 @@
       "property | Challenge | 10 (5900 XP)",
       "rule",
       "description |Rejuvenation| If it dies, the Naga returns to life in 1d6 days and regains all its hit points. Only a <i>wish</i> spell can prevent this trait from functioning.",
-      "description |Spellcasting| The Naga is an 11th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following cleric spells prepared:",
+      "description |Spellcasting| 11th-level spellcaster. Ability is Wisdom (DC 16, +8 to hit), and it needs only verbal components. Has following cleric spells prepared:",
       "bullet |Cantrips (at will):| <i>mending</i>, <i>sacred flame</i>, <i>thaumaturgy</i>",
       "bullet |1st level (4 slots):| <i>command</i>, <i>cure wounds</i>, <i>shield of faith</i>",
       "bullet |2nd level (3 slots):| <i>calm emotions</i>, <i>hold person</i>",
@@ -1926,7 +1925,7 @@
       "property | Challenge | 4 (1100 XP)",
       "rule",
       "description |Amorphous| Moves thru 1in spaces wide without squeezing.",
-      "description |Corrosive Form| A creature that touches the Pudding or hits it with a melee attack while within 5 feet of it takes 4 (1d8) acid damage. Any nonmagical weapon made of metal or wood that hits the Pudding corrodes. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Nonmagical ammunition made of metal or wood that hits the Pudding is destroyed after dealing damage. The Pudding can eat through 2-inch-thick, nonmagical wood or metal in 1 round.",
+      "description |Corrosive Form| A creature that touches the Pudding or hits it with a melee attack while within 5 feet of it takes 4 (1d8) acid damage. Nonmagical metal/wood weapons that hit the Pudding corrodes. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Nonmagical ammunition made of metal or wood that hits the Pudding is destroyed after dealing damage. The Pudding can eat through 2-inch-thick, nonmagical wood or metal in 1 round.",
       "description |Spider Climb| Can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
     ],
     "tags": [
@@ -1948,6 +1947,7 @@
     "contents": [
      "section | Actions",
       "description |Pseudopod| Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage plus 18 (4d8) acid damage. In addition, nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10.",
+      "fill | 1",
      "section | Reactions",
       "description |Split| When a Pudding that is Medium or larger is subjected to lightning or slashing damage, it splits into two new Pudding if it has at least 10 hit points. Each new Pudding has hit points equal to half the original Pudding's, rounded down. New Pudding are one size smaller than the original Pudding."
     ],
@@ -1981,8 +1981,8 @@
       "property | Language | - ",
       "property | Challenge | 2 (450 XP)",
       "rule",
-      "description |Ooze Cube| The Cube takes up its entire space. Other creatures can enter the space, but a creature that does so is subjected to the Cube's Engulf and has disadvantage on the saving throw. Creatures inside the Cube can be seen but have total cover. A creature within 5 feet of the Cube can take an action to pull a creature or object out of the Cube. Doing so requires a successful DC 12 Strength check, and the creature making the attempt takes 10 (3d6) acid damage. The Cube can hold only one Large creature or up to four Medium or smaller creatures inside it at a time.",
-      "description |Transparent| Even when the Cube is in plain sight, it takes a successful DC 15 Wisdom (Perception) check to spot a Cube that has neither moved nor attacked. A creature that tries to enter the Cube's space while unaware of the Cube is surprised by the Cube."
+      "description |Ooze Cube| Takes up its entire space. Creatures can enter the space, but are  subjected to the Cube's Engulf and have disadvantage on the save. Creatures inside the Cube can be seen but have total cover. Creatures in 5ft of the Cube can take an action to pull a creature or object out of the Cube. Requires successful DC12 Strength check, and the creature making the attempt takes 10 (3d6) acid. The Cube can hold only one Large creature or up to four Medium or smaller creatures inside it at a time.",
+      "description |Transparent| Even in plain sight, requires DC 15 Wisdom (Perception) check to spot a Cube that has neither moved nor attacked. A creature that tries to enter the Cube's space while unaware of the Cube is surprised by the Cube."
     ],
     "tags": [
       "creature",
@@ -2095,7 +2095,7 @@
       "property | Challenge | 2 (450 XP)",
       "rule",
       "description |Amorphous| Can move thru 1 inch wide without squeezing.",
-      "description |Spider Climb| Can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+      "description |Spider Climb| Climbs difficult surfaces, without ability check.",
      "section | Actions",
       "description |Pseudopod| Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) bludgeoning plus 3 (1d6) acid.",
      "section | Reactions",
@@ -2186,7 +2186,7 @@
       "Legendary: No",
       "Book: Monster_Manual_246"
     ],
-    "background_image": "http://www.aidedd.org/dnd/images/orc.jpg"
+    "background_image": "https://wrathofzombie.files.wordpress.com/2013/04/half-orc.jpg"
   },
   {
     "count": 1,
@@ -2209,7 +2209,7 @@
       "rule",
       "description |Aggressive| Bonus action, move up to speed toward a hostile",
       "description |Gruumsh's Fury|Extra 4(ld8) damage when it hits with a weapon attack (included in the attacks). ",
-      "description |Spellcasting| The orc is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The orc has the following cleric spells prepared:",
+      "description |Spellcasting| 3rd-level spellcaster. Ability is Wisdom (DC11, +3 to hit). Has the following cleric spells prepared:",
       "bullet |Cantrips (at-will):| <i>guidance</i>, <i>resistance</i>, <i>thaumaturgy</i>",
       "bullet |1st level (4 slots):| <i>bless</i>, <i>command</i>",
       "bullet |2nd level (2 slots):| <i>augury</i>, <i>spiritual weapon</i> (spear)",
@@ -2288,7 +2288,7 @@
       "fill | 1",
      "section | Actions",
       "description |Multiattack| Three attacks: one Bite and two Tentacles.",
-      "description |Bite| Melee: +6, 5ft. Hit: 12 (2d8 + 3) piercing damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw against disease or become poisoned until the disease is cured. Every 24 hours that elapse, the target must repeat the saving throw, reducing its hit point maximum by 5 (1d10) on a failure. The disease is cured on a success. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target's hit point maximum lasts until the disease is cured."
+      "description |Bite| Melee: +6, 5ft. Hit: 12 (2d8 + 3) piercing damage. Creatures, makes DC 15 Constitution save against disease or become poisoned until disease is cured. Every 24hrs, target must repeat the save, reducing its hit point maximum by 5 (1d10) on a failure. The disease is cured on a success. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target's hit point maximum lasts until the disease is cured."
     ],
     "tags": [
       "creature",
@@ -2414,7 +2414,7 @@
       "property | Challenge | 2 (450 XP)",
       "rule",
       "description |Dive Attack| Flying and dives at least 30 feet straight toward a target and then hits it with a melee weapon attack, the attack deals an extra 9 (2d8) damage to the target.",
-      "description |Flyby| The peryton doesn't provoke an opportunity attack when it flies out of an enemy's reach.",
+      "description |Flyby| No opportunity attack if flying out of enemy's reach",
       "description |Keen Sight and Smell| The peryton has advantage on Wisdom (Perception) checks that rely on sight or smell.",
       "fill | 1",
      "section | Actions",
@@ -2490,8 +2490,8 @@
       "rule",
       "description |Magic Resistance| The pixie has advantage on saving throws against spells and other magical effects.",
       "description |Innate Spellcasting| The pixie's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring only its pixie dust as a component:",
-      "description |At will:| <i>druidcraft</i>",
-      "description |1/day each:| <i>confusion</i>, <i>dancing lights</i>, <i>detect evil and good</i>, <i>detect thoughts</i>, <i>dispel magic</i>, <i>entangle</i>, <i>fly</i>, <i>phantasmal force</i>, <i>polymorph</i>, <i>sleep</i> ",
+      "bullet |At will:| <i>druidcraft</i>",
+      "bullet |1/day each:| <i>confusion</i>, <i>dancing lights</i>, <i>detect evil and good</i>, <i>detect thoughts</i>, <i>dispel magic</i>, <i>entangle</i>, <i>fly</i>, <i>phantasmal force</i>, <i>polymorph</i>, <i>sleep</i> ",
       "fill | 1",
      "section | Actions",
       "description |Superior Invisibility| The pixie magically turns invisible until its concentration ends (as if concentrating on a spell). Any equipment the pixie wears or carries is invisible with it. "
@@ -2527,7 +2527,7 @@
       "property | Challenge | 1/4 (50 XP)",
       "rule",
       "description |Keen Senses| Adv. on Perception using sight/hearing/smell.",
-      "description |Magic Resistance| The pseudodragon has advantage on saving throws against spells and other magical effects.",
+      "description |Magic Resistance| Adv. against spells and magical effects.",
       "description |Limited Telepathy| Magically communicate simple ideas, emotions, and images telepathically with any creature within 100 feet of it that can understand a language.",
       "fill | 1",
      "section | Actions",
@@ -2660,9 +2660,9 @@
       "property | Challenge | 3 (700 XP)",
       "rule",
       "description |Wounded Fury| While it has 10 hit points or fewer, the quaggoth has advantage on attack rolls. In addition, it deals an extra 7 (2d6) damage to any target it hits with a melee ",
-      "description |Innate Spellcasting (Psionics) | Innate spellcasting ability is Wisdom (spell save DC 11 ). The quaggoth can innately cast the following spells, requiring no components:",
-      "bullet |At will:| feather fall, mage hand (the hand is invisible)",
-      "bullet |1/day each:| cure wounds, enlarge/reduce, heat metal, mirror image",
+      "description |Innate Spellcasting (Psionics) | Ability is Wisdom (DC11). Innately cast the following spells, requiring no components:",
+      "bullet |At will:| <i>feather fall</i>, <i>mage hand</i> (the hand is invisible)",
+      "bullet |1/day each:| <i>cure wounds</i>, <i>enlarge/reduce</i>, <i>heat metal</i>, <i>mirror image</i>",
       "fill | 1",
      "section | Actions",
       "description |Multiattack| The quaggoth makes two claw attacks.",
@@ -2700,8 +2700,8 @@
       "property | Language | Common, Infernal",
       "property | Challenge | 13 (10000 XP)",
       "rule",
-      "description |Limited Magic Immunity| The rakshasa can't be affected or detected by spells of 6th level or lower unless it wishes to be. It has advantage on saving throws against all other spells and magical effects.",
-      "description |Innate Spellcasting| The rakshasa's innate spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). The rakshasa can innately cast the following spells, requiring no material components:",
+      "description |Limited Magic Immunity| Can't be affected/detected by spells of 6th level or lower unless it wishes to be. Advantage on saves against all other spells and magical effects.",
+      "description |Innate Spellcasting| Spellcasting ability is Charisma (DC18, +10 to hit with spell attacks). Can innately cast the following spells, requiring no material components:",
       "bullet |At will:| <i>detect thoughts</i>, <i>disguise self</i>, <i>mage hand</i>, <i>minor illusion</i>",
       "bullet |3/day each:| <i>charm person</i>, <i>detect magic</i>, <i>invisibility</i>, <i>major image</i>, <i>suggestion</i>",
       "bullet |1/day each:| <i>dominate person</i>, <i>fly</i>, <i>plane shift</i>, <i>true seeing</i>"
@@ -2914,7 +2914,7 @@
      "section | Actions",
     "description |Multiattack| Multiattack. The roc makes two attacks: one with its beak and one with its talons.",
     "description |Beak| Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 27 (4d8 + 9) piercing damage.",
-    "description |Talons| Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 23 (4d6 + 9) slashing damage, and the target is grappled (escape DC 19). Until this grapple ends, the target is restrained, and the roc can't use its talons on another target."
+    "description |Talons| Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 23 (4d6 + 9) slashing, and the target is grappled (DC19). Until this grapple ends, the target is restrained, and the roc can't use its talons on another target."
     ],
     "tags": [
       "creature",
@@ -3063,7 +3063,7 @@
     "description |Multiattack| Two melee attacks: one Bite & one Claws/Spear.",
     "description |Bite| Melee: +3, 5ft. Hit: 3 (1d4 + 1) piercing damage.",
     "description |Claws| Melee: +3, 5ft. Hit: 3 (1d4 + 1) slashing damage.",
-    "description |Spear| Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack."
+    "description |Spear| Melee or Ranged: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing, or 5 (1d8 + 1) piercing if used two hands for melee"
     ],
     "tags": [
       "creature",
@@ -3164,7 +3164,7 @@
     "description |Multiattack| Three attacks: one Bite & two Claws or trident.",
     "description |Bite| Melee: +7, 5ft. Hit: 9 (2d4 + 4) piercing damage. ",
     "description |Claws| Melee: +7, 5ft. Hit: 11 (2d6 + 4) slashing damage.",
-    "description |Trident| Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack. "
+    "description |Trident| Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing, or 13 (2d8 + 4) piercing if used two handed for melee"
     ],
     "tags": [
       "creature",
@@ -3314,46 +3314,6 @@
   {
     "count": 1,
     "color": "default",
-    "title": "Satyr",
-    "icon": "imp-laugh",
-    "contents": [
-      "subtitle | Medium Construct, Chaotic Evil ",
-      "rule",
-      "property | Armor class | 11",
-      "property | Hit points | 36 (8d8)",
-      "property | Speed | 30ft",
-      "rule",
-      "dndstats | 11 | 13 | 11 | 10 | 10 | 13",
-      "rule",
-      "property | Damage Vulnerabilities | Fire",
-      "property | Damage Resistances | Physical from non-magical weapons",
-      "property | Damage Immunities | Poison",
-      "property | Condition Immunities | Charmed, Exhaustion, Frightened, Paralyzed, Poisoned, Unconscious",
-      "property | Senses | Darkvision 60ft, Passive Perception 10",
-      "property | Language | Understands languages of creator, can't speak ",
-      "property | Challenge | 1 (200 XP)",
-      "rule",
-      "description |False Appearance| While remaining motionless, it is indistinguishable from an ordinary, inanimate scarecrow. ",
-      "fill | 1",
-     "section | Actions",
-    "description |Multiattack| The scarecrow makes two claw attacks. ",
-    "description |Claw| Melee: +3, 5ft. Hit: 6 (2d4 + 1) slashing. If creature, makes DC 11 Wisdom save. Failure: frightened until end of scarecrow's next turn.",
-    "description |Terrifying Glare| Targets one creature visible in 30ft. If target can see scarecrow, the target must succeed on a DC 11 Wisdom save or be magically frightened until the end of the scarecrow's next turn. The frightened target is paralyzed. "
-    ],
-    "tags": [
-      "creature",
-      "Construct",
-      "subrace:",
-      "Structure: Chaotic",
-      "Alignment: Neutral",
-      "Legendary: No",
-      "Book: Monster_Manual_268"
-    ],
-    "background_image": "https://www.aidedd.org/dnd/images/scarecrow.jpg"
-  },
-  {
-    "count": 1,
-    "color": "default",
     "title": "Scarecrow",
     "icon": "imp-laugh",
     "contents": [
@@ -3378,7 +3338,7 @@
      "section | Actions",
     "description |Multiattack| The scarecrow makes two claw attacks. ",
     "description |Claw| Melee: +3, 5ft. Hit: 6 (2d4 + 1) slashing. If creature, makes DC 11 Wisdom save. Failure: frightened until end of scarecrow's next turn.",
-    "description |Terrifying Glare| Targets one creature visible in 30ft. If target can see scarecrow, the target must succeed on a DC 11 Wisdom save or be magically frightened until the end of the scarecrow's next turn. The frightened target is paralyzed. "
+    "description |Terrifying Glare| One visible creature in 30ft. If target sees scarecrow, it makes DC11 WIS save or magically frightened until end of scarecrow's next turn, also paralyzed."
     ],
     "tags": [
       "creature",
@@ -3830,11 +3790,11 @@
       "property | Language | Slaad, Telepathy 60ft",
       "property | Challenge | 8 (3900 XP)",
       "rule",
-      "description |Shapechanger| Can use action to polymorph into a Small/Medium humanoid, or back. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.",
+      "description |Shapechanger| Action to polymorph into a Small/Medium humanoid, or back. Its stats, other than size, are the same in each form. Any gear isn't transformed. Reverts to its true form if it dies.",
       "description |Innate Spellcasting| The slaad's innate spellcasting ability is Charisma (spell save DC 12). The slaad can innately cast the following spells, requ irin g no material components:",
-      "bullet |At will:| detect magic, detect thoughts, mage hand",
-      "bullet |2/day each:| fear, invisibility (self only)",
-      "bullet |l/day:| fireball",
+      "bullet |At will:| <i>detect magic</i>, <i>detect thoughts</i>, <i>mage hand</i>",
+      "bullet |2/day each:| <i>fear</i>, <i>invisibility</i> (self only)",
+      "bullet |l/day:| <i>fireball</i>",
       "description |Magic Resistance| The slaad has advantage on saving throws against spells and other magical effects. ",
       "description |Regeneration| Regains 10HP at start of its turn, if it has 1HP",
       "fill | 1"
@@ -4221,7 +4181,7 @@
     "title": "Gynosphinx Continued: Actions",
     "icon": "imp-laugh",
     "contents": [
-      "description |Spellcasting| 9th-lvl spellcaster. Ability is Int. (save DC16, +8 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following wizard spells prepared:",
+      "description |Spellcasting| 9th-lvl spellcaster. Ability is Int. (save DC16, +8 to hit with spell attacks). It requires no material components to cast its spells. Has following wizard spells prepared:",
       "bullet |Cantrips (at will):| <i>mage hand</i>, <i>minor illusion</i>, <i>prestidigitation</i>",
       "bullet |1st level (4 slots):| <i>detect magic</i>, <i>identify</i>, <i>shield</i>",
       "bullet |2nd level (3 slots):| <i>darkness</i>, <i>locate object</i>, <i>suggestion</i>",
@@ -4270,7 +4230,7 @@
       "section | Actions",
       "description |Longsword| Melee: +2, 5ft. Hit: 1 slashing damage.",
       "description |Shortbow| Ranged: +6, range 40/160ft. Hit: 1 piercing, & target makes DC 10 Constitution save or poisoned 1 minute. Failing by 5 or lower, the poisoned target falls unconscious for the same duration, or until it takes damage or another creature takes an action to shake it awake.",
-      "description |Heart Sight| The sprite touches a creature and magically knows the creature's current emotional state. If the target fails a DC 10 Charisma saving throw, the sprite also knows the creature's alignment. Celestials, fiends, and undead automatically fail the saving throw.",
+      "description |Heart Sight| Touches creature and magically knows its current emotional state. If target failes DC10 Charisma save, the sprite also knows the creature's alignment. Celestials, fiends, and undead automatically fail the saving throw.",
       "description |Invisibility| Magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Equipment becomes invisible as well"
     ],
     "tags": [
@@ -4395,8 +4355,8 @@
       "property | Language | -",
       "property | Challenge | 30 (155000 XP)",
       "rule",
-      "description |Legendary Resistance (3/Day)| If the tarrasque fails a saving throw, it can choose to succeed instead.",
-      "description |Magic Resistance| The tarrasque has advantage on saving throws against spells and other magical effects.",
+      "description |Legendary Resistance (3/day)| Can succeed failed saves",
+      "description |Magic Resistance| Adv. against spells and magical effects.",
       "description |Reflective Carapace| Any time the tarrasque is targeted by a <i>magic missile</i> spell, a line spell, or a spell that requires a ranged attack roll, roll a d6. On a 1 to 5, the tarrasque is unaffected. On a 6, the tarrasque is unaffected, and the effect is reflected back at the caster as though it originated from the tarrasque, turning the caster into the target.",
       "description |Siege Monster| Double damage to objects and structures."
     ],
@@ -4418,7 +4378,7 @@
     "icon": "imp-laugh",
     "contents": [
      "section | Actions",
-      "description |Multiattack| The tarrasque can use its Frightful Presence. It then makes five attacks: one with its bite, two with its claws, one with its horns, and one with its tail. It can use its Swallow instead of its bite.",
+      "description |Multiattack| Uses its Frightful Presence. Then five attacks: one bite, two with its claws, one with its horns, and one with its tail. It can use its Swallow instead of its bite.",
       "description |Bite| Melee Weapon Attack: +19 to hit, reach 10 ft., one target. Hit: 36 (4d12 + 10) piercing damage. If the target is a creature, it is grappled (escape DC 20). Until this grapple ends, the target is restrained, and the tarrasque can't bite another target.",
       "description |Claw| Melee Weapon Attack: +19 to hit, reach 15 ft., one target. Hit: 28 (4d8 + 10) stashing damage.",
       "description |Horns| Melee Weapon Attack: +19 to hit, reach 10 ft., one target. Hit: 32 (4d10 + 10) piercing damage.",
@@ -4517,7 +4477,7 @@
       "property | Language | Thri-kreen",
       "property | Challenge | 1 (200 XP)",
       "rule",
-      "description |Chameleon Carapace| Can change to match surroundings. Has advantage on Stealth checks made to hide.",
+      "description |Chameleon Carapace| Adv. on Stealth checks made to hide.",
       "description |Standing Leap| Long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start. ",
      "section | Actions",
       "description |Multiattack| Two gythka attacks or two chatkcha attacks or One bite and one claw attack",
@@ -4673,7 +4633,7 @@
       "property | Challenge | 1/4 (50 XP)",
       "rule",
       "description |Chameleon Skin| Advantage on Stealth checks made to hide.",
-      "description |Stench| Any creature starting turn in 5ft of troglodyte makes DC 12 Constitution save. Failure: poisoned until start of the creature's next turn. Success: creature is immune to the stench of all troglodytes for 1 hour.",
+      "description |Stench| Creatures starting turn in 5ft make DC 12 Con save. Failure: poisoned until start of the creature's next turn. Success: immune to stench for 1hr",
       "description |Sunlight Sensitivity| While in sunlight, the troglodyte has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.",
      "section | Actions",
       "description |Multiattack| Three attacks: one with bite and two with claws.",
@@ -4711,7 +4671,7 @@
       "property | Challenge | 5 (1800 XP)",
       "rule",
       "description |Keen Smell| The troll has advantage on Wisdom (Perception) checks that rely on smell.",
-      "description |Regeneration| The troll regains 10 hit points at the start of its turn. If the troll takes acid or fire damage, this trait doesn't function at the start of the troll's next turn. The troll dies only if it starts its turn with 0 hit points and doesn't regenerate.",
+      "description |Regeneration| Regains 10 hit points at the start of its turn. If the troll takes acid or fire damage, this trait doesn't function at the start of the troll's next turn. The troll dies only if it starts its turn with 0 hit points and doesn't regenerate.",
      "section | Actions",
       "description |Multiattack| The troll makes three attacks: one with its bite and two with its claws.",
       "description |Bite| Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.",
@@ -4747,7 +4707,7 @@
       "property | Challenge | 5 (1800 XP)",
       "rule",
       "description |Confusing Caze| Starting turn in 30ft of umber hulk and is able to see umber hulk's eyes, forces DC 15 Charisma save, unless umber hulk is incapacitated. Failure: creature can't take reactions until start of its next turn and rolls a d8. On a 1 to 4, creature does nothing. On a 5 or 6, creature takes no action but uses all its movement to move in a random direction. On a 7 or 8, creature makes one melee attack against a random creature, or it does nothing if no creature is within reach. Unless surprised, a creature can avert its eyes to avoid saving throw at start of its turn. If creature does so, it can't see umber hulk until start of its next turn, when it can avert its eyes again. If creature looks at umber hulk in meantime, it must immediately make save.",
-      "description |Tunneler| Can burrow through solid rock at half its burrowing speed and leaves a 5 foot-wide, 8-foot-high tunnel in its wake."
+      "description |Tunneler| Burrows thru solid rock at half burrow speed and leaves a 5ft by 8ft tunnel in its wake."
     ],
     "tags": [
       "creature",
@@ -4871,7 +4831,7 @@
       "property | Language |Languages it knew in life",
       "property | Challenge | 13 (10000 XP)",
       "rule",
-      "description |Shapechanger| Vampire isn't in sunlight or running water, can use its action to polymorph into a Tiny bat or Medium cloud of mist, or back. In bat form, Vampire can't speak, speed is 5ft, and 30ft speed. Statistics, other than size and speed, are unchanged. Also transforms gear, but nothing it is carrying does. It reverts to its true form if it dies. While in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless, flying speed of 20ft, hovers, & can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. Advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+      "description |Shapechanger| Vampire isn't in sunlight or running water, can use its action to polymorph into a Tiny bat or Medium cloud of mist, or back. In bat form, Vampire can't speak, speed is 5ft, and 30ft speed. Statistics, other than size and speed, are unchanged. Also transforms gear, but nothing it is carrying does. Reverts to true form on death. While in mist form, can't take any actions, speak, or manipulate objects. Weightless, flying speed of 20ft, hovers, & can enter a any creature's space and stop there. Any space air can fit through so can mist without squeezing, and it can't pass through water. Advantage on Strength, Dexterity, and Constitution saves, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
     ],
     "tags": [
       "creature",
@@ -4893,9 +4853,9 @@
       "description |Legendary Resistance (3/Day)| If vampire fails a saving throw, it can choose to succeed instead.",
       "description |Misty Escape| 0HP outside resting place, vampire transforms into a cloud of mist (reference Shapechanger) instead, if not in sunlight or running water. Otherwise it is destroyed. At 0HP in mist form, can't revert to vampire form, & must reach resting place in 2hrs or be destroyed. At resting place, reverts to vampire form and paralyzed until it regains  1HP. Spending 1hr in resting place with 0HP, it regains 1 hit point.",
       "description |Regeneration| Regains 20HP at start of its turn if it has 1HP or more & isn't in sunlight or running water. Taking radiant or holy water damage blocks trait on vampire's next turn.",
-      "description |Spider Climb| Can climb difficult surfaces, including upside down on ceilings, without need for ability check.",
+      "description |Spider Climb| Climbs difficult surfaces, without ability check.",
       "description |Vampire Weaknesses| The vampire has the following flaws:",
-      "description |Forbiddance| The vampire can't enter a residence without an invitation from one of the occupants.",
+      "description |Forbiddance| Can't enter a residence without an invitation",
       "description |Harmed by Running Water| The vampire takes 20 acid damage if it ends its turn in running water.",
       "description |Stake to the Heart| If a piercing weapon made of wood is driven into the vampire's heart while the vampire is incapacitated in its resting place, the vampire is paralyzed until the stake is removed.",
       "description |Sunlight Hypersensitivity| The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
@@ -4921,7 +4881,7 @@
       "description |Multiattack (Vampire Only)| Two attacks, only one bite",
       "description |Unarmed Strike (Vampire Form Only)| Melee: +9, 5. Hit: 8 (1d8 + 4) bludgeoning damage. Instead of dealing damage, the vampire can grapple the target (escape DC 18).",
       "description |Bite (Bat or Vampire Form Only)| Meleek: +9, 5ft, one willing creature, or grappled by vampire, incapacitated, or restrained. Hit: 7 (1d6 + 4) piercing plus 10(3d6) necrotic. Target's HP maximum reduced by necrotic damage amount, and vampire regains HP equal to that amount. Reduction lasts until target finishes a long rest. Target dies if this effect reduces its HP maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a vampire spawn under the vampire's control.",
-      "description |Charm| The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a DC 17 Wisdom saving throw against this magic or be charmed by the vampire. The charmed target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bit attack. Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+      "description |Charm| Targets one humanoid it can see within 30 feet of it. If the target can see the vampire, makes DC 17 Wisdom save or be charmed by the vampire. The charmed target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bit attack. Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
     ],
     "tags": [
       "creature",
@@ -4979,7 +4939,7 @@
       "property | Language |Languages it knew in life",
       "property | Challenge | 15 (13000 XP)",
       "rule",
-      "description |Shapechanger| Vampire isn't in sunlight or running water, can use its action to polymorph into a Tiny bat or Medium cloud of mist, or back. In bat form, Vampire can't speak, speed is 5ft, and 30ft speed. Statistics, other than size and speed, are unchanged. Also transforms gear, but nothing it is carrying does. It reverts to its true form if it dies. While in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless, flying speed of 20ft, hovers, & can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. Advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+      "description |Shapechanger| Vampire isn't in sunlight or running water, can use its action to polymorph into a Tiny bat or Medium cloud of mist, or back. In bat form, Vampire can't speak, speed is 5ft, and 30ft speed. Statistics, other than size and speed, are unchanged. Also transforms gear, but nothing it is carrying does. Reverts to true form on death. While in mist form, can't take any actions, speak, or manipulate objects. Weightless, flying speed of 20ft, hovers, & can enter a any creature's space and stop there. Any space air can fit through so can mist without squeezing, and it can't pass through water. Advantage on Strength, Dexterity, and Constitution saves, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
     ],
     "tags": [
       "creature",
@@ -5001,7 +4961,7 @@
       "description |Legendary Resistance (3/Day)| If vampire fails a saving throw, it can choose to succeed instead.",
       "description |Misty Escape| 0HP outside resting place, vampire transforms into a cloud of mist (reference Shapechanger) instead, if not in sunlight or running water. Otherwise it is destroyed. At 0HP in mist form, can't revert to vampire form, & must reach resting place in 2hrs or be destroyed. At resting place, reverts to vampire form and paralyzed until it regains  1HP. Spending 1hr in resting place with 0HP, it regains 1 hit point.",
       "description |Regeneration| Regains 20HP at start of its turn if it has 1HP or more & isn't in sunlight or running water. Taking radiant or holy water damage blocks trait on vampire's next turn.",
-      "description |Spider Climb| Can climb difficult surfaces, including upside down on ceilings, without need for ability check.",
+      "description |Spider Climb| Climbs difficult surfaces, without ability check.",
       "description |Vampire Weaknesses| The vampire has the following flaws:",
       "description |Forbiddance| The vampire can't enter a residence without an invitation from one of the occupants.",
       "description |Harmed by Running Water| The vampire takes 20 acid damage if it ends its turn in running water.",
@@ -5029,7 +4989,7 @@
       "description |Multiattack (Vampire Only)| Two greatsword attack",
       "description |Unarmed Strike (Vampire Form Only)| Melee: +9, 5. Hit: 8 (1d8 + 4) bludgeoning damage. Instead of dealing damage, the vampire can grapple the target (escape DC 18).",
       "description |Bite (Bat or Vampire Form Only)| Meleek: +9, 5ft, one willing creature, or grappled by vampire, incapacitated, or restrained. Hit: 7 (1d6 + 4) piercing plus 10(3d6) necrotic. Target's HP maximum reduced by necrotic damage amount, and vampire regains HP equal to that amount. Reduction lasts until target finishes a long rest. Target dies if this effect reduces its HP maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a vampire spawn under the vampire's control.",
-      "description |Charm| The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a DC 17 Wisdom saving throw against this magic or be charmed by the vampire. The charmed target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bit attack. Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+      "description |Charm| Targets one humanoid visible in 30ft. If target can see vampire, target makes DC17 Wisdom save or be charmed by the vampire. The charmed target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bit attack. Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
     ],
     "tags": [
       "creature",
@@ -5088,7 +5048,7 @@
       "property | Language |Languages it knew in life",
       "property | Challenge | 15 (13000 XP)",
       "rule",
-      "description |Shapechanger| Vampire isn't in sunlight or running water, can use its action to polymorph into a Tiny bat or Medium cloud of mist, or back. In bat form, Vampire can't speak, speed is 5ft, and 30ft speed. Statistics, other than size and speed, are unchanged. Also transforms gear, but nothing it is carrying does. It reverts to its true form if it dies. While in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless, flying speed of 20ft, hovers, & can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. Advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+      "description |Shapechanger| Vampire isn't in sunlight or running water, can use its action to polymorph into a Tiny bat or Medium cloud of mist, or back. In bat form, Vampire can't speak, speed is 5ft, and 30ft speed. Statistics, other than size and speed, are unchanged. Also transforms gear, but nothing it is carrying does. Reverts to true form on death. While in mist form, can't take any actions, speak, or manipulate objects. Weightless, flying speed of 20ft, hovers, & can enter a any creature's space and stop there. Any space air can fit through so can mist without squeezing, and it can't pass through water. Advantage on Strength, Dexterity, and Constitution saves, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
     ],
     "tags": [
       "creature",
@@ -5110,9 +5070,9 @@
       "description |Legendary Resistance (3/Day)| If vampire fails a saving throw, it can choose to succeed instead.",
       "description |Misty Escape| 0HP outside resting place, vampire transforms into a cloud of mist (reference Shapechanger) instead, if not in sunlight or running water. Otherwise it is destroyed. At 0HP in mist form, can't revert to vampire form, & must reach resting place in 2hrs or be destroyed. At resting place, reverts to vampire form and paralyzed until it regains  1HP. Spending 1hr in resting place with 0HP, it regains 1 hit point.",
       "description |Regeneration| Regains 20HP at start of its turn if it has 1HP or more & isn't in sunlight or running water. Taking radiant or holy water damage blocks trait on vampire's next turn.",
-      "description |Spider Climb| Can climb difficult surfaces, including upside down on ceilings, without need for ability check.",
+      "description |Spider Climb| Climbs difficult surfaces, without ability check.",
       "description |Vampire Weaknesses| The vampire has the following flaws:",
-      "description |Forbiddance| The vampire can't enter a residence without an invitation from one of the occupants.",
+      "description |Forbiddance| Can't enter a residence without an invitation",
       "description |Harmed by Running Water| The vampire takes 20 acid damage if it ends its turn in running water.",
       "description |Stake to the Heart| If a piercing weapon made of wood is driven into the vampire's heart while the vampire is incapacitated in its resting place, the vampire is paralyzed until the stake is removed.",
       "description |Sunlight Hypersensitivity| The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
@@ -5517,7 +5477,7 @@
       "fill | 1",
       "description |Earth Glide| Burrow thru nonmagical, unworked earth/stone. Xorn doesn't disturb the materials",
       "description |Stone Camouflage| Adv. on Stealth checks in rocky terrain.",
-      "description |Treasure Sense| The xorn can pinpoint, by scent, the location of precious metals and stones, such as coins and gems, within 60 feet of it.",
+      "description |Treasure Sense| Tracks by scent, the location of precious metals and stones, such as coins and gems, within 60ft of it.",
      "section | Actions",
       "description |Multiattack| Makes three claw attacks and one bite attack.",
       "description |Claw| Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
@@ -5671,11 +5631,11 @@
       "property | Challenge | 7 (2900 XP)",
       "rule",
       "description |Shapechanger| The yuan-ti can use its action to polymorph into a Large snake, or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It doesn't change form if it dies.",
-      "description |Innate Spellcasting (Abomination Form Only)| The yuan-ti's innate spellcasting ability is Charisma (spell save DC 15). The yuan-ti can innately cast the following spells, requiring no material components:",
+      "description |Innate Spellcasting (Abomination Form Only)| Spellcasting ability is Charisma (spell save DC 15). The yuan-ti can innately cast the following spells, requiring no material components:",
       "bullet |At will:| <i>animal friendship</i> (snakes only)",
       "bullet |3/day:| <i>suggestion</i>",
       "bullet |1/day:| <i>fear</i>",
-      "description |Magic Resistance| The yuan-ti has advantage on saving throws against spells and other magical effects."
+      "description |Magic Resistance| Adv. against spells and magical effects."
     ],
     "tags": [
       "creature",
@@ -5964,9 +5924,9 @@
       "property | Language | All, Telepathy 120ft",
       "property | Challenge | 12 (8400 XP)",
       "rule",
-      "description |Innate Spellcasting| The arcanaloth's innate spellcasting ability is Charisma (spell save DC 15). The arcanaloth can innately cast the following spells, requiring no material components: ",
+      "description |Innate Spellcasting| Innate spellcasting ability is Charisma (spell save DC 15). The arcanaloth can innately cast the following spells, requiring no material components: ",
       "bullet |At will:| <i>alter self</i>, <i>darkness</i>, <i>heat metal</i>, <i>invisibility</i> (self only), <i>magic missile</i>",
-      "description |Magic Resistance| The arcanaloth has advantage on saving throws against spells and other magical effects.",
+      "description |Magic Resistance| Adv. against spells and magical effects.",
       "description |Magic Weapons| The arcanaloth's weapon attacks are magical."
     ],
     "tags": [
@@ -6038,7 +5998,7 @@
       "bullet |2/day each:| <i>darkness</i>, <i>dispel magic</i>",
       "bullet |1/day:| <i>cloudkill</i>",
       "description |Magic Resistance| The mezzoloth has advantage on saving I throws against spells and other magical effects.",
-      "description |Magic Weapons| The mezzoloth's weapon attacks are magical. "
+      "description |Magic Weapons| Mezzoloth's weapon attacks are magical. "
     ],
     "tags": [
       "creature",
@@ -6161,7 +6121,7 @@
       "bullet |At will:| <i>alter self</i>, <i>clairvoyance</i>, <i>darkness</i>, <i>detect magic</i>, <i>detect thoughts</i>, <i>dispel magic</i>, <i>invisibility</i> (self only), <i>suggestion</i>",
       "bullet |3/day each:| <i>dimension door</i>, <i>fear</i>, <i>wall of fire</i>",
       "bullet |1/day each:| <i>fire storm</i>, <i>mass suggestion</i>",
-      "description |Magic Resistance| The ultroloth has advantage on savingthrows against spells and other magical effects.",
+      "description |Magic Resistance| Adv. against spells and magical effects.",
       "description |Magic Weapons| The ultroloth's weapon attacks are magical. "
     ],
     "tags": [
@@ -6315,7 +6275,7 @@
      "section | Actions",
       "description | Bite| Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 14 (4d6) piercing damage. ",
       "description | Eye Ray| The zombie uses a random magical eye ray, choosing a target that it can see within 60 feet of it.",
-      "bullet | 1. Paralyzing Ray| The targeted creature must succeed on a DC 14 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+      "bullet | 1. Paralyzing Ray| Target makes DC 14 Constitution save or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
       "bullet | 2. Fear Ray| The targeted creature must succeed on a DC 14 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
       "bullet | 3. Enervation Ray| The targeted creature must make a DC 14 Constitution saving throw, taking 36 (8d8) necrotic damage on a failed save, or half as much damage on a successful one.",
       "bullet | 4. Disintegration Ray| If the target is a creature, it must succeed on a DC 14 Dexterity savin g throw or take 45 (10d8) force damage . If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust. ",
@@ -7652,8 +7612,8 @@
       "description |Standing Leap| The frog's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start",
       "fill | 1",
      "section | Actions",
-      "description |Bite| Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage, and the target is grappled (escape DC 11). Until this grapple ends, the target is restrained, and the frog can't bite another target.",
-      "description |Swallow| One bite attack against a Small or smaller target it is grappling. On hits, target swallowed, & grapple ends. Blinded and restrained, it has total cover against attacks and other effects outside the frog, and it takes 5(2d4) acid at the start of each of the frog's turns. Can only swallow one creature. If frog dies, swallowed creature loses restraint and uses 5ft movement to escape, prone"
+      "description |Bite| Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing, and grappled (DC11). Until this grapple ends, the target is restrained, and the frog can't bite another target.",
+      "description |Swallow| One bite attack against a Small/Tiny grappled target. On hits, target swallowed, & grapple ends. Blinded and restrained, it has total cover against attacks and other effects outside the frog, and it takes 5(2d4) acid at start of each frog turn. Can only swallow one creature. on death, loses restraint and uses 5ft movement to escape, prone"
     ],
     "tags": [
       "creature",
@@ -8096,7 +8056,7 @@
       "fill | 1",
      "section | Actions",
       "description |Bite| Melee: +4, 5ft. Hit: 7 (1d10 + 2) piercing plus 5 (1d10) poison, and grappled (DC 13). Until this grapple ends, the target is restrained, and the toad can't bite another target.",
-      "description |Swallow| Makes bite against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 10 (3d6) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time. If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone."
+      "description |Swallow| Bite against a Medium/smaller target it is grappling. On hit, target is swallowed, and grapple ends. Swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 10 (3d6) acid at the start of each of the toad's turns. Only one target swallowed at a time. On deaths, target is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone."
     ],
     "tags": [
       "creature",
@@ -8234,9 +8194,9 @@
       "property | Language | -",
       "property | Challenge | 1/4 (50 XP)",
       "rule",
-      "description |Spider Climb| Climbs difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
-      "description |Web Sense| While in a web, the spider knows the exact location of any other creature in contact with the same web.",
-      "description |Web Walker| Ignores movement restrictions caused by webbing.",
+      "description |Spider Climb| Climbs difficult surfaces, without ability check.",
+      "description |Web Sense| Knows spot of targets while in contact with web",
+      "description |Web Walker| Ignores movement restrictions by webbing. ",
       "fill | 1",
      "section | Actions",
       "description |Bite| Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 7 (2d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
@@ -8487,7 +8447,7 @@
       "rule",
       "description |Keen Smell|Advantage on Perception checks using smell.",
       "description |Pack Tactics| Advantage on attacks against creatures if one of lion's allies is in 5ft of creature and ally isn't incapacitated.",
-      "description |Pounce| After 20ft of movement straight towards a creature and claws on the same turn, target makes DC13 Strength save or be knocked prone. If the target is prone, the lion can make one bite attack against it as a bonus action.",
+      "description |Pounce| After 20ft straight towards a creature and claws on the same turn, target makes DC13 Strength save or knocked prone. If prone, lion uses bonus action for one bite attack.",
       "description |Running Leap| With a 10-foot running start, the lion can long jump up to 25 feet.",
       "fill | 1",
      "section | Actions",
@@ -8736,8 +8696,8 @@
       "property | Challenge | 3 (700 XP)",
       "rule",
       "description |Ethereal Jaunt| bonus action, spider can magically shift from the Material Plane to the Ethereal Plane, or vice versa.",
-      "description |Spider Climb| The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
-      "description |Web Walker| Ignores movement restrictions by webbing.",
+      "description |Spider Climb| Climbs difficult surfaces, without ability check.",
+      "description |Web Walker| Ignores movement restrictions by webbing. ",
       "fill | 1",
      "section | Actions",
       "description |Bite| Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 18 (4d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
@@ -8927,5 +8887,5 @@
       "Book: Monster_Manual_335"
     ],
     "background_image": "http://taxidermicowlbear.weebly.com/uploads/2/3/7/4/23742956/2812339_orig.png"
-  },
+  }
 ]
