@@ -7739,9 +7739,9 @@
       "property | Challenge | 2 (450 xp)",
       "rule",
       "description|Spellcasting| The bard is a 4th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following bard spells prepared:",
-      "bullet|Cantrips (at will):| friends, mage hand, vicious mockery",
-      "bullet|1st level (4 slots):| charm person, healing word, heroism, sleep, thunderwave",
-      "bullet|2nd level (3 slots):| invisibility, shatter",
+      "bullet|Cantrips (at will):| <i>friends</i>, <i>mage hand</i>, <i>vicious mockery</i>",
+      "bullet|1st level (4 slots):| <i>charm person</i>, <i>healing word</i>, <i>heroism</i>, <i>sleep</i>, <i>thunderwave</i>",
+      "bullet|2nd level (3 slots):| <i>invisibility</i>, <i>shatter</i>",
       "description|Song of Rest| The bard can perform a song while taking a short rest. Any ally who hears the song regains an extra ld6 hit points if it spends any Hit Dice to regain hit points at the end of that rest. The bard can confer this benefit on itself as well."
     ],
     "tags": [
@@ -7959,10 +7959,10 @@
       "property | Language | Any four language",
       "property | Challenge | 8 (3900 xp)",
       "rule",
-      "description|Spellcasting| 15th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The diviner has the following wizard spells prepared:",
+      "description|Spellcasting| 15th-level spellcaster. Ability is INt (DC15, +7 to hit). Has following wizard spells prepared:",
       "bullet|Cantrips (at will):| <i>fire bolt</i>, <i>light</i>, <i>mage hand</i>, <i>message</i>, <i>true strike</i>",
       "bullet|1st level (4 slots):| <i>detect magic</i>*, <i>feather fall</i>, <i>mage armor</i>",
-      "bullet|2nd level (3 slots):| <i>detect thoughts</i>*, <i>locate object</i>*, s<i>corching ray</i>",
+      "bullet|2nd level (3 slots):| <i>detect thoughts</i>*, <i>locate object</i>*, <i>scorching ray</i>",
       "bullet|3rd level (3 slots):| <i>clairvoyance</i>*, <i>fly</i>, <i>fireball</i>",
       "bullet|4th level (3 slots):| <i>arcane eye</i>*, <i>ice storm</i>, <i>stoneskin</i>",
       "bullet|5th level (2 slots):| <i>Rary’s telepathic bond</i>*, <i>seeming</i>*",
@@ -8087,7 +8087,7 @@
       "property | Language | Any four language",
       "property | Challenge | 9 (5000 xp)",
       "rule",
-      "description|Spellcasting| The evoker is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The evoker has the following wizard spells prepared:",
+      "description|Spellcasting| 12th-level spellcaster. Ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The evoker has the following wizard spells prepared:",
       "bullet|Cantrips (at will):| <i>fire bolt</i>*, <i>light</i>*, <i>prestidigitation</i>, <i>ray of frost</i>*",
       "bullet|1st level (4 slots):| <i>burning hands</i>*, <i>mage armor</i>, <i>magic missile</i>*",
       "bullet|2nd level (3 slots):| <i>mirror image</i>, <i>misty step</i>, <i>shatter</i>*",
@@ -8271,7 +8271,7 @@
       "rule",
       "description|Unarmored Defense| While the adept is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.",
      "section | Actions",
-      "description|Multiattack| The adept makes three unarmed strikes or three dart attacks.",
+      "description|Multiattack| Three unarmed strikes or three dart attacks.",
       "description|Unarmed Strike| Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) bludgeoning damage. If the target is a creature, the adept can choose one of the following additional effects:",
       "bullet||Target must succeed on a DC 13 Strength saving throw or drop one item it is holding (adept’s choice).",
       "bullet||Target must succeed on a DC 13 Dexterity saving throw or be knocked prone.",
@@ -8391,7 +8391,7 @@
       "property | Language | Any four languages",
       "property | Challenge | 9 (5000 xp)",
       "rule",
-      "description|Spellcasting| 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The necromancer has the following wizard spells prepared:",
+      "description|Spellcasting| 12th-level spellcaster. Ability is Intelligence (DC15, +7 to hit). Has following wizard spells prepared:",
       "bullet|Cantrips (at will):| <i>chill touch<i>, <i>dancing lights<i>, <i>mage hand<i>, <i>mending<i>",
       "bullet|1st level (4 slots):| <i>false life</i>*, <i>mage armor</i>, <i>ray of sickness</i>*",
       "bullet|2nd level (3 slots):| <i>blindness/deafness</i>*, <i>ray of enfeeblement</i>*, <i>web</i>",
@@ -8559,13 +8559,13 @@
       "property | Language | Any two languages",
       "property | Challenge | 9 (5000 xp)",
       "rule",
-      "description|Spellcasting| The priest is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). It has the following cleric spells prepared:",
-      "bullet|Cantrips (at will):| light, mending, sacred flame, spare the dying",
-      "bullet|1st level (4 slots):| divine favor, guiding bolt, healing word, shield of faith",
-      "bullet|2nd level (3 slots):| lesser restoration, magic weapon, prayer of healing, silence, spiritual weapon",
-      "bullet|3rd level (3 slots):| beacon of hope, crusader’s mantle, dispel magic, revivify, spirit guardians, water wall",
-      "bullet|4th level (3 slots):| banishment, freedom of movement, guardian of faith, stoneskin ",
-      "bullet|5th level (1 slot):| flame strike, mass cure wounds, hold monster"
+      "description|Spellcasting| 9th-level spellcaster. Ability is Wisdom (DC15, +7 to hit). Has following cleric spells prepared:",
+      "bullet|Cantrips (at will):| <i>light</i>, <i>mending</i>, <i>sacred flame</i>, <i>spare the dying</i>",
+      "bullet|1st level (4 slots):| <i>divine favor</i>, <i>guiding bolt</i>, <i>healing word</i>, <i>shield of faith</i>",
+      "bullet|2nd level (3 slots):| <i>lesser restoration</i>, <i>magic weapon</i>, <i>prayer of healing</i>, <i>silence</i>, <i>spiritual weapon</i>",
+      "bullet|3rd level (3 slots):| <i>beacon of hope</i>, <i>crusader’s mantle</i>, <i>dispel magic</i>, <i>revivify</i>, <i>spirit guardians</i>, <i>water wall</i>",
+      "bullet|4th level (3 slots):| <i>banishment</i>, <i>freedom of movement</i>, <i>guardian of faith</i>, <i>stoneskin</i> ",
+      "bullet|5th level (1 slot):| <i>flame strike</i>, <i>mass cure wounds</i>, <i>hold monster</i>"
     ],
     "tags": [
       "creature",
@@ -8740,7 +8740,7 @@
       "dndstats | 20 | 16 | 18 | 12 | 12 | 18",
       "rule",
       "property | Saving Throws | Str +9, Dex +7, Con +8",
-      "property | Skills | Athletics +9, Intimidation +8, Perception +5, Persuasion +8",
+      "property | Skills | Athletics +9, Intimidation +8, Perc. +5, Persuasion +8",
       "property | Damage Resistances | Psychic",
       "property | Senses | Passive Perception 15",
       "property | Language | Any two languages",
@@ -8813,7 +8813,7 @@
       "rule",
      "description |Aboleth Traits| Unless noted otherwise or where contradicted below, a nihileth has the same traits as a living aboleth. This includes legendary actions and lair actions. ",
      "description |Undead Nature| Does not require air, food, drink, or sleep. ",
-     "description |Undead Fortitude| If non-radiant damage reduces a nihileth to 0 hit points, it makes a Constitution saving throw with a DC of 5+ the damage taken. If it succeeds, the nihileth drops to 1 hit point instead."
+     "description |Undead Fortitude| If non-radiant damage reduces a nihileth to 0 HP, makes a Constitution save with a DC of 5+ the damage taken. If it succeeds, drops to 1 HP instead."
     ],
     "tags": [
       "creature",
@@ -8921,7 +8921,7 @@
       "property | Challenge | 1 (200 XP)",
       "rule",
      "description |Undead Fortitude| If damage reduces the nihileth to 0 hit points, it must make a Constitution save with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. Success: drops to 1 hit point instead.",
-     "description |Dual State| Like its nihileth creator, a nihilethic zombie can assume either a material or ethereal form. When in its material form, it has resistance to nonmagical weapons. In its ethereal form, it is immune to nonmagical weapons. Its ethereal form appears as a dark purple outline of its material form, with a blackish-purple haze within."
+     "description |Dual State| Can assume either a material or ethereal form. When in its material form, it has resistance to nonmagical weapons. In its ethereal form, it is immune to nonmagical weapons. Its ethereal form appears as a dark purple outline of its material form, with a blackish-purple haze within."
     ],
     "tags": [
       "creature",
@@ -9058,7 +9058,7 @@
       "property | Language | Understands an ancient language, can't speak",
       "property | Challenge | 4 (1100 XP)",
       "rule",
-     "description |Cursed Existence| When it drops to 0 hit points in desert terrain, the accursed defiler's body disintegrates into sand and a sudden parched breeze. However, unless it was killed in a hallowed location, with radiant damage, or by a blessed creature, the accursed defiler reforms at the next sundown 1d100 miles away in a random direction.",
+     "description |Cursed Existence| At 0 HP in desert terrain, its body disintegrates into sand and a sudden parched breeze. Unless killed in a hallowed location, with radiant damage, or by a blessed creature, the accursed defiler reforms at the next sundown 1d100 miles away in a random direction.",
      "description |Sand Shroud| A miniature sandstorm constantly whirls around the accursed defiler in a 10-foot radius. This area is lightly obscured to creatures other than an accursed defiler. Wisdom (Survival) checks made to follow tracks left by an accursed defiler or other creatures that were traveling in its sand shroud are made with disadvantage. "
     ],
     "tags": [
@@ -9078,7 +9078,6 @@
     "title": "Accursed Defiler Continued: Actions",
     "icon": "imp-laugh",
     "contents": [
-     "fill | 1",
      "section | Actions",
      "description |Multiattack| The accursed defiler makes two slam attacks.",
      "description |Slam| Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 11 (2d6 + 4) bludgeoning damage. If a creature is hit by this attack twice in the same round (from the same or different accursed defilers), the target must make a DC 13 Constitution saving throw or gain one level of exhaustion.",
@@ -9375,11 +9374,11 @@
       "property | Challenge | 15 (13000 XP)",
       "rule",
      "description |Amphibious| The andrenjinyi can breathe air and water.",
-     "description |Innate Spellcasting| The andrenjinyi's spellcasting ability is Charisma (spell save DC 19, +11 to hit with spell attacks). It can innately cast the following spells, requiring only verbal components:",
+     "description |Innate Spellcasting| Spellcasting ability is Charisma (spell save DC 19, +11 to hit with spell attacks). It can innately cast the following spells, requiring only verbal components:",
      "bullet |At will:| <i>create water</i>, <i>speak with animals</i>, <i>stoneshape</i>",
      "bullet |3/day each:| <i>control weather</i>, <i>dispel magic</i>, <i>reincarnate</i>",
      "bullet |1/day each:| <i>blight</i>, <i>commune with nature</i>, <i>contagion</i>, <i>flesh to stone</i>, <i>plant growth</i>",
-     "description |Magic Resistance| The andrenjinyi has advantage on saving throws against spells and other magical effects.",
+      "description |Magic Resistance| Adv. against spells and magical effects.",
      "description |Magic Weapons| Andrenjinyi's weapon attacks are magical."
     ],
     "tags": [
@@ -9458,7 +9457,7 @@
       "property | Language | All languages it knew in life",
       "property | Challenge | 6 (2300 XP)",
       "rule",
-     "description |Agonizing Gaze| When a creature that can see the angatra's eyes starts its turn within 30 feet of the angatra, it must make a DC 13 Charisma saving throw if the angatra isn't incapacitated and can see the creature. On a failed saving throw, the creature has its pain threshold lowered, so that it becomes vulnerable to all damage types until the end of its next turn. Unless it's surprised, a creature can avoid the saving throw by averting its eyes at the start of its turn. A creature that averts its eyes can't see the angatra for one full round, when it chooses anew whether to avert its eyes again. If the creature looks at the angatra in the meantime, it must immediately make the save."
+     "description |Agonizing Gaze| If Angatra isn't incapacitated and has vision of enemy eyes, in 30ft, forces target to make DC13 Charisma save at start of targets turn. Failure: the creature has its pain threshold lowered, becomeing vulnerable to all damage types until the end of its next turn. Unless it's surprised, a creature can avoid the save by averting its eyes at the start of its turn. A creature that averts its eyes can't see the angatra for one full round, when it chooses anew whether to avert its eyes again. If the creature looks at the angatra in the meantime, it must immediately make the save."
     ],
     "tags": [
       "creature",
@@ -9579,7 +9578,7 @@
       "property | Challenge | 5 (1800 XP)",
       "rule",
      "description |Shapechange| The angel can change between winged celestial form, its original mortal form, and that of a Medium-sized eagle. Its statistics are the same in each form, with the exception of its attacks in eagle form.",
-     "description |Ever Touching| Fidele angels maintain awareness of their mate's disposition and health. Damage taken by one is split evenly between both, with the original target of the attack taking the extra point when damage doesn't divide evenly. Any other baneful effect, such as ability damage, affects both equally."
+     "description |Ever Touching| Maintain awareness of their mate's disposition and health. Damage taken by one is split evenly between both, with the original target of the attack taking the extra point when damage doesn't divide evenly. Any other baneful effect, such as ability damage, affects both equally."
     ],
     "tags": [
       "creature",
@@ -9662,8 +9661,8 @@
       "property | Senses | Tremorsense 60ft, Passive Perception 12",
       "property | Language | -",
       "property | Challenge | 4 (1100 XP)",
-      "rule",
-     "description |Spider Climb| The worm can climb difficult surfaces, including upside down on ceilings and along its snare lines, without needing an ability check. The angler worm is never restrained by its own or other angler worms' snare lines.",
+      "rule",     
+      "description |Spider Climb| Climbs difficult surfaces, without ability check, never restrained by its own or other angler worms' snare lines.",
      "description |Keen Touch| The angler worm has advantage on Wisdom (Perception) checks that rely on vibrations.",
      "description |Transparent Trap| DC12 Perception to see trap, and check has disadvantage unless the target can see invisible trap. A creature that enters a space containing angler worm snare lines must make a successful DC 12 Dexterity saving throw or be restrained by the sticky snares (escape DC 14). This saving throw is made with disadvantage if the creature was unaware of the snare lines' presence."
     ],
