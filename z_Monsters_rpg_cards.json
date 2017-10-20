@@ -2541,7 +2541,7 @@
       "rule",
      "description |Absorb the Dead| Whenever a Small or larger non-undead creature dies in 20ft of mound, that creature's remains join its form and the corpse mound regains 10 hit points.",
      "description |Noxious Aura| Targets ending their turn 20ft from mound make DC17 Con save. Failure: poisoned ends on their next turn. Success: creature is immune to Noxious Aura for 24hrs",
-     "description |Zombie Drop| When corpse mound starts combat, one corpse falls from the mound onto the ground and immediately rises as a zombie under its control. Up to 10 such zombies can be active at one time. Zombies take their turns immediately after the corpse mound's turn."
+     "description |Zombie Drop| At start of combat, a corpse falls from mound onto ground and becomes a zombie under its control. Up to 10 such zombies can be active at one time. Zombies take their turns immediately after the corpse mound's turn."
     ],
     "tags": [
       "creature",
@@ -2564,7 +2564,7 @@
      "description |Multiattack| Two weapon attacks or uses envelop once.",
      "description |Slam| Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 18 (2d10 + 7) bludgeoning damage plus 10 (3d6) necrotic damage and the target is grappled (escape DC 17). Until this grapple ends, the target is restrained.",
      "description |Bone Shard| Ranged Weapon Attack: +11 to hit, range 30/120 ft., one target. Hit: 14 (2d6 + 7) piercing and 10 (3d6) necrotic. On hit: target makes DC17 Strength check or proned,  and restrained. To free, target or adjacent ally make DC 17 Athletics check to remove the shard.",
-     "description |Envelop| Slam attack against a restrained creature. On hit, the target takes damage as normal, is pulled 5 feet into the corpse mound's space, and is enveloped, which ends any grappled or prone condition. While enveloped, the creature is blinded and restrained, it has total cover against attacks and other effects outside the corpse mound, and it takes 21 (6d6) necrotic damage at the start of each of the corpse mound's turns. An enveloped creature can escape by using its action to make a successful DC 17 Strength saving throw. If the corpse mound takes 30 or more damage on a single turn from the enveloped creature, it must succeed on a DC 17 Constitution saving throw at the end of that turn or expel the creature, which falls prone in a space within 10 feet of the corpse mound. If the corpse mound dies, an enveloped creature is no longer restrained by it and can escape by using 10 feet of movement, exiting prone. A corpse mound can envelop up to 4 creatures at once."
+     "description |Envelop| Slam against a restrained creature. On hit, target takes damage as normal, & pulled 5ft into corpse mound's space, & is enveloped, ends any grappled or prone condition. While enveloped, target is blinded & restrained, has total cover against attacks and other effects outside the corpse mound, and it takes 21 (6d6) necrotic at the start of each of the corpse mound's turns. An enveloped creature can escape by using its action to make a successful DC 17 Strength saving throw. If the corpse mound takes 30 or more damage on a single turn from the enveloped creature, makes DC 17 Constitution save at the end of that turn or expel the creature, which falls prone in a space within 10 feet of the corpse mound. If the corpse mound dies, an enveloped creature is no longer restrained by it and can escape by using 10 feet of movement, exiting prone. A corpse mound can envelop up to 4 creatures at once."
     ],
     "tags": [
       "creature",
@@ -2659,7 +2659,7 @@
       "property | Language | -",
       "property | Challenge | 4 (1100 XP)",
       "rule",
-     "description |Potent Poison| The death butterfly swarm's poison affects corporeal undead who are otherwise immune to poison.",
+     "description |Potent Poison| Poisons corporeal undead, despite immunity",
      "description |Swarm| The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit point.",
      "description |Weight of Wings| A creature in a space occupied by the death butterfly swarm has its speed reduced by half, and makes DC 13 Dexterity save or blinded. Both effects end when the creature doesn't share a space with the swarm at the end of the creature's turn. Success: it is immune to the swarm's blindness (but not the speed reduction) for 24hrs"
     ],
@@ -2768,7 +2768,7 @@
       "rule",
       "property | Saving Throws| Dex +8, Con +6, Wis +6",
       "property | Skills| Perception +6, Stealth +8",
-      "property | Damage Resistances| acid, cold, fire, lightning, thunder; All physical from non-silvered weapons",
+      "property | Damage Resistances| Acid, Cold, Fire, Lightning, Thunder; All physical from non-silvered weapons",
       "property | Damage Immunities| necrotic, poison",
       "property | Condition Immunities| Charmed, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained",
       "property | Senses | Darkvision 60ft, Passive Perception 15",
@@ -2777,7 +2777,7 @@
       "rule",
      "description |Flicker| Flickers in and out of sight, and ranged weapon attacks against it are made with disadvantage.",
      "description |Incorporeal Movement| Can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside a solid object.",
-     "description |Shadow Jump| Moves between shadows like <i>dimension door</i>. Must begin/end in some shadow. Can travel up to 40ft per day; can be single jump of 40 feet, or multiple. This ability must be used in 10-foot increments."
+     "description |Shadow Jump| Moves thru shadows like <i>dimension door</i>. Must begin/end in some shadow. Travels 40ft per day; can be single or multiple but only in 10-foot increments."
     ],
     "tags": [
       "creature",
@@ -2837,7 +2837,7 @@
       "rule",
      "description |Amphibious| Can breathe air or water with equal ease.",
      "description |Frenzied Rage| On its next turn after a deep one takes 10 or more damage from a single attack, it has advantage on its claws attack and adds +2 to damage.",
-     "description |Lightless Depths| A deep one is immune to the pressure effects of the deep ocean.",
+     "description |Lightless Depths| Immune to pressure effects of deep ocean.",
      "description |Ocean Change| A deep one born to a human family resembles a human child, but transforms into an adult deep one between the ages of 16 and 30.",
      "fill | 1",
      "section | Actions",
@@ -2877,7 +2877,7 @@
       "property | Challenge | 4 (1100 XP)",
       "rule",
      "description |Amphibious| Can breathe air or water with equal ease.",
-     "description |Frenzied Rage| On its next turn after a deep one hybrid priest takes 10 or more damage from a single attack, it has advantage on its melee attacks and adds +4 to spell and claws damage.",
+     "description |Frenzied Rage| Next turn after a Deep One Hybrid P:riest takes 10 or more damage from one attack, has advantage on its melee attacks and adds +4 to spell and claws damage.",
      "description |Innate Spellcasting| The deep one priest's innate spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
      "bullet |At will:| <i>sacred flame</i>, <i>shocking grasp</i>",
      "bullet |3/day each:| <i>inflict wounds</i>, <i>sanctuary</i>, <i>sleep</i>",
@@ -2892,7 +2892,7 @@
       "Legendary: No",
       "Book: Tome_Beast_31"
     ],
-    "background_image": "https://3.bp.blogspot.com/-3pDKBEAVqA0/VxrjOVoYU7I/AAAAAAAAARM/-WWnLQcoZf0yq6biekwiW-Tkjd21maLVgCLcB/s1600/PZO1133-DeepOneHybrid.jpg"
+    "background_image": "https://i.imgur.com/FLROPkp.png"
   },
   {
     "count": 1,
@@ -2916,7 +2916,7 @@
       "Legendary: No",
       "Book: Tome_Beast_31"
     ],
-    "background_image": "https://3.bp.blogspot.com/-3pDKBEAVqA0/VxrjOVoYU7I/AAAAAAAAARM/-WWnLQcoZf0yq6biekwiW-Tkjd21maLVgCLcB/s1600/PZO1133-DeepOneHybrid.jpg"
+    "background_image": "https://i.imgur.com/FLROPkp.png"
   },
   {
     "count": 1,
@@ -2941,7 +2941,7 @@
       "property | Challenge | 8 (3900 XP)",
       "rule",
      "description |Amphibious| Can breathe air or water with equal ease.",
-     "description |Frenzied Rage| On its next turn after a deep one archimandrite takes 10 or more damage from a single attack, it has advantage on its attacks, it adds +4 to damage, and it can make one extra unholy trident attack.",
+     "description |Frenzied Rage| Next turn after a Deep One Hybrid P:riest takes 10 or more damage from one attack, has advantage on its melee attacks and adds +4 to spell and claws damage.",
      "description |Innate Spellcasting| Spellcasting ability is Charisma (DC 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
      "bullet |At will| <i>bless</i>, <i>revivify</i>, <i>sacred flame</i>, <i>shocking grasp</i>, <i>suggestion</i>",
      "bullet |3/day each| <i>charm person</i>, <i>lightning bolt</i>, <i>sanctuary</i>, <i>shatter</i>",
@@ -3008,7 +3008,7 @@
       "property | Language | Ape, Infernal, Telepathy 120ft",
       "property | Challenge | 6 (2300 XP)",
       "rule",
-     "description |Diseased Ichor| When taking piercing or slashing damage, caustic blood spurts toward the attacker. Line 10ft by 5ft. First creature in line makes DC 15 Constitution saveagainst disease or be infected by Mechuiti's Ichor disease. The creature is poisoned until the disease is cured. Every 24 hours that elapse, the target must repeat the Constitution saving throw or reduce its hit point maximum by 5 (2d4). The disease is cured on a success. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target's hit point maximum lasts until the disease is cured."
+     "description |Diseased Ichor| When taking piercing or slashing damage, caustic blood spurts toward the attacker. Line 10ft by 5ft. First creature in line makes DC 15 Constitution save against disease or get Mechuiti's Ichor. Creature is poisoned until cured. Every 24hrs that elapse, the target must repeat Constitution save or reduce its HP maximum by 5(2d4). Disease is cured on a success. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target's hit point maximum lasts until the disease is cured."
     ],
     "tags": [
       "creature",
@@ -3131,10 +3131,10 @@
       "property | Damage Immunities| Poison",
       "property | Condition Immunities| Poisoned",
       "property | Senses | Darkvision 120ft, Passive Perception 13",
-      "property | Language | Celestial, Common, Draconic, Infernal; Telepathy 120ft",
+      "property | Language | Celestial, Common, Draconic, Infernal; Tele. 120ft",
       "property | Challenge | 8 (3900 XP)",
       "rule",
-     "description |Two Heads| The demon has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.",
+     "description |Two Heads| Advantage on Perception checks and on saves against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.",
      "description |Innate Spellcasting| The demon's spellcasting ability is Charisma (spell save DC 17). The demon can innately cast the following spells, requiring no material components:",
      "bullet |At will:| <i>detect evil and good</i>, <i>detect magic</i>, <i>suggestion</i>",
      "bullet |3/day:| <i>glibness</i>",
@@ -3255,7 +3255,7 @@
       "dndstats | 21 | 23 | 20 | 16 | 19 | 18",
       "rule",
       "property | Saving Throws| Dex +9, Con +8, Wis +7, Cha +7",
-      "property | Skills| Acrobatics +9, Perception +6, Intimidation +7, Stealth +9",
+      "property | Skills| Acrobatics +9, Perc. +6, Intimidation +7, Stealth +9",
       "property | Damage Resistances| Cold, Lightning; Physical from non-magical weapons",
       "property | Damage Immunities| Fire, Poison",
       "property | Condition Immunities| Poisoned",
@@ -3264,7 +3264,7 @@
       "property | Challenge | 7 (2900 XP)",
       "rule",
      "description |Innate Spellcasting| The psoglav's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spell, requiring no material components:",
-     "bullet |1/day:| greater invisibility",
+     "bullet |1/day:| <i>greater invisibility</i>",
      "description |Magic Weapon| The psoglav's weapon attacks are magical.",
      "description |Shadow Door (4/Day)| Can travel between shadows as if by means of a dimension door spell. The magical transport must begin and end in an area with at least some dim light. The shadow door can span a maximum of 90 feet."
     ],
@@ -3517,11 +3517,11 @@
       "property | Language | All; Telepathy 120ft",
       "property | Challenge | 21 (33,000 XP)",
       "rule",
-     "description |Born of Darkness| Alquam can take the Hide action as a bonus action on each turn while it is in dim light or darkness, even if it is being observed. ",
+     "description |Born of Darkness| Use bonus action to Hide on each turn in dim light or darkness, even if it is being observed.",
      "description |Innate Spellcasting| Alquam’s innate spellcasting ability is Charisma (save DC 18). It can innately cast the following spells without material components.",
-     "bullet |At will:| darkness, silence ",
-     "bullet |3/day each:| fear, invisibility, teleport",
-     "bullet |1/day:| circle of death"
+     "bullet |At will:| <i>darkness</i>, <i>silence</i> ",
+     "bullet |3/day each:| <i>fear</i>, <i>invisibility</i>, <i>teleport</i>",
+     "bullet |1/day:| <i>circle of death</i>"
     ],
     "tags": [
       "creature",
@@ -3591,8 +3591,7 @@
       "property | Language |  Common, Darakhul, Derro, Draconic, Dwarvish, Infernal, Kobold, Nurian, Primordial, Void Speech; Telepathy 300 ft",
       "property | Challenge | 22 (62000 XP)",
       "rule",
-     "description |Shapechanger| Camazotz can use his action to polymorph into a form that resembles a giant bat covered in smoldering ashes, or back into his true, winged humanoid form. His statistics are the same in each form. Any equipment he is wearing or carrying isn’t transformed. Either form turns into a pile of greasy ash if destroyed.",
-     "description |Echolocation| Can’t use his blindsight while deafened."
+     "description |Shapechanger| Camazotz can use his action to polymorph into a form that resembles a giant bat covered in smoldering ashes, or back into his true, winged humanoid form. His statistics are the same in each form. Any equipment he is wearing or carrying isn’t transformed. Either form turns into a pile of greasy ash if destroyed."
     ],
     "tags": [
       "creature",
@@ -3611,6 +3610,7 @@
     "title": "Camazotz, Demon Lord of Bats and Fire Continued: Abilities",
     "icon": "imp-laugh",
     "contents": [
+     "description |Echolocation| Can’t use his blindsight while deafened.",
      "description |Keen Hearing| Advantage on Perception checks by hearing.",
      "description | Gift of Vampirism| Camazotz may choose to raise those slain through Strength loss as vampires. They rise after 1d4 days, permanently dominated by Camazotz until such time as he sees fit to grant them free will. Camazotz may have no more than ten enslaved vampires at any given time. ",
      "description |Heat Mantle| Infused with the heart of volcanoes. A creature who strikes Camazotz with a nonreach weapon or with an unarmed strike takes 7 (2d6) fire damage automatically.",
@@ -3618,7 +3618,7 @@
      "bullet |At will:| <i>darkness</i>, <i>detect evil and good</i>, <i>dispel magic</i>, <i>plane shift</i>, <i>shapechange</i>, <i>telekinesis</i>, <i>teleport</i>",
      "bullet |3/day:| <i>banishment</i>, <i>haste</i>, <i>symbol</i>",
      "bullet |1/day:| <i>earthquake</i>",
-     "description |Magic Resistance| Camazotz has advantage on saving throws against spells and other magical effects.",
+      "description |Magic Resistance| Adv. against spells and magical effects.",
      "description |Summon Bats (1/Day)| Camazotz can summon 4d6 giant bats or 2d6 swarms of bats. The bats appear immediately and serve the demon for up to 1 hour. ",
      "description |Summon Demons (1/Day)| Camazotz can summon 2d4 barlgura of a variety native to his cavernous realm: squat and blubbery creatures with clawed batwings for arms and a fly speed of 40 ft."
     ],
@@ -3744,13 +3744,13 @@
     "contents": [
      "description |Diseased Ichor| Every time Mechuiti takes piercing or slashing damage, a spray of caustic blood spurts from the wound toward the attacker. This spray forms a line 10 feet long and 5 feet wide. The first creature in the line must make a successful DC 24 Constitution saving throw against disease or be infected by Mechuiti’s Ichor disease. The creature is poisoned until the disease is cured. Every 24 hours that elapse, the target must make a successful DC 24 Constitution saving throw or reduce its hit point maximum by 5 (2d4). The disease is cured on a success. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target’s hit point maximum lasts until the disease is cured.",
      "description |Innate Spellcasting| Mechuiti’s spellcasting ability is Charisma (spell save DC 22, +14 to hit with spell attacks). Mechuiti can innately cast the following spells, requiring no material components:",
-     "bullet |At will:| dispel magic, fireball, hold monster, wall of fire",
-     "bullet |3/day each:| fire storm, power word stun",
-     "bullet |1/day each:| meteor swarm, power word kill",
+     "bullet |At will:| <i>dispel magic</i>, <i>fireball</i>, <i>hold monster</i>, <i>wall of fire</i>",
+     "bullet |3/day each:| <i>fire storm</i>, <i>power word stun</i>",
+     "bullet |1/day each:| <i>meteor swarm</i>, <i>power word kill</i>",
      "description |Speak with Apes| Mechuiti can communicate simple concepts to apes.",
      "section | Actions",
      "description | Multiattack| Mechuiti uses its Frightful Presence and makes one bite attack and two with claw attacks.",
-     "description | Bite| Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 20 (2d10 + 9) piercing damage plus 5 (1d10) fire damage."
+     "description | Bite| Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 20 (2d10 + 9) piercing damage plus 5 (1d10) fire."
     ],
     "tags": [
       "creature",
@@ -3832,7 +3832,7 @@
       "property | Language | All; Telepathy 120ft",
       "property | Challenge | 23 (50,000 XP)",
       "rule",
-     "description |Innate Spellcasting| Qorgeth’s innate spellcasting ability is Charisma (spell save DC 19). It can innately cast the following spells, requiring no material or somatic components.",
+     "description |Innate Spellcasting| Ability is Charisma (DC19). Casts the following spells, requires no material/somatic components.",
      "bullet |At will:| <i>detect magic</i>, <i>black tentacles</i>",
      "bullet |3/day each:| <i>dispel magic</i>, <i>fear</i>, <i>insect plague</i> (biting worms)",
      "bullet |1/day each:| <i>earthquake</i>, <i>teleport</i>",
@@ -4056,7 +4056,7 @@
       "rule",
       "property | Saving Throws| Dex +12, Con +14, Wis +12, Cha +14",
       "property | Skills| Deception +14, Insight +12, Perception +12, Stealth +12",
-      "property | Damage Resistances| Acid, Cold; All physical from non-silvered weapons",
+      "property | Damage Resistances| Acid, Cold; Physical from non-silvered",
       "property | Damage Immunities| Fire, Poison",
       "property | Condition Immunities| Charmed, Frightened, Poisoned, Stunned",
       "property | Senses | Truesight 120ft, Passive Perception 22",
@@ -4155,7 +4155,7 @@
       "property | Language | Infernal",
       "property | Challenge | 5 (1800 XP)",
       "rule",
-      "description |Hive Mind| Spawn of Arbeyach share a bond with other members of their hive that enhances their hive mates' perception. As long as a spawn is within 60 feet of at least one hive mate, it has advantage on initiative rolls and Wisdom (Perception) checks. If one spawn is aware of a particular danger, all others in the hive are, too. No spawn in a hive mind is surprised at the beginning of an encounter unless all of them are.",
+      "description |Hive Mind| As long as a spawn is within 60 feet of at least one hive mate, it has advantage on initiative rolls and Wisdom (Perception) checks. If one spawn is aware of a particular danger, all others in the hive are, too. No spawn in a hive mind is surprised at the beginning of an encounter unless all of them are.",
       "description |Innate Spellcasting| The spawn of Arbeyach's spellcasting ability is Charisma. The Spawn of Arbeyach can innately cast the following spells, requiring no material components: ",
       "bullet |1/day:| <i>conjure animals</i> (only swarms of insects) "
     ],
@@ -4301,9 +4301,9 @@
       "property | Challenge | 25 (75000 XP)",
       "rule",
       "description |Innate Spellcasting| Innate spellcasting ability is Charisma (spell save DC 24, +16 to hit with spell attacks). Innately cast these spells, requiring no material components:",
-      "bullet |At will:| charm person, detect magic, dispel magic, fabricate (Mammon can create valuable objects), heat metal, magic aura",
-      "bullet |3/day each:| animate objects, counterspell, creation, instant summons, legend lore, teleport",
-      "bullet |1/day each:| imprisonment (minimus containment only, inside gems), sunburst"
+      "bullet |At will:| <i>charm person</i>, <i>detect magic</i>, <i>dispel magic</i>, <i>fabricate</i> (creates valuable objects), <i>heat metal</i>, <i>magic aura</i>",
+      "bullet |3/day each:| <i>animate objects</i>, <i>counterspell</i>, <i>creation</i>, <i>instant summons</i>, <i>legend lore</i>, <i>teleport</i>",
+      "bullet |1/day each:| <i>imprisonment</i> (minimus containment only, inside gems), <i>sunburst</i>"
     ],
     "tags": [
       "creature",
@@ -4341,7 +4341,7 @@
       "Legendary: Yes",
       "Book: Tome_Beast_31"
     ],
-    "background_image": "https://i.imgur.com/r3JetCe.png"
+    "background_image": "https://i.imgur.com/C5TOLcf.png"
   },
   {
     "count": 1,
@@ -4506,10 +4506,11 @@
       "property | Challenge | 10 (5900 XP)",
       "rule",
       "description |Devil’s Sight| Magical darkness doesn’t stop darkvision.",
-      "description |Magic Resistance| The automata devil has advantage on saving throws against spells and other magical effects.",
+      "description |Magic Resistance| Adv. against spells and magical effects.",
       "description |Innate Spellcasting| Spellcasting ability is Charisma (DC16). Innately casts below spell, requires no material components:",
       "bullet |At will:| <i>charm person</i>, <i>suggestion</i>, <i>teleport</i>",
       "bullet |1/day each:| <i>banishing smite</i>, <i>cloudkill</i>",
+      "fill | 1",
       "section | Actions",
       "description |Multiattack| Makes two melee attacks: pick between bite, claw, and whip attacks. Only one bite per turn."
     ],
