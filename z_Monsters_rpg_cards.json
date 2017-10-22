@@ -2,113 +2,120 @@
   {
     "count": 1,
     "color": "default",
-    "title": "Brass Man",
+    "title": "Star Drake",
     "icon": "imp-laugh",
     "contents": [
-      "subtitle | Large Construct, Unaligned",
+      "subtitle | Large Dragon, Neutral",
       "rule",
-      "property | Armor class | 18 (natural armor)",
-      "property | Hit points | 95 (10d10 + 40)",
-      "property | Speed | 30ft",
+      "property | Armor class | 19 (natural armor)",
+      "property | Hit points | 189 (18d10 + 90)",
+      "property | Speed | 40ft, <b>Fly</b> 100ft",
       "rule",
-      "dndstats | 20 | 10 | 18 | 3 | 11 | 1",
+      "dndstats | 20 | 17 | 21 | 16 | 24 | 20",
       "rule",
-      "property | Damage Resistances| Physical from non-adamantine weapons",
-      "property | Damage Vulnerabilities| Cold",
-      "property | Damage Immunities| Fire, Poison",
-      "property | Condition Immunities| Paralysis, Petrification, Poisoned, Stunned, Suffocation, Unconsciousness",
-      "property | Senses | Darkvision 60ft, Passive Perception 10",
-      "property | Language | -",
-      "property | Challenge | 6 (2300 XP)",
+      "property | Saving Throws| Dex +8, Con +10, Int +8, Wis +12, Cha +10",
+      "property | Skills| Arcana +8, History +8, Insight +12, Perception +12, Religion +8",
+      "property | Damage Immunities| Cold, Fire; Physical from non-magical",
+      "property | Condition Immunities| Charmed, Frightened, Paralyzed, Unconscious",
+      "property | Senses | Truesight 120ft, Passive Perception 22",
+      "property | Language | Celestial, Common, Draconic, Dwarvish, Elvish, Infernal, Primordial",
+      "property | Challenge | 15 (13000 XP)",
       "rule",
-      "description |Immunity to Magic| Succeeds on all saves against spells and spell-like effects. If successful save reduces damage by half, instead no damage. Certain spells may have alt. effects:",
-      "bullet || Lightning slows Brass Man (<i>slow</i> spell) for 3 rounds.",
-      "bullet || Fire damage ends any slow effect on the brass man and repairs 1 point of damage for each 3 points of damage the attack would normally inflict deal. If the amount of healing would cause the brass man to exceed its hit point maximum, it gains the excess as temporary hit points. "
-    ],
-    "tags": [
-      "creature",
-      "Construct",
-      "subrace:",
-      "Structure: Unaligned",
-      "Alignment: Unaligned",
-      "Legendary: No",
-      "Book: Tome_Beast_31"
-    ],
-    "background_image": "https://i.imgur.com/TjrF9cg.png"
-  },
-  {
-    "count": 1,
-    "color": "default",
-    "title": "Brass Man Continued: Actions",
-    "icon": "imp-laugh",
-    "contents": [
-      "section | Actions",
-      "description |Multiattack| A brass man attacks twice with its fists, or twice with its greatsword, or once by spitting molten brass.",
-      "description |Fist| +8 to hit (reach 10 ft.; one creature). Hit: 1d10 + 5 bludgeoning damage plus 1d10 fire damage.",
-      "description |Greatsword| +8 to hit (reach 10 ft.; one creature). Hit: 2d12 + 5 slashing damage.",
-      "description |Molten Brass (recharge 5, 6)| automatic hit (range 30-ft. line; all creatures in line). Hit: 6d8 fire damage. Targets that make a successful DC 15 Dex saving throw take half damage. "
-    ],
-    "tags": [
-      "creature",
-      "Construct",
-      "subrace:",
-      "Structure: Unaligned",
-      "Alignment: Unaligned",
-      "Legendary: No",
-      "Book: Tome_Beast_31"
-    ],
-    "background_image": "https://i.imgur.com/TjrF9cg.png"
-  },
-  {
-    "count": 1,
-    "color": "default",
-    "title": "Adult Cave Dragon Continued: Legendary",
-    "icon": "imp-laugh",
-    "contents": [
-      "description |Poison Breath (Recharge 5-6)| Exhales a cone of poison gas in a 60ft. Each target in that area takes 56 (16d6) poison damage and is poisoned if it is a creature; a successful DC 18 Constitution saving throw reduces damage by half and negates the poisoned condition. The poisoned condition lasts until the target takes a long or short rest or it's removed with lesser restoration or comparable magic.",
-      "section | Reactions",
-      "description |Ruff Spikes| When a creature tries to enter a space adjacent to a cave dragon, the dragon flares its many feelers and spikes. The creature cannot enter a space adjacent to the dragon unless it makes a successful DC 18 Dexterity saving throw. If the saving throw fails, the creature can keep moving but only into spaces that aren't within 5 feet of the dragon and takes 10 (3d6) piercing damage from spikes.",
-      "fill | 1",
-      "section |Legendary Actions",
-      "text |Takes 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
-      "description |Detect| The dragon makes a Wisdom (Perception) check.",
-      "description |Reset Ruff Spikes| The dragon can use its ruff spikes as a reaction again before its next turn.",
-      "description |Tail| The dragon makes a tail attack.",
-      "description |Swift Bite (Costs 2 Actions)| Makes two bite attacks."
+      "description |Legendary Resistance (2/day)| If the star drake fails a saving throw, it can choose to succeed instead.",
+      "description |Magic Resistance| The drake has advantage on saving throws against spells and other magical effects.",
+      "description |Magic Weapons| The drake's weapon attacks are magical."
     ],
     "tags": [
       "creature",
       "Dragon",
       "subrace:",
-      "Structure: Unaligned",
-      "Alignment: Unaligned",
+      "Structure: Neutral",
+      "Alignment: Neutral",
       "Legendary: No",
       "Book: Tome_Beast_31"
     ],
-    "background_image": "https://i.imgur.com/i2Bhi8y.png"
+    "background_image": "https://i.imgur.com/7LwZhZX.png"
   },
   {
     "count": 1,
     "color": "default",
-    "title": "Totivillus, Scribe of Hell Continued: Legendary",
+    "title": "Star Drake Continued: Actions",
     "icon": "imp-laugh",
     "contents": [
-      "section |Legendary Actions",
-      "text |Totivillus can take 3 legendary actions, choosing from the options below. Only one option can be used at a time and only at the end of another creature’s turn. Totivillus regains spent legendary actions at the start of its turn.",
-      "description |Claw Attack| Totivillus makes one claw attack. ",
-      "description |Devil’s Mark| Totivillus sprays magical ink from his fingertips at a single target within 30 feet. The target must make a successful DC 23 Dexterity saving throw or receive a devil’s mark: a tattoo in the shape of Totivillus’s personal seal. All devils have advantage when they make spell or spell-like attacks against the devil-marked creature, and the creature has disadvantage on saving throws against such attacks. The mark can be removed by remove curse if the caster also makes a successful DC 23 spellcasting check. The mark reveals itself as desecrated to detect evil and good. It often shifts its position on the body, especially when it’s concealed (and usually at the most inconvenient moment). Because such marks are sometimes placed on those who’ve made pacts with devils, NPC paladins and clerics might assume that any character bearing a devil’s mark is in league with evil forces.",
-      "description |Cast a Spell (Costs 3 Actions)| Totivillus casts a spell from its list of prepared spells, using a spell slot as normal."
+      "description |Nimbus of Stars| The drake is surrounded by a whirling nimbus of tiny motes of starlight. A sighted creature that starts its turn within 10 feet of the drake must make a successful DC 18 Constitution saving throw or become incapacitated. At the start of a character's turn, a character can choose to avert its eyes and gain immunity against this effect until the start of its next turn, but it must treat the drake as invisible while the character's eyes are averted.",
+      "description |Innate Spellcasting| The drake's innate spellcasting ability is Wisdom (spell save DC 20). It can innately cast the following spells, requiring no material components:",
+      "bullet |At will:| <i>faerie fire</i>, <i>moonbeam</i>",
+      "bullet |3/day:| <i>plane shift</i>",
+      "bullet |1/day each:| <i>gate</i>, <i>planar binding</i>",
+      "fill | 1",
+      "section |Actions",
+      "description |Multiattack| Makes one bite attack and two claw attacks.",
+      "description |Bite| Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage.",
+      "description |Claw| Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 15 (3d6 + 5) slashing damage.",
+      "description |Breath Weapon (Recharge 5-6)| Exhales either fire or frigid air in a 40-foot cone. Each creature in that area takes 78 (12d12) fire or cold damage, whichever the drake wishes, or half damage with a successful DC 18 Dexterity save"
     ],
     "tags": [
       "creature",
-      "Fiend",
-      "subrace: Devil",
-      "Structure: Lawful",
-      "Alignment: Evil",
-      "Legendary: Yes",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Neutral",
+      "Legendary: No",
       "Book: Tome_Beast_31"
     ],
-    "background_image": "https://i.imgur.com/jWiSHAh.png"
+    "background_image": "https://i.imgur.com/7LwZhZX.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Star Drake Continued: Legendary",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Searing Star (1/Day)| Ranged Spell Attack: +12 to hit, range 120 ft., one target. Hit: 65 (10d12) force damage, and the target must succeed on a DC 18 Constitution saving throw or be permanently blinded.",
+      "fill | 1",
+      "section |Legendary Actions",
+      "text |The drake can take 3 legendary actions, choosing from the options below. Only one option can be used at a time and only at the end of another creature's turn. The drake regains spent legendary actions at the start of its turn.",
+      "description |Bite Attack| The drake makes one bite attack.",
+      "description |Nova (Costs 2 Actions)| The drake momentarily doubles the radius and intensity of its nimbus of stars. Every sighted creature within 20 feet of the drake must make a successful DC 18 Constitution saving throw or become blinded until the end of its next turn. Characters who are averting their eyes are immune to the nova.",
+      "description |Pale Sparks| The drake casts faerie fire or moonbeam."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/7LwZhZX.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Ancient Void Dragon Continued: Legendary",
+    "icon": "imp-laugh",
+    "contents": [
+      "section |Reactions",
+      "description |Void Twist| When the dragon is hit by a ranged attack, it can create a small rift in space to increase its AC by 7 against that attack. If the attack misses because of this increase, the dragon can choose a creature within 30 feet to become the new target for that attack. Use the original attack roll to determine if the attack hits the new target.",
+      "fill | 1",
+      "section |Legendary Actions",
+      "text |The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
+      "description |Detect| The dragon makes a Wisdom (Perception) check.",
+      "description |Tail Attack| The dragon makes a tail attack.",
+      "description |Void Slip (Costs 2 Actions)| The dragon twists the fabric of space. Each creature within 15 feet of the dragon must succeed on a DC 21 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then teleport to an unoccupied space within 40 feet.",
+      "description |Void Cache (Costs 3 Actions)| The dragon can magically reach into its treasure hoard and retrieve one item. If the dragon is holding an item, it can use this ability to deposit the item into its hoard."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/ZMiS0QQ.png"
   },
   {
     "count": 1,
@@ -5641,8 +5648,8 @@
       "creature",
       "Dragon",
       "subrace:",
-      "Structure: Unaligned",
-      "Alignment: Unaligned",
+      "Structure: Neutral",
+      "Alignment: Evil",
       "Legendary: No",
       "Book: Tome_Beast_31"
     ],
@@ -5671,8 +5678,8 @@
       "creature",
       "Dragon",
       "subrace:",
-      "Structure: Unaligned",
-      "Alignment: Unaligned",
+      "Structure: Neutral",
+      "Alignment: Evil",
       "Legendary: No",
       "Book: Tome_Beast_31"
     ],
@@ -5699,11 +5706,2220 @@
       "creature",
       "Dragon",
       "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/i2Bhi8y.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Young Cave Dragon",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Large Dragon, Neutral Evil",
+      "rule",
+      "property | Armor class | 17 (natural armor)",
+      "property | Hit points | 157 (15d10 + 75)",
+      "property | Speed | 40ft, <b>Climb</b> 20ft, <b>Fly</b> 20ft",
+      "rule",
+      "dndstats | 22 | 12 | 20 | 10 | 12 | 18",
+      "rule",
+      "property | Saving Throws| Dex +4, Con +8, Wis +4, Cha +7",
+      "property | Skills| Perception +4, Stealth +4",
+      "property | Damage Immunities| Acid, Thunder",
+      "property | Condition Immunities| Poisoned",
+      "property | Senses | Blindsight 120ft, Passive Perception 14",
+      "property | Language | Common, Darakhul, Draconic",
+      "property | Challenge | 8 (3900 XP)",
+      "rule",
+      "description |Tunneler| The cave dragon can burrow through solid rock at half its burrowing speed and leaves a 10-foot wide, 5-foot high tunnel in its wake.",
+      "description |Innate Spellcasting| The dragon's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:",
+      "bullet |1/day each:| <i>blur</i>, <i>counterspell</i>, <i>web</i>",
+      "bullet |3/day:| <i>darkness</i>"
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/i2Bhi8y.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Young Cave Dragon Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "section |Actions",
+      "description |Multiattack| The dragon makes three attacks; one with its biteand two with its claws.",
+      "description |Bite| Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d6 + 6) piercing damage plus 3 (1d6) poison damage.",
+      "description |Claw| Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d6 + 6) slashing damage.",
+      "description |Poison Breath (Recharge 5-6)| The dragon exhales a cone of black poison gas in a 30-foot cone. Each creature in that area must make a DC 16 Constitution saving throw, taking 45 (13d6) poison damage on a failed save and becoming poisoned if it is a creature. The poisoned condition lasts until the target takes a long or short rest or removes the condition with lesser restoration or comparable magic. If the save is successful, the target takes half damage and is not poisoned.",
+      "fill | 1",
+      "section |Reactions",
+      "description |Ruff Spikes| When a creature tries to enter a space adjacent to a cave dragon, the dragon flares its many feelers and spikes. The creature cannot enter a space adjacent to the dragon unless it makes a successful DC 16 Dexterity saving throw. If the saving throw fails, the creature can keep moving but only into spaces that aren't within 5 feet of the dragon and takes 4 (1d8) piercing damage from spikes."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/i2Bhi8y.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Cave Dragon Wyrmling",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Dragon, Neutral Evil",
+      "rule",
+      "property | Armor class | 16 (natural armor)",
+      "property | Hit points | 75 (10d8 + 30)",
+      "property | Speed | 30ft, <b>Burrow</b> 20ft, <b>Fly</b> 20ft",
+      "rule",
+      "dndstats | 19 | 12 | 17 | 8 | 10 | 12",
+      "rule",
+      "property | Saving Throws| Dex +3, Con +5, Cha +3",
+      "property | Skills| Perception +2, Stealth +5",
+      "property | Damage Immunities| Acid, Poison, Thunder",
+      "property | Condition Immunities| Poisoned",
+      "property | Senses | Blindsight 120ft, Passive Perception 12",
+      "property | Language | Draconic",
+      "property | Challenge | 2 (450 XP)",
+      "rule",
+      "description |Tunneler| The cave dragon can burrow through solid rock at half its burrowing speed and leaves a 5-foot wide, 5-foot high tunnel in its wake.",
+      "description |Innate Spellcasting| The dragon's innate spellcasting ability is Charisma. It can innately cast the following spell, requiring no material components:",
+      "bullet |3/day:| <i>darkness</i>"
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/i2Bhi8y.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Cave Dragon Wyrmling Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "section |Actions",
+      "description |Bite| Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage plus 3 (1d6) poison damage.",
+      "description |Poison Breath (Recharge 5-6)| The dragon exhales a cone of black poison gas in a 15-foot cone. Each creature in that area must make a DC 13 Constitution saving throw, taking 14 (4d6) poison damage on a failed save and the target is poisoned if it is a creature. The poisoned condition lasts until the target takes a long or short rest or removes the condition with lesser restoration. If the save is successful, the target takes half the damage and does not become poisoned."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/i2Bhi8y.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Ancient Flame Dragon",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Gargantuan Dragon, Chaotic Evil",
+      "rule",
+      "property | Armor class | 22 (natural armor)",
+      "property | Hit points | 481 (26d20 + 208)",
+      "property | Speed | 40ft, <b>Climb</b> 40ft, <b>Fly</b> 80ft",
+      "rule",
+      "dndstats | 23 | 14 | 27 | 19 | 16 | 22",
+      "rule",
+      "property | Saving Throws| Dex +9, Con +15, Wis +10, Cha +13",
+      "property | Skills| Deception +13, Insight +10, Perception +17, Persuasion +13, Stealth +9",
+      "property | Damage Immunities| Fire",
+      "property | Senses | Darkvision 120ft, Blindsight 60ft, Passive Perc. 27",
+      "property | Language | Common, Draconic, Giant, Ignan, Infernal, Orc",
+      "property | Challenge | 24 (62000 XP)",
+      "rule",
+      "description |Legendary Resistance (3/day)| Can succeed failed saves",
+      "description |Fire Incarnate| All fire damage dealt by the dragon ignores fire resistance but not fire immunity.",
+      "fill | 1",
+      "section |Actions",
+      "description |Multiattack| The dragon can use its Frightful Presence. It then makes one bite attack and two claw attacks.",
+      "description |Bite| Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 14 (4d6) fire."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/x2HjHJN.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Ancient Flame Dragon Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Claw| Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 13 (2d6 + 6) slashing damage.",
+      "description |Tail| Melee Weapon Attack: +13 to hit, reach 20 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage.",
+      "description |Frightful Presence| Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A frightened creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.",
+      "description |Fire Breath (Recharge 5-6)| The dragon exhales fire in a 90-foot cone. Each creature in that area takes 91 (26d6) fire damage, or half damage with a successful DC 23 Dexterity saving throw. Each creature in that area must also succeed on a DC 21 Wisdom saving throw or go on a rampage for 1 minute. A rampaging creature must attack the nearest living creature or smash some object smaller than itself if no creature can be reached with a single move. A rampaging creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/x2HjHJN.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Ancient Flame Dragon Continued: Legendary",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Shifting Flames| The dragon magically polymorphs into a creature that has immunity to fire damage and a size and challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice). In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form.",
+      "fill | 1",
+      "section |Legendary Actions",
+      "text |The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
+      "description |Detect| The dragon makes a Wisdom (Perception) check.",
+      "description |Tail Attack| The dragon makes a tail attack.",
+      "description |Wing Attack (Costs 2 Actions)| The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 21 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/x2HjHJN.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Adult Flame Dragon",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Huge Dragon, Chaotic Evil",
+      "rule",
+      "property | Armor class | 19 (natural armor)",
+      "property | Hit points | 212 (17d12 + 102)",
+      "property | Speed | 40ft, <b>Climb</b> 40ft, <b>Fly</b> 80ft",
+      "rule",
+      "dndstats | 19 | 14 | 23 | 17 | 14 | 20",
+      "rule",
+      "property | Saving Throws| Dex +7, Con +11, Wis +7, Cha +10",
+      "property | Skills| Deception +10, Insight +7, Perception +12, Persuasion +10, Stealth +7",
+      "property | Damage Immunities| Fire",
+      "property | Senses | Darkvision 120ft, Blindsight 60ft, Passive Perc. 22",
+      "property | Language | Common, Draconic, Giant, Ignan, Infernal, Orc",
+      "property | Challenge | 16 (15000 XP)",
+      "rule",
+      "description |Legendary Resistance (3/day)| Can succeed failed saves",
+      "description |Fire Incarnate| All fire damage dealt by the dragon ignores fire resistance but not fire immunity.",
+      "fill | 1",
+      "section |Actions",
+      "description |Multiattack| The dragon can use its Frightful Presence. It then makes one bite attack and two claw attacks.",
+      "description |Bite| Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage plus 7 (2d6) fire damage.",
+      "description |Claw| Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/x2HjHJN.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Adult Flame Dragon Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Tail| Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.",
+      "description |Frightful Presence| Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A frightened creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.",
+      "description |Fire Breath (Recharge 5-6)| The dragon exhales fire in a 60-foot cone. Each creature in that area takes 63 (18d6) fire damage, or half damage with a successful DC 19 Dexterity saving throw. Each creature in that area must also succeed on a DC 18 Wisdom saving throw or go on a rampage for 1 minute. A rampaging creature must attack the nearest living creature or smash some object smaller than itself if no creature can be reached with a single move. A rampaging creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/x2HjHJN.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Adult Flame Dragon Continued: Legendary",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Shifting Flames| The dragon magically polymorphs into a creature that has immunity to fire damage and a size and challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice). In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form.",
+      "fill | 1",
+      "section |Legendary Actions",
+      "text |The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
+      "description |Detect| The dragon makes a Wisdom (Perception) check.",
+      "description |Tail Attack| The dragon makes a tail attack.",
+      "description |Wing Attack (Costs 2 Actions)| The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 17 Dexterity saving throw or take 11 (2d6 + 4) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/x2HjHJN.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Young Flame Dragon",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Large Dragon, Chaotic Evil",
+      "rule",
+      "property | Armor class | 18 (natural armor)",
+      "property | Hit points | 161 (17d10 + 68)",
+      "property | Speed | 40ft, <b>Climb</b> 40ft, <b>Fly</b> 80ft",
+      "rule",
+      "dndstats | 15 | 14 | 19 | 15 | 13 | 18",
+      "rule",
+      "property | Saving Throws| Dex +6, Con +8, Wis +5, Cha +8",
+      "property | Skills| Deception +8, Insight +5, Perception +9, Persuasion +8, Stealth +6",
+      "property | Damage Immunities| Fire",
+      "property | Senses | Darkvision 120ft, Blindsight 30ft, Passive Perc. 19",
+      "property | Language | Common, Draconic, Giant, Ignan, Infernal, Orc",
+      "property | Challenge | 9 (5000 XP)",
+      "rule",
+      "description |Fire Incarnate| All fire damage dealt by the dragon ignores fire resistance but not fire immunity.",
+      "section |Actions",
+      "description |Multiattack| Makes one bite attack and two claw attacks.",
+      "description |Bite| Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 13 (2d10 + 2) piercing damage plus 3 (1d6) fire damage.",
+      "description |Claw| Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage.",
+      "description |Fire Breath (Recharge 5-6)| Exhales fire in a 30ft cone. Each creature in that area takes 56 (16d6) fire damage, or half damage with a successful DC 16 Dexterity save."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/x2HjHJN.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Flame Dragon Wyrmling",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Dragon, Chaotic Evil",
+      "rule",
+      "property | Armor class | 17 (natural armor)",
+      "property | Hit points | 52 (8d8 + 16)",
+      "property | Speed | 30ft, <b>Climb</b> 30ft, <b>Fly</b> 60ft",
+      "rule",
+      "dndstats | 12 | 14 | 15 | 13 | 12 | 16",
+      "rule",
+      "property | Saving Throws| Dex +4, Con +4, Wis +3, Cha +5",
+      "property | Skills| Deception +5, Insight +3, Perception +5, Persuasion +5, Stealth +4",
+      "property | Damage Immunities| Fire",
+      "property | Senses | Passive Perception 19",
+      "property | Language | Common, Draconic, Ignan",
+      "property | Challenge | 3 (700 XP)",
+      "rule",
+      "fill | 1",
+      "section |Actions",
+      "description |Bite| Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (1d10+1) piercing damage plus 3 (1d6) fire damage.",
+      "description |Fire Breath (Recharge 5-6)| The dragon exhales fire in a 10-foot cone. Each creature in that area takes 24 (7d6) fire damage, or half damage with a successful DC 12 Dexterity saving throw."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/x2HjHJN.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Ancient Mithral Dragon",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Gargantuan Dragon, Neutral",
+      "rule",
+      "property | Armor class | 20 (natural armor)",
+      "property | Hit points | 297 (17d20 + 119)",
+      "property | Speed | 40ft, <b>Fly</b> 80ft",
+      "rule",
+      "dndstats | 29 | 16 | 25 | 24 | 25 | 24",
+      "rule",
+      "property | Saving Throws|  Dex +9, Con +13, Int +13, Wis +13, Cha +13",
+      "property | Skills| Athletics +15, History +13, Insight +13, Intimidation +13, Perception +13, Persuasion +13",
+      "property | Damage Resistances| Physical from non-magical weapons",
+      "property | Damage Immunities| Acid, Charm, Thunder",
+      "property | Condition Immunities| Charmed",
+      "property | Senses | Darkvision 120ft, Blindsight 60ft, Passive Perc. 23",
+      "property | Language | Celestial, Common, Draconic, Primordial",
+      "property | Challenge | 18 (20000 XP)",
+      "rule",
+      "fill | 1",
+      "description |Legendary Resistance (3/day)| Can succeed failed saves",
+      "description |Innate Spellcasting| Ability is Intelligence (DC 21). Casts the following spells, requiring no material components:",
+      "bullet |At will:| <i>tongues</i>",
+      "bullet |5/day each:| <i>counterspell</i>, <i>dispel magic</i>, <i>enhance ability</i>",
+      "description |Mithral Shards| Ancient mithral dragons can choose to retain the mithral shards of their breath weapon as a hazardous zone of spikes. Treat as a spike growth zone that does 2d8 magical slashing damage for every 5 feet travelled."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/GK7jHrO.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Ancient Mithral Dragon Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Spellcasting| The dragon is a 15th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 21, +13 to hit with spell attacks). It requires no material components to cast its spells. The dragon has the following wizard spells prepared:",
+      "bullet |Cantrips (at will):| <i>acid splash</i>, <i>light</i>, <i>mage hand</i>, <i>minor illusion</i>, <i>prestidigitation</i>",
+      "bullet |1st level (4 slots):| <i>charm person</i>, <i>expeditious retreat</i>, <i>magic missile</i>, <i>unseen servant</i>",
+      "bullet |2nd level (3 slots):| <i>blur</i>, <i>hold person</i>, <i>see invisibility</i>",
+      "bullet |3rd level (3 slots):| <i>haste</i>, <i>lightning bolt</i>, <i>protection from energy</i>",
+      "bullet |4th level (3 slots):| <i>dimension door</i>, <i>stoneskin</i>, <i>wall of fire</i>",
+      "bullet |5th level (2 slots):| <i>polymorph</i>, <i>teleportation circle</i>",
+      "bullet |6th level (1 slot):| <i>guards and wards</i>",
+      "bullet |7th level (1 slot):| <i>forcecage</i>",
+      "bullet |8th level (1 slot):| <i>antimagic field</i>",
+      "fill | 1",
+      "section |Actions",
+      "description |Multiattack| The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.",
+      "description |Bite| Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit: 22 (2d12 + 9) piercing damage."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/GK7jHrO.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Ancient Mithral Dragon Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Claw| Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 18 (2d8 +9) slashing damage, and the target loses 5 hit point from bleeding at the start of each of its turns for six rounds unless it receives magical healing. Bleeding damage is cumulative; the target loses 5 hp per round for each bleeding wound it's taken from a mithral dragon's claws.",
+      "description |Tail| Melee Weapon Attack: +15 to hit, reach 20 ft., one target. Hit: 20 (2d10 + 9) bludgeoning damage.",
+      "description |Frightful Presence| Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of its turn, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.",
+      "description |Breath Weapon (Recharge 5-6)| A mithral dragon can spit a 60-foot-long, 5-foot-wide line of metallic shards. Targets in its path take 59 (17d6) magical slashing damage and lose another 10 hit points from bleeding at the start of their turns for 6 rounds; slashing and bleed damage is halved by a successful DC 21 Dexterity saving throw. Only magical healing stops the bleeding before 6 rounds. The shards dissolve into wisps of smoke 1 round after the breath weapon's use."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/GK7jHrO.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Ancient Mithral Dragon Continued: Legendary",
+    "icon": "imp-laugh",
+    "contents": [
+      "section |Legendary Actions",
+      "text |The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
+      "description |Detect| The dragon makes a Wisdom (Perception) check.",
+      "description |Tail Attack| The dragon makes a tail attack.",
+      "description |Wing Attack (Costs 2 Actions)| The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 23 Dexterity saving throw or take 18 (2d8 + 9) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/GK7jHrO.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Adult Mithral Dragon",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Huge Dragon, Neutral",
+      "rule",
+      "property | Armor class | 18 (natural armor)",
+      "property | Hit points | 184 (16d12 + 80)",
+      "property | Speed | 40ft, <b>Fly</b> 80ft",
+      "rule",
+      "dndstats | 27 | 18 | 21 | 20 | 21 | 20",
+      "rule",
+      "property | Saving Throws| Dex +9, Con +10, Int +10, Wis +10, Cha +10",
+      "property | Skills| Athletics +13, History +10, Insight +10, Perception +10, Persuasion +10",
+      "property | Damage Resistances| Physical from non-magical weapons",
+      "property | Damage Immunities| Acid, Thunder",
+      "property | Condition Immunities| Charmed",
+      "property | Senses | Darkvision 120ft, Blindsight 60ft, Passive Perc. 20",
+      "property | Language | Celestial, Common, Draconic, Primordial",
+      "property | Challenge | 14 (11500 XP)",
+      "rule",
+      "description |Legendary Resistance (3/Day)| If the dragon fails a saving throw, it can choose to succeed instead.",
+      "description |Innate Spellcasting| The dragon's innate spellcasting ability is Intelligence (spell save DC 18, +10 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+      "bullet |At will:| <i>tongues</i>",
+      "bullet |5/day each:| <i>dispel magic</i>, <i>enhance ability</i>"
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/GK7jHrO.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Adult Mithral Dragon Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Spellcasting| 6th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 18, +10 to hit with spell attacks). It requires no material components to cast its spells. The dragon has the following wizard spells prepared:",
+      "bullet |Cantrips (at will):| <i>acid splash</i>, <i>light</i>, <i>mage hand</i>, <i>prestidigitation</i>",
+      "bullet |1st level (4 slots):| <i>charm person</i>, <i>expeditious</i> <i>retreat</i>, <i>magic missile</i>, <i>unseen servant</i>",
+      "bullet |2nd level (3 slots):| <i>blur</i>, <i>hold person</i>, <i>see invisibility</i>",
+      "bullet |3rd level (3 slots):| <i>haste</i>, <i>lightning bolt</i>, <i>protection from energy</i>",
+      "fill | 1",
+      "section |Actions",
+      "description |Multiattack| Can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.",
+      "description |Bite| Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 19 (2d10 + 8) piercing damage.",
+      "description |Claw| Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 15 (2d6 +8) slashing, and the target loses 4 hit points from bleeding at the start of each of its turns for six rounds unless it receives magical healing. Bleeding damage is cumulative; the target loses 4 hp per round for each bleeding wound it's taken from a mithral dragon's claws.",
+      "description |Tail| Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/GK7jHrO.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Adult Mithral Dragon Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Frightful Presence| Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of its turn, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.",
+      "description |Breath Weapon (Recharge 5-6)| A mithral dragon can spit a 60-foot-long, 5-foot-wide line of metallic shards. Targets in its path take 42 (12d6) magical slashing damage and lose another 8 hit points from bleeding at the start of their turns for 6 rounds; slashing and bleed damage are halved by a successful DC 18 Dexterity saving throw. Only magical healing stops the bleeding before 6 rounds. The shards dissolve into wisps of smoke 1 round after the breath weapon's use."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/GK7jHrO.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Adult Mithral Dragon Continued: Legendary",
+    "icon": "imp-laugh",
+    "contents": [
+      "section |Legendary Actions",
+      "text |The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
+      "description |Detect| The dragon makes a Wisdom (Perception) check.",
+      "description |Tail Attack| The dragon makes a tail attack.",
+      "description |Wing Attack (Costs 2 Actions)| The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 21 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/GK7jHrO.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Young Mithral Dragon",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Dragon, Neutral",
+      "rule",
+      "property | Armor class | 16 (natural armor)",
+      "property | Hit points | 92 (16d8 + 20)",
+      "property | Speed | 50ft, <b>Fly</b> 60ft",
+      "rule",
+      "dndstats | 13 | 22 | 13 | 14 | 15 | 14",
+      "rule",
+      "property | Saving Throws| Dex +9, Con +4, Wis +5, Cha +5",
+      "property | Skills| Acrobatics +6, Insight +5, Perception +5, Persuasion +5",
+      "property | Damage Resistances| Physical from non-magical weapons",
+      "property | Damage Immunities| Acid, Thunder",
+      "property | Condition Immunities| Charmed",
+      "property | Senses | Darkvision 120ft, Blindsight 60ft, Passive Perc. 15",
+      "property | Language | Celestial, Common, Draconic, Primordial",
+      "property | Challenge | 6 (2300 XP)",
+      "rule",
+      "description |Innate Spellcasting| The dragon's innate spellcasting ability is Intelligence. It can innately cast the following spells, requiring no material components:",
+      "bullet |At will:| <i>tongues</i>",
+      "bullet |3/day:| <i>enhance ability</i>",
+      "fill | 1",
+      "section |Actions",
+      "description |Multiattack| Makes one bite attack and two claw attacks.",
+      "description |Bite| Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/GK7jHrO.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Young Mithral Dragon Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Claw| Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2d10 + 3) slashing damage, and the target loses 3 hit point from bleeding at the start of each of its turns for six rounds unless it receives magical healing. Bleeding damage is cumulative; the target loses 3 hp per round for each bleeding wound it has taken from a mithral dragon’s claws. ",
+      "description |Breath Weapon (Recharge 5–6)| A mithral dragon can spit a 50-foot-long, 5-foot-wide line of metallic shards. Targets in its path take 21 (6d6) magical slashing damage and lose another 5 hit points from bleeding at the start of their turns for 6 rounds; slashing damage is halved by a successful DC 12 Dexterity saving throw, but bleeding damage is not affected. Only magical healing stops the bleeding before 6 rounds. The shards dissolve into wisps of smoke 1 round after the breath weapon’s use"
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/GK7jHrO.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Ancient Sea Dragon",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Gargantuan Dragon, Neutral Evil",
+      "rule",
+      "property | Armor class | 22 (natural armor)",
+      "property | Hit points | 481 (26d20 + 208)",
+      "property | Speed | 40ft, <b>Fly</b> 80ft, <b>Swim</b> 80ft",
+      "rule",
+      "dndstats | 29 | 10 | 27 | 19 | 17 | 21",
+      "rule",
+      "property | Saving Throws| Dex +7, Con +15, Wis +10, Cha +12",
+      "property | Skills| Perception +17, Stealth +7",
+      "property | Damage Immunities| Cold",
+      "property | Senses | Darkvision 120ft, Blindsight 60ft, Passive Perc. 27",
+      "property | Language | Celestial, Common, Draconic, Primordial",
+      "property | Challenge | 22 (41000 XP)",
+      "rule",
+      "description |Amphibious| The dragon can breathe air and water.",
+      "description |Legendary Resistance (3/day)| Can succeed failed saves",
+      "description |Siege Monster| Double damage to objects and structures.",
+      "fill | 1",
+      "section |Actions",
+      "description |Multiattack| Can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.",
+      "description |Bite| Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) piercing damage plus 11 (2d10) cold",
+      "description |Claw| Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 16 (2d6 + 9) slashing damage."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/UA4Bmf1.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Ancient Sea Dragon Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Tail| Melee Weapon Attack: +16 to hit, reach 20 ft., one target. Hit: 18 (2d8 + 9) bludgeoning damage.",
+      "description |Frightful Presence| Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 20 Wisdom saving throw or become frightened for 1 minute. A creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.",
+      "description |Tidal Breath (Recharge 5-6)| The dragon exhales a crushing wave of frigid seawater in a 90-foot cone. Each creature in that area must make a DC 23 Dexterity saving throw. On a failure, the target takes 44 (8d10) bludgeoning damage and 44 (8d10) cold damage, and is pushed 30 feet away from the dragon and knocked prone. On a successful save the creature takes half as much damage and isn't pushed or knocked prone."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/UA4Bmf1.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Ancient Sea Dragon Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "section |Legendary Actions",
+      "text |The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
+      "description |Detect| The dragon makes a Wisdom (Perception) check.",
+      "description |Tail Attack| The dragon makes a tail attack.",
+      "description |Wing Attack (Costs 2 Actions)| The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 24 Dexterity saving throw or take 16 (2d6 + 9) bludgeoning damage and be knocked prone. The dragon can then move up to half its flying speed, or swim speed if in the water."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/UA4Bmf1.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Adult Sea Dragon",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Huge Dragon, Neutral Evil",
+      "rule",
+      "property | Armor class | 19 (natural armor)",
+      "property | Hit points | 225 (18d12 + 108)",
+      "property | Speed | 40ft, <b>Fly</b> 80ft, <b>Swim</b> 60ft",
+      "rule",
+      "dndstats | 25 | 10 | 23 | 17 | 15 | 19",
+      "rule",
+      "property | Saving Throws| Dex +5, Con +11, Wis +7, Cha +9",
+      "property | Skills| Perception +12, Stealth +5",
+      "property | Damage Immunities| Cold",
+      "property | Senses | Darkvision 120ft, Blindsight 60ft, Passive Perc. 22",
+      "property | Language | Common, Draconic",
+      "property | Challenge | 16 (15000 XP)",
+      "rule",
+      "description |Amphibious| The dragon can breathe air and water.",
+      "description |Legendary Resistance (3/day)| Can succeed failed saves",
+      "description |Siege Monster| Double damage to objects and structures.",
+      "fill | 1",
+      "section |Actions",
+      "description |Multiattack| Can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.",
+      "description |Bite| Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) piercing damage plus 5 (1d10) cold.",
+      "description |Claw| Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 7) slashing damage."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/UA4Bmf1.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Adult Sea Dragon Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Tail| Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 16 (2d8 + 7) bludgeoning damage.",
+      "description |Frightful Presence| Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.",
+      "description |Tidal Breath (Recharge 5-6)| The dragon exhales a crushing wave of frigid seawater in a 60-foot cone. Each creature in that area must make a DC 19 Dexterity saving throw. On a failure, the target takes 33 (6d10) bludgeoning damage and 33 (6d10) cold damage, and is pushed 30 feet away from the dragon and knocked prone. On a successful save the creature takes half as much damage and isn't pushed or knocked prone."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/UA4Bmf1.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Adult Sea Dragon Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "section |Legendary Actions",
+      "text |The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
+      "description |Detect| The dragon makes a Wisdom (Perception) check.",
+      "description |Tail Attack| The dragon makes a tail attack.",
+      "description |Wing Attack (Costs 2 Actions)| The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 20 Dexterity saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. The dragon can then move up to half its flying speed, or half its swim speed if in the water."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/UA4Bmf1.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Young Sea Dragon",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Large Dragon, Neutral Evil",
+      "rule",
+      "property | Armor class | 18 (natural armor)",
+      "property | Hit points | 152 (16d10 + 64)",
+      "property | Speed | 40ft, <b>Fly</b> 80ft, <b>Swim</b> 50ft",
+      "rule",
+      "dndstats | 21 | 10 | 19 | 15 | 13 | 17",
+      "rule",
+      "property | Saving Throws| Dex +4, Con +8, Wis +5, Cha +7",
+      "property | Skills| Perception +9, Stealth +4",
+      "property | Damage Immunities| Cold",
+      "property | Senses | Darkvision 120ft, Blindsight 30ft, Passive Perc. 19",
+      "property | Language | Common, Draconic",
+      "property | Challenge | 9 (5000 XP)",
+      "rule",
+      "description |Amphibious| The dragon can breathe air and water.",
+      "description |Siege Monster| Double damage to objects and structures.",
+      "fill | 1",
+      "section |Actions",
+      "description |Multiattack| Makes three attacks: one bite and two claws.",
+      "description |Bite| Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing plus 5 (1d10) cold.",
+      "description |Claw| Melee: +9, 5ft. Single. Hit: 12 (2d6 + 5) slashing.",
+      "description |Tidal Breath (Recharge 5-6)| 30ft cone, everyone makes DC16 Dexterity save. Failure: 27 (5d10) BLDG & 27 (5d10) cold, & pushed 30ft away from the dragon and knocked prone. Success: takes half damage & not pushed or knocked prone."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/UA4Bmf1.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Sea Dragon Wyrmling",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Dragon, Neutral Evil",
+      "rule",
+      "property | Armor class | 17 (natural armor)",
+      "property | Hit points | 52 (8d8 + 16)",
+      "property | Speed | 30ft, <b>Fly</b> 60ft, <b>Swim</b> 40ft",
+      "rule",
+      "dndstats | 17 | 10 | 15 | 13 | 11 | 15",
+      "rule",
+      "property | Saving Throws| Dex +2, Con +4, Wis +2, Cha +4",
+      "property | Skills| Perception +4, Stealth +2",
+      "property | Damage Immunities| Cold",
+      "property | Senses | Darkvision 60ft, Blindsight 10ft, Passive Perc. 19",
+      "property | Language | Common, Draconic, Primordial",
+      "property | Challenge | 2 (450 XP)",
+      "rule",
+      "fill | 1",
+      "section |Actions",
+      "description |Bite| Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage plus 3 (1d6) cold damage.",
+      "description |Tidal Breath (Recharge 5-6)| Exhales a wave of seawater in a 15ft cone. Each creature in that area must make a DC 12 Dexterity saving throw. On a failure, the target takes 11 (2d10) bludgeoning damage and 11 (2d10) cold damage, and is pushed 15 feet away from the dragon and knocked prone. On a successful save the creature takes half as much damage and isn't pushed or knocked prone."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/UA4Bmf1.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Ancient Void Dragon",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Gargantuan Dragon, Chaotic Neutral",
+      "rule",
+      "property | Armor class | 22 (natural armor)",
+      "property | Hit points | 448 (23d20 + 207)",
+      "property | Speed | 40ft, <b>Fly</b> 80ft (hover)",
+      "rule",
+      "dndstats | 28 | 10 | 29 | 18 | 15 | 23",
+      "rule",
+      "property | Saving Throws| Dex +7, Con +16, Wis +9, Cha +13",
+      "property | Skills| Arcana +18, History +18, Perception +16, Persuasion +13, Stealth +7",
+      "property | Damage Immunities| Cold",
+      "property | Condition Immunities| Charmed, Frightened",
+      "property | Senses | Darkvision 60ft, Blindsight 10ft, Passive Perc. 26",
+      "property | Language | Celestial, Common, Draconic, Infernal, Primordial, Void Speech",
+      "property | Challenge | 24 (62000 XP)",
+      "rule",
+      "description |Chill of the Void| Cold damage dealt by the void dragon ignores resistance to cold damage, but not cold immunity.",
+      "description |Collapsing Star| On death it explodes. Everything in 1 mile of the dragon take 55(10d10) BLDG, 55(10d10) cold, and 55(10d10) psychic. Each damage type can be reduced by half by successful DC21 save: Dex. vs. BLDG, Con. vs. cold, and Wis. vs. psychic. Anyone who fails two or three of the saves is sent to a random plane (<i>plane shift</i>). If sent to current plane, it appears 5d100 miles away in a random direction."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/ZMiS0QQ.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Ancient Void Dragon Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Legendary Resistance (3/day)| Can succeed failed saves",
+      "description |Void Dweller| Does not require air, food, drink, or sleep. When flying between stars the void dragon magically glides on solar winds, making the immense journey through the void in an impossibly short time.",
+      "fill | 1",
+      "section |Actions",
+      "description |Multiattack| The dragon can use its Aura of Madness. It then makes three attacks: one with its bite and two with its claws.",
+      "description |Bite| Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) piercing plus 14 (4d6) cold.",
+      "description |Claw| Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 16 (2d6 + 9) slashing plus 7 (2d6) cold.",
+      "description |Tail| Melee Weapon Attack: +16 to hit, reach 20 ft., one target. Hit: 18 (2d8 + 9) bludgeoning damage.",
+      "description |Aura of Madness| Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 22 Wisdom saving throw or become frightened for 1 minute. A creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature fails the saving throw by 5 or more it is driven insane. An insane creature is frightened permanently, and behaves as if affected by confusion while it is frightened in this way. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Aura of Madness for the next 24 hours."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/ZMiS0QQ.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Ancient Void Dragon Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Breath Weapons (Recharge 5-6)| The dragon uses one of the following breath weapons:",
+      "description |Gravitic Breath| The dragon exhales a 90-foot cube of powerful localized gravity, originating from the dragon. Falling damage in the area increases to 1d10 per 10 feet fallen. When a creature starts its turn within the area or enters it for the first time in a turn, including when the dragon creates the field, it must make a DC 24 Dexterity saving throw. On a failure the creature is restrained. On a success the creature's speed is halved as long as it remains in the field. A restrained creature repeats the saving throw at the end of its turn. The field persists until the dragon's breath recharges, and it can't use gravitic breath twice consecutively.",
+      "description |Stellar Flare Breath| The dragon exhales star fire in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 45 (13d6) fire damage and 45 (13d6) radiant damage on a failed save, or half as much damage on a successful one.",
+      "description |Teleport| The dragon magically teleports to any open space within 100 feet."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/ZMiS0QQ.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Ancient Void Dragon Continued: Legendary",
+    "icon": "imp-laugh",
+    "contents": [
+      "section |Reactions",
+      "description |Void Twist| When the dragon is hit by a ranged attack, it can create a small rift in space to increase its AC by 7 against that attack. If the attack misses because of this increase, the dragon can choose a creature within 30 feet to become the new target for that attack. Use the original attack roll to determine if the attack hits the new target.",
+      "fill | 1",
+      "section |Legendary Actions",
+      "text |The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
+      "description |Detect| The dragon makes a Wisdom (Perception) check.",
+      "description |Tail Attack| The dragon makes a tail attack.",
+      "description |Void Slip (Costs 2 Actions)| The dragon twists the fabric of space. Each creature within 15 feet of the dragon must succeed on a DC 21 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then teleport to an unoccupied space within 40 feet.",
+      "description |Void Cache (Costs 3 Actions)| The dragon can magically reach into its treasure hoard and retrieve one item. If the dragon is holding an item, it can use this ability to deposit the item into its hoard."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/ZMiS0QQ.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Adult Void Dragon",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Huge Dragon, Chaotic Neutral",
+      "rule",
+      "property | Armor class | 19 (natural armor)",
+      "property | Hit points | 229 (17d12 + 119)",
+      "property | Speed | 40ft, <b>Fly</b> 80ft (hover)",
+      "rule",
+      "dndstats | 24 | 10 | 25 | 16 | 13 | 21",
+      "rule",
+      "property | Saving Throws| Dex +5, Con +12, Wis +6, Cha +10",
+      "property | Skills| Arcana +13, History +13, Perception +11, Persuasion +10, Stealth +5",
+      "property | Damage Immunities| Cold",
+      "property | Condition Immunities| Charmed, Frightened",
+      "property | Senses | Darkvision 60ft, Blindsight 10ft, Passive Perc. 21",
+      "property | Language | Celestial, Common, Draconic, Infernal, Primordial, Void Speech",
+      "property | Challenge | 14 (11500 XP)",
+      "rule",
+      "description |Chill of the Void| Cold damage dealt by the void dragon ignores resistance to cold damage, but not cold immunity.",
+      "description |Legendary Resistance (3/day)| Can succeed failed saves",
+      "description |Void Dweller| As ancient void dragon.",
+      "section |Actions",
+      "description |Multiattack| The dragon can use its Aura of Madness. It then makes three attacks: one with its bite and two with its claws.",
+      "description |Bite| Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) piercing plus 7 (2d6) cold."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/ZMiS0QQ.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Adult Void Dragon Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Claw| Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 7) slashing plus 3 (1d6) cold.",
+      "description |Tail| Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 16 (2d8 + 7) bludgeoning damage.",
+      "description |Aura of Madness| Same as ancient void dragon, DC 18 save",
+      "description |Breath Weapons (Recharge 5-6)| The dragon uses one of the following breath weapons:",
+      "description |Gravitic Breath| 60ft cube of powerful localized gravity, originating from the dragon. Falling damage in the area increases to 1d10 per 10 feet fallen. When a creature starts its turn within the area or enters it for the first time in a turn, including when the dragon creates the field, must make a DC 20 Dexterity saving throw. On a failure the creature is restrained. On a success the creature's speed is halved as long as it remains in the field. A restrained creature repeats the saving throw at the end of its turn. The field persists until the dragon's breath recharges, and it can't use gravitic breath twice consecutively.",
+      "description |Stellar Flare Breath| The dragon exhales star fire in a 60- foot cone. Each creature in that area must make a DC 20 Dexterity saving throw, taking 31 (9d6) fire damage and 31 (9d6) radiant damage on a failed save, or half as much damage on a successful one.",
+      "description |Teleport| Magically teleports to any open space within 100ft"
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/ZMiS0QQ.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Adult Void Dragon Continued: Legendary",
+    "icon": "imp-laugh",
+    "contents": [
+      "section |Reactions",
+      "description |Void Twist| When the dragon is hit by a ranged attack it can create a small rift in space to increase its AC by 5 against that attack. If the attack misses because of this increase the dragon can choose a creature within 30 feet to become the new target for that attack. Use the original attack roll to determine if the attack hits the new target.",
+      "fill | 1",
+      "section |Legendary Actions",
+      "text |Can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
+      "description |Detect| The dragon makes a Wisdom (Perception) check.",
+      "description |Tail Attack| The dragon makes a tail attack.",
+      "description |Void Slip (Costs 2 Actions)| The dragon twists the fabric of space. Each creature within 15 feet of the dragon must succeed on a DC 18 Dexterity saving throw or take 12 (2d6 + 5) bludgeoning damage and be knocked prone. The dragon can then teleport to an unoccupied space within 40 feet.",
+      "description |Void Cache (Costs 3 Actions)| Can magically reach into its treasure hoard and retrieve one item. If it is holding an item, it can use this ability to deposit the item into its hoard."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/ZMiS0QQ.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Young Void Dragon",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Large Dragon, Chaotic Neutral",
+      "rule",
+      "property | Armor class | 18 (natural armor)",
+      "property | Hit points | 157 (15d10 + 75)",
+      "property | Speed | 40ft, <b>Fly</b> 80ft (hover)",
+      "rule",
+      "dndstats | 20 | 10 | 21 | 14 | 11 | 19",
+      "rule",
+      "property | Saving Throws| Dex +4, Con +9, Wis +4, Cha +8",
+      "property | Skills| Arcana +10, History +10, Perception +8, Persuasion +8, Stealth +4",
+      "property | Damage Immunities| Cold",
+      "property | Condition Immunities| Charmed, Frightened",
+      "property | Senses | Passive Perception 18",
+      "property | Language | Common, Draconic, Void Speech",
+      "property | Challenge | 9 (5000 XP)",
+      "rule",
+      "description |Chill of the Void| Cold damage dealt by the void dragon ignores resistance to cold damage, but not cold immunity.",
+      "description |Void Dweller| Same as ancient void dragon.",
+      "fill | 1",
+      "section |Actions|",
+      "description |Multiattack| Three attacks: one bite and two claws.",
+      "description |Bite| Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 3 (1d6) cold damage.",
+      "description |Claw| Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/ZMiS0QQ.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Young Void Dragon Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Breath Weapons (Recharge 5-6)| The dragon uses one of the following breath weapons:",
+      "bullet |Gravitic Breath| The dragon exhales a 30-foot cube of powerful localized gravity, originating from the dragon. Falling damage in the area increases to 1d10 per 10 feet fallen. When a creature starts its turn within the area or enters it for the first time in a turn, including when the dragon creates the field, it must make a DC 17 Dexterity saving throw. On a failure the creature is restrained. On a success the creature's speed is halved as long as it remains in the field. A restrained creature repeats the saving throw at the end of its turn. The field persists until the dragon's breath recharges, and it can't use gravitic breath twice consecutively.",
+      "bullet |Stellar Flare Breath| The dragon exhales star fire in a 30- foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 28 (8d6) fire damage and 28 (8d6) radiant damage on a failed save, or half as much damage on a successful one.",
+      "fill | 1",
+      "section |Reactions",
+      "description |Void Twist| When the dragon is hit by a ranged attack it can create a small rift in space to increase its AC by 4 against that attack. If the attack misses because of this increase the dragon can choose a creature within 30 feet to become the new target for that attack. Use the original attack roll to determine if the attack hits the new target."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/ZMiS0QQ.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Void Dragon Wyrmling",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Dragon, Chaotic Neutral",
+      "rule",
+      "property | Armor class | 17 (natural armor)",
+      "property | Hit points | 45 (6d8 + 18)",
+      "property | Speed | 30ft, <b>Fly</b> 60ft (hover)",
+      "rule",
+      "dndstats | 16 | 10 | 17 | 12 | 9 | 17",
+      "rule",
+      "property | Saving Throws| Dex +4, Con +5, Wis +1, Cha +5",
+      "property | Skills| Perception +3, Stealth +2",
+      "property | Damage Immunities| Cold",
+      "property | Senses | Passive Perception 13",
+      "property | Language | Common, Draconic, Void Speech",
+      "property | Challenge | 2 (450 XP)",
+      "rule",
+      "description |Chill of the Void| Cold damage dealt by the void dragon ignores resistance to cold damage, but not cold immunity.",
+      "description |Void Dweller| As ancient void dragon.",
+      "fill | 1",
+      "section |Actions",
+      "description |Bite| Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage plus 3 (1d6) cold damage."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/ZMiS0QQ.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Void Dragon Wyrmling Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Breath Weapons (Recharge 5-6)| The dragon uses one of the following breath weapons:",
+      "bullet |Gravitic Breath| The dragon exhales a 15-foot cube of powerful localized gravity, originating from the dragon. Falling damage in the area increases to 1d10 per 10 feet fallen. When a creature starts its turn within the area or enters it for the first time in a turn, including when the dragon creates the field, must make a DC 13 Dexterity saving throw. On a failure the creature is restrained. On a success the creature's speed is halved as long as it remains in the field. A restrained creature repeats the saving throw at the end of its turn. The field persists until the dragon's breath recharges, and it can't use gravitic breath twice consecutively.",
+      "bullet |Stellar Flare Breath| The dragon exhales star fire in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 10 (3d6) fire damage and 10 (3d6) radiant damage on a failed save, or half as much damage on a successful one.",
+      "fill | 1",
+      "section |Reactions",
+      "description |Void Twist| When the dragon is hit by a ranged attack it can create a small rift in space to increase its AC by 2 against that attack. If the attack misses because of this increase the dragon can choose a creature within 30 feet to become the new target for that attack. Use the original attack roll to determine if the attack hits the new target."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/ZMiS0QQ.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Ancient Wind Dragon",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Gargantuan Dragon, Chaotic Neutral",
+      "rule",
+      "property | Armor class | 20 (natural armor)",
+      "property | Hit points | 425 (23d20 +184)",
+      "property | Speed | 40ft, <b>Fly</b> 120ft",
+      "rule",
+      "dndstats | 28 | 19 | 26 | 18 | 17 | 20",
+      "rule",
+      "property | Saving Throws| Dex +11, Con +15, Wis +10, Cha +12",
+      "property | Skills| Acrobatics +11, Arcana +11, Intimidation +12, Perception +17, Stealth +11",
+      "property | Damage Resistances| Physical from non-magical weapons",
+      "property | Damage Immunities| Lightning; Ranged Weapons",
+      "property | Condition Immunities| Charmed, Exhausted, Paralyzed, Restrained",
+      "property | Senses | Darkvision 60ft, Blindsight 10ft, Passive Perc. 27",
+      "property | Language | Common, Draconic, Dwarvish, Elvish, Primordial",
+      "property | Challenge | 22 (41000 XP)",
+      "rule",
+      "description |Innate Spellcasting| Ability is Charisma (DC20). Innately casts following spells, requiring no material components:",
+      "bullet |At will:| <i>feather fall</i>",
+      "bullet |5/day each:| <i>lightning bolt</i>, <i>ice storm</i>",
+      "description |Fog Vision| The dragon sees normally through light or heavy obscurement caused by fog, mist, clouds, or high wind.",
+      "description |Legendary Resistance (3/day)| Can succeed failed saves",
+      "description |Magic Resistance| Adv. against spells and magical effects."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/uZR8bhn.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Ancient Wind Dragon Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Uncontrollable| The dragon's movement is never impeded by difficult terrain, and its speed can't be reduced by spells or magical effects. It can't be restrained (per the condition), and it escapes automatically from any nonmagical restraints (such as chains, entanglement, or grappling) by spending 5 feet of movement. Being underwater imposes no penalty on its movement or attacks.",
+      "description |Whirling Winds| Gale-force winds rage around the dragon, making it immune to ranged weapon attacks except for those from siege weapons.",
+      "fill | 1",
+      "section |Actions",
+      "description |Multiattack| Can use its Frightful Presence and then makes three attacks: one with its bite and two with its claws.",
+      "description |Bite| Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 22 (2d12 + 9) piercing damage.",
+      "description |Claw| Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 18 (2d8 + 9) slashing damage.",
+      "description |Tail| Melee Weapon Attack: +16 to hit, reach 20 ft., one target. Hit: 20 (2d10 + 9) bludgeoning damage.",
+      "description |Breath of Gales (Recharge 5-6)| Exhales wind in 90ft cone. Each creature in that cone takes 55 (10d10) bludgeoning damage and is pushed 50 feet away from the dragon and knocked prone; a successful DC 23 Strength saving throw halves the damage and prevents being pushed (but not being knocked prone). Flames in cone are extinguished."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/uZR8bhn.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Ancient Wind Dragon Continued: Legendary",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Frightful Presence| Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 20 Wisdom saving throw or become frightened for 1 minute. A creature repeats the saving throw at the end of its turn, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.",
+      "fill | 1",
+      "section |Legendary Actions",
+      "text |The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
+      "description |Detect| The dragon makes a Wisdom (Perception) check.",
+      "description |Tail Attack| The dragon makes a tail attack.",
+      "description |Wing Attack (Costs 2 Actions)| The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 24 Dexterity saving throw or take 20 (2d10 + 9) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/uZR8bhn.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Adult Wind Dragon",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Huge Dragon, Chaotic Neutral",
+      "rule",
+      "property | Armor class | 19 (natural armor)",
+      "property | Hit points | 237 (19d12 + 114)",
+      "property | Speed | 40ft, <b>Fly</b> 90ft",
+      "rule",
+      "dndstats | 24 | 19 | 22 | 16 | 15 | 18",
+      "rule",
+      "property | Saving Throws| Dex +10, Con +12, Wis +8, Cha +10",
+      "property | Skills| Acrobatics +10, Intimidation +10, Perception +14, Stealth +10",
+      "property | Damage Immunities| Lightning",
+      "property | Condition Immunities| Charmed, Exhausted, Paralyzed, Restrained",
+      "property | Senses | Darkvision 60ft, Blindsight 10ft, Passive Perc. 24",
+      "property | Language | Common, Draconic, Primordial",
+      "property | Challenge | 17 (18000 XP)",
+      "rule",
+      "description |Innate Spellcasting| The dragon's innate spellcasting ability is Charisma (spell save DC 18). It can innately cast the following spells, requiring no material components:",
+      "bullet |At will:| <i>feather fall</i>",
+      "bullet |3/day:| <i>lightning bolt</i>",
+      "description |Fog Vision| The dragon sees normally through light or heavy obscurement caused by fog, mist, clouds, or high wind.",
+      "description |Legendary Resistance (3/day)| Can succeed failed saves",
+      "description |Magic Resistance| Adv. against spells and magical effects."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/uZR8bhn.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Adult Wind Dragon Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Uncontrollable| The dragon's movement is never impeded by difficult terrain, and its speed can't be reduced by spells or magical effects. It can't be restrained (per the condition), and it escapes automatically from any nonmagical restraints (such as chains, entanglement, or grappling) by spending 5 feet of movement. Being underwater imposes no penalty on its movement or attacks.",
+      "description |Whirling Winds| Gale-force winds rage around the dragon. Ranged weapon attacks against it are made with disadvantage.",
+      "fill | 1",
+      "section |Actions",
+      "description |Multiattack| Can use its Frightful Presence and then makes three attacks: one with its bite, and two with its claws.",
+      "description |Bite| Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) piercing damage.",
+      "description |Claw| Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 7) slashing damage.",
+      "description |Tail| Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 16 (2d8 + 7) bludgeoning damage.",
+      "description |Breath of Gales (Recharge 5-6)| Exhales wind in 60ft cone. Each creature in that cone takes 27 (5d10) bludgeoning damage and is pushed 25 feet away from the dragon and knocked prone; a successful DC 20 Strength saving throw halves the damage and prevents being pushed (but not being knocked prone). All flames are extinguished."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/uZR8bhn.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Adult Wind Dragon Continued: Legendary",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Frightful Presence| Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A creature repeats the saving throw at the end of its turn, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.",
+      "fill | 1",
+      "section |Legendary Actions",
+      "text |The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
+      "description |Detect| The dragon makes a Wisdom (Perception) check.",
+      "description |Tail Attack| The dragon makes a tail attack.",
+      "description |Wing Attack (Costs 2 Actions)| The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 21 Dexterity saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/uZR8bhn.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Young Wind Dragon",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Large Dragon, Chaotic Neutral",
+      "rule",
+      "property | Armor class | 17 (natural armor)",
+      "property | Hit points | 150 (16d10 + 62)",
+      "property | Speed | 40ft, <b>Fly</b> 90ft",
+      "rule",
+      "dndstats | 20 | 19 | 18 | 14 | 13 | 16",
+      "rule",
+      "property | Saving Throws| Dex +7, Con +7, Wis +4, Cha +6",
+      "property | Skills| Perception +7, Stealth +7",
+      "property | Damage Immunities| Lightning",
+      "property | Condition Immunities| Charmed, Exhausted, Paralyzed, Restrained",
+      "property | Senses | Darkvision 60ft, Blindsight 10ft, Passive Perc. 17",
+      "property | Language | Common, Draconic, Primordial",
+      "property | Challenge | 6 (2300 XP)",
+      "rule",
+      "description |Innate Spellcasting| The dragon's innate spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spell, requiring no material components:",
+      "bullet |At will:| <i>feather fall</i>",
+      "description |Fog Vision| The dragon sees normally through light or heavy obscurement caused by fog, mist, clouds, or high wind."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/uZR8bhn.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Young Wind Dragon Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Uncontrollable| The dragon's movement is never impeded by difficult terrain, and its speed can't be reduced by spells or magical effects. It can't be restrained (per the condition), and it escapes automatically from any nonmagical restraints (such as chains, entanglement, or grappling) by spending 5 feet of movement. Being underwater imposes no penalty on its movement or attacks.",
+      "fill | 1",
+      "section |Actions",
+      "description |Multiattack| The dragon makes three attacks: one with its bite and two with its claws.",
+      "description |Bite| Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage.",
+      "description |Claw| Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.",
+      "description |Breath of Gales (Recharge 5-6)| The dragon exhales a blast of wind in a 30-foot cone. Each creature in that cone takes 11 (2d10) bludgeoning damage and is pushed 25 feet away from the dragon and knocked prone; a successful DC 16 Strength saving throw halves the damage and prevents being pushed and knocked prone. Unprotected flames in the cone are extinguished, and sheltered flames (such as those in lanterns) have a 75 percent chance of being extinguished."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/uZR8bhn.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Wind Dragon Wyrmling",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Dragon, Chaotic Neutral",
+      "rule",
+      "property | Armor class | 14",
+      "property | Hit points | 45 (7d8 + 14)",
+      "property | Speed | 40ft, <b>Fly</b> 90ft",
+      "rule",
+      "dndstats | 16 | 19 | 14 | 12 | 11 | 14",
+      "rule",
+      "property | Saving Throws| Dex +6, Con +4, Wis +2, Cha +4",
+      "property | Skills| Perception +4, Stealth +6",
+      "property | Damage Immunities| Lightning",
+      "property | Condition Immunities| Charmed, Exhausted, Paralyzed",
+      "property | Senses | Darkvision 60ft, Blindsight 10ft, Passive Perc. 14",
+      "property | Language | Draconic, Primordial",
+      "property | Challenge | 1 (200 XP)",
+      "rule",
+      "fill | 1",
+      "section |Actions",
+      "description |Bite| Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage.",
+      "description |Breath of Gales (Recharge 5-6)| Exhales wind in 15ft cone. Each creature in that cone must make a successful DC 12 Strength saving throw or be pushed 15 feet away from the dragon and knocked prone. Unprotected flames in the cone are extinguished, and sheltered flames (such as those in lanterns) have a 50 percent chance of being extinguished."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/uZR8bhn.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Dragon Eel",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Huge Dragon, Neutral",
+      "rule",
+      "property | Armor class | 18 (natural armor)",
+      "property | Hit points | 230 (20d12 + 100)",
+      "property | Speed | 20ft, <b>Swim</b> 60ft",
+      "rule",
+      "dndstats | 26 | 12 | 20 | 14 | 13 | 14",
+      "rule",
+      "property | Saving Throws| Str +12, Dex +5, Int +6, Wis +5, Cha +6",
+      "property | Skills| Acrobatics +5, Athletics +12, Insight +5, Perception +6",
+      "property | Damage Immunities| Lightning",
+      "property | Condition Immunities| Paralyzed, Prone",
+      "property | Senses | Darkvision 60ft, Passive Perception 16",
+      "property | Language | Common, Draconic, Primordial",
+      "property | Challenge | 12 (8400 XP)",
+      "rule",
+      "description |Limited Amphibiousness| The dragon eel can breathe air and water, but it needs to be submerged at least once every six hours to avoid suffocation.",
+      "description |Shocking Touch| A dragon eel's body generates a potent charge of lightning. A creature that touches or makes a successful melee attack against a dragon eel takes 5 (1d10) lightning damage.",
+      "description |Storm Glide| During storms, the dragon eel can travel through the air as if under the effects of a fly spell, except using its swim speed."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/s4SZSe7.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Dragon Eel Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "section |Actions",
+      "description |Multiattack| The dragon eel makes one bite attack and one tail slap attack.",
+      "description |Bite| Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 26 (4d8 + 8) piercing damage plus 5 (1d10) lightning damage, and the target must succeed on a DC 18 Constitution saving throw or become paralyzed for 1d4 rounds.",
+      "description |Tail Slap| Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 30 (5d8 + 8) bludgeoning damage plus 5 (1d10) lightning damage and push the target up to 10 feet away.",
+      "description |Lightning Breath (Recharge 6)| The dragon eel exhales lightning in a 60-foot line that is 5 feet wide. Each target in that line takes 55 (10d10) lightning damage, or half damage with a successful DC 18 Dexterity saving throw."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/s4SZSe7.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Dragonleaf Tree",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Huge Dragon, Neutral",
+      "rule",
+      "property | Armor class | 16 (natural armor)",
+      "property | Hit points | 152 (16d10 + 64)",
+      "property | Speed | 5ft",
+      "rule",
+      "dndstats | 16 | 10 | 19 | 3 | 12 | 17",
+      "rule",
+      "property | Damage Immunities| A dragonleaf tree enjoys the same immunities as its progenitor. Black, copper, and green trees are immune to acid damage; blue and bronze trees are immune to lightning damage; brass, gold, and red trees are immune to fire damage; and silver and white trees are immune to cold damage.",
+      "property | Condition Immunities| Blinded, Deafened",
+      "property | Senses | Blindsight 120ft, Passive Perception 11",
+      "property | Language | can understand the language of its creator or designated master",
+      "property | Challenge | 12 (8400 XP)",
+      "rule",
+      "description |Loyal to Dragon Master| Tree only follows commands from its designated master (or from any creatures to whom the master grants control). It has advantage on saving throws against any charm or compulsion spell or effect. Additionally, the tree has advantage on any saving throw to resist Bluff, Diplomacy, or Intimidate checks made to influence it to act against its masters."
+    ],
+    "tags": [
+      "creature",
+      "Plant",
+      "subrace:",
       "Structure: Unaligned",
       "Alignment: Unaligned",
       "Legendary: No",
       "Book: Tome_Beast_31"
     ],
-    "background_image": "https://i.imgur.com/i2Bhi8y.png"
+    "background_image": "https://i.imgur.com/PnfgYRr.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Dragonleaf Tree Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Weaknesses| Dragonleaf trees with immunity to fire also have vulnerability to cold, and trees with immunity to cold have vulnerability to fire.",
+      "fill | 1",
+      "section |Actions",
+      "description |Slam| Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 58 (10d10 + 3) bludgeoning damage.",
+      "description |Leaves| Ranged Weapon Attack: +3 to hit, range 30/60 ft., one target. Hit: 45 (10d8) slashing damage.",
+      "description |Breath Weapon (Recharge 6)| dragonleaf tree can issue forth a breath weapon from its leaves appropriate to the dragon it honors. The creature's breath weapon deals 49 (14d6) damage, or half damage to targets that make a successful DC 15 Dexterity saving throw. A black, copper, or green tree breathes a 60-foot line of acid; a blue or bronze tree breathes a 60-foot line of lightning; a brass, gold, or red tree breathes a 30-foot cone of fire; and a silver or white tree breathes a 30-foot cone of cold."
+    ],
+    "tags": [
+      "creature",
+      "Plant",
+      "subrace:",
+      "Structure: Unaligned",
+      "Alignment: Unaligned",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/PnfgYRr.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Alehouse Drake",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Tiny Dragon, Chaotic Neutral",
+      "rule",
+      "property | Armor class | 13",
+      "property | Hit points | 65 (10d4 + 40)",
+      "property | Speed | 40ft, <b>Fly</b> 80ft",
+      "rule",
+      "dndstats | 7 | 16 | 19 | 11 | 12 | 16",
+      "rule",
+      "property | Saving Throws| Dex +5",
+      "property | Skills| Deception +5, Insight +3, Persuasion +5",
+      "property | Condition Immunities| Paralyzed, Unconscious",
+      "property | Senses | Darkvision 60ft, Passive Perception 11",
+      "property | Language | Common, Draconic",
+      "property | Challenge | 1/2 (100 XP)",
+      "rule",
+      "description |Innate Spellcasting| The drake's innate casting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+      "bullet |At will:| <i>friends</i>, <i>vicious mockery</i>",
+      "bullet |5/day each:| <i>calm emotions</i>, <i>dissonant whispers</i>, <i>ray of sickness</i>, <i>hideous laughter</i>",
+      "bullet |3/day each:| <i>confusion</i>, <i>invisibility</i>",
+      "description |Forgetful Spellcasting| When a creature fails an Intelligence, Wisdom, or Charisma saving throw against a spell cast by an alehouse drake, the creature immediately forgets the source of the spellcasting."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/qxYzbfa.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Alehouse Drake Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "section |Actions",
+      "description |Bite| Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+      "description |Claw| Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage.",
+      "description |Breath Weapon (Recharge 5-6)| An alehouse drake can burp a cloud of intoxicating gas in a 15-foot cone. A creature caught in the cloud becomes poisoned for 1 minute and must make a successful DC 14 Constitution saving throw or become stunned for 1d6 rounds.",
+      "description |Discombobulating Touch| An alehouse drake can make a touch attack that grants its target +3 to Dexterity-based skill checks and melee attacks but also induces confusion as per the spell. This effect lasts for 1d4 rounds. A successful DC 13 Charisma saving throw negates this effect."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/qxYzbfa.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Ash Drake",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Small Dragon, Neutral Evil",
+      "rule",
+      "property | Armor class | 16 (natural armor)",
+      "property | Hit points | 117 (18d6 + 54)",
+      "property | Speed | 30ft, <b>Fly</b> 60ft",
+      "rule",
+      "dndstats | 14 | 15 | 16 | 9 | 15 | 10",
+      "rule",
+      "property | Saving Throws| Dex +4",
+      "property | Skills| Stealth +4",
+      "property | Damage Resistances| Fire",      
+      "property | Condition Immunities| Paralyzed, Unconscious",
+      "property | Senses | Darkvision 60ft, Passive Perception 12",
+      "property | Language | Common, Draconic",
+      "property | Challenge | 4 (1100 XP)",
+      "rule",
+      "fill | 1",
+      "section |Actions",
+      "description |Multiattack| The ash drake makes one bite attack and two claw attacks.",
+      "description |Bite| Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) piercing damage + 3 (1d6) fire damage.",
+      "description |Claw| Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/RYhdeLO.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Ash Drake Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Ash Cloud| An ash drake can beat its wings and create a cloud of ash that extends 10 feet in all directions, centered on itself. This cloud provides half cover, though the ash drake can see normally through its own cloud. Any creature that enters or starts its turn in the cloud must succeed on a DC 14 Constitution saving throw or become blinded for 1d6 rounds.",
+      "description |Ash Breath (recharge 6)| An ash drake spews a 20-foot cone of blistering hot, choking ash. Any targets in the path of this spray takes 14 (4d6) fire damage and become poisoned for one minute; a successful DC 13 Dexterity saving throw reduces damage by half and negates the poisoning. A poisoned creature repeats the saving throw at the end of each of its turns, ending the effect on itself with a successful save."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/RYhdeLO.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Coral Drake",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Dragon, Neutral Evil",
+      "rule",
+      "property | Armor class | 16 (natural armor)",
+      "property | Hit points | 127 (15d8 + 60)",
+      "property | Speed | 30ft, <b>Swim</b> 60ft",
+      "rule",
+      "dndstats | 19 | 1 | 18 | 10 | 13 | 10",
+      "rule",
+      "property | Saving Throws| Dex +6",
+      "property | Skills| Acrobatics +6, Perception +4, Stealth +6",
+      "property | Damage Resistances| Cold",      
+      "property | Condition Immunities| Paralyzd, Poisoned, Prone, Unconscious",
+      "property | Senses | Darkvision 120ft, Passive Perception 17",
+      "property | Language | Draconic",
+      "property | Challenge | 4 (1100 XP)",
+      "rule",
+      "description |Camouflage| A coral drake's coloration and shape lend to its stealth, granting the creature advantage on all Stealth checks while it's underwater.",
+      "description |Water Breathing| The coral drake can breathe only underwater."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/l4FT0aE.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Coral Drake Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "section |Actions",
+      "description |Multiattack| The coral drake makes one bite attack, one claw attack, and one stinger attack.",
+      "description |Bite| Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) piercing damage.",
+      "description |Claw| Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 22 (4d8 +4) slashing damage.",
+      "description |Stinger| Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) piercing damage, and the target must succeed on a DC 15 Constitution saving throw or take 7 (2d6) poison damage at the start of each of its turns for 4 rounds. The creature can repeat the saving throw at the end of its turns, ending the effect on itself on a success.",
+      "description |Breath Weapon (Recharge 5-6)| Coral drakes nurture their offspring in specialized throat sacs. They can pressurize these sacs to spew forth a 15-foot cone of spawn. Each target in this area takes 21 (6d6) piercing damage from thousands of tiny bites and is blinded for 1d4 rounds; a successful DC 15 Dexterity saving throw reduces the damage by half and negates the blindness."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/l4FT0aE.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Crimson Drake",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Tiny Dragon, Chaotic Evil",
+      "rule",
+      "property | Armor class | 14 (natural armor)",
+      "property | Hit points | 54 (12d4 + 24)",
+      "property | Speed | 15ft, <b>Swim</b> 80ft",
+      "rule",
+      "dndstats | 10 | 14 | 14 | 8 | 9 | 14",
+      "rule",
+      "property | Saving Throws| Dex +4",
+      "property | Skills| Acrobatics +4, Perception +1",
+      "property | Damage Resistances| Fire",      
+      "property | Condition Immunities| Paralyzed, Unconscious",
+      "property | Senses | Darkvision 60ft, Passive Perception 11",
+      "property | Language | Common, Draconic; Telepathy 60ft",
+      "property | Challenge | 1 (200 XP)",
+      "rule",
+      "description |Magic Resistance| The drake has advantage on saving throws against spells and other magical effects.",
+      "fill | 1",
+      "section |Actions",
+      "description |Multiattack| The crimson drake makes one bite attack and one stinger attack.",
+      "description |Bite| Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 4 (1d8) fire damage."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/675BdbK.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Crimson Drake Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Stinger| Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or become poisoned for 1 hour. If the saving throw fails by 5 or more, the target takes 2 (1d4) poison damage at the start of each of its turns for 3 rounds. The target may repeat the saving throw at the end of its turn to end the effect early.",
+      "description |Breath Weapon (Recharge 6)| The drake exhales fire in a 15-ft. cone. Each target in that cone takes 18 (4d8) fire damage, or half damage with a successful DC 12 Dexterity saving throw."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/675BdbK.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Deep Drake",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Large Dragon, Chaotic Evil",
+      "rule",
+      "property | Armor class | 17 (natural armor)",
+      "property | Hit points | 150 (20d10 + 40)",
+      "property | Speed | 50ft, <b>Climb</b> 30ft, <b>Fly</b> 100ft",
+      "rule",
+      "dndstats | 21 | 19 | 14 | 11 | 14 | 12",
+      "rule",
+      "property | Saving Throws| Dex +8, Con +6",
+      "property | Skills| Athletics +9, Insight +6, Perception +6",
+      "property | Damage Immunities| Necrotic",      
+      "property | Condition Immunities| Paralyzed, Unconscious",
+      "property | Senses | Darkvision 120ft, Blindsight 60ft, Passive Perc. 16",
+      "property | Language | Common, Darakhul, Draconic, Undercommon",
+      "property | Challenge | 9 (5000 XP)",
+      "rule",
+      "description |Magic Resistance| The drake has advantage on saving throws against spells and other magical effects.",
+      "fill | 1",
+      "section |Actions",
+      "description |Multiattack| The drake makes one bite attack, two claw attacks, and one stinger attack.",
+      "description |Bite| Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage.",
+      "description |Claw| Melee Weapon Attack: +9 to hit, reach 5 ft, one target. Hit: 12 (2d6 + 5) slashing damage."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/zkW3Tbz.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Deep Drake Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Stinger| Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 7 (2d6) poison damage, and the target must succeed on a DC 16 Constitution saving throw or become poisoned for 4 rounds. While poisoned this way, the target must repeat the save at the start of its turn, ending the condition on a success. On a failure, it takes 10 (3d6) poison damage. When animate dead is cast on creatures killed by this poison, the caster requires no material components.",
+      "description |Breath Weapon (Recharge 5-6)| A deep drake blasts forth a crackling 80-foot line of purple-black energy that wracks its victims with pain. This attack deals 35 (10d6) necrotic damage, or half damage with a successful DC 16 Dexterity saving throw. Targets that fail this saving throw must also succeed on a DC 16 Constitution saving throw or become stunned for 1d4 rounds."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/zkW3Tbz.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Elder Shadow Drake",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Large Dragon, Chaotic Evil",
+      "rule",
+      "property | Armor class | 16 (natural armor)",
+      "property | Hit points | 114 (12d10 + 48)",
+      "property | Speed | 20ft, <b>Fly</b> 60ft",
+      "rule",
+      "dndstats | 22 | 13 | 18 | 8 | 9 | 13",
+      "rule",
+      "property | Saving Throws| Dex +4, Con +7, Cha +4",
+      "property | Skills| Perception +5, Stealth +7",
+      "property | Damage Vulnerabilities| Radiant", 
+      "property | Damage Immunities| Cold",      
+      "property | Condition Immunities| Paralyzed, Unconscious",
+      "property | Senses | Darkvision 120ft, Passive Perception 15",
+      "property | Language | Common, Draconic, Umbral",
+      "property | Challenge | 9 (5000 XP)",
+      "rule",
+      "description |Shadow Blend| In areas of dim light or darkness, an elder shadow drake is treated as invisible. Artificial illumination, such as a lantern or a light or continual flame spell, does not negate this ability; nothing less than true sunlight or a daylight spell does. The drake cannot use its Speed Surge or its Stygian Breath while invisible. An elder shadow drake can suspend or resume this ability at will, so long as the drake is in dim light or darkness."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/segMYGn.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Elder Shadow Drake Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Shadow Jump (3/Day)| An elder shadow drake can travel between shadows as if by means of a dimension door spell. This magical transport must begin and end in an area of dim light or darkness, and the distance must be no more than 60 feet.",
+      "description |Speed Surge (3/Day)| The elder shadow drake takes one additional move action on its turn. It can use only one speed surge per round.",
+      "fill | 1",
+      "section |Actions",
+      "description |Multiattack| The drake makes one bite attack and one tail slap attack.",
+      "description |Bite| Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) piercing damage.",
+      "description |Tail Slap| Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage.",
+      "description |Stygian Breath (Recharge 5-6)| The elder shadow drake exhales a ball of black liquid that travels up to 60 feet before exploding into a cloud of frigid black mist with a 20-foot radius. Each creature in that sphere takes 42 (12d6) cold damage, or half damage with a successful DC 15 Constitution saving throw. Within the area of effect, the mist snuffs out nonmagical light sources and dispels magical light of 1st level or lower."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/segMYGn.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Paper Drake",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Small Dragon, Neutral",
+      "rule",
+      "property | Armor class | 13",
+      "property | Hit points | 78 (12d6 + 36)",
+      "property | Speed | 40ft, <b>Fly</b> 100ft",
+      "rule",
+      "dndstats | 7 | 17 | 16 | 10 | 12 | 13",
+      "rule",
+      "property | Condition Immunities| Paralyzed, Unconscious",
+      "property | Senses | Darkvision 60ft, Passive Perception 11",
+      "property | Language | Common, Draconic, Dwarvish, Elvish",
+      "property | Challenge | 2 (450 XP)",
+      "rule",
+      "description |Shelve| A paper drake can fold itself into a small, almost flat form, perfect for hiding on bookshelves. The drake can still be recognized as something other than a book by someone who handles it (doesn't just glance at it on the shelf) and makes a successful DC 11 Intelligence (Nature or Investigation) check. The drake can hop or fly (clumsily, by flapping its pages) 5 feet per turn in this form.",
+      "description |Refold (Recharge 5-6)| A paper drake can fold its body into different sizes and shapes. The drake can adjust its size by one step in either direction, but can't be smaller than Tiny or larger than Medium size. Changes in size or shape don't affect the paper drake's stats."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/ABFxq7f.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Paper Drake Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "section |Actions",
+      "description |Multiattack| The drake makes one bite attack, one claw attack, and one tail attack.",
+      "description |Bite| Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage.",
+      "description |Claws| Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 13 (3d6 + 3) slashing damage.",
+      "description |Tail (Recharge 5-6)| Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 16 (5d6 + 3) slashing damage, and the target must succeed on a DC 13 Constitution saving throw or be incapacitated for 1 round."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/ABFxq7f.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Rust Drake",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Dragon, Chaotic Evil",
+      "rule",
+      "property | Armor class | 17 (natural armor)",
+      "property | Hit points | 161 (19d8 + 76)",
+      "property | Speed | 30ft, <b>Burrow</b> 5ft, <b>Fly</b> 100ft",
+      "rule",
+      "dndstats | 20 | 15 | 19 | 12 | 8 | 8",
+      "rule",
+      "property | Skills| Perception +3, Stealth +5",
+      "property | Damage Vulnerabilities| Acid",
+      "property | Damage Immunities| Poison",
+      "property | Condition Immunities| Paralyzed, Unconscious",
+      "property | Senses | Darkvision 60ft, Passive Perception 13",
+      "property | Language | Common, Draconic",
+      "property | Challenge | 2 (450 XP)",
+      "rule",
+      "fill | 1",
+      "section |Actions",
+      "description |Multiattack| The drake makes one bite attack and one tail swipe attack.",
+      "description |Bite| Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (3d8 + 5) piercing damage, and the target must succeed on a DC 16 Constitution save or contract Rust Drake Lockjaw.",
+      "description |Tail Swipe| Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/g0qBr0j.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Rust Drake Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Vomits Scrap (Recharge 5-6)| A rust drake can vomit forth a 15-foot cone of rusted metal. Targets in the affected area take 55 (10d10) slashing damage, or half damage with a successful DC 15 Dexterity saving throw. In addition, affected creatures must also make a successful DC 15 Constitution saving throw or contract Rust Drake Tetanus.",
+      "description |Rust Drake Lockjaw| This disease manifests symptoms in 1d4 days, when the affected creature experiences painful muscle spasms, particularly in the jaw. After each long rest, the creature must repeat the saving throw. If it fails, the victim takes 1d3 Dexterity damage and is paralyzed for 24 hours; if the saving throw succeeds, the creature takes no damage and feels well enough to act normally for the day. This continues until the creature dies from Dexterity loss, recovers naturally by making successful saving throws after two consecutive long rests, or is cured with lesser restoration or comparable magic. After the disease ends, the victim recovers 1d3 lost Dexterity with each long rest; greater restoration or comparable magic can restore it all at once."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/g0qBr0j.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Star Drake",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Large Dragon, Neutral",
+      "rule",
+      "property | Armor class | 19 (natural armor)",
+      "property | Hit points | 189 (18d10 + 90)",
+      "property | Speed | 40ft, <b>Fly</b> 100ft",
+      "rule",
+      "dndstats | 20 | 17 | 21 | 16 | 24 | 20",
+      "rule",
+      "property | Saving Throws| Dex +8, Con +10, Int +8, Wis +12, Cha +10",
+      "property | Skills| Arcana +8, History +8, Insight +12, Perception +12, Religion +8",
+      "property | Damage Immunities| Cold, Fire; Physical from non-magical",
+      "property | Condition Immunities| Charmed, Frightened, Paralyzed, Unconscious",
+      "property | Senses | Truesight 120ft, Passive Perception 22",
+      "property | Language | Celestial, Common, Draconic, Dwarvish, Elvish, Infernal, Primordial",
+      "property | Challenge | 15 (13000 XP)",
+      "rule",
+      "description |Legendary Resistance (2/day)| If the star drake fails a saving throw, it can choose to succeed instead.",
+      "description |Magic Resistance| The drake has advantage on saving throws against spells and other magical effects.",
+      "description |Magic Weapons| The drake's weapon attacks are magical."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/7LwZhZX.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Star Drake Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Nimbus of Stars| The drake is surrounded by a whirling nimbus of tiny motes of starlight. A sighted creature that starts its turn within 10 feet of the drake must make a successful DC 18 Constitution saving throw or become incapacitated. At the start of a character's turn, a character can choose to avert its eyes and gain immunity against this effect until the start of its next turn, but it must treat the drake as invisible while the character's eyes are averted.",
+      "description |Innate Spellcasting| The drake's innate spellcasting ability is Wisdom (spell save DC 20). It can innately cast the following spells, requiring no material components:",
+      "bullet |At will:| <i>faerie fire</i>, <i>moonbeam</i>",
+      "bullet |3/day:| <i>plane shift</i>",
+      "bullet |1/day each:| <i>gate</i>, <i>planar binding</i>",
+      "fill | 1",
+      "section |Actions",
+      "description |Multiattack| Makes one bite attack and two claw attacks.",
+      "description |Bite| Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage.",
+      "description |Claw| Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 15 (3d6 + 5) slashing damage.",
+      "description |Breath Weapon (Recharge 5-6)| Exhales either fire or frigid air in a 40-foot cone. Each creature in that area takes 78 (12d12) fire or cold damage, whichever the drake wishes, or half damage with a successful DC 18 Dexterity save"
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/7LwZhZX.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Star Drake Continued: Legendary",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Searing Star (1/Day)| Ranged Spell Attack: +12 to hit, range 120 ft., one target. Hit: 65 (10d12) force damage, and the target must succeed on a DC 18 Constitution saving throw or be permanently blinded.",
+      "fill | 1",
+      "section |Legendary Actions",
+      "text |The drake can take 3 legendary actions, choosing from the options below. Only one option can be used at a time and only at the end of another creature's turn. The drake regains spent legendary actions at the start of its turn.",
+      "description |Bite Attack| The drake makes one bite attack.",
+      "description |Nova (Costs 2 Actions)| The drake momentarily doubles the radius and intensity of its nimbus of stars. Every sighted creature within 20 feet of the drake must make a successful DC 18 Constitution saving throw or become blinded until the end of its next turn. Characters who are averting their eyes are immune to the nova.",
+      "description |Pale Sparks| The drake casts faerie fire or moonbeam."
+    ],
+    "tags": [
+      "creature",
+      "Dragon",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/7LwZhZX.png"
   }
 ]
