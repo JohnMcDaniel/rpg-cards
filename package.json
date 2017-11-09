@@ -1,28 +1,70 @@
-{
-  "name": "rpg-cards",
-  "version": "1.0.0",
-  "description": "RPG card generator",
-  "main": "generator/generate.html",
-  "devDependencies": {
-    "fs-extra": "^3.0.0",
-    "mv": "^2.1.1",
-    "promise-streams": "^1.0.1",
-    "request": "^2.81.0",
-    "request-promise-native": "^1.0.3",
-    "unzip": "^0.1.11",
-    "walk": "^2.3.9"
+[
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Aarakocra",
+    "icon": "imp-laugh",
+    "contents": [],
+    "tags": [
+      "creature",
+      "humanoid",
+      "subrace:Aarakocra",
+      "Structure: Neutral",
+      "Alignment: Good",
+      "Legendary: No",
+      "Book: Monster_Manual_12"
+    ],
+    "background_image": "https://static.wixstatic.com/media/b77fe464cfc445da9003a5383a3e1acf.jpg"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Aboleth",
+    "icon": "imp-laugh",
+    "contents": [],
+    "tags": [
+      "creature",
+      "Aberration",
+      "subrace: None",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: Yes",
+      "Book: Monster_Manual_13"
+    ],
+    "background_image": "http://www.allthetests.com/quiz19/picture/pic_1143361335_1.gif"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/crobi/rpg-cards.git"
-  },
-  "author": "Robert Autenrieth",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/crobi/rpg-cards/issues"
-  },
-  "homepage": "https://github.com/crobi/rpg-cards#readme"
-}
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Aboleth Continued: Actions",
+    "icon": "imp-laugh",
+    "contents": [],
+    "tags": [
+      "creature",
+      "Aberration",
+      "subrace: None",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: Yes",
+      "Book: Monster_Manual_13"
+    ],
+    "background_image": "https://i.pinimg.com/564x/93/6d/5e/936d5ea9c9654224df9c0ec675f4d6c6--letter-c-activities-for-preschool-preschool-prep.jpg"
+  }, 
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Aboleth Continued: Legendary Actions",
+    "icon": "imp-laugh",
+    "contents": [],
+    "tags": [
+      "creature",
+      "Aberration",
+      "subrace: None",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: Yes",
+      "Book: Monster_Manual_13"
+    ],
+    "background_image": "http://www.getcoloringpages.com/images/4o/4oc8r8v.gif"
+  }
+]

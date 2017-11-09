@@ -2,64 +2,73 @@
   {
     "count": 1,
     "color": "default",
-    "title": "Bonepowder Ghoul",
+    "title": "Emperor of the Ghouls",
     "icon": "imp-laugh",
     "contents": [
-      "subtitle | Medium Undead, Chaotic Evil",
+      "subtitle | Medium Undead, Neutral Evil",
       "rule",
-      "property | Armor class | 12",
-      "property | Hit points | 13 (3d8)",
-      "property | Speed | 30ft",
+      "property | Armor class | 20 (natural armor)",
+      "property | Hit points | 204 (24d8 + 96)",
+      "property | Speed | 30ft, <b>Burrow</b> 15ft",
       "rule",
-      "dndstats | 10 | 15 | 10 | 12 | 11 | 14",
+      "dndstats | 18 | 14 | 19 | 20 | 17 | 21",
       "rule",
-      "property | Damage Resistances | Cold, Lightning; Physical from non-magical weapons",
-      "property | Damage Immunities | Necrotic, Poison",
-      "property | Condition Immunities | Charmed, Exhaustion, Frightened, Paralyzed, Poisoned",
-      "property | Senses | Darkvision 60ft, Passive Perception 10",
-      "property | Language | Undercommon",
-      "property | Challenge | 1/2 (100 XP)",
+      "property | Saving Throws | Dex +8, Wis +9",
+      "property | Skills | Deception +11, Insight +9, Perception +9, Persuasion +11",
+      "property | Damage Resistances | Cold, Necrotic",
+      "property | Damage Immunities | Poison",
+      "property | Condition Immunities | Charmed, Exhaustion, Frightened, Poisoned",
+      "property | Senses | Darkvision 120ft, Passive Perception 19",
+      "property | Language | Common, Darakhul, Draconic, Gnoll, Undercommon",
+      "property | Challenge | 20 (25000 XP)",
       "rule",
-      "description |Pack Tactics| Advantage on an attack roll against a creature if at least one of the beggar ghoul's allies is within 5 feet of the creature and the ally isn't incapacitated.",
-      "description |Savage Hunger| Hits with its bite attack against a creature that hasn't acted yet in this combat scores a critical hit.",
-      "section |Actions",
-      "description |Bite| Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) piercing damage.",
-      "description |Claws| Melee: +4, 5ft, Single. Hit: 7 (2d4 + 2) slashing. If the target is a creature other than an elf or undead, makes DC 10 Constitution save or be paralyzed for 1 minute. A paralyzed target repeats the saving throw at the end of each of its turns, ending the effect on save"
+      "description |Legendary Resistance (3/day)| If the emperor fails a saving throw, he can choose to succeed instead.",
+      "description |Sunlight Sensitivity| While in direct sunlight, the emperor has disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight.",
+      "description |Turn Resistance| The emperor has advantage on saving throws against effects that turn undead."
     ],
     "tags": [
       "creature",
       "Undead",
       "subrace:",
-      "Structure: Chaotic",
+      "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
       "Book: Tome_Beast_31"
     ],
-    "background_image": "https://i.imgur.com/3wFg8kx.png"
+    "background_image": "https://i.imgur.com/eZ1vWfR.png"
   },
   {
     "count": 1,
     "color": "default",
-    "title": "Al-Aeshma Genie Continued: Abilities",
+    "title": "Darakhul Ghoul Continued: Abilities",
     "icon": "imp-laugh",
     "contents": [
-      "description |Ill Wind| As a bonus action when in gaseous form, the al.Aeshma can befoul its space with a choking scent. When the al-Aeshma moves through another creature's space in gaseous form, the creature must succeed on a DC 18 Constitution saving throw or be incapacitated until the end of its next turn. Ill Wind lasts until the al-Aeshma leaves gaseous form or chooses to end the ability as a bonus action.",
-      "description |Innate Spellcasting| The al-Aeshma's innate spellcasting ability is Charisma (spell save DC 17). It can innately cast the following spells, requiring no material components:",
-      "description |At will:| detect evil and good, detect magic, thunderwave",
-      "description |3/day each:| destroy food and water (as create food and water, but makes food and drink unpalatable), tongues, wind walk",
-      "description |1/day each:| creation, gaseous form, insect plague, invisibility, major image",
-      "description |Regeneration| The al-Aeshma regains 10 hit points at the start of its turn. If it takes fire or radiant damage, this trait doesn't function at the start of its next turn. The al.Aeshma dies only if it starts its turn at 0 hit points and doesn't regenerate."
+      "description |Spellcasting| 17th-level spellcaster. His spellcasting attribute is Charisma (spell save DC 19, +11 to hit with spell attacks). The emperor knows the following sorcerer spells:",
+      "bullet |Cantrips (at will):| blade ward, chill touch, message, prestidigitation, shocking grasp, true strike",
+      "bullet |1st level (4 slots):| magic missile, shield",
+      "bullet |2nd level (3 slots):| mirror image, phantasmal force",
+      "bullet |3rd level (3 slots):| fear, fireball",
+      "bullet |4th level (3 slots):| blight, dimension door",
+      "bullet |5th level (2 slots):| cloudkill, hold monster",
+      "bullet |6th level (1 slot):| circle of death",
+      "bullet |7th level (1 slot):| finger of death, teleport",
+      "bullet |8th level (1 slot):| power word stun",
+      "bullet |9th level (1 slot):| power word kill",
+      "section |Actions",
+      "description |Multiattack| One bite attack and two claw attacks. He can make one attack with its scepter in place of a claw attack.",
+      "description |Bite| Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage, and a creature must make a successful DC 18 Constitution saving throw or contract darakhul fever (see page 215).",
+      "description |Claw| Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage, and a creature must make a successful DC 18 Constitution saving throw or be paralyzed for 1 minute. A paralyzed creature repeats the saving throw at the ends of its turns, ending the effect on itself on a success."
     ],
     "tags": [
       "creature",
-      "Elemental",
+      "Undead",
       "subrace:",
-      "Structure: Chaotic",
+      "Structure: Neutral",
       "Alignment: Evil",
       "Legendary: No",
       "Book: Tome_Beast_31"
     ],
-    "background_image": "https://i.imgur.com/tYq5ODL.png"
+    "background_image": "https://i.imgur.com/xNb1E38.png"
   },
   {
     "count": 1,
@@ -67,10 +76,14 @@
     "title": "Al-Aeshma Genie Continued: Legendary",
     "icon": "imp-laugh",
     "contents": [
-      "section |Actions",
-      "description |Multiattack| The al-Aeshma makes three scimitar attacks.",
-      "description |Scimitar| Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage, plus 3 (1d6) necrotic damage.",
-      "description |Dust Devil| A 5-foot-radius, 30-foot-tall cylinder of sand magically forms on a point the al-Aeshma can see within 120 feet of it. The dust devil lasts as long as the al-Aeshma maintains concentration (as if a spell). Any creature but the al-Aeshma that enters the dust devil must succeed on a DC 18 Strength saving throw or be restrained by it; any number of creatures may be restrained this way. At the start of a restrained creature's turn, it takes 7 (2d6) slashing damage plus 7 (2d6) necrotic damage. The al-Aeshma can move the dust devil up to 60 feet as an action; restrained creatures move with it. The dust devil ends if the al-Aeshma loses sight of it. A creature can use its action to free a creature restrained by the dust devil, including itself, by making a DC 18 Strength check. If the check succeeds, it moves to the nearest space outside the dust devil."
+      "description |Scepter| Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) bludgeoning damage plus 17 (5d6) necrotic damage.",
+      "section |Reactions",
+      "description |Blood Armor| When the emperor takes damage from a creature it can see within 60 feet, the attacker takes necrotic damage equal to half the damage it did to the emperor.",
+      "section |Legendary Actions",
+      "text |The Emperor can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The Emperor regains spent legendary actions at the start of his turn.",
+      "description |Attack| The emperor makes one claw or bite attack.",
+      "description |Cantrip| The emperor casts a cantrip.",
+      "description |Font of Power (3 actions)| Roll 1d8. The emperor regains a spell slot of that level or lower."
     ],
     "tags": [
       "creature",
@@ -10933,5 +10946,132 @@
       "Book: Tome_Beast_31"
     ],
     "background_image": "https://i.imgur.com/KQAJEjN.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Bonepowder Ghoul",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Small Undead, Neutral Evil",
+      "rule",
+      "property | Armor class | 18 (natural armor)",
+      "property | Hit points | 195 (26d6 + 104)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 10 | 20 | 18 | 19 | 15 | 18",
+      "rule",
+      "property | Saving Throws | Dex +9, Con +8, Wis +6, Cha +8",
+      "property | Skills | Perception +6, Stealth +9",
+      "property | Damage Resistances | Cold, Lightning; Physical: non-magical",
+      "property | Damage Immunities | Necrotic, Poison",
+      "property | Condition Immunities | Charmed, Exhaustion, Frightened, Paralyzed, Poisoned",
+      "property | Senses | Darkvision 60ft, Passive Perception 16",
+      "property | Language | Common, Darakhul, Draconic, Dwarvish",
+      "property | Challenge | 12 (8400 XP)",
+      "rule",
+      "description |Amorphous| The bonepowder ghoul can move through a space as narrow as 1 inch wide without squeezing.",
+      "description |Coalesce| Whenever draining life force from victims with Gravedust, it can use that energy transform its shape into a more solid form and maintain it. The new form is Small and semi-transparent but roughly the shape of a normal ghoul. In this form, the ghoul isn't amorphous and can't form a whirlwind, but it can speak normally and manipulate objects. The altered form lasts for 1 minute for every point of necrotic damage it delivered against living foes."
+    ],
+    "tags": [
+      "creature",
+      "Undead",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/3wFg8kx.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Bonepowder Ghoul Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Turning Defiance| It and any other ghouls in 30ft of it have advantage on save against effects that turn undead.",
+      "description |Innate Spellcasting| Innate spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+      "bullet |At will:| <i>chill touch</i>, <i>darkness</i>, <i>dispel magic</i>, <i>ray of enfeeblement</i>",
+      "bullet |3/day:| <i>blindness/deafness</i>, <i>circle of death</i> (7th lvl; 10d6)",
+      "bullet |1/day:| <i>finger of death</i>",
+      "fill | 1",
+      "section |Actions",
+      "description |Bite| Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 18 (3d8 + 5) plus 1d4 Strength damage, and the target must succeed on a DC 17 Constitution saving throw or be paralyzed for 1d4 + 1 rounds. If humanoid, it makes second DC 19 Constitution save or contract darakhul fever.",
+      "description |Gravedust| A bonepowder ghoul can project a 40-ft. cone of grave dust. All targets within the area must make a DC 19 Dexterity saving throw to avoid taking 4d8 necrotic damage, and must make a second DC 17 Constitution saving throw to avoid being infected with darakhul fever.",
+      "description |Whirlwind (Recharge 5-6)| A bonepowder ghoul can generate a whirlwind of bones and teeth. All creatures within a 20-foot cube take 66 (12d10) slashing damage and are drained of 1d6 Strength; a successful DC 17 Dexterity saving throw reduces damage to half and negates the Strength loss. The whirlwind dissipates after one round."
+    ],
+    "tags": [
+      "creature",
+      "Undead",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/3wFg8kx.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Darakhul Ghoul",
+    "icon": "imp-laugh",
+    "contents": [
+      "subtitle | Medium Undead, Neutral Evil",
+      "rule",
+      "property | Armor class | 16 (scale mail; 18 with shield) ",
+      "property | Hit points | 78 (12d8 + 24) ",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 16 | 17 | 14 | 14 | 12 | 12",
+      "rule",
+      "property | Skills | Deception +3, Stealth +5",
+      "property | Damage Resistances | Necrotic",
+      "property | Damage Immunities | Poison",
+      "property | Condition Immunities | Charmed, Exhastion, Poisoned",
+      "property | Senses | Darkvision 60ft, Passive Perception 11",
+      "property | Language | Common, Darakhul",
+      "property | Challenge | 3 (700 XP)",
+      "rule",
+      "description |Master of Disguise| A darakhul in a prepared disguise has advantage on Charisma (Deception) checks made to pass as a living creature. While using this ability, the darakhul loses its stench.",
+      "description |Stench| Any creature that starts its turn within 5 feet of the darakhul must make a successful DC 12 Constitution saving throw or be poisoned until the start of its next turn. A successful saving throw makes the creature immune to the darakhul’s stench for 24 hours. A darakhul using this ability can’t also benefit from Master of Disguise."
+    ],
+    "tags": [
+      "creature",
+      "Undead",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/xNb1E38.png"
+  },
+  {
+    "count": 1,
+    "color": "default",
+    "title": "Darakhul Ghoul Continued: Abilities",
+    "icon": "imp-laugh",
+    "contents": [
+      "description |Sunlight Sensitivity| Disadvantage on Wisdom (Perception) checks that rely on sight and on attack rolls while it, the object it is trying to see or attack in direct sunlight.",
+      "description |Turning Defiance| The darakhul and any ghouls within 30 feet of it have advantage on saving throws against effects that turn undead. ",
+      "fill | 1",
+      "section |Actions ",
+      "description |Multiattack| The darakhul bites once, claws once, and makes one war pick attack. Using a shield limits the darakhul to making either its claw or war pick attack, but not both.",
+      "description |Bite| Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage, and if the target creature is humanoid it must succeed on a DC 11 Constitution saving throw or contract darakhul fever.",
+      "description |Claw| Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage. If the target is a creature other than an undead, it must make a successful DC 12 Constitution saving throw or be paralyzed for 1 minute. A  paralyzed target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If a humanoid creature is paralyzed for 2 or more rounds (the victim fails at least 2 saving throws), consecutive or nonconsecutive, the creature contracts darakhul fever. ",
+      "description |War Pick| Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
+    ],
+    "tags": [
+      "creature",
+      "Undead",
+      "subrace:",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ],
+    "background_image": "https://i.imgur.com/xNb1E38.png"
   }
 ]
